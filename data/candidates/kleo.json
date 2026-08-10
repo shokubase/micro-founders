@@ -1,0 +1,75 @@
+{
+ "id": "kleo",
+ "status": "verified",
+ "discovered_at": "2026-08-10",
+ "discovery_source": "https://www.indiehackers.com/post/tech/from-0-to-62k-mrr-in-three-months-mUPVSYOlJAC2iogGK7d4 (Tier1 EN)",
+ "case": {
+  "id": "kleo",
+  "founders": [
+   "Cameron Trew",
+   "Jake Ward",
+   "Lara Acosta",
+   "Rob Hoffman"
+  ],
+  "product": "Kleo (kleo.so)",
+  "domain": "LinkedIn 콘텐츠 제작 툴",
+  "one_liner": "Claude Code로 만든 LinkedIn 콘텐츠 툴 — 3개월 만에 $62K MRR 주장",
+  "team_size": "4인",
+  "region": "unknown",
+  "revenue": "\"$62k MRR in three months\" (Kleo 단독), Mentions.so 합산 시 \"$82K a month\"",
+  "revenue_date": "2025-12",
+  "exit_status": "운영 중",
+  "stack": [
+   "Claude Code",
+   "Claude API",
+   "Claude Vision"
+  ],
+  "ai_tools": [
+   "Claude Code"
+  ],
+  "founder_background": "Cameron Trew는 10년차 개발자 (기술 담당), 나머지는 마케팅/콘텐츠 배경 추정",
+  "business_model": "SaaS 구독",
+  "sources": [
+   "https://www.indiehackers.com/post/tech/from-0-to-62k-mrr-in-three-months-mUPVSYOlJAC2iogGK7d4",
+   "https://x.com/camtrew",
+   "https://kleo.so/"
+  ],
+  "confidence": "low"
+ },
+ "verification": {
+  "verified_at": "2026-08-10",
+  "checklist_passed": [
+   "existence:pass",
+   "figures:pass",
+   "scope:pass"
+  ],
+  "primary_sources": [
+   "https://camerontrew.com/ (본인 개인 사이트/뉴스레터)",
+   "https://kleo.so/ (제품 공식 사이트 — 공동창업자 3인 명시, 라이브)",
+   "https://uk.linkedin.com/in/camerontrew (본인 LinkedIn)",
+   "https://uk.linkedin.com/in/laraacostar (Lara Acosta 본인 LinkedIn)",
+   "https://www.indiehackers.com/post/tech/from-0-to-62k-mrr-in-three-months-mUPVSYOlJAC2iogGK7d4 (Cameron Trew 본인 인터뷰 발화, 준-1차)",
+   "https://www.indiehackers.com/post/tech/from-0-to-62k-mrr-in-three-months-mUPVSYOlJAC2iogGK7d4 (준-1차: 창업자 Cameron Trew 1인칭 인터뷰 발화, 2025-12-31, USD)",
+   "https://x.com/RobHoffman_/ (Rob Hoffman 본인 X)"
+  ],
+  "corrections": [
+   "region: 'unknown' → 'UK' — IH 인터뷰에서 Cameron 본인이 London/Canary Wharf 및 UK 부모 집 언급, Lara Acosta는 UK 기반(kleo.so/blog/lara-acosta, uk.linkedin.com 프로필)",
+   "founder_background의 '10년차 개발자'는 재확인 필요 — 2차 요약(globalai365.com/article/133)은 'CS 전공 + 6년 소프트웨어 엔지니어(Elastic Path, Base, Vonage)'로 기술. 원문 발화 기준으로 연차 표현 교정 권장",
+   "주석 추가 권장: kleo.so 홈페이지는 공동창업자를 3인(Jake Ward, Lara Acosta, Cam Trew)만 표기 — 4인(Rob Hoffman 포함)은 IH 인터뷰(본인 발화) 및 authoredup 독립 리뷰 기준",
+   "제품 이력 보강: Kleo 1.0은 무료 크롬 확장(~60-70k 유저)이었으나 LinkedIn C&D로 폐쇄, 현재 kleo.so는 유료 웹앱으로 재런칭 (authoredup.com/blog/kleo-review)",
+   "verification.notes의 'Tier2 헌터: 검색 요약에만 존재' 판단은 오류 — IH 기사(2025-12-31)는 살아 있고 본문에 Cameron Trew 1인칭 발화('We went from $0 to $62k MRR in 3 months', 'Kleo is at $62k MRR and Mentions is at $20k MRR')가 실재함",
+   "'$82K a month'는 IH 기사 헤더 메타데이터(편집부 합산 수치)이지 본인 발화가 아님 — DB 반영 시 Kleo 매출 필드에는 $62k MRR만 쓰고 $82k는 두 제품 합산·헤더 출처임을 normalize_note에 명기",
+   "$62k는 2025-12-31 스냅샷 — Starter Story 기준 2026-05 총사업 $208K/month·소프트웨어 ~$1M ARR로 이미 갱신됨. 현재형 표기 금지, revenue_date 2025-12 유지 필수",
+   "one_liner의 '3개월 만에 $62K MRR'에 맥락 필요: Kleo 1.0(60k 사용자 크롬 확장, LinkedIn C&D로 폐쇄)의 2025-10 웹앱 재런칭이며 창업자들의 기존 대형 LinkedIn 오디언스 위에서 달성 — 'from $0'은 재런칭 후 매출 기준",
+   "팀의 런칭 MRR 자가보고에 공개 분쟁 존재(@hustle_fred, 2025-11경, 이중 런칭·수치 리셋 의혹) + Stripe 등 제3자 검증 부재 — confidence는 medium 상한, 이 caveat를 notes에 기록할 것"
+  ],
+  "excluded_figures": [
+   "[existence] sources에 등재된 x.com/camtrew 계정 실재 — unverifiable",
+   "[existence] region: unknown — refuted",
+   "[figures] \"from $0\" 3개월 성장 프레이밍 — unverifiable",
+   "[figures] $62k MRR의 제3자 검증(Stripe 등) — unverifiable"
+  ],
+  "confidence_recommendation": "medium",
+  "notes": "IH 인터뷰(2025-12-31)는 본인 발화라 준-1차. 단 Tier2 헌터는 같은 수치를 '검색 요약에만 존재'로 판단해 폐기 — 각도 간 판단 충돌, 검증 필수. | 판정: 3/3 pass"
+ }
+}

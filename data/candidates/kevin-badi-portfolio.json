@@ -1,0 +1,76 @@
+{
+ "id": "kevin-badi-portfolio",
+ "status": "rejected",
+ "discovered_at": "2026-08-10",
+ "discovery_source": "https://disquiet.io/articles/34s0k9 (Tier1 KR — 해외 사례의 KR 재요약)",
+ "case": {
+  "id": "kevin-badi-portfolio",
+  "founders": [
+   "Kevin Badi"
+  ],
+  "product": "StockTalkAI / Clonify.app / SocialWolf.io (포트폴리오)",
+  "domain": "SaaS 포트폴리오 (주식 분석/클론 생성/소셜 자동화)",
+  "one_liner": "Replit Agent로 3개 SaaS를 만들어 3개월 만에 $100K 수익 주장",
+  "team_size": "1인",
+  "region": "unknown",
+  "revenue": "\"론칭 3개월 만에 10만 달러\" (본인 영상 제목: \"How I Made $30,000 A Month Building SaaS with Replit Agent\")",
+  "revenue_date": "2025",
+  "exit_status": "운영 중",
+  "stack": [
+   "Replit Agent",
+   "Perplexity"
+  ],
+  "ai_tools": [
+   "Replit Agent"
+  ],
+  "founder_background": "unknown",
+  "business_model": "SaaS 구독 (3개 제품)",
+  "sources": [
+   "https://disquiet.io/articles/34s0k9"
+  ],
+  "confidence": "low"
+ },
+ "verification": {
+  "verified_at": "2026-08-10",
+  "checklist_passed": [
+   "existence:fail",
+   "figures:fail",
+   "scope:pass"
+  ],
+  "primary_sources": [
+   "https://www.linkedin.com/in/kevin-badi-09b4a3189/ (본인 LinkedIn, 캐나다)",
+   "https://www.linkedin.com/in/kevin-badi-09b4a3189/ — 본인 LinkedIn",
+   "https://www.skool.com/@kevin-badi-6642 — 본인 Skool (No Code Academy 판매)",
+   "https://www.youtube.com/@KevBuildsApps (본인 YouTube 채널 'Kevin Badi | AI Operating Systems')",
+   "https://www.youtube.com/@KevBuildsApps — 본인 YouTube 채널",
+   "https://www.youtube.com/watch?v=0srOIewAMas — 본인 후속 영상 ($50K/월 주장)",
+   "https://www.youtube.com/watch?v=NYUh-mH4-Vk (본인 영상, 2025-03-20)",
+   "https://www.youtube.com/watch?v=NYUh-mH4-Vk — 본인 영상 'How I Made $30,000 A Month Building SaaS with Replit Agent' (oEmbed로 업로더 Kevin Badi | AI Operating Systems 확인)",
+   "https://x.com/kevin_badii (본인 X 계정)",
+   "https://x.com/kevin_badii — 본인 X 계정",
+   "https://x.com/kevin_badii/status/1902897051106509298 (Replit agent로 다수 앱 제작 + SocialWolf.io가 본인 SaaS라는 본인 발화)"
+  ],
+  "corrections": [
+   "exit_status '운영 중' 교정 필요: socialwolf.io는 DNS 소멸(2026-08-10 확인), clonify.app은 TLS 오류로 접속 불가 — 포트폴리오 3종 중 최소 1개는 죽었고 1개는 라이브 확인 불가",
+   "region 'unknown' → 'Canada(추정)' 교정 후보: ca.linkedin.com 프로필 및 creatoros.ca 링크 (https://ca.linkedin.com/in/kevin-badi-09b4a3189)",
+   "StockTalkAI를 Kevin Badi 제품으로 표기하려면 본인 발화(영상/트윗) 1차 근거 확보 필요 — 현재 stocktalkai.com에 창업자 표기 없음",
+   "LinkedIn 현재 직함은 CreatorClaw / Kev's No Code Academy — 포트폴리오 3종은 현재 대표 프로젝트가 아님(사례 시점 표기 주의)",
+   "revenue 필드에서 '론칭 3개월 만에 10만 달러' 삭제 필요 — 본인 원문 발화 미발견, 디스콰이엇 2차 기사(현재 403)만이 출처. excluded_figures로 이동",
+   "채택 가능한 유일한 수치는 '$30,000 A Month' — 근거: 본인 YouTube 영상 제목 (NYUh-mH4-Vk, 2025-03경, USD, https://www.youtube.com/watch?v=NYUh-mH4-Vk). 단 '자기주장/영상 제목 수준, 증빙 미확인' 명기 필수",
+   "one_liner의 '3개월 만에 $100K 수익 주장'은 '본인 주장 $30K/월 (영상 제목, 미검증)'으로 교정",
+   "본인 클릭베이트 '$100K/Month'는 미래형 build-with-me 영상 제목이지 기존 매출 주장이 아님 (https://videohighlight.com/v/dzjNtHJO2CU) — 이를 매출 실적으로 옮겨 적지 말 것",
+   "후속 영상 'How I Made $50,000 A Month Building SaaS With Replit Agent 3' (https://www.youtube.com/watch?v=0srOIewAMas) 존재 — 수치가 시기별로 상승하므로 revenue_date를 특정 발화 시점(2025-03)에 고정할 것"
+  ],
+  "excluded_figures": [
+   "[existence] SocialWolf.io가 라이브 운영 중이다 (exit_status: 운영 중) — refuted",
+   "[existence] Clonify.app이 라이브 운영 중이다 — unverifiable",
+   "[existence] StockTalkAI가 Kevin Badi의 제품이다 — unverifiable",
+   "[existence] team_size 1인, region unknown — unverifiable",
+   "[figures] 론칭 3개월 만에 10만 달러 ($100K in 3 months) — 후보의 헤드라인 매출 주장 — unverifiable",
+   "[figures] 수치의 내적 일관성 (본인 발언 간 모순 스크리닝) — refuted",
+   "[figures] $30K/월 수치의 독립 교차검증 가능성 — unverifiable"
+  ],
+  "confidence_recommendation": "low",
+  "notes": "1차 출처는 본인 YouTube 영상 — 채널 특정 및 수치 확인 필요. 유튜브 수익 자랑 콘텐츠는 과장 빈도 높음(수치 렌즈 엄격 적용). | 판정: 수치 렌즈 fail — 매출이 핵심 주장인 후보 (원문 발화 미확보/반박됨). 1차 출처 확보 시 재검증 가능 / [existence fail] 수치 렌즈 참고: 후보의 '3개월 만에 $100K' 주장의 원문 발화를 검색에서 찾지 못함. 본인 영상 제목은 '$30,000 A Month'(2025-03)이며 이후 '$50,000 A Month' 제목 영상(watch?v=0srOIewAMas)도 존재 — $100K/3개월은 disquiet 재요약의 환산·재구성일 가능성이 높음. disquiet 기사 자체는 403으로 열람 불가. 유튜브 수익 자랑 콘텐츠 특성상 원문 발화 타임스탬프 특정 없이는 수치 채택 불가로 보임. / [figures fail] 실존 렌즈 소관: 인물 자체는 실존 확실 (YouTube/X/LinkedIn/Skool/TikTok 다계정 일치). 단 StockTalkAI/Clonify.app/SocialWolf.io 제품 도메인의 생존 여부는 미확인. 참고: 본인이 Skool 유료 아카데미를 판매하는 크리에이터라 매출 자랑이 강좌 판매 퍼널의 일부 — 이해상충 구조를 confidence 판정에 반영 권장. discovery_source인 디스콰이엇 기사가 403이라 발견 경로 자체가 죽은 링크."
+ }
+}

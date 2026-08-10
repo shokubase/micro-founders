@@ -1,0 +1,68 @@
+{
+ "id": "lunair",
+ "status": "rejected",
+ "discovered_at": "2026-08-10",
+ "discovery_source": "https://base44.com/blog/builder-spotlight-how-guy-manzur-built-an-ai-video-platform-and-hit-50k-in-30-days (Tier2)",
+ "case": {
+  "id": "lunair",
+  "founders": [
+   "Guy Manzur"
+  ],
+  "product": "Lunair (lunair.ai)",
+  "domain": "AI 비디오 플랫폼",
+  "one_liner": "Base44로 만든 AI 비디오 플랫폼 — 출시 초기 고속 수익화 주장 (수치 불일치 있음)",
+  "team_size": "1인",
+  "region": "unknown (이스라엘 추정 — Base44 생태계)",
+  "revenue": "\"$8k MRR (Lemon Squeezy 구독)\", \"$100k in revenue within the first 2 months\" — 단 글 제목은 'hit $100k in 60 days', URL 슬러그는 '50k in 30 days'로 불일치",
+  "revenue_date": "2025-2026",
+  "exit_status": "운영 중",
+  "stack": [
+   "Base44"
+  ],
+  "ai_tools": [
+   "Base44"
+  ],
+  "founder_background": "unknown",
+  "business_model": "구독 (Lemon Squeezy)",
+  "sources": [
+   "https://base44.com/blog/builder-spotlight-how-guy-manzur-built-an-ai-video-platform-and-hit-50k-in-30-days",
+   "https://lunair.ai"
+  ],
+  "confidence": "low"
+ },
+ "verification": {
+  "verified_at": "2026-08-10",
+  "checklist_passed": [
+   "existence:pass",
+   "figures:fail",
+   "scope:pass"
+  ],
+  "primary_sources": [
+   "https://base44.com/blog/builder-spotlight-how-guy-manzur-built-an-ai-video-platform-and-hit-50k-in-30-days (secondary/marketing — 모든 수치의 유일 출처)",
+   "https://il.linkedin.com/in/guymanzur (창업자 본인 LinkedIn — Founder of Lunair, Tel Aviv, 팔로워 13k+)",
+   "https://lunair.ai (공식 제품 사이트 — 라이브, 가격표·연락처 포함)",
+   "https://note.com/base44/n/n44e902b828a6 (secondary — 동일 벤더 일본어 재인용, 독립 출처 아님)",
+   "https://www.calcalistech.com/ctechnews/article/4js8ftv79 (independent — 2026-04-16, 구체 수치 없음)",
+   "https://www.linkedin.com/in/guymanzur/ (primary — 본인 계정 존재 확인, 매출 수치 발화는 미발견)",
+   "https://www.linkedin.com/posts/guymanzur_last-week-847-videos-created-from-static-activity-7431668896220450816-tmup (창업자 본인의 Lunair 관련 LinkedIn 게시물)",
+   "https://www.producthunt.com/p/self-promotion/how-i-got-100k-off-a-single-deck-building-lunair-solo-founder-2 (primary — 창업자 본인 게시, 단 $100K는 투자금 문맥이며 매출 발화 아님)"
+  ],
+  "corrections": [
+   "region: 'unknown (이스라엘 추정)' → '이스라엘 텔아비브' — 근거: LinkedIn 프로필 소재지 Tel Aviv District, Israel (https://il.linkedin.com/in/guymanzur) + Startup Nation Finder 이스라엘 스타트업 등재 (https://finder.startupnationcentral.org/company_page/lunair)",
+   "founder_background: 'unknown' → 'Fiverr 애니메이터/비디오 제작자 (Top Animator 2016, Pro Vetted Seller 2022)' — 근거: LinkedIn 프로필 + Calcalist Ctech 기사 교차 일치 (https://www.calcalistech.com/ctechnews/article/4js8ftv79)",
+   "revenue 필드의 세 수치($8k MRR, $100k in 2 months, $50k in 30 days) 전부 창업자 원문 발화 부재 — 벤더(Base44) 마케팅 편집 서술 단독 출처이므로 excluded_figures로 이동해야 함 (근거: https://base44.com/blog/builder-spotlight-how-guy-manzur-built-an-ai-video-platform-and-hit-50k-in-30-days 전문에 창업자 직접 인용 없음)",
+   "$100K의 창업자 본인 1차 발화는 매출이 아니라 VC 투자 커밋임 ('before I had an MVP, a major VC committed $100K based on one deck', solo founder 프로그램 일환) — 벤더 블로그의 '$100k revenue' 주장은 투자금↔매출 혼동 의혹 (근거: https://www.producthunt.com/p/self-promotion/how-i-got-100k-off-a-single-deck-building-lunair-solo-founder-2)",
+   "URL 슬러그 '50k-in-30-days' vs 현재 제목 '$100k in 60 days'는 사후 제목 편집 흔적이며, 원 수치는 YouTube 제목 기준 '$50K ARR'(연환산, ≈$4.2k MRR 상당)로 추정 — 실매출 표기로 쓰면 안 됨 (근거: https://www.youtube.com/watch?v=6jJgN3lLeRs)",
+   "$8k MRR × 2개월 ≈ $16k로 같은 글의 '$100k 구독 매출' 주장과 산술 충돌 — 벤더 글 내부 정합성 자체가 붕괴",
+   "revenue_date '2025-2026' → Base44 블로그 게시일은 2026-02-16(2/17 업데이트), Ctech(2026-04-16) 기준 회사는 당시 창업 4개월차(창업 ≈ 2025-12)"
+  ],
+  "excluded_figures": [
+   "[figures] \"$100k in revenue within the first 2 months of launch\" (Base44 블로그 본문/제목) — unverifiable",
+   "[figures] \"$8k MRR through subscription plans via Lemon Squeezy\" — unverifiable",
+   "[figures] \"$50k in 30 days\" (URL 슬러그) — 후보 파일이 지적한 제목 불일치 — refuted",
+   "[figures] 독립 보도에 의한 매출 확인 가능성 (Ctech, Calcalist) — unverifiable"
+  ],
+  "confidence_recommendation": "low",
+  "notes": "벤더 마케팅 출처 단독 + 같은 글 안에서 수치 불일치($100k/60일 vs $50k/30일) — 수치 렌즈 엄격 적용 대상. | 판정: 수치 렌즈 fail — 매출이 핵심 주장인 후보 (원문 발화 미확보/반박됨). 1차 출처 확보 시 재검증 가능 / [figures fail] 실존 렌즈 소견: 실존성은 견고해 보임 — Guy Manzur LinkedIn 프로필, Product Hunt 제품 페이지(producthunt.com/products/lunair), Startup Nation Finder에 이스라엘 스타트업으로 등록(finder.startupnationcentral.org/company_page/lunair — region '이스라엘 추정'을 뒷받침), Calcalist Ctech 독립 보도(2026-04-16) 존재. Ctech 기준 2026-04 시점 창업 4개월차 → 창업 시점 ≈ 2025-12. 단 lunair.ai 사이트 생존 여부는 이번 렌즈에서 직접 확인하지 않음."
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "id": "imaginary-space",
+ "status": "verified",
+ "discovered_at": "2026-08-10",
+ "discovery_source": "https://lovable.dev/video/he-makes-100kmonth-with-his-lovable-agency (Tier2)",
+ "case": {
+  "id": "imaginary-space",
+  "founders": [
+   "Harry Mckay Roper"
+  ],
+  "product": "Imaginary Space",
+  "domain": "Lovable 전문 개발 에이전시",
+  "one_liner": "Lovable 전문 에이전시로 월 $100K 매출 주장",
+  "team_size": "unknown (에이전시)",
+  "region": "unknown",
+  "revenue": "\"$100k per month\", \"on track to hit $1.2 million in revenue by year's end\"",
+  "revenue_date": "2025-2026",
+  "exit_status": "운영 중",
+  "stack": [
+   "Lovable"
+  ],
+  "ai_tools": [
+   "Lovable"
+  ],
+  "founder_background": "unknown",
+  "business_model": "에이전시 (클라이언트 개발 대행)",
+  "sources": [
+   "https://lovable.dev/video/he-makes-100kmonth-with-his-lovable-agency",
+   "https://www.linkedin.com/in/harry-mckay-roper-434a8a130/",
+   "https://www.nocode.mba/articles/lovable-agency-ai-coding"
+  ],
+  "confidence": "low"
+ },
+ "verification": {
+  "verified_at": "2026-08-10",
+  "checklist_passed": [
+   "existence:pass",
+   "figures:pass",
+   "scope:pass"
+  ],
+  "primary_sources": [
+   "https://imaginaryspace.ai/ (공식 사이트 — 팀/공동창업자/클라이언트 명시)",
+   "https://lovable.dev/video/he-makes-100kmonth-with-his-lovable-agency (본인 출연 인터뷰 영상+트랜스크립트 — 단 벤더 호스팅)",
+   "https://lovable.dev/video/he-makes-100kmonth-with-his-lovable-agency (창업자 본인 인터뷰 전문 트랜스크립트 — 발화는 primary, 게재처는 벤더)",
+   "https://www.instagram.com/_mckayroper/ (본인 Instagram)",
+   "https://www.linkedin.com/in/harry-mckay-roper-434a8a130/ (본인 LinkedIn — 인증 벽으로 검색 스니펫 확인)",
+   "https://www.youtube.com/watch?v=zL-PjGAS2E0 (원본 인터뷰 영상, No Code MBA 채널, 2025-08 공개)"
+  ],
+  "corrections": [
+   "founders를 ['Harry Mckay Roper'] 1인에서 공동창업자 3인으로 교정: Harry Roper (Co-Founder & CEO), Franco Albarracin (Co-Founder & CTO), Marcelo Diaz (Co-Founder & Developer) — 근거: https://imaginaryspace.ai/ 팀 섹션 (2026-08-10 재검증에서 실증된 1인↔3인 오류 유형과 동일)",
+   "team_size를 'unknown (에이전시)'에서 '약 11명 (공동창업 3인 포함)'으로 교정 — 근거: https://imaginaryspace.ai/ 팀 페이지",
+   "sources의 imaginaryspace.co.uk는 301로 imaginaryspace.ai로 영구 리다이렉트됨 — 정식 도메인을 imaginaryspace.ai로 갱신",
+   "region은 단일 지역 확정 불가(도메인 .co.uk 출신, Harry LinkedIn 위치 US, 학력 런던, 팀원 다수 라틴아메리카계) — '분산 팀(원격)'으로 기재 권장",
+   "revenue_date를 \"2025-2026\"에서 \"2025-08 (No Code MBA 인터뷰 시점)\"으로 교정 — 근거: YouTube zL-PjGAS2E0 업로드 2025-08-10, Wayback 스냅샷 2025-08-13",
+   "$1.2M은 달성 매출이 아닌 2025년 말 전망(\"on track\")임을 표기에 명시. YouTube 제목의 \"Makes $1.2M/year\" 현재형 표기는 인용 금지",
+   "통화: 본인 구두 발화는 \"100,000 a month\"로 통화 미명시. USD는 인터뷰어(No Code MBA)·Lovable 렌더링이며 같은 트랜스크립트의 \"$120,000\" 발화·미국 클라이언트 맥락으로 뒷받침 — normalize_note에 이 한계 기록",
+   "2026년 현재 매출로 표기 금지 — nocode.mba 2026-02 갱신본의 현재형(\"currently bringing in $100k per month\")은 재인용 관성이며 2026년 수치 확인 없음"
+  ],
+  "excluded_figures": [
+   "[existence] founders는 Harry Mckay Roper 1인이다 (후보 파일 기재) — refuted",
+   "[existence] 지역 unknown (후보 파일 기재) — unverifiable",
+   "[figures] revenue_date: 2025-2026 — refuted"
+  ],
+  "confidence_recommendation": "medium",
+  "notes": "출처가 Lovable 공식 비디오(벤더 마케팅). 본인 LinkedIn/독립 출처에서 수치 재확인 필요. 유형은 기존 ai-coding-consultancy와 유사(에이전시 — 스코프 내 선례 있음). | 판정: 3/3 pass"
+ }
+}

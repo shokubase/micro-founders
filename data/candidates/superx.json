@@ -1,0 +1,71 @@
+{
+ "id": "superx",
+ "status": "verified",
+ "discovered_at": "2026-08-10",
+ "discovery_source": "https://www.indiehackers.com/post/tech/hitting-23k-mrr-in-six-months-after-five-failures-4d64o9ev4AXXhX9ogHQQ (Tier1 EN)",
+ "case": {
+  "id": "superx",
+  "founders": [
+   "Rob Hallam",
+   "Tibo Louis-Lucas"
+  ],
+  "product": "SuperX (superx.so)",
+  "domain": "X(트위터) 성장 툴",
+  "one_liner": "5번 실패 후 Claude Code로 만든 X 성장 툴 — 6개월 만에 $23K MRR",
+  "team_size": "2인",
+  "region": "unknown",
+  "revenue": "\"$23K a month\" (6개월 만에)",
+  "revenue_date": "2026-02",
+  "exit_status": "운영 중",
+  "stack": [
+   "Claude Code",
+   "OpenAI API",
+   "Claude API"
+  ],
+  "ai_tools": [
+   "Claude Code"
+  ],
+  "founder_background": "Rob Hallam은 5회 실패 경험의 연쇄 시도자, Tibo Louis-Lucas는 Tweet Hunter/Taplio exit 경험의 연쇄창업자",
+  "business_model": "SaaS 구독",
+  "sources": [
+   "https://www.indiehackers.com/post/tech/hitting-23k-mrr-in-six-months-after-five-failures-4d64o9ev4AXXhX9ogHQQ",
+   "https://x.com/robj3d3",
+   "https://superx.so/"
+  ],
+  "confidence": "low"
+ },
+ "verification": {
+  "verified_at": "2026-08-10",
+  "checklist_passed": [
+   "existence:pass",
+   "figures:pass",
+   "scope:pass"
+  ],
+  "primary_sources": [
+   "https://superx.so/ (공식 제품 사이트 — 라이브 SaaS, 가격/기능 확인)",
+   "https://uk.linkedin.com/in/roberthallam (Rob Hallam 본인 LinkedIn — 'Building SuperX.so', Worcester, England)",
+   "https://www.indiehackers.com/post/tech/hitting-23k-mrr-in-six-months-after-five-failures-4d64o9ev4AXXhX9ogHQQ (창업자 1인칭 직접 인용 — primary utterance, 게재 주체는 IH)",
+   "https://www.tmaker.io/ (Tibo 본인 사이트 — SuperX.so를 현재 제품으로 명시)",
+   "https://x.com/robj3d3 (Rob 본인 X — SuperX 성장 일지 다수)",
+   "https://x.com/robj3d3/status/1988531176966148193 (본인 트윗: 런칭 직후 $2k MRR, 런칭 시점 2025-07 방증)",
+   "https://x.com/robj3d3/status/2013931593371439279 (본인 트윗: $17k MRR in 6 months, 2026-01-21)",
+   "https://x.com/tibo_maker/status/1980181523858108491 (Tibo 본인 트윗 — Rob과의 파트너십·재구축 직접 확인)"
+  ],
+  "corrections": [
+   "region: 'unknown' → '영국(Rob, Worcester 기준·여행 중) / 프랑스(Tibo)' — 근거: https://uk.linkedin.com/in/roberthallam, https://www.tmaker.io/",
+   "one_liner의 '만든' → '재구축': SuperX는 Tibo가 2024-06 다른 메이커로부터 인수한 Chrome 확장이 원형($800 MRR)이며, Rob 합류(2025-07 상대) 후 밑바닥부터 재구축·재출시. 근거: https://x.com/tibo_maker/status/1980181523858108491, opc.how/en/builders/rob (검색 요약 경유, 원문 403)",
+   "founder_background: 'Rob은 5회 실패' 자체는 IH 기사 제목·본문과 일치하나, 'Rob이 SuperX를 창업'이 아닌 '기존 제품에 성장 담당으로 합류 후 재구축'으로 서술 교정",
+   "team 전사 주석 추가 권장: opc.how는 원 기술 공동창업자 Hieu Nguyen(theGums.co, 베트남, 법인 소재) 언급 — 직접 확인 불가(403)였으므로 현 운영 2인 주장과 별도로 기록",
+   "one_liner \"6개월 만에 $23K MRR\" → \"약 7개월(2025-07 런칭, 2026-02 시점)에 $23K MRR\"로 교정하거나, 창업자 본인 트윗 기준 \"6개월 시점 $17k MRR, 2026-02 시점 $23K MRR\"로 병기. 근거: https://x.com/robj3d3/status/2013931593371439279 (본인, 2026-01-21) + IH 인터뷰 게재일 2026-02-04.",
+   "revenue 필드 인용문 \"$23K a month\" → 원문은 \"we're at $23K MRR with around 650 paying customers at $39/mo\" (Rob Hallam, Indie Hackers 인터뷰, 2026-02-04, USD). 인용 부정확 교정.",
+   "revenue_date 2026-02은 인터뷰 게재일 기준으로 정확 — 유지. normalize_note에 '월 스냅샷, 연환산 시 ~$276K/yr 추정치임' 명시 권장."
+  ],
+  "excluded_figures": [
+   "[existence] one_liner: 'Rob이 5번 실패 후 Claude Code로 만든 X 성장 툴' — refuted",
+   "[existence] region: unknown — refuted",
+   "[figures] \"6개월 만에\" $23K 도달 — refuted"
+  ],
+  "confidence_recommendation": "medium",
+  "notes": "공동창업자 Tibo는 기존 사례(tweethunter-taplio)의 인물 — 같은 창업자의 다른 제품은 별도 사례 정책이나 scope-judge 확인 필요. | 판정: 3/3 pass"
+ }
+}

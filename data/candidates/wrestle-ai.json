@@ -1,0 +1,74 @@
+{
+ "id": "wrestle-ai",
+ "status": "rejected",
+ "discovered_at": "2026-08-10",
+ "discovery_source": "https://maily.so/josh/posts/8do7kvwyrgq (Tier3 KR) + https://github.com/adrianchinghc/solo-builder (Tier3 EN) + https://eopla.net/magazines/37695 (Tier2) — 3개 각도 교차 적중",
+ "case": {
+  "id": "wrestle-ai",
+  "founders": [
+   "George Lampropoulos"
+  ],
+  "product": "Wrestle AI",
+  "domain": "레슬링 훈련 앱 (세부 확인 필요)",
+  "one_liner": "18세 비개발자 대학생이 Rork로 만든 레슬링 앱",
+  "team_size": "1인 (Fiverr 외주 $250 활용 언급)",
+  "region": "unknown (미국 추정)",
+  "revenue": "월 약 $17,000 (월간 구독 $8,000 + 연간 구독 $9,000), 다운로드 17,000건",
+  "revenue_date": "2025-2026",
+  "exit_status": "운영 중",
+  "stack": [
+   "Rork",
+   "Supabase",
+   "OpenAI API"
+  ],
+  "ai_tools": [
+   "Rork",
+   "ChatGPT"
+  ],
+  "founder_background": "18세 대학 1학년, 비개발자",
+  "business_model": "구독 (월간/연간)",
+  "sources": [
+   "https://maily.so/josh/posts/8do7kvwyrgq",
+   "https://github.com/adrianchinghc/solo-builder",
+   "https://eopla.net/magazines/37695"
+  ],
+  "confidence": "low"
+ },
+ "verification": {
+  "verified_at": "2026-08-10",
+  "checklist_passed": [
+   "existence:pass",
+   "figures:fail",
+   "scope:pass"
+  ],
+  "primary_sources": [
+   "https://apps.apple.com/us/app/wrestle-ai/id6751189075 (공식 App Store 등록, 판매자 IMPROVESCAPE LLC, 라이브)",
+   "https://www.linkedin.com/in/george-lampropoulos-670080287/ (본인 LinkedIn, 'Wrestle AI Founder')",
+   "https://x.com/GeorgeLampro20 (창업자 본인 X 계정 — Wrestle AI 제작 사실 본인 발화 확인, 단 $17K 수치 발화는 미발견)",
+   "https://x.com/GeorgeLampro20 (창업자 본인 X 계정)",
+   "https://x.com/GeorgeLampro20/status/2025061210841030893 (본인 발언: Rork로 제작 경위)",
+   "https://x.com/GeorgeLampro20/status/2025061210841030893 (본인 발화: 7월 출시한 두 번째 앱이 $10K 매출)",
+   "https://x.com/GeorgeLampro20/status/2043923396795236387 (본인 발언: Wrestle AI 제작·카피캣 언급)",
+   "https://x.com/GeorgeLampro20/status/2043923396795236387 (본인 발화: Wrestle AI 빌드 경험 공개)"
+  ],
+  "corrections": [
+   "team_size: '1인' → '2인 (개발은 George 단독 + 대형 레슬링 크리에이터 공동창업자), Fiverr 외주 $250 활용'. 근거: Rork 케이스 스터디 원문 \"That relentless grind is how he found his co-founder — one of the largest wrestling creators online\" (https://rork.com/blog/george-wrestle-ai-case-study)",
+   "region: 'unknown (미국 추정)' → '미국 (판매 법인 IMPROVESCAPE LLC, 뉴욕주 올버니 등록)'. 근거: https://apps.apple.com/us/app/wrestle-ai/id6751189075 판매자 표기 + https://www.bizprofile.net/ny/albany/improvescape-llc",
+   "domain: '레슬링 훈련 앱 (세부 확인 필요)' → 'AI 레슬링 코치 앱 (영상 기술 분석, 드릴/컨디셔닝, 경기 기록 추적, BJJ 지원)'. 근거: App Store 공식 설명",
+   "제품 식별자 고정 필요: App Store에 유사명 카피캣 다수(WrestleKit, Cradle 등, 본인이 'hundreds of copycats' 언급) — George의 앱은 id6751189075로 명시할 것",
+   "revenue '월 약 $17,000 ($8,000 월간 + $9,000 연간)'은 원문 발화(Starter Story 인터뷰 URL·일자) 미확인으로 기각 대상 — 2차 재인용 2건(maily.so, thestartupstorys.com)만 존재. 채택하려면 원문 인터뷰 확보 후 '2025년 후반 시점 스냅샷'으로 일자 명기 필요",
+   "확보 가능한 대체 수치(단, 벤더 마케팅 등급): Rork 케이스 스터디 2026-02-25 기준 MRR $23K, 월 총 $39.4K, 6개월 누적 $131,863, 총지출 ~$1,100 — https://rork.com/blog/george-wrestle-ai-case-study",
+   "다운로드 '17,000건'은 Rork 케이스 스터디 기준 Wrestle AI + Fight AI 양 앱 합산 수치 — Wrestle AI 단독 귀속은 스코프 오류. 2026-06 시점 보도는 100K+ 다운로드로 수치 자체도 구식",
+   "revenue_date '2025-2026'은 스냅샷 시점 불명 표기 — 원문 인터뷰 일자 확보 전까지 사용 불가"
+  ],
+  "excluded_figures": [
+   "[existence] 팀 규모 1인 (Fiverr 외주 $250) — refuted",
+   "[figures] 월 약 $17,000 (월간 구독 $8,000 + 연간 구독 $9,000) — unverifiable",
+   "[figures] $17,000/월이 현재 매출 수준이라는 표기 (revenue_date 2025-2026) — refuted",
+   "[figures] 다운로드 17,000건 (Wrestle AI 단독) — refuted",
+   "[figures] Fiverr 외주 $250 지출 — unverifiable"
+  ],
+  "confidence_recommendation": "low",
+  "notes": "원출처는 Starter Story 인터뷰로 추정 — 정확한 URL 미확인. 3개 발견 각도 전부 2차 출처. | 판정: 수치 렌즈 fail — 매출이 핵심 주장인 후보 (원문 발화 미확보/반박됨). 1차 출처 확보 시 재검증 가능 / [figures fail] 실존 렌즈 소견: (1) 본인 X 계정·LinkedIn(george-lampropoulos-670080287) 실존, App Store(id6751189075, IMPROVESCAPE LLC)·Google Play(app.rork.wrestleai) 등록 살아있음 — 실존성 자체는 강해 보임. (2) 단, team_size '1인' 주장과 달리 Rork 케이스 스터디 관련 서술에 '대형 레슬링 크리에이터를 코파운더로 영입' 언급이 있음 — 1인 주장 재검증 필요. (3) 후보 노트의 'Starter Story 인터뷰로 추정'은 maily.so 뉴스레터의 출처 표기로 뒷받침되나 URL은 여전히 미확보."
+ }
+}

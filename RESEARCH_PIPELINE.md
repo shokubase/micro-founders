@@ -22,26 +22,32 @@
 ### Tier 1 — 구조화된 사례 DB (정기 순회, 메인 파이프)
 | 소스 | URL | 비고 |
 |---|---|---|
-| Indie Hackers | indiehackers.com/products, /interviews | 창업자 자진신고 매출 = 1차 출처 |
-| Starter Story | starterstory.com | 케이스 스터디, 일부 페이월. 헤더 수치 주의 |
-| Acquire.com | acquire.com | exit 사례 (매출/이익 명시 리스팅) |
-| disquiet.io | disquiet.io | KR 메이커 수익 인증/회고 = 1차 출처 |
+| Indie Hackers | indiehackers.com/products, /interviews | 창업자 자진신고 매출 = 1차 출처. 검색 샘플링 말고 **최근 30-60일 피드 페이지네이션 직접 순회** (1회차 교훈) |
+| Starter Story | starterstory.com | 상당수 페이월 — 무료 프리뷰 + YouTube 채널 활용. 헤더/홍보 수치는 창업자 발언과 자주 모순 (stoppr 1회차 실증) |
+| Acquire.com | acquire.com | 라이브 리스팅은 로그인 필요 — 계정 없으면 뉴스레터/X 공지로 대체. **블로그는 대체재 아님** (1회차에 exit 커버리지 0건) |
+| disquiet.io | disquiet.io | KR 메이커 수익 인증/회고 = 1차 출처. **구글 site: 우회 금지** (인덱스 지연으로 신규 글 누락) — 내부 최신 피드/그룹 게시판 직접 순회 |
 
 ### Tier 2 — 반구조화 (RSS/신규 글 감시)
 | 소스 | 비고 |
 |---|---|
-| Lovable customer stories / blog | 마케팅 → confidence 상한 medium, 툴 필드 확정용 |
-| Cursor / Bolt / Base44 블로그 | 〃 |
+| Lovable customer stories / blog + founder-stories-showcase.lovable.app | 마케팅 → confidence 상한 medium, 툴 필드 확정용 |
+| Bolt / Base44 블로그, Cursor 블로그 + **forum.cursor.com showcase** | 〃 (Cursor 블로그는 엔터프라이즈 위주 — 포럼이 실성과, 1회차 실증) |
 | 언섹시비즈니스 (maily.so/unsexybusinesskr) | KR 큐레이션 뉴스레터 |
+| 조쉬 뉴스레터 (maily.so/josh) | KR 큐레이션 — 발견 신호 전용 (본인 글 아님, 해외 사례 번역·재요약 다수) |
 | GPTers, EO플래닛(eopla.net) | KR 커뮤니티 — 본인 글이면 1차 출처 |
-| Trends.vc, Failory | EN 큐레이션 |
+| Trends.vc, Failory | EN 큐레이션 — 리스트 등장 제품은 AI 툴 사용 여부를 스코프 렌즈로 선판정 후 후보화 |
 
 ### Tier 3 — 키워드 발견 (보조)
-표준 쿼리 세트 (분기마다 갱신):
-- EN: `"built with Lovable" ARR|MRR|revenue` / `"vibe coding" revenue|acquired` /
-  `solo founder AI app MRR` / `"Claude Code" built revenue` / `indie hacker AI acquired`
-- KR: `바이브코딩 수익|매출` / `1인 개발 매출` / `AI 코딩 창업` /
-  `Cursor로 만든 서비스` / `사이드프로젝트 수익화 AI`
+표준 쿼리 세트 (분기마다 갱신 — 최근 갱신: 2026-08-10 1회차 성과 데이터 기반):
+- EN: `"built with Lovable" ARR|MRR|revenue` / `site:x.com OR site:indiehackers.com "vibe coded" MRR|ARR` /
+  `solo founder AI app MRR` / `"Claude Code" built revenue` /
+  `"sold my" app|SaaS "built with" Cursor|Claude|Lovable`
+- KR: `바이브코딩 수익|매출` / `1인 개발 매출` / `바이브코딩 "월 매출"|"수익 인증"` /
+  `클로드코드|커서 만들었다 매출 site:disquiet.io OR site:eopla.net` / `사이드프로젝트 수익화 AI`
+
+갱신 원칙 (1회차 실증): 수익 발화 토큰("MRR", "수익 인증", "sold my") 없이 일반 명사만
+조합하면 SEO 리스티클/튜토리얼만 걸린다. 시의성이 필요하면 검색 recency 파라미터나
+연도 리터럴 변형을 쓸 것.
 
 검색에 걸린 글은 그 자체를 출처로 쓰지 말고 **발견 신호**로만 취급 → Stage 3에서
 1차 출처를 역추적한다.

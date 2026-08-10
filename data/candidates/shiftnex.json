@@ -1,0 +1,73 @@
+{
+ "id": "shiftnex",
+ "status": "rejected",
+ "discovered_at": "2026-08-10",
+ "discovery_source": "https://aifundingtracker.com/lovable-vibe-coding-revenue/ (Tier3 EN)",
+ "case": {
+  "id": "shiftnex",
+  "founders": [
+   "Allan (성 미상)"
+  ],
+  "product": "ShiftNex",
+  "domain": "헬스케어 인력 스태핑 플랫폼",
+  "one_liner": "Lovable로 만든 헬스케어 스태핑 플랫폼 — 5개월 만에 ARR $1M 주장",
+  "team_size": "unknown",
+  "region": "unknown",
+  "revenue": "\"€1M ARR in 5 months\" 또는 \"$1M ARR in just five months, 5,000+ healthcare users\" — 통화 혼재",
+  "revenue_date": "2025-2026",
+  "exit_status": "운영 중",
+  "stack": [
+   "Lovable"
+  ],
+  "ai_tools": [
+   "Lovable"
+  ],
+  "founder_background": "unknown",
+  "business_model": "unknown (스태핑 SaaS/수수료 추정)",
+  "sources": [
+   "https://aifundingtracker.com/lovable-vibe-coding-revenue/",
+   "https://lovable.dev/blog/series-b",
+   "https://www.shiftnex.com"
+  ],
+  "confidence": "low"
+ },
+ "verification": {
+  "verified_at": "2026-08-10",
+  "checklist_passed": [
+   "existence:pass",
+   "figures:fail",
+   "scope:pass"
+  ],
+  "primary_sources": [
+   "https://lovable.dev/blog/series-b (Lovable 공식 블로그 — ShiftNex/Allan 언급 원문)",
+   "https://shiftnex.ai (공식 앱 사이트, 라이브)",
+   "https://www.linkedin.com/in/akuotah/ (창업자 본인 LinkedIn — Shiftnex.ai 직접 홍보, Tacoma WA)",
+   "https://www.linkedin.com/in/akuotah/ — 창업자 Allan Njoroge 본인 계정, 매출 수치 발화 미발견",
+   "https://www.linkedin.com/posts/akuotah_shifted-a-new-era-in-care-delivery-shiftnex-activity-7331751666318303234-Coo5 — 본인 포스트(Shiftnex+Actriv 공동 행사), 수치 없음",
+   "https://www.shiftnex.ai — 제품 사이트 라이브, 단 매출/이용자 수치 주장 없음",
+   "https://www.shiftnex.com (공식 사이트, 2026 저작권, 라이브)"
+  ],
+  "corrections": [
+   "founders: 'Allan (성 미상)' → 'Allan Njoroge' (케냐 Eldoret 출신, 미국 거주). 근거: linkedin.com/in/akuotah (primary), crunchbase.com/person/allan-njoroge (independent), mwakilishi.com 2026-04-21 보도 (independent 하위)",
+   "region: unknown → 미국 워싱턴주 Tacoma. 근거: 본인 LinkedIn 프로필 위치 (primary), GetLatka (secondary)",
+   "product/도메인: 회사 공식 명칭은 'Shiftnex.ai' 사용 경향 — shiftnex.com과 shiftnex.ai 모두 라이브. sources에 shiftnex.ai 병기 권장",
+   "founder_background: unknown → Actriv Healthcare(2017 설립, Tacoma, Inc. 5000 #138) 창업자·CEO인 스태핑 업계 베테랑. '노코드 초보 1인 창업' 서사와 상충하므로 아카이브 분류 시 주의. 근거: councils.forbes.com 프로필, inc.com/author/allan-njoroge",
+   "team_size: unknown → 약 7명 (GetLatka 2026 추정, secondary — 확정치 아님). 1인(solo)으로 표기하면 안 됨",
+   "통화: €1M → $1M USD. € 표기는 AIFundingTracker(애그리게이터) 오류. 사슬 상류인 Lovable Series B 블로그와 케냐 언론 환산(Sh129M≈$1M) 모두 USD (https://lovable.dev/blog/series-b)",
+   "revenue_date: '2025-2026' → '~2025-08/09 (Anton Osika 트윗 밀스톤 시점), 2025-12 Lovable 블로그 재확인'. 2026-04 케냐 언론의 현재형 표기는 재유통 (https://www.linkedin.com/posts/seb-johnson_lovable-activity-7369080742842179585-4JIk)",
+   "$1M ARR 및 5,000+ users 수치는 excluded_figures로 이동 권고: 창업자 본인 원문 발화 부재, 확인 가능한 최초 출처가 벤더 마케팅(Lovable), GetLatka $770K 추정(2025)과 모순 (https://getlatka.com/companies/shiftnex.com)",
+   "GetLatka 모순 기록: 2025 ARR $770K 추정 / 팀 7명 / Tacoma, WA — $1M ARR 주장과 불일치, 단 GetLatka 스스로 '인터뷰 없는 추정'이라 명시"
+  ],
+  "excluded_figures": [
+   "[existence] 팀 규모·지역 (후보 파일상 unknown) — unverifiable",
+   "[figures] €1M ARR in 5 months (AIFundingTracker 표기) — refuted",
+   "[figures] $1M ARR in 5 months — unverifiable",
+   "[figures] $1M ARR (수치 자체의 신뢰성) — unverifiable",
+   "[figures] ARR로서의 성격 (연환산 부풀리기 의심) — unverifiable",
+   "[figures] 5,000+ healthcare users — unverifiable",
+   "[figures] revenue_date: 2025-2026 (현재형 표기) — refuted"
+  ],
+  "confidence_recommendation": "low",
+  "notes": "통화 €/$ 혼재 (Klar 사례와 동일 유형의 오류 의심). 창업자 성명·팀 규모 미확인. 출처가 전부 Lovable 마케팅 파생. | 판정: 수치 렌즈 fail — 매출이 핵심 주장인 후보 (원문 발화 미확보/반박됨). 1차 출처 확보 시 재검증 가능 / [figures fail] 실존 렌즈 참고: (1) 창업자 실명 특정 가능 — Allan Njoroge (LinkedIn akuotah, Crunchbase에 Actriv Healthcare 창업자·CEO로 등재). 후보의 'Allan (성 미상)'은 교정 가능. (2) 제품 도메인: 후보는 shiftnex.com을 기재했으나 Lovable 블로그는 shiftnex.ai로 링크 — 둘 다 존재하며 .ai가 제품 도메인으로 보임, 관계 확인 필요. (3) Njoroge는 워싱턴주 대형 스태핑 업체 Actriv의 기존 창업자로, '노코드 초보가 5개월 만에' 서사와 상충 — 기존 사업 인프라 위의 신규 플랫폼일 가능성 높음. GetLatka 기준 팀 7명, Tacoma WA (후보의 team_size/region unknown 갱신 가능)."
+ }
+}
