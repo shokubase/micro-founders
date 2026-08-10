@@ -128,6 +128,27 @@ ENRICH = {
     founder_background="unknown", founder_experience="serial",
     revenue_annual_usd_est=None,
     normalize_note="신규 벤처 매출 비공개. 이전 회사 Ceros는 ARR $60M까지 성장(참고용, 이 사례의 매출 아님)."),
+# ── 2026-08-10 정기 리서치 1회차 반영분 ──
+"kleo": dict(domain_category="커머스/마케팅", team_size_bucket="4+",
+    founder_background="mixed", founder_experience="unknown",
+    revenue_annual_usd_est=744000,
+    normalize_note="$62K MRR × 12 (2025-12 창업자 IH 발화 스냅샷). 기존 6만 유저 확장의 재런칭이라 'from $0' 프레이밍 주의. 제3자 검증 없음·런칭 수치 공개 분쟁 존재 → medium 상한."),
+"superx": dict(domain_category="커머스/마케팅", team_size_bucket="2-3",
+    founder_background="mixed", founder_experience="serial",
+    revenue_annual_usd_est=276000,
+    normalize_note="$23K MRR × 12 (2026-02 창업자 IH 인터뷰, 본인 트윗 성장 궤적 $2K→$17K→$23K로 교차 확인). 월 스냅샷 연환산 추정치."),
+"imaginary-space": dict(domain_category="B2B 대행/컨설팅", team_size_bucket="unknown",
+    founder_background="unknown", founder_experience="unknown",
+    revenue_annual_usd_est=1200000,
+    normalize_note="월 $100K × 12. 출처는 Lovable 공식 비디오(벤더 마케팅) + 본인 LinkedIn 교차 — medium 상한."),
+"lumoo": dict(domain_category="AI 이미지/영상 생성", team_size_bucket="2-3",
+    founder_background="unknown", founder_experience="unknown",
+    revenue_annual_usd_est=756000,
+    normalize_note="ARR €700K, EUR→USD 1.08 적용. 유일한 발화자가 Lovable CEO(엔젤 투자자)라 이해관계 있는 수치 — 창업자 본인 발화 확보 전까지 low 유지."),
+"stoppr": dict(domain_category="헬스/라이프스타일", team_size_bucket="solo",
+    founder_background="developer", founder_experience="first-time",
+    revenue_annual_usd_est=126000,
+    normalize_note="앱 매출 월 ~$10.5K × 12 (2026-05 자가보고). 2025-11 주력 앱 퇴출 후 하락 추세(RevenueCat 연동 트래커 기준 단일 앱 MRR $1.4K, 2026-08) — 스냅샷 시점 주의. 플랫폼 리스크 표본."),
 }
 
 def bucket(v):
