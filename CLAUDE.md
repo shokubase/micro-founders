@@ -52,3 +52,17 @@ build_feed.py  →  feed.xml             (RSS 생성 — cases.json 기반)
 - 신뢰도 필드(`confidence`): high/medium/low — 출처가 1차(창업자 본인 공개)면 high
 - 날짜는 ISO-8601 (`ingested_at` 등)
 - 코드 검색은 `rg` 사용 (`grep -r`, `find -exec` 금지 — 권한 게이트에 걸림)
+
+## 6. Tooling conventions (auto-allow 레인 유지)
+
+권한 시스템은 "임의의 하위 명령을 실행할 수 있거나, 인자를 숨기거나, read/write로
+분류 불가한" 명령은 auto-allow 못 한다. 해결책은 settings를 넓히는 게 아니라
+**명령 모양 자체를 피하는 것**:
+
+- **파이프/체인 최소화.** `A | B`, `A && B`는 모든 구간이 allow에 맞아야 통과.
+  JSON 필드 추출은 `python3 -c`로 파이프하지 말고 `gh api ... --jq '.field'` 사용.
+- **`$(...)` 명령치환, `for`/`while` 루프 금지.** 분류 불가 → 무조건 프롬프트.
+  반복 확인이 필요하면 한 번 실행하고 결과 보고 다시 실행.
+- **`python3 -c`는 실행문만.** 여러 줄 로직이 필요하면 스크래치패드에 임시 스크립트를
+  Write하고 그 파일을 실행.
+- **멀티라인 커밋 메시지도 게이트에 걸릴 수 있음.** 한 줄 `-m` 우선, 필요시 `-m` 두 번.
