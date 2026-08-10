@@ -1,0 +1,1400 @@
+[
+  {
+    "id": "base44",
+    "founders": [
+      "Maor Shlomo"
+    ],
+    "product": "Base44",
+    "domain": "AI 앱 빌더 (바이브코딩 플랫폼)",
+    "one_liner": "프롬프트만으로 백엔드/DB/인증까지 포함된 풀스택 앱을 생성해주는 노코드 AI 플랫폼",
+    "team_size": "1인 (솔로, 후반부 소수 채용)",
+    "region": "이스라엘",
+    "revenue": "월 순이익 $189,000(2025-05), 누적매출 약 $1.9M; 6개월만에 Wix에 현금 $80M + 최대 $90M 언아웃으로 인수",
+    "revenue_date": "2025-05 / 2025-06 exit",
+    "exit_status": "acquired (Wix, $80M)",
+    "stack": [
+      "AI 코드생성 (Claude/OpenAI 계열 추정)"
+    ],
+    "ai_tools": [
+      "Claude",
+      "ChatGPT/OpenAI"
+    ],
+    "founder_background": "developer",
+    "business_model": "프리미엄/사용량 기반 SaaS(AI 앱 생성 크레딧)",
+    "sources": [
+      "https://techcrunch.com/2025/06/18/6-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash",
+      "https://www.wix.com/press-room/home/post/wix-further-expands-into-vibe-coding-with-acquisition-of-base44-a-hyper-growth-startup-that-simplif",
+      "https://www.lennysnewsletter.com/p/the-base44-bootstrapped-startup-success-story-maor-shlomo"
+    ],
+    "confidence": "high",
+    "domain_category": "AI 코딩/개발툴",
+    "team_size_bucket": "solo",
+    "founder_experience": "serial",
+    "revenue_annual_usd_est": 2000000,
+    "exit_value_usd": 80000000,
+    "normalize_note": "2025-05 월 순이익 $189K를 연환산한 추정치(매출 자체보다는 이익 기준 proxy). exit_value_usd는 Wix 인수 현금가.",
+    "revenue_bucket": "1M-10M",
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "pieter-levels-portfolio",
+    "founders": [
+      "Pieter Levels"
+    ],
+    "product": "Nomad List / RemoteOK / Photo AI / Interior AI (포트폴리오)",
+    "domain": "원격근무 커뮤니티 + AI 이미지 생성 SaaS 포트폴리오",
+    "one_liner": "디지털 노마드 커뮤니티/구인 플랫폼과 AI 사진·인테리어 생성 서비스 등 수십 개 제품을 혼자 운영",
+    "team_size": "1인 (직원 없음, 간헐적 계약직)",
+    "region": "네덜란드 (발리 거주 노마드)",
+    "revenue": "Photo AI 18개월 만에 MRR $132K 도달; 포트폴리오 전체 연 매출 약 $3M 수준으로 다수 매체에서 인용",
+    "revenue_date": "2023-2025 누적",
+    "exit_status": "운영 중",
+    "stack": [
+      "PHP/SQLite",
+      "vanilla JS/jQuery",
+      "단일 VPS"
+    ],
+    "ai_tools": [
+      "Stable Diffusion",
+      "DreamBooth",
+      "Replicate",
+      "GPT-4 API"
+    ],
+    "founder_background": "developer",
+    "business_model": "구독형 SaaS 다수 (프리미엄 티어, 무료 없음)",
+    "sources": [
+      "https://www.indiehackers.com/post/photo-ai-by-pieter-levels-complete-deep-dive-case-study-0-to-132k-mrr-in-18-months-3a9a2b1579",
+      "https://levels.io/photoai-40870-line-index-php-105k-mo-revenue",
+      "https://ppc.land/how-one-photo-ai-app-generates-132k-monthly-after-70-failed-startups/"
+    ],
+    "confidence": "high",
+    "domain_category": "AI 이미지/영상 생성",
+    "team_size_bucket": "solo",
+    "founder_experience": "serial",
+    "revenue_annual_usd_est": 3000000,
+    "exit_value_usd": null,
+    "normalize_note": "Photo AI MRR $132K(연 $1.58M) + 포트폴리오 전체 약 $3M/yr로 인용된 수치 사용.",
+    "revenue_bucket": "1M-10M",
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "headshotpro",
+    "founders": [
+      "Danny Postma"
+    ],
+    "product": "HeadshotPro",
+    "domain": "AI 프로필사진 생성",
+    "one_liner": "링크드인/기업용 전문 프로필 사진을 AI로 생성해주는 서비스",
+    "team_size": "1인 (솔로/매우 린)",
+    "region": "네덜란드 (발리 거주)",
+    "revenue": "월 약 $300,000 (연 $3.6M ARR 수준)",
+    "revenue_date": "2024-2025",
+    "exit_status": "운영 중",
+    "stack": [
+      "생성형 이미지 AI 모델(구체 미상세)"
+    ],
+    "ai_tools": [
+      "unknown"
+    ],
+    "founder_background": "developer",
+    "business_model": "패키지 단위 일회성 결제 (AI 사진 생성 서비스)",
+    "sources": [
+      "https://www.starterstory.com/stories/headshotpro-breakdown",
+      "https://supabird.io/articles/danny-postma-how-a-solo-hacker-built-an-ai-empire-from-bali"
+    ],
+    "confidence": "medium",
+    "domain_category": "AI 이미지/영상 생성",
+    "team_size_bucket": "solo",
+    "founder_experience": "serial",
+    "revenue_annual_usd_est": 3600000,
+    "exit_value_usd": null,
+    "normalize_note": "월 $300K * 12.",
+    "revenue_bucket": "1M-10M",
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "cal-ai",
+    "founders": [
+      "Zach Yadegari",
+      "Henry Langmack",
+      "Blake Anderson",
+      "Jake Castillo"
+    ],
+    "product": "Cal AI",
+    "domain": "AI 칼로리/영양 트래킹 앱",
+    "one_liner": "음식 사진을 찍으면 AI가 칼로리/영양성분을 분석해주는 모바일 앱",
+    "team_size": "공동창업자 4명 + 직원 소수(최대 약 8~12명)",
+    "region": "미국",
+    "revenue": "월 매출 $2M+ (2025-03 기준, 일부 소스는 연 $30-40M ARR로 인용); MyFitnessPal에 인수(2026-03, 금액 비공개)",
+    "revenue_date": "2025-03 ~ 2026-03",
+    "exit_status": "acquired (MyFitnessPal)",
+    "stack": [
+      "이미지인식 AI(Anthropic/OpenAI 계열)",
+      "RAG",
+      "오픈소스 식품DB"
+    ],
+    "ai_tools": [
+      "Anthropic",
+      "OpenAI"
+    ],
+    "founder_background": "developer",
+    "business_model": "프리미엄 모바일 앱 구독",
+    "sources": [
+      "https://techcrunch.com/2025/03/16/photo-calorie-app-cal-ai-downloaded-over-a-million-times-was-built-by-two-teenagers/",
+      "https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/",
+      "https://www.entrepreneur.com/business-news/teen-builds-30-million-app-gets-rejected-by-15-colleges/489644"
+    ],
+    "confidence": "high",
+    "domain_category": "헬스/라이프스타일",
+    "team_size_bucket": "4+",
+    "founder_experience": "mixed",
+    "revenue_annual_usd_est": 30000000,
+    "exit_value_usd": null,
+    "normalize_note": "소스마다 $24M~$40M ARR로 상이, 중간값 계열인 $30M 사용. MyFitnessPal 인수가는 비공개.",
+    "revenue_bucket": "10M+",
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "cluely",
+    "founders": [
+      "Chungin (Roy) Lee",
+      "Neel Shanmugam",
+      "Alex Chen"
+    ],
+    "product": "Cluely",
+    "domain": "AI 실시간 어시스턴트 (화면/오디오 모니터링 후 답변 제안)",
+    "one_liner": "면접·회의 중 화면과 음성을 보고 실시간으로 답변을 제안해주는 투명 오버레이 AI 어시스턴트 (초기엔 '면접 커닝툴'로 시작)",
+    "team_size": "소규모 초기팀",
+    "region": "미국",
+    "revenue": "시드 $5.3M(2025-04) + 시리즈A $15M(2025-06, a16z), 누적 $20.3M 투자유치; ARR $7M 주장했으나 실제로는 약 $5.2M로 확인됨",
+    "revenue_date": "2025",
+    "exit_status": "운영 중 (논란 있음)",
+    "stack": [
+      "LLM 기반"
+    ],
+    "ai_tools": [
+      "unknown"
+    ],
+    "founder_background": "developer",
+    "business_model": "구독형 SaaS",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cluely",
+      "https://www.inc.com/leila-sheridan/an-a16z-backed-startup-that-helps-people-cheat-on-job-interviews-just-got-caught-in-a-7-million-lie-the-ceo-was-sweating/91313070"
+    ],
+    "confidence": "medium",
+    "domain_category": "생산성/업무도구 SaaS",
+    "team_size_bucket": "2-3",
+    "founder_experience": "first-time",
+    "revenue_annual_usd_est": 5200000,
+    "funding_usd": 20300000,
+    "normalize_note": "자체 주장 ARR $7M은 실제로 $5.2M로 확인됨(과장 논란) — 확인된 수치 사용.",
+    "revenue_bucket": "1M-10M",
+    "exit_value_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "marc-lou-portfolio",
+    "founders": [
+      "Marc Lou"
+    ],
+    "product": "ShipFast + 인디 제품 포트폴리오",
+    "domain": "SaaS 보일러플레이트/스타터 킷 + 다수 소규모 앱",
+    "one_liner": "빠른 SaaS 런칭을 위한 Next.js 보일러플레이트 판매 및 다수의 사이드 프로젝트 운영",
+    "team_size": "1인",
+    "region": "프랑스",
+    "revenue": "ShipFast 4개월간 $528K 보고; 포트폴리오 전체 월 $100K+ 보고된 시기 있음",
+    "revenue_date": "2023-2024",
+    "exit_status": "운영 중",
+    "stack": [
+      "Next.js"
+    ],
+    "ai_tools": [
+      "unknown"
+    ],
+    "founder_background": "developer",
+    "business_model": "보일러플레이트/템플릿 일회성 판매 + 사이드 SaaS 구독",
+    "sources": [
+      "https://www.starterstory.com/marc-lou-shipfast",
+      "https://newsletter.marclou.com/p/i-made-250000-usd-selling-javascript"
+    ],
+    "confidence": "medium",
+    "domain_category": "AI 코딩/개발툴",
+    "team_size_bucket": "solo",
+    "founder_experience": "serial",
+    "revenue_annual_usd_est": 1200000,
+    "normalize_note": "포트폴리오 월 $100K+ 시기 기준 연환산.",
+    "revenue_bucket": "1M-10M",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "tweethunter-taplio",
+    "founders": [
+      "Tibo (Thibault) Louis-Lucas"
+    ],
+    "product": "Tweet Hunter / Taplio",
+    "domain": "소셜미디어(X/LinkedIn) 성장 툴",
+    "one_liner": "AI 보조 콘텐츠 작성·예약 기능으로 X/LinkedIn 퍼스널 브랜드 성장을 돕는 SaaS",
+    "team_size": "소규모 팀 (TMAKER Studio)",
+    "region": "프랑스",
+    "revenue": "Tweet Hunter 12개월만에 ARR $1M 도달, 이후 약 $10M 규모로 SaaS 매각(exit) 보도",
+    "revenue_date": "2022-2023",
+    "exit_status": "acquired (매각, 정확한 인수자 미상세)",
+    "stack": [
+      "unknown"
+    ],
+    "ai_tools": [
+      "unknown"
+    ],
+    "founder_background": "developer",
+    "business_model": "SaaS 구독",
+    "sources": [
+      "https://thebootstrappedfounder.com/thibault-louis-lucas-selling-a-10m-saas-and-building-another-one/"
+    ],
+    "confidence": "medium",
+    "domain_category": "커머스/마케팅",
+    "team_size_bucket": "2-3",
+    "founder_experience": "serial",
+    "revenue_annual_usd_est": 1000000,
+    "exit_value_usd": 10000000,
+    "normalize_note": "12개월 ARR $1M 달성 후 약 $10M 규모로 매각 보도(매각가는 별도 필드).",
+    "revenue_bucket": "1M-10M",
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "lovable",
+    "founders": [
+      "Anton Osika",
+      "Fabian Hedin"
+    ],
+    "product": "Lovable (구 GPT Engineer)",
+    "domain": "AI 바이브코딩 플랫폼",
+    "one_liner": "자연어 프롬프트로 프론트엔드/백엔드/DB까지 자동 생성하는 스웨덴발 바이브코딩 유니콘",
+    "team_size": "약 18~146명 (2025년초 18명 → 2026년초 146명으로 급성장)",
+    "region": "스웨덴",
+    "revenue": "출시 4개월만에 ARR 약 $30M; 2026-03 한 달간 매출 $100M 추가 보고; 2025-12 $330M 투자유치, 기업가치 $6.6B",
+    "revenue_date": "2025-2026",
+    "exit_status": "운영 중 (유니콘)",
+    "stack": [
+      "GPT 기반 자연어처리",
+      "Supabase 연동"
+    ],
+    "ai_tools": [
+      "GPT 계열"
+    ],
+    "founder_background": "developer",
+    "business_model": "프리미엄/사용량 기반 SaaS",
+    "sources": [
+      "https://techcrunch.com/2026/03/11/lovable-says-it-added-100m-in-revenue-last-month-alone-with-just-146-employees/",
+      "https://techcrunch.com/2025/12/18/vibe-coding-startup-lovable-raises-330m-at-a-6-6b-valuation/"
+    ],
+    "confidence": "high",
+    "domain_category": "AI 코딩/개발툴",
+    "team_size_bucket": "4+",
+    "founder_experience": "serial",
+    "revenue_annual_usd_est": 100000000,
+    "valuation_usd": 6600000000,
+    "normalize_note": "'한달간 매출 $100M 추가'라는 표현이 ARR 증가분인지 월매출인지 소스가 불명확 — 최댓값 추정치로 표기, 낮게 잡으면 ARR $30M(출시 4개월 시점).",
+    "revenue_bucket": "10M+",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "bolt-new",
+    "founders": [
+      "Eric Simons"
+    ],
+    "product": "Bolt.new (by StackBlitz)",
+    "domain": "AI 바이브코딩 플랫폼",
+    "one_liner": "브라우저 내에서 프롬프트로 풀스택 앱을 즉시 생성·배포하는 AI 코딩 에이전트",
+    "team_size": "StackBlitz 소규모 코어팀",
+    "region": "미국",
+    "revenue": "출시 약 5개월만에 ARR 약 $40M 도달; 매출이 두 달만에 수천만 달러로 확대되며 $105.5M+ 투자유치",
+    "revenue_date": "2024-2025",
+    "exit_status": "운영 중",
+    "stack": [
+      "WebContainers(브라우저 내 실행환경)",
+      "LLM 연동"
+    ],
+    "ai_tools": [
+      "unknown"
+    ],
+    "founder_background": "developer",
+    "business_model": "프리미엄/사용량 기반 SaaS",
+    "sources": [
+      "https://www.lennysnewsletter.com/p/inside-bolt-eric-simons"
+    ],
+    "confidence": "medium",
+    "domain_category": "AI 코딩/개발툴",
+    "team_size_bucket": "4+",
+    "founder_experience": "serial",
+    "revenue_annual_usd_est": 40000000,
+    "normalize_note": "5개월 시점 ARR 약 $40M.",
+    "revenue_bucket": "10M+",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "cursor",
+    "founders": [
+      "Michael Truell",
+      "외 3명"
+    ],
+    "product": "Cursor (Anysphere)",
+    "domain": "AI 코딩 IDE (개발자 도구)",
+    "one_liner": "바이브코딩 시대에 널리 쓰이는 AI 기반 코드 에디터",
+    "team_size": "MIT 졸업생 4인 창업팀에서 급성장",
+    "region": "미국",
+    "revenue": "2025-11 $2.3B 투자유치(기업가치 $29.3B); 2026-04 추가 $50B+ 밸류 라운드 협상 보도",
+    "revenue_date": "2025-2026",
+    "exit_status": "운영 중 (유니콘)",
+    "stack": [
+      "unknown"
+    ],
+    "ai_tools": [
+      "unknown"
+    ],
+    "founder_background": "developer",
+    "business_model": "개발자용 SaaS 구독",
+    "sources": [
+      "https://www.forbes.com/sites/rashishrivastava/2025/11/13/four-cofounders-of-popular-ai-coding-tool-cursor-are-now-billionaires/"
+    ],
+    "confidence": "high",
+    "domain_category": "AI 코딩/개발툴",
+    "team_size_bucket": "4+",
+    "founder_experience": "first-time",
+    "revenue_annual_usd_est": null,
+    "valuation_usd": 29300000000,
+    "normalize_note": "매출 비공개, 투자 밸류에이션만 확인됨.",
+    "revenue_bucket": "unknown",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "wave-ai",
+    "founders": [
+      "Josh Mohrer"
+    ],
+    "product": "Wave AI",
+    "domain": "AI 음성메모/회의 요약 앱",
+    "one_liner": "대화를 녹음·전사·요약해주는 AI 음성노트 앱, 엔지니어링부터 고객지원까지 혼자 운영",
+    "team_size": "1인 (솔로)",
+    "region": "미국",
+    "revenue": "연 매출 약 $7M, 순이익 약 $3M (2026-02 기준)",
+    "revenue_date": "2026-02",
+    "exit_status": "운영 중",
+    "stack": [
+      "Cursor",
+      "Claude Code(Opus)",
+      "Next.js",
+      "Firebase"
+    ],
+    "ai_tools": [
+      "Whisper",
+      "AssemblyAI",
+      "Deepgram",
+      "Claude"
+    ],
+    "founder_background": "non-developer",
+    "business_model": "구독형 SaaS (주/월/연 단위)",
+    "sources": [
+      "https://mixergy.com/interviews/the-7-million-vibe-coded-app/"
+    ],
+    "confidence": "high",
+    "domain_category": "생산성/업무도구 SaaS",
+    "team_size_bucket": "solo",
+    "founder_experience": "first-time",
+    "revenue_annual_usd_est": 7000000,
+    "normalize_note": "2026-02 기준 연매출 확인치.",
+    "revenue_bucket": "1M-10M",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "ben-broca",
+    "founders": [
+      "Ben Broca"
+    ],
+    "product": "(제품명 비공개, AI 비즈니스 관리 툴)",
+    "domain": "AI 기반 1인 비즈니스 운영 도구",
+    "one_liner": "이메일·코딩·고객응대·구독관리 등을 AI로 처리해 직원 없이 운영하는 SaaS",
+    "team_size": "1인 (유일한 직원)",
+    "region": "미국",
+    "revenue": "연 매출 $10M 목표 궤도, 유료고객 10,000명; $30M 외부투자 유치",
+    "revenue_date": "2025-2026",
+    "exit_status": "운영 중",
+    "stack": [
+      "unknown"
+    ],
+    "ai_tools": [
+      "이메일/코딩/고객응대용 다양한 AI 툴(구체 미상세)"
+    ],
+    "founder_background": "unknown",
+    "business_model": "구독형 SaaS",
+    "sources": [
+      "https://finance.yahoo.com/small-business/articles/ben-broca-raised-30-million-143000749.html"
+    ],
+    "confidence": "medium",
+    "domain_category": "생산성/업무도구 SaaS",
+    "team_size_bucket": "solo",
+    "founder_experience": "unknown",
+    "revenue_annual_usd_est": 10000000,
+    "funding_usd": 30000000,
+    "normalize_note": "'연 $10M 궤도'는 목표치이지 확정 실적 아님, 참고용.",
+    "revenue_bucket": "10M+",
+    "exit_value_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "deep-personality",
+    "founders": [
+      "Bryce Edwards",
+      "Andrew Wilkinson"
+    ],
+    "product": "Deep Personality",
+    "domain": "AI 성격분석/궁합 서비스",
+    "one_liner": "AI 기반 성격분석 및 커플 궁합 평가 서비스",
+    "team_size": "2인",
+    "region": "미국",
+    "revenue": "출시 30일만에 $11,000 (2025-02 런칭, 기획~출시 6주)",
+    "revenue_date": "2025-02",
+    "exit_status": "운영 중",
+    "stack": [
+      "unknown"
+    ],
+    "ai_tools": [
+      "Claude/GPT-4 계열 추정"
+    ],
+    "founder_background": "unknown",
+    "business_model": "프리미엄 (약 40% 무료, 전체 리포트는 유료)",
+    "sources": [
+      "https://www.indiehackers.com/post/from-0-to-11k-in-30-days-with-a-vibe-coded-ai-personality-analysis-b9ad81d534"
+    ],
+    "confidence": "high",
+    "domain_category": "컴패니언/엔터테인먼트",
+    "team_size_bucket": "2-3",
+    "founder_experience": "serial",
+    "revenue_annual_usd_est": 132000,
+    "normalize_note": "첫 30일 $11K를 단순 연환산(성장 중이라 과소추정 가능).",
+    "revenue_bucket": "100K-1M",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "dreamgf",
+    "founders": [
+      "Georgi Dimitrov"
+    ],
+    "product": "DreamGF",
+    "domain": "AI 컴패니언(가상 여자친구) 앱",
+    "one_liner": "커스터마이징 가능한 AI 챗봇+이미지생성 가상 컴패니언 서비스",
+    "team_size": "unknown",
+    "region": "불가리아 추정",
+    "revenue": "월 약 $120,000, 등록 유저 50만명, 유료고객 1만명, 출시 3개월만에 흑자전환",
+    "revenue_date": "2025",
+    "exit_status": "운영 중",
+    "stack": [
+      "Stable Diffusion",
+      "ChatGPT 계열"
+    ],
+    "ai_tools": [
+      "Stable Diffusion",
+      "ChatGPT"
+    ],
+    "founder_background": "unknown",
+    "business_model": "구독 티어제 (€10~€97/월, Patreon 결제)",
+    "sources": [
+      "https://sifted.eu/articles/ai-girlfriends"
+    ],
+    "confidence": "medium",
+    "domain_category": "컴패니언/엔터테인먼트",
+    "team_size_bucket": "unknown",
+    "founder_experience": "unknown",
+    "revenue_annual_usd_est": 1440000,
+    "normalize_note": "월 $120K * 12.",
+    "revenue_bucket": "1M-10M",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "appalchemy",
+    "founders": [
+      "Diego Roshardt"
+    ],
+    "product": "AppAlchemy",
+    "domain": "브라우저 기반 모바일 앱 빌더",
+    "one_liner": "다운로드 없이 브라우저에서 네이티브 앱을 만드는 노코드 앱 빌더",
+    "team_size": "1인",
+    "region": "unknown",
+    "revenue": "출시 12개월만에 MRR $10,000+",
+    "revenue_date": "2024-2025",
+    "exit_status": "운영 중",
+    "stack": [
+      "Next.js",
+      "Supabase",
+      "Claude Code",
+      "Cursor",
+      "React"
+    ],
+    "ai_tools": [
+      "Claude Code",
+      "Cursor"
+    ],
+    "founder_background": "developer",
+    "business_model": "구독형(월+할인 연간)",
+    "sources": [
+      "https://www.indiehackers.com/post/tech/launching-an-app-builder-in-2-weeks-and-hitting-10k-mrr-within-a-year-gRWT2S68TIQwMvb6Xxt4"
+    ],
+    "confidence": "high",
+    "domain_category": "AI 코딩/개발툴",
+    "team_size_bucket": "solo",
+    "founder_experience": "first-time",
+    "revenue_annual_usd_est": 120000,
+    "normalize_note": "MRR $10K * 12.",
+    "revenue_bucket": "100K-1M",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "launch-fast",
+    "founders": [
+      "Hasaam Bhatti"
+    ],
+    "product": "Launch Fast",
+    "domain": "아마존 셀러용 AI 리서치 툴",
+    "one_liner": "아마존 셀러를 위한 상품 리서치/카탈로그관리/광고최적화 크롬 확장 프로그램",
+    "team_size": "unknown (매우 소규모 추정)",
+    "region": "unknown",
+    "revenue": "런칭 30일 $10K → 60일 $17-18K → 90일 $21.8K → 현재 MRR $30K",
+    "revenue_date": "2025",
+    "exit_status": "운영 중",
+    "stack": [
+      "Cursor",
+      "Next.js/React/TS",
+      "Vercel",
+      "Supabase",
+      "Cloudflare",
+      "Codex",
+      "Claude Code"
+    ],
+    "ai_tools": [
+      "Codex",
+      "Claude Code",
+      "Cursor"
+    ],
+    "founder_background": "non-developer",
+    "business_model": "티어형 구독($49/$89/$199, 무료 티어 없음)",
+    "sources": [
+      "https://www.indiehackers.com/post/tech/building-a-product-in-48-hours-and-hitting-30k-mrr-as-a-non-technical-founder-wWtWIH5tmwASUbxKaLT9"
+    ],
+    "confidence": "high",
+    "domain_category": "커머스/마케팅",
+    "team_size_bucket": "solo",
+    "founder_experience": "first-time",
+    "revenue_annual_usd_est": 360000,
+    "normalize_note": "현재 MRR $30K * 12.",
+    "revenue_bucket": "100K-1M",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "sleek-design",
+    "founders": [
+      "Mattia Pomelli",
+      "외 2명(친구)"
+    ],
+    "product": "Sleek (sleek.design)",
+    "domain": "AI 모바일 UI 디자인 툴",
+    "one_liner": "대화형으로 앱 UI를 디자인해주는 '바이브 디자인' AI 툴, 코딩/디자인 지식 불필요",
+    "team_size": "3인",
+    "region": "unknown",
+    "revenue": "출시 6주만에 MRR $10,000, 유료마케팅 없이 달성",
+    "revenue_date": "2024-2025",
+    "exit_status": "운영 중",
+    "stack": [
+      "Next.js",
+      "Supabase",
+      "Vercel",
+      "PostHog",
+      "Stripe",
+      "Resend"
+    ],
+    "ai_tools": [
+      "unknown"
+    ],
+    "founder_background": "developer",
+    "business_model": "AI 크레딧 기반 구독 티어, 제한적 무료 티어",
+    "sources": [
+      "https://www.indiehackers.com/post/tech/hitting-10k-mrr-in-six-weeks-with-an-ai-design-tool-pEvmU5qkWS6ny0AR9SUv"
+    ],
+    "confidence": "high",
+    "domain_category": "생산성/업무도구 SaaS",
+    "team_size_bucket": "2-3",
+    "founder_experience": "serial",
+    "revenue_annual_usd_est": 120000,
+    "normalize_note": "MRR $10K * 12.",
+    "revenue_bucket": "100K-1M",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "habit-pixel",
+    "founders": [
+      "Hirvesh Munogee"
+    ],
+    "product": "Habit Pixel",
+    "domain": "습관 트래커 앱",
+    "one_liner": "픽셀아트 게이미피케이션 요소가 있는 크로스플랫폼 습관 트래커",
+    "team_size": "1인",
+    "region": "모리셔스",
+    "revenue": "6개월 MRR $28 → 11월 $407 → 12월 $840 → 이듬해 1월 $1,000+ MRR",
+    "revenue_date": "2025-06~2026-01",
+    "exit_status": "운영 중",
+    "stack": [
+      "unknown"
+    ],
+    "ai_tools": [
+      "unknown"
+    ],
+    "founder_background": "developer",
+    "business_model": "프리미엄 ($4.99/월 또는 $29.99/년, PPP 가격, 블프 라이프타임 프로모션)",
+    "sources": [
+      "https://www.indiehackers.com/post/from-0-to-1k-mrr-in-8-months-bootstrapping-habit-pixel-as-a-solo-dev-53d8687d15"
+    ],
+    "confidence": "high",
+    "domain_category": "헬스/라이프스타일",
+    "team_size_bucket": "solo",
+    "founder_experience": "first-time",
+    "revenue_annual_usd_est": 12000,
+    "normalize_note": "MRR $1K * 12.",
+    "revenue_bucket": "<100K",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "subscribr",
+    "founders": [
+      "Gil Hildebrand",
+      "(18개월 후 공동창업자 합류)"
+    ],
+    "product": "Subscribr",
+    "domain": "유튜버용 AI 콘텐츠 기획 툴",
+    "one_liner": "유튜브 크리에이터의 영상 아이디어/패키징/스크립트 기획을 돕는 AI 툴",
+    "team_size": "처음엔 1인, 이후 2인",
+    "region": "unknown",
+    "revenue": "사전판매 $20K → 퍼블릭 런칭 100일만에 MRR $10K → 현재 MRR $62K+ → 1년차 $500K+, 2년차 $1M+ 목표",
+    "revenue_date": "2024-2025",
+    "exit_status": "운영 중",
+    "stack": [
+      "Laravel",
+      "Livewire",
+      "Laravel Horizon",
+      "단일 DigitalOcean droplet"
+    ],
+    "ai_tools": [
+      "unknown"
+    ],
+    "founder_background": "developer",
+    "business_model": "SaaS 구독($49+/월), 라이프타임딜/AppSumo, 제휴 프로그램",
+    "sources": [
+      "https://www.indiehackers.com/post/tech/hitting-125k-mrr-as-a-solo-founder-by-doubling-down-on-the-right-segment-c4o2Tfs6mjdpip5yZhaO"
+    ],
+    "confidence": "medium",
+    "domain_category": "커머스/마케팅",
+    "team_size_bucket": "2-3",
+    "founder_experience": "serial",
+    "revenue_annual_usd_est": 744000,
+    "normalize_note": "MRR $62K * 12 (1년차 실적 $500K와 유사).",
+    "revenue_bucket": "100K-1M",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "samuel-rondot-portfolio",
+    "founders": [
+      "Samuel Rondot"
+    ],
+    "product": "StoryShort.ai / UseArtemis / Capacity.so",
+    "domain": "SaaS 포트폴리오(AI 숏폼영상생성/아웃리치툴/AI코딩툴)",
+    "one_liner": "검증된 서비스를 벤치마킹해 복제·개선하는 방식으로 여러 SaaS를 운영하는 1인 포트폴리오",
+    "team_size": "대부분 1인 (Capacity는 고교 동창과 공동창업)",
+    "region": "프랑스 추정",
+    "revenue": "StoryShort ~$20K/월, UseArtemis ~$5-15K/월, Capacity ~$0.9-3K/월, 합계 월 $28-35K; 이전 제품 MathPlanner는 월 $30K 달성",
+    "revenue_date": "2025-12",
+    "exit_status": "운영 중",
+    "stack": [
+      "Next.js",
+      "Node.js",
+      "MongoDB",
+      "Vercel/AWS"
+    ],
+    "ai_tools": [
+      "unknown"
+    ],
+    "founder_background": "developer",
+    "business_model": "SaaS 구독",
+    "sources": [
+      "https://www.indiehackers.com/post/tech/learning-to-code-and-building-a-28k-mo-portfolio-of-saas-products-OA5p18fXtvHGxP9xTAwG",
+      "https://maily.so/josh/posts/5xrx6lnqr2v"
+    ],
+    "confidence": "medium",
+    "domain_category": "생산성/업무도구 SaaS",
+    "team_size_bucket": "solo",
+    "founder_experience": "serial",
+    "revenue_annual_usd_est": 360000,
+    "normalize_note": "포트폴리오 합계 월 $28-35K * 12.",
+    "revenue_bucket": "100K-1M",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "lancer",
+    "founders": [
+      "Ivan Nedelkovski"
+    ],
+    "product": "Lancer",
+    "domain": "프리랜서용 AI 리드젠 에이전트",
+    "one_liner": "Upwork에서 프리랜서의 리드 발굴과 제안서 제출을 자동화하는 AI 에이전트",
+    "team_size": "2인",
+    "region": "unknown",
+    "revenue": "런칭 60일만에 MRR $10K → $20K → 현재 $25K+/월",
+    "revenue_date": "2025",
+    "exit_status": "운영 중",
+    "stack": [
+      "GCP",
+      "Firestore",
+      "Hetzner",
+      "TypeScript/Node/Next.js",
+      "Elasticsearch",
+      "Openrouter"
+    ],
+    "ai_tools": [
+      "Openrouter(AI 라우팅)"
+    ],
+    "founder_background": "developer",
+    "business_model": "구독 티어(Pay-per-Lead $149/월, Unlimited $499/월) + 제휴 코칭",
+    "sources": [
+      "https://www.indiehackers.com/post/tech/exiting-his-agency-and-hitting-10k-mrr-within-60-days-of-launching-his-saas-sTo5m9qfhxXbruvhBIyH"
+    ],
+    "confidence": "high",
+    "domain_category": "커머스/마케팅",
+    "team_size_bucket": "2-3",
+    "founder_experience": "serial",
+    "revenue_annual_usd_est": 300000,
+    "normalize_note": "현재 MRR $25K * 12.",
+    "revenue_bucket": "100K-1M",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "creator-buddy",
+    "founders": [
+      "Alex Finn"
+    ],
+    "product": "Creator Buddy",
+    "domain": "AI 콘텐츠 생성 툴 (X/Twitter)",
+    "one_liner": "X(트위터) 게시물을 분석해 개인화된 콘텐츠를 생성해주는 AI 도구",
+    "team_size": "1인 (직원 0명)",
+    "region": "unknown",
+    "revenue": "10개월만에 ARR $300K",
+    "revenue_date": "2025",
+    "exit_status": "운영 중",
+    "stack": [
+      "Next.js",
+      "Vercel",
+      "Supabase",
+      "Claude Code"
+    ],
+    "ai_tools": [
+      "Claude Code"
+    ],
+    "founder_background": "non-developer",
+    "business_model": "SaaS + 유료 '바이브코딩 아카데미' + 뉴스레터",
+    "sources": [
+      "https://iamjohnellison.substack.com/p/the-vibe-coding-wave-is-here-5-builders"
+    ],
+    "confidence": "medium",
+    "domain_category": "커머스/마케팅",
+    "team_size_bucket": "solo",
+    "founder_experience": "unknown",
+    "revenue_annual_usd_est": 300000,
+    "normalize_note": "ARR $300K 확인치.",
+    "revenue_bucket": "100K-1M",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "vibed-agents",
+    "founders": [
+      "Paulius (@0xPaulius)"
+    ],
+    "product": "Vibed Agents",
+    "domain": "자율 코딩 에이전트 플랫폼",
+    "one_liner": "자율 코딩 에이전트를 배포해 앱을 만들어주는 플랫폼",
+    "team_size": "1인",
+    "region": "unknown",
+    "revenue": "MRR $9K, 누적 $100K+, 10개 이상 앱에 걸쳐 유저 3만명+",
+    "revenue_date": "2025",
+    "exit_status": "운영 중",
+    "stack": [
+      "Claude Code",
+      "MCP"
+    ],
+    "ai_tools": [
+      "Claude Code"
+    ],
+    "founder_background": "non-developer",
+    "business_model": "플랫폼/SaaS",
+    "sources": [
+      "https://iamjohnellison.substack.com/p/the-vibe-coding-wave-is-here-5-builders"
+    ],
+    "confidence": "medium",
+    "domain_category": "AI 코딩/개발툴",
+    "team_size_bucket": "solo",
+    "founder_experience": "first-time",
+    "revenue_annual_usd_est": 108000,
+    "normalize_note": "MRR $9K * 12.",
+    "revenue_bucket": "100K-1M",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "plinq",
+    "founders": [
+      "Sabrine Matos"
+    ],
+    "product": "Plinq",
+    "domain": "데이팅 안전 앱",
+    "one_liner": "상대방을 공개 범죄기록과 대조 확인해주는 데이팅 안전 앱(위험도 평가, 패닉버튼 등)",
+    "team_size": "unknown (프리시드 투자 유치 중)",
+    "region": "브라질",
+    "revenue": "ARR $456,000, 유저 1만명+, 45일만에 개발",
+    "revenue_date": "2025",
+    "exit_status": "운영 중",
+    "stack": [
+      "Lovable"
+    ],
+    "ai_tools": [
+      "Lovable"
+    ],
+    "founder_background": "non-developer",
+    "business_model": "구독/건당 확인 수수료",
+    "sources": [
+      "https://everydayaiblog.com/vibe-coded-apps-real-revenue-users/"
+    ],
+    "confidence": "medium",
+    "domain_category": "헬스/라이프스타일",
+    "team_size_bucket": "unknown",
+    "founder_experience": "unknown",
+    "revenue_annual_usd_est": 456000,
+    "normalize_note": "ARR $456K 확인치.",
+    "revenue_bucket": "100K-1M",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "klar",
+    "founders": [
+      "Andreas",
+      "Isabel",
+      "Eric"
+    ],
+    "product": "Klar",
+    "domain": "AI 교육 플랫폼",
+    "one_liner": "대학생들이 만든 AI 학습 시스템",
+    "team_size": "3인 (대학생)",
+    "region": "unknown",
+    "revenue": "출시 30일만에 ARR €130,000, 이후 인수 제안 받음",
+    "revenue_date": "2025",
+    "exit_status": "운영 중(인수 제안)",
+    "stack": [
+      "Lovable"
+    ],
+    "ai_tools": [
+      "Lovable"
+    ],
+    "founder_background": "unknown",
+    "business_model": "AI 교육 플랫폼 구독",
+    "sources": [
+      "https://founder-stories-showcase.lovable.app/"
+    ],
+    "confidence": "low",
+    "domain_category": "교육",
+    "team_size_bucket": "2-3",
+    "founder_experience": "first-time",
+    "revenue_annual_usd_est": 140400,
+    "normalize_note": "ARR €130K, EUR→USD 1.08 적용.",
+    "revenue_bucket": "100K-1M",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "quicktables",
+    "founders": [
+      "Jaleel",
+      "Hussein",
+      "Morten",
+      "Zanyar"
+    ],
+    "product": "QuickTables",
+    "domain": "레스토랑 관리 플랫폼",
+    "one_liner": "레스토랑 운영 관리 SaaS",
+    "team_size": "4인",
+    "region": "unknown",
+    "revenue": "2개월만에 ARR €100,000, 이후 인수됨",
+    "revenue_date": "2025",
+    "exit_status": "acquired",
+    "stack": [
+      "Lovable"
+    ],
+    "ai_tools": [
+      "Lovable"
+    ],
+    "founder_background": "unknown",
+    "business_model": "레스토랑 운영 소프트웨어 구독",
+    "sources": [
+      "https://founder-stories-showcase.lovable.app/"
+    ],
+    "confidence": "low",
+    "domain_category": "생산성/업무도구 SaaS",
+    "team_size_bucket": "4+",
+    "founder_experience": "unknown",
+    "revenue_annual_usd_est": 108000,
+    "exit_value_usd": null,
+    "normalize_note": "ARR €100K, EUR→USD 1.08 적용. 인수됐으나 금액 비공개.",
+    "revenue_bucket": "100K-1M",
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "appbilchat",
+    "founders": [
+      "박현중"
+    ],
+    "product": "앱빌챗",
+    "domain": "AI 앱 개발 대행 SaaS (한국)",
+    "one_liner": "채팅으로 아이디어를 설명하면 AI PM이 요구사항을 구조화하고 AI+엔지니어 협업으로 앱 개발부터 출시·서버운영까지 대행",
+    "team_size": "unknown (법인, AI+인간 엔지니어 협업 구조)",
+    "region": "한국",
+    "revenue": "unknown (법인 설립 3개월만에 프리시드 투자유치, 4개월만에 TIPS 선정)",
+    "revenue_date": "2026",
+    "exit_status": "운영 중",
+    "stack": [
+      "자체 AI PM + AI/엔지니어 협업 개발"
+    ],
+    "ai_tools": [
+      "unknown"
+    ],
+    "founder_background": "unknown",
+    "business_model": "구독형 앱 개발 대행 서비스(B2B/B2C)",
+    "sources": [
+      "https://zdnet.co.kr/view/?no=20260617083532"
+    ],
+    "confidence": "medium",
+    "domain_category": "AI 코딩/개발툴",
+    "team_size_bucket": "unknown",
+    "founder_experience": "serial",
+    "revenue_annual_usd_est": null,
+    "normalize_note": "매출 비공개.",
+    "revenue_bucket": "unknown",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "gendy",
+    "founders": [
+      "어보브테크 공동창업팀"
+    ],
+    "product": "젠디(Gendy)",
+    "domain": "AI 컴패니언 상담 콘텐츠 (한국)",
+    "one_liner": "사주·헤어·심리·타로 등을 다루는 AI 컴패니언 상담 콘텐츠 플랫폼",
+    "team_size": "unknown (소규모 추정)",
+    "region": "한국",
+    "revenue": "런칭 6개월만에 월 1억원(이전 월 3천→5천만원 단계 거침), 회원 4만명, 유료전환율 약 30%",
+    "revenue_date": "2026",
+    "exit_status": "운영 중",
+    "stack": [
+      "GPT Pro",
+      "Cursor",
+      "Perplexity",
+      "LLM 챗봇",
+      "스레드 API 자동화 마케팅"
+    ],
+    "ai_tools": [
+      "GPT Pro",
+      "Cursor",
+      "Perplexity"
+    ],
+    "founder_background": "unknown",
+    "business_model": "앱 내 AI 상담 콘텐츠 유료 판매",
+    "sources": [
+      "https://maily.so/unsexybusinesskr/posts/92zew8j7zep"
+    ],
+    "confidence": "medium",
+    "domain_category": "컴패니언/엔터테인먼트",
+    "team_size_bucket": "unknown",
+    "founder_experience": "serial",
+    "revenue_annual_usd_est": 888888,
+    "normalize_note": "월 1억원, KRW→USD 1350 적용 후 연환산.",
+    "revenue_bucket": "100K-1M",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "relic-ai",
+    "founders": [
+      "뤼튼/보이저엑스 출신 공동창업자 2인"
+    ],
+    "product": "릴리스 AI (Relic AI)",
+    "domain": "AI 유튜브 요약 서비스 (한국)",
+    "one_liner": "유튜브 영상을 한국어로 요약해주는 AI 서비스",
+    "team_size": "2인",
+    "region": "한국",
+    "revenue": "출시 6개월 시점 월 1,000만원, 사용자 14만명 이상",
+    "revenue_date": "2025-2026",
+    "exit_status": "운영 중",
+    "stack": [
+      "LLM 기반 요약"
+    ],
+    "ai_tools": [
+      "unknown"
+    ],
+    "founder_background": "developer",
+    "business_model": "페이드마케팅·투자 없이 유기적 성장(구독/이용료 추정)",
+    "sources": [
+      "https://eopla.net/magazines/15235",
+      "https://disquiet.io/articles/W9sy71"
+    ],
+    "confidence": "medium",
+    "domain_category": "생산성/업무도구 SaaS",
+    "team_size_bucket": "2-3",
+    "founder_experience": "unknown",
+    "revenue_annual_usd_est": 88888,
+    "normalize_note": "월 1,000만원, KRW→USD 1350 적용 후 연환산.",
+    "revenue_bucket": "<100K",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "trend-widget",
+    "founders": [
+      "맥그리(닉네임)"
+    ],
+    "product": "실검위젯",
+    "domain": "실시간 검색어/뉴스 위젯 앱 (한국)",
+    "one_liner": "스마트폰 홈화면 위젯으로 실시간 검색어와 AI 요약 뉴스를 제공",
+    "team_size": "1인 추정",
+    "region": "한국",
+    "revenue": "unknown (다운로드 2만+, DAU 4,000명 이상)",
+    "revenue_date": "2025-2026",
+    "exit_status": "운영 중",
+    "stack": [
+      "KIRO(무료 AI 코드 어시스턴트)",
+      "Cursor AI"
+    ],
+    "ai_tools": [
+      "KIRO",
+      "Cursor AI"
+    ],
+    "founder_background": "developer",
+    "business_model": "unknown (인앱, 토스 미니앱 연동 계획)",
+    "sources": [
+      "https://www.gpters.org/dev/post/service-created-vibe-coding-x5dpT0BzKfnigQG"
+    ],
+    "confidence": "low",
+    "domain_category": "커뮤니티/미디어",
+    "team_size_bucket": "solo",
+    "founder_experience": "unknown",
+    "revenue_annual_usd_est": null,
+    "normalize_note": "매출 비공개, DAU만 확인.",
+    "revenue_bucket": "unknown",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "my-askai",
+    "founders": [
+      "Mike Heap",
+      "Alex Rainey"
+    ],
+    "product": "My AskAI",
+    "domain": "AI 고객상담 챗봇",
+    "one_liner": "웹사이트 콘텐츠를 학습해 응답하는 AI 고객상담 챗봇 서비스",
+    "team_size": "초기 2인, 고객 12,000명 보유",
+    "region": "unknown",
+    "revenue": "월 약 5천만원 (연 약 6억원)",
+    "revenue_date": "unknown",
+    "exit_status": "운영 중",
+    "stack": [
+      "Bubble(노코드)",
+      "ChatGPT"
+    ],
+    "ai_tools": [
+      "ChatGPT"
+    ],
+    "founder_background": "non-developer",
+    "business_model": "SaaS 구독, 2주마다 웹사이트 자동 재학습",
+    "sources": [
+      "https://eopla.net/magazines/32478"
+    ],
+    "confidence": "low",
+    "domain_category": "생산성/업무도구 SaaS",
+    "team_size_bucket": "2-3",
+    "founder_experience": "unknown",
+    "revenue_annual_usd_est": 444444,
+    "normalize_note": "월 5,000만원, KRW→USD 1350 적용 후 연환산.",
+    "revenue_bucket": "100K-1M",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "flexiple",
+    "founders": [
+      "unknown"
+    ],
+    "product": "Flexiple",
+    "domain": "프리랜서 개발자 매칭 플랫폼",
+    "one_liner": "상위 1% 프리랜서 개발자와 기업을 매칭",
+    "team_size": "1인(창업 초기)",
+    "region": "unknown",
+    "revenue": "연 30억원 이상",
+    "revenue_date": "unknown",
+    "exit_status": "운영 중",
+    "stack": [
+      "Unicorn Platform",
+      "Webflow",
+      "Airtable",
+      "Zapier",
+      "Memberstack (노코드)"
+    ],
+    "ai_tools": [
+      "unknown"
+    ],
+    "founder_background": "unknown",
+    "business_model": "매칭 수수료",
+    "sources": [
+      "https://maily.so/unsexybusinesskr/posts/32z8pd0jrn4"
+    ],
+    "confidence": "low",
+    "domain_category": "B2B 대행/컨설팅",
+    "team_size_bucket": "solo",
+    "founder_experience": "unknown",
+    "revenue_annual_usd_est": 2222222,
+    "normalize_note": "연 30억원, KRW→USD 1350 적용.",
+    "revenue_bucket": "1M-10M",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "formula-bot",
+    "founders": [
+      "unknown (10년차 데이터 분석가)"
+    ],
+    "product": "Formula Bot",
+    "domain": "AI 엑셀/SQL 함수 생성",
+    "one_liner": "엑셀/SQL 함수를 AI로 자동 생성해주는 서비스",
+    "team_size": "1인",
+    "region": "unknown",
+    "revenue": "연 4억원",
+    "revenue_date": "unknown",
+    "exit_status": "운영 중",
+    "stack": [
+      "Bubble(노코드)",
+      "OpenAI API"
+    ],
+    "ai_tools": [
+      "OpenAI API"
+    ],
+    "founder_background": "mixed",
+    "business_model": "구독료 기반 SaaS",
+    "sources": [
+      "https://maily.so/unsexybusinesskr/posts/32z8pd0jrn4"
+    ],
+    "confidence": "low",
+    "domain_category": "생산성/업무도구 SaaS",
+    "team_size_bucket": "solo",
+    "founder_experience": "unknown",
+    "revenue_annual_usd_est": 296296,
+    "normalize_note": "연 4억원, KRW→USD 1350 적용.",
+    "revenue_bucket": "100K-1M",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "ai-coding-consultancy",
+    "founders": [
+      "Prajwal Tomar"
+    ],
+    "product": "Ignyt Labs / AI MVP Builders",
+    "domain": "AI 활용 MVP 개발 에이전시",
+    "one_liner": "AI 툴을 활용해 21일만에 클라이언트 MVP를 만들어주는 컨설팅 시스템",
+    "team_size": "unknown(에이전시)",
+    "region": "unknown",
+    "revenue": "unknown (45개 이상 MVP 납품)",
+    "revenue_date": "unknown",
+    "exit_status": "운영 중",
+    "stack": [
+      "Lovable",
+      "Cursor+Claude Code",
+      "CodeRabbit"
+    ],
+    "ai_tools": [
+      "Lovable",
+      "Cursor",
+      "Claude Code"
+    ],
+    "founder_background": "unknown",
+    "business_model": "컨설팅/에이전시",
+    "sources": [
+      "https://iamjohnellison.substack.com/p/the-vibe-coding-wave-is-here-5-builders"
+    ],
+    "confidence": "low",
+    "domain_category": "B2B 대행/컨설팅",
+    "team_size_bucket": "unknown",
+    "founder_experience": "unknown",
+    "revenue_annual_usd_est": null,
+    "normalize_note": "매출 비공개, 프로젝트 건수만 확인.",
+    "revenue_bucket": "unknown",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "anything",
+    "founders": [
+      "Dhruv Amin",
+      "Marcus Lowe"
+    ],
+    "product": "Anything",
+    "domain": "AI 코딩 플랫폼",
+    "one_liner": "AI 코딩 플랫폼 스타트업(엔드유저 제품이 아닌 플랫폼 자체), 출시 2주만에 ARR $2M",
+    "team_size": "unknown",
+    "region": "미국",
+    "revenue": "출시 2주만에 ARR $2M, 기업가치 $100M",
+    "revenue_date": "2025-09",
+    "exit_status": "운영 중",
+    "stack": [
+      "unknown"
+    ],
+    "ai_tools": [
+      "unknown"
+    ],
+    "founder_background": "developer",
+    "business_model": "AI 코딩 플랫폼 SaaS",
+    "sources": [
+      "https://techcrunch.com/2025/09/29/vibe-coding-startup-anything-nabs-a-100m-valuation-after-hitting-2m-arr-in-its-first-two-weeks/"
+    ],
+    "confidence": "medium",
+    "domain_category": "AI 코딩/개발툴",
+    "team_size_bucket": "2-3",
+    "founder_experience": "unknown",
+    "revenue_annual_usd_est": 2000000,
+    "valuation_usd": 100000000,
+    "normalize_note": "출시 2주 시점 ARR $2M(초기 급성장 구간, 유지 여부 불확실).",
+    "revenue_bucket": "1M-10M",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "simon-berg-portfolio",
+    "founders": [
+      "Simon Berg"
+    ],
+    "product": "Frame My Home / Spellbound (MSH Studios)",
+    "domain": "AI 인테리어 아트 프린트 / AI 교육 앱",
+    "one_liner": "집·반려동물 사진을 AI 아트 액자로, 철자 학습지를 인터랙티브 게임으로 변환",
+    "team_size": "제품당 1~2인",
+    "region": "영국",
+    "revenue": "신규 벤처 매출 비공개 (이전 회사 Ceros는 연 매출 약 $60M까지 성장 후 지분 58% 매각)",
+    "revenue_date": "2025-2026",
+    "exit_status": "운영 중",
+    "stack": [
+      "Bolt.new",
+      "Stripe",
+      "11 Labs",
+      "AI 에이전트"
+    ],
+    "ai_tools": [
+      "Bolt.new"
+    ],
+    "founder_background": "unknown",
+    "business_model": "Frame My Home=주문제작 프린트, Spellbound=교육 구독",
+    "sources": [
+      "https://bolt.new/blog/how-ceo-built-two-businesses-with-bolt"
+    ],
+    "confidence": "high",
+    "domain_category": "커머스/마케팅",
+    "team_size_bucket": "2-3",
+    "founder_experience": "serial",
+    "revenue_annual_usd_est": null,
+    "normalize_note": "신규 벤처 매출 비공개. 이전 회사 Ceros는 ARR $60M까지 성장(참고용, 이 사례의 매출 아님).",
+    "revenue_bucket": "unknown",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "ingested_at": "2026-08-10"
+  }
+]

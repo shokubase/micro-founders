@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>바이브코딩 창업 사례 DB</title>
+<link rel="alternate" type="application/rss+xml" title="새 사례 RSS" href="feed.xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <h1>바이브코딩 / 에이전틱 코딩 창업 사례 DB</h1>
+    <p class="subtitle">1인·소규모 팀이 AI 코딩 도구로 만들고 수익화한 사례 아카이브</p>
+    <div class="header-meta">
+      <span id="case-count"></span>
+      <span id="new-badge" class="new-badge" hidden></span>
+      <a href="feed.xml" class="rss-link" title="RSS 구독">RSS</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="filters" aria-label="필터">
+    <div class="filter-group">
+      <h3>도메인</h3>
+      <div id="filter-domain" class="chip-group"></div>
+    </div>
+    <div class="filter-group">
+      <h3>팀 규모</h3>
+      <div id="filter-team" class="chip-group"></div>
+    </div>
+    <div class="filter-group">
+      <h3>매출 구간 (연환산 추정, USD)</h3>
+      <div id="filter-revenue" class="chip-group"></div>
+    </div>
+    <div class="filter-group">
+      <h3>창업자 배경</h3>
+      <div id="filter-background" class="chip-group"></div>
+    </div>
+    <div class="filter-group search-group">
+      <h3>검색</h3>
+      <input id="search-box" type="text" placeholder="창업자, 제품명, 키워드 검색...">
+    </div>
+    <div class="filter-group">
+      <h3>정렬</h3>
+      <select id="sort-select">
+        <option value="revenue-desc">매출 높은 순</option>
+        <option value="revenue-asc">매출 낮은 순</option>
+        <option value="recent">최근 추가 순</option>
+        <option value="confidence">신뢰도 높은 순</option>
+      </select>
+    </div>
+    <button id="reset-filters">필터 초기화</button>
+  </section>
+
+  <section id="results" class="card-grid" aria-label="사례 목록"></section>
+</main>
+
+<div id="modal-backdrop" class="modal-backdrop" hidden>
+  <div id="modal" class="modal" role="dialog" aria-modal="true">
+    <button id="modal-close" class="modal-close" aria-label="닫기">×</button>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>데이터는 공개된 뉴스·인터뷰·커뮤니티 게시물을 기반으로 정리한 것으로, 매출/규모 수치는 원문 인용이거나 추정치입니다(각 카드에 신뢰도 표기). 출처는 각 사례 상세에서 확인할 수 있습니다.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

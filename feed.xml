@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>바이브코딩 창업 사례 DB — 신규 사례</title>
+  <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+  <description>1인/소규모 팀 AI 창업 사례 아카이브에 새로 추가된 사례</description>
+  <item>
+    <title>Base44 — Maor Shlomo</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#base44</guid>
+    <description>프롬프트만으로 백엔드/DB/인증까지 포함된 풀스택 앱을 생성해주는 노코드 AI 플랫폼</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>Nomad List / RemoteOK / Photo AI / Interior AI (포트폴리오) — Pieter Levels</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#pieter-levels-portfolio</guid>
+    <description>디지털 노마드 커뮤니티/구인 플랫폼과 AI 사진·인테리어 생성 서비스 등 수십 개 제품을 혼자 운영</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>HeadshotPro — Danny Postma</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#headshotpro</guid>
+    <description>링크드인/기업용 전문 프로필 사진을 AI로 생성해주는 서비스</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>Cal AI — Zach Yadegari, Henry Langmack, Blake Anderson, Jake Castillo</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#cal-ai</guid>
+    <description>음식 사진을 찍으면 AI가 칼로리/영양성분을 분석해주는 모바일 앱</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>Cluely — Chungin (Roy) Lee, Neel Shanmugam, Alex Chen</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#cluely</guid>
+    <description>면접·회의 중 화면과 음성을 보고 실시간으로 답변을 제안해주는 투명 오버레이 AI 어시스턴트 (초기엔 '면접 커닝툴'로 시작)</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>ShipFast + 인디 제품 포트폴리오 — Marc Lou</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#marc-lou-portfolio</guid>
+    <description>빠른 SaaS 런칭을 위한 Next.js 보일러플레이트 판매 및 다수의 사이드 프로젝트 운영</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>Tweet Hunter / Taplio — Tibo (Thibault) Louis-Lucas</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#tweethunter-taplio</guid>
+    <description>AI 보조 콘텐츠 작성·예약 기능으로 X/LinkedIn 퍼스널 브랜드 성장을 돕는 SaaS</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>Lovable (구 GPT Engineer) — Anton Osika, Fabian Hedin</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#lovable</guid>
+    <description>자연어 프롬프트로 프론트엔드/백엔드/DB까지 자동 생성하는 스웨덴발 바이브코딩 유니콘</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>Bolt.new (by StackBlitz) — Eric Simons</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#bolt-new</guid>
+    <description>브라우저 내에서 프롬프트로 풀스택 앱을 즉시 생성·배포하는 AI 코딩 에이전트</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>Cursor (Anysphere) — Michael Truell, 외 3명</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#cursor</guid>
+    <description>바이브코딩 시대에 널리 쓰이는 AI 기반 코드 에디터</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>Wave AI — Josh Mohrer</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#wave-ai</guid>
+    <description>대화를 녹음·전사·요약해주는 AI 음성노트 앱, 엔지니어링부터 고객지원까지 혼자 운영</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>(제품명 비공개, AI 비즈니스 관리 툴) — Ben Broca</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#ben-broca</guid>
+    <description>이메일·코딩·고객응대·구독관리 등을 AI로 처리해 직원 없이 운영하는 SaaS</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>Deep Personality — Bryce Edwards, Andrew Wilkinson</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#deep-personality</guid>
+    <description>AI 기반 성격분석 및 커플 궁합 평가 서비스</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>DreamGF — Georgi Dimitrov</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#dreamgf</guid>
+    <description>커스터마이징 가능한 AI 챗봇+이미지생성 가상 컴패니언 서비스</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>AppAlchemy — Diego Roshardt</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#appalchemy</guid>
+    <description>다운로드 없이 브라우저에서 네이티브 앱을 만드는 노코드 앱 빌더</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>Launch Fast — Hasaam Bhatti</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#launch-fast</guid>
+    <description>아마존 셀러를 위한 상품 리서치/카탈로그관리/광고최적화 크롬 확장 프로그램</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>Sleek (sleek.design) — Mattia Pomelli, 외 2명(친구)</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#sleek-design</guid>
+    <description>대화형으로 앱 UI를 디자인해주는 '바이브 디자인' AI 툴, 코딩/디자인 지식 불필요</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>Habit Pixel — Hirvesh Munogee</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#habit-pixel</guid>
+    <description>픽셀아트 게이미피케이션 요소가 있는 크로스플랫폼 습관 트래커</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>Subscribr — Gil Hildebrand, (18개월 후 공동창업자 합류)</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#subscribr</guid>
+    <description>유튜브 크리에이터의 영상 아이디어/패키징/스크립트 기획을 돕는 AI 툴</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>StoryShort.ai / UseArtemis / Capacity.so — Samuel Rondot</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#samuel-rondot-portfolio</guid>
+    <description>검증된 서비스를 벤치마킹해 복제·개선하는 방식으로 여러 SaaS를 운영하는 1인 포트폴리오</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>Lancer — Ivan Nedelkovski</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#lancer</guid>
+    <description>Upwork에서 프리랜서의 리드 발굴과 제안서 제출을 자동화하는 AI 에이전트</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>Creator Buddy — Alex Finn</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#creator-buddy</guid>
+    <description>X(트위터) 게시물을 분석해 개인화된 콘텐츠를 생성해주는 AI 도구</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>Vibed Agents — Paulius (@0xPaulius)</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#vibed-agents</guid>
+    <description>자율 코딩 에이전트를 배포해 앱을 만들어주는 플랫폼</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>Plinq — Sabrine Matos</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#plinq</guid>
+    <description>상대방을 공개 범죄기록과 대조 확인해주는 데이팅 안전 앱(위험도 평가, 패닉버튼 등)</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>Klar — Andreas, Isabel, Eric</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#klar</guid>
+    <description>대학생들이 만든 AI 학습 시스템</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>QuickTables — Jaleel, Hussein, Morten, Zanyar</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#quicktables</guid>
+    <description>레스토랑 운영 관리 SaaS</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>앱빌챗 — 박현중</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#appbilchat</guid>
+    <description>채팅으로 아이디어를 설명하면 AI PM이 요구사항을 구조화하고 AI+엔지니어 협업으로 앱 개발부터 출시·서버운영까지 대행</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>젠디(Gendy) — 어보브테크 공동창업팀</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#gendy</guid>
+    <description>사주·헤어·심리·타로 등을 다루는 AI 컴패니언 상담 콘텐츠 플랫폼</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>릴리스 AI (Relic AI) — 뤼튼/보이저엑스 출신 공동창업자 2인</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#relic-ai</guid>
+    <description>유튜브 영상을 한국어로 요약해주는 AI 서비스</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>실검위젯 — 맥그리(닉네임)</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#trend-widget</guid>
+    <description>스마트폰 홈화면 위젯으로 실시간 검색어와 AI 요약 뉴스를 제공</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>My AskAI — Mike Heap, Alex Rainey</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#my-askai</guid>
+    <description>웹사이트 콘텐츠를 학습해 응답하는 AI 고객상담 챗봇 서비스</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>Flexiple — unknown</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#flexiple</guid>
+    <description>상위 1% 프리랜서 개발자와 기업을 매칭</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>Formula Bot — unknown (10년차 데이터 분석가)</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#formula-bot</guid>
+    <description>엑셀/SQL 함수를 AI로 자동 생성해주는 서비스</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>Ignyt Labs / AI MVP Builders — Prajwal Tomar</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#ai-coding-consultancy</guid>
+    <description>AI 툴을 활용해 21일만에 클라이언트 MVP를 만들어주는 컨설팅 시스템</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>Anything — Dhruv Amin, Marcus Lowe</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#anything</guid>
+    <description>AI 코딩 플랫폼 스타트업(엔드유저 제품이 아닌 플랫폼 자체), 출시 2주만에 ARR $2M</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+  <item>
+    <title>Frame My Home / Spellbound (MSH Studios) — Simon Berg</title>
+    <link>https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/</link>
+    <guid isPermaLink="false">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/#simon-berg-portfolio</guid>
+    <description>집·반려동물 사진을 AI 아트 액자로, 철자 학습지를 인터랙티브 게임으로 변환</description>
+    <pubDate>2026-08-10</pubDate>
+  </item>
+</channel>
+</rss>
