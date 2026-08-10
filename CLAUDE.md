@@ -41,10 +41,16 @@ build_feed.py  →  feed.xml             (RSS 생성 — cases.json 기반)
 
 ## 4. 사례 추가 절차
 
-1. `build_raw.py`의 `cases` 리스트에 dict 추가 (id는 kebab-case, 중복 확인)
-2. `build_normalize.py`의 `ENRICH`에 같은 id로 정규화 필드 추가 (`normalize_note`에 추정 근거 필수)
-3. 파이프라인 3종 재실행 → `raw_cases.json`, `cases.json`, `feed.xml` 갱신
-4. 커밋 메시지에 추가된 사례 수와 출처 요약
+**신규 사례는 반드시 [RESEARCH_PIPELINE.md](RESEARCH_PIPELINE.md)의 4단계(발견→추출→검증→반영)를
+거친다.** 2차 출처만으로 DB 직행 금지 — 1차 출처 검증 없이 반영된 사례에서 통화 단위·창업자
+수·매출액 오류가 실증된 바 있다 (2026-08-10 재검증). 요약:
+
+1. 후보를 `data/candidates/<id>.json`에 적재 (스키마는 RESEARCH_PIPELINE.md §3)
+2. 검증 체크리스트 수행 후 `python3 check_candidates.py` 통과 확인
+3. 사용자 승인된 후보만 `build_raw.py`의 `cases` 리스트에 dict 추가 (id는 kebab-case)
+4. `build_normalize.py`의 `ENRICH`에 같은 id로 정규화 필드 추가 (`normalize_note`에 추정 근거 필수)
+5. 파이프라인 3종 재실행 → `raw_cases.json`, `cases.json`, `feed.xml` 갱신, candidate는 `merged`로
+6. 커밋 메시지에 추가된 사례 수와 출처 요약
 
 ## 5. 컨벤션
 
