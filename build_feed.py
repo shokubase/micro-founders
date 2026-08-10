@@ -1,7 +1,7 @@
 import json
 from xml.sax.saxutils import escape
 
-SITE_URL = "https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/"  # TODO: 실제 배포 URL로 교체
+SITE_URL = "https://shokubase.github.io/micro-founders/"
 
 cases = json.load(open("data/cases.json", encoding="utf-8"))
 cases.sort(key=lambda c: c.get("ingested_at", ""), reverse=True)
