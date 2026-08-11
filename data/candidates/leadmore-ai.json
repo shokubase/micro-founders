@@ -1,0 +1,51 @@
+{
+ "id": "leadmore-ai",
+ "status": "rejected",
+ "discovered_at": "2026-08-11",
+ "discovery_source": "https://www.indiehackers.com/post/tech/hitting-30k-mrr-with-an-ai-marketing-product-n59ORJCYjnZC61Q096UL (Tier1 IH, 2025-12-18) — Tier3 검색(tamimbuilds Medium 리스트)에서 리드 포착",
+ "case": {
+  "id": "leadmore-ai",
+  "founders": [
+   "Richard Wang"
+  ],
+  "product": "Leadmore AI",
+  "domain": "Reddit 리드 발굴/마케팅 SaaS",
+  "one_liner": "Reddit 대화를 찾아 밴 없이 리드에 접근하게 해주는 AI 마케팅 툴",
+  "team_size": "1인 (초기 1~2명 언급)",
+  "region": "unknown",
+  "revenue": "월 $30K 초과 (본인 IH 인터뷰 2025-12-18); 2차 출처는 2026년 초 ARR $1M 주장",
+  "revenue_date": "2025-12",
+  "exit_status": "운영 중",
+  "stack": [
+   "Next.js",
+   "Go (Gin)"
+  ],
+  "ai_tools": [],
+  "founder_background": "대기업 엔지니어링·프로덕트 5년 경력 후 독립",
+  "business_model": "크레딧 기반 종량제 (미사용 크레딧 환불 가능)",
+  "sources": [
+   "https://www.indiehackers.com/post/tech/hitting-30k-mrr-with-an-ai-marketing-product-n59ORJCYjnZC61Q096UL",
+   "https://leadmore.ai"
+  ],
+  "confidence": "medium"
+ },
+ "verification": {
+  "verified_at": "2026-08-11",
+  "checklist_passed": [
+   "existence:pass",
+   "figures:pass",
+   "scope:fail"
+  ],
+  "primary_sources": [
+   "https://www.indiehackers.com/post/tech/hitting-30k-mrr-with-an-ai-marketing-product-n59ORJCYjnZC61Q096UL (창업자 본인 인터뷰 발화, 2025-12-18, \">$30K a month\")"
+  ],
+  "corrections": [
+   "2차 출처(startupfounderstories.com, builtwithagents.ai)의 'ARR $1M by early 2026' 및 '2024년 창업' 표기는 본인 발화로 확인 안 됨 — 채택 불가"
+  ],
+  "excluded_figures": [
+   "[figures] ARR $1M (2026년 초) — 2차 출처만, unverifiable"
+  ],
+  "confidence_recommendation": "medium",
+  "notes": "판정: 스코프 렌즈 fail → rejected. 본인 IH 인터뷰로 $30K/월은 확보됐고 제품·창업자 실존도 확인. 기각 사유는 AI 코딩 도구 사용 근거 부재 — 인터뷰의 스택 서술은 Next.js + Go(Gin)뿐이고 Cursor/Claude Code/Lovable 등 언급 전무. 창업자가 원래 대기업 엔지니어 출신이라 '비개발자가 AI 툴로 만든' 유형도 아님. 제품이 AI를 쓰는 것(AI 마케팅 SaaS)과 AI 코딩 도구로 만든 것은 별개 — 이 구분에서 탈락. (2026-08-11 수동조사)"
+ }
+}

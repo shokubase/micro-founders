@@ -161,8 +161,8 @@
     "one_liner": "빠른 SaaS 런칭을 위한 Next.js 보일러플레이트 판매 및 다수의 사이드 프로젝트 운영",
     "team_size": "1인",
     "region": "프랑스",
-    "revenue": "ShipFast 4개월간 $528K 보고; 포트폴리오 전체 월 $100K+ 보고된 시기 있음",
-    "revenue_date": "2023-2024",
+    "revenue": "ShipFast 4개월간 $528K 보고; 2025년 연 매출 $1,032,000 (본인 뉴스레터 2026-01-04 공개, 2024년 대비 20% 감소) — 내역: CodeFast 월 약 $20K, ShipFast 월 약 $20K, DataFast MRR $15.8K, TrustMRR(24시간 제작) 런칭 후 MRR $25K 정점; 본인 월별 공개 예: 2025-07 $48,921, 2025-10 $66,040",
+    "revenue_date": "2023-2025",
     "exit_status": "운영 중",
     "stack": [
       "Next.js"
@@ -174,9 +174,11 @@
     "business_model": "보일러플레이트/템플릿 일회성 판매 + 사이드 SaaS 구독",
     "sources": [
       "https://www.starterstory.com/marc-lou-shipfast",
-      "https://newsletter.marclou.com/p/i-made-250000-usd-selling-javascript"
+      "https://newsletter.marclou.com/p/i-made-250000-usd-selling-javascript",
+      "https://newsletter.marclou.com/p/i-made-1-032-000-in-2025",
+      "https://x.com/marc_louvion/status/1984327198774616533"
     ],
-    "confidence": "medium"
+    "confidence": "high"
   },
   {
     "id": "tweethunter-taplio",
@@ -271,9 +273,9 @@
     "one_liner": "바이브코딩 시대에 널리 쓰이는 AI 기반 코드 에디터",
     "team_size": "MIT 졸업생 4인 창업팀에서 급성장",
     "region": "미국",
-    "revenue": "2025-11 $2.3B 투자유치(기업가치 $29.3B); 2026-04 추가 $50B+ 밸류 라운드 협상 보도",
+    "revenue": "2025-11 $2.3B 투자유치(기업가치 $29.3B); 2026-02 ARR $2B 도달 보도; 2026-06-16 SpaceX와 $60B 전액 주식교환 합병계약 체결(스타트업 인수 사상 최대) — 2026-08 현재 규제 승인 대기, 2026 3분기 클로징 예상",
     "revenue_date": "2025-2026",
-    "exit_status": "운영 중 (유니콘)",
+    "exit_status": "acquired 예정 (SpaceX $60B 합병계약 체결, 클로징 미완료)",
     "stack": [
       "unknown"
     ],
@@ -283,7 +285,10 @@
     "founder_background": "MIT 졸업생/중퇴자 4인, 현재 억만장자로 보도됨",
     "business_model": "개발자용 SaaS 구독",
     "sources": [
-      "https://www.forbes.com/sites/rashishrivastava/2025/11/13/four-cofounders-of-popular-ai-coding-tool-cursor-are-now-billionaires/"
+      "https://www.forbes.com/sites/rashishrivastava/2025/11/13/four-cofounders-of-popular-ai-coding-tool-cursor-are-now-billionaires/",
+      "https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html",
+      "https://www.cbsnews.com/news/spacex-cursor-60-billion-ai-acquisition/",
+      "https://www.forbes.com/sites/sandycarter/2026/06/16/spacex-buys-cursor-in-largest-startup-acquisition-ever-at-60-billion/"
     ],
     "confidence": "high"
   },

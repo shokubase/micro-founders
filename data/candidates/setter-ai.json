@@ -1,0 +1,50 @@
+{
+ "id": "setter-ai",
+ "status": "rejected",
+ "discovered_at": "2026-08-11",
+ "discovery_source": "https://www.indiehackers.com/post/tech/from-desperation-and-dwindling-runway-to-10k-mrr-VRQprGga5zF3UFDqiCqw (Tier1 IH, 2025-07-29)",
+ "case": {
+  "id": "setter-ai",
+  "founders": [
+   "Josef Büttgen"
+  ],
+  "product": "Setter AI",
+  "domain": "AI 세일즈 어포인트먼트 세터 (WhatsApp 리드 응대)",
+  "one_liner": "12개월 12스타트업 챌린지 3개월차에 나온 AI 리드 응대 SaaS",
+  "team_size": "2인 추정 (공동창업자 언급, 총 인원 미명시)",
+  "region": "unknown (독일권 추정)",
+  "revenue": "MRR $10,000 (2025-07-29 기준, 런칭 약 1.5년 후)",
+  "revenue_date": "2025-07",
+  "exit_status": "운영 중",
+  "stack": [
+   "SvelteKit",
+   "Supabase",
+   "DaisyUI",
+   "Clerk",
+   "Netlify Functions"
+  ],
+  "ai_tools": [],
+  "founder_background": "연쇄 시도형 인디해커 (첫 제품 약 1년 실패 후 12/12 챌린지)",
+  "business_model": "구독 SaaS (처리 리드 수 기반) + 고접점 고객 일회성 셋업 패키지",
+  "sources": [
+   "https://www.indiehackers.com/post/tech/from-desperation-and-dwindling-runway-to-10k-mrr-VRQprGga5zF3UFDqiCqw",
+   "https://www.trysetter.com/"
+  ],
+  "confidence": "medium"
+ },
+ "verification": {
+  "verified_at": "2026-08-11",
+  "checklist_passed": [
+   "existence:pass",
+   "figures:pass",
+   "scope:fail"
+  ],
+  "primary_sources": [
+   "https://www.indiehackers.com/post/tech/from-desperation-and-dwindling-runway-to-10k-mrr-VRQprGga5zF3UFDqiCqw (창업자 본인 인터뷰 발화, 2025-07-29)"
+  ],
+  "corrections": [],
+  "excluded_figures": [],
+  "confidence_recommendation": "medium",
+  "notes": "판정: 스코프 렌즈 fail → rejected. AI 코딩 도구 사용 근거 부재 — 인터뷰가 스택을 SvelteKit/Supabase/DaisyUI/Clerk/Netlify로 구체적으로 밝히면서도 Cursor/Claude Code류는 전혀 언급하지 않음. 제품이 AI 세일즈 에이전트라는 점은 스코프 요건이 아님(leadmore-ai와 동일 유형의 탈락). 수치·실존은 이상 없음. (2026-08-11 수동조사)"
+ }
+}

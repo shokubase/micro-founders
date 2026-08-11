@@ -1,0 +1,48 @@
+{
+ "id": "artmvstd",
+ "status": "rejected",
+ "discovered_at": "2026-08-11",
+ "discovery_source": "https://www.indiehackers.com/post/tech/from-failed-app-to-30-app-portfolio-making-22k-mo-in-less-than-a-year-myy3U7K9evxGOVOHti8s (Tier1 IH, 2025-12-10)",
+ "case": {
+  "id": "artmvstd",
+  "founders": [
+   "Max Artemov"
+  ],
+  "product": "ARTMVSTD (30개 앱 포트폴리오)",
+  "domain": "모바일 앱 포트폴리오 (광고 수익 중심)",
+  "one_liner": "단일 앱 5년 실패 후 12개월간 경량 앱 30개+로 전환한 1인 포트폴리오",
+  "team_size": "1인",
+  "region": "unknown",
+  "revenue": "앱 30개 합산 MRR $22K (2025-12 기준)",
+  "revenue_date": "2025-12",
+  "exit_status": "운영 중",
+  "stack": [
+   "Flutter",
+   "Firebase",
+   "CAS(광고 미디에이션)"
+  ],
+  "ai_tools": [],
+  "founder_background": "모바일 앱 개발자 (칼로리 카운터 앱 5년 시도 후 전략 전환)",
+  "business_model": "인앱 광고 + 유료 유저 획득(UA)",
+  "sources": [
+   "https://www.indiehackers.com/post/tech/from-failed-app-to-30-app-portfolio-making-22k-mo-in-less-than-a-year-myy3U7K9evxGOVOHti8s",
+   "https://x.com/maks6361"
+  ],
+  "confidence": "medium"
+ },
+ "verification": {
+  "verified_at": "2026-08-11",
+  "checklist_passed": [
+   "existence:pass",
+   "figures:pass",
+   "scope:fail"
+  ],
+  "primary_sources": [
+   "https://www.indiehackers.com/post/tech/from-failed-app-to-30-app-portfolio-making-22k-mo-in-less-than-a-year-myy3U7K9evxGOVOHti8s (창업자 본인 인터뷰 발화, 2025-12-10, \"over 30 apps bringing in a total MRR of $22k\")"
+  ],
+  "corrections": [],
+  "excluded_figures": [],
+  "confidence_recommendation": "medium",
+  "notes": "판정: 스코프 렌즈 fail → rejected. AI 코딩 도구 언급 전무 — Flutter + Firebase 수작업 양산 모델이고 성장 동력도 코딩 도구가 아니라 광고 미디에이션·UA 최적화. 수익 모델이 광고 중심인 점도 기존 사례군(구독/SaaS)과 결이 다름. 수치·실존은 이상 없음. AI 도구 도입 발화가 확인되면 재검토 가능. (2026-08-11 수동조사)"
+ }
+}
