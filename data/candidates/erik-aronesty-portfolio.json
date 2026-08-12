@@ -33,7 +33,8 @@
    "https://dirtsignal.com"
   ],
   "confidence": "low",
-  "id": "erik-aronesty-portfolio"
+  "id": "erik-aronesty-portfolio",
+  "founded_year": null
  },
  "verification": {
   "verified_at": null,
@@ -44,6 +45,6 @@
   "corrections": [],
   "excluded_figures": [],
   "confidence_recommendation": null,
-  "notes": "스코프: 본인이 밝힌 스택에 Codex·Claude가 포함되고 \"Usually, Hermes+Gpt5.6 makes all the decisions\"라고 발화. 다만 이것이 **개발 도구인지 런타임 구성요소인지 원문에서 구분되지 않는다** — 검증 시 확정 필요. 구분 실패 시 borderline.\n\n검증 시 판정 필요:\n(1) 수치 성격 — 본인이 '대부분 경상매출이 아니다'라고 명시. 월 $15K를 MRR로 표기하면 오류. 연환산 시 특히 주의.\n(2) 사업 성격 — OnwardTravel은 'dummy ticket'(비자·입국심사용 임시 항공예약 증명) 판매다. 합법 영역이나 회색지대라는 지적이 있는 업종이므로 아카이브 게재 시 도메인 설명을 중립적·정확하게 쓸 것. 스코프 기각 사유는 아님.\n(3) 제품 30개 중 실제 매출 기여는 3개 — product 필드에 전부 나열하지 말 것."
+  "notes": "스코프: 본인이 밝힌 스택에 Codex·Claude가 포함되고 \"Usually, Hermes+Gpt5.6 makes all the decisions\"라고 발화. 다만 이것이 **개발 도구인지 런타임 구성요소인지 원문에서 구분되지 않는다** — 검증 시 확정 필요. 구분 실패 시 borderline.\n\n검증 시 판정 필요:\n(1) 수치 성격 — 본인이 '대부분 경상매출이 아니다'라고 명시. 월 $15K를 MRR로 표기하면 오류. 연환산 시 특히 주의.\n(2) 사업 성격 — OnwardTravel은 'dummy ticket'(비자·입국심사용 임시 항공예약 증명) 판매다. 합법 영역이나 회색지대라는 지적이 있는 업종이므로 아카이브 게재 시 도메인 설명을 중립적·정확하게 쓸 것. 스코프 기각 사유는 아님.\n(3) 제품 30개 중 실제 매출 기여는 3개 — product 필드에 전부 나열하지 말 것.\n\n## Stage 2 사전 스크리닝 (2026-08-12)\n\n- `founded_year`: 미확정 — 미확인 — 검증 시 확정 필요\n\n**[항목 수치가 총액의 퍼센트 배분값]** OnwardTravel 70%=$10.5K, DirtSignal 20%=$3K, 롱테일 10%=$1.5K가 $15,000에 정확히 대응한다. 즉 제품별 금액이 독립 측정값이 아니라 총액을 비율로 나눈 값이다 — 개별 금액을 실측치처럼 싣지 말 것. 또 본인이 '대부분 경상매출이 아니다'라고 명시했으므로 연환산 시 특히 주의.\n\n- `region`이 unknown이면 창업자 GitHub·dev.to·LinkedIn 프로필의 location 필드를 먼저 볼 것 (2026-08-12에 unknown으로 둔 2건이 모두 여기 있었다).\n\n- `region`: 미확정. GitHub·dev.to 프로필을 검색으로 특정하지 못했다.\n- **[founder_background 보강 근거]** 이전에 보안기업 **Atakama의 CTO**였고 Cybersecurity Excellence Awards 후보로 등재된 인물이다. 후보 파일은 '약 30개 프로젝트를 병행 운영하는 1인 개발자'까지만 적었다 — 경력 배경이 빠져 있어 '1인 인디'라는 인상만 준다. 확인해 반영할 것.\n- DirtSignal은 부동산 투자자용 압류·행정처분 정보 서비스로 확인된다 (natlawreview 보도) — domain 서술 정확도 보강 가능.\n"
  }
 }

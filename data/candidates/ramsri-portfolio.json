@@ -29,7 +29,8 @@
    "https://questgen.ai",
    "https://supermeme.ai"
   ],
-  "confidence": "medium"
+  "confidence": "medium",
+  "founded_year": 2022
  },
  "verification": {
   "verified_at": null,
@@ -40,6 +41,6 @@
   "corrections": [],
   "excluded_figures": [],
   "confidence_recommendation": null,
-  "notes": "도구 발화가 명시적으로 확보된 드문 건 — \"Nowadays, I use tools like Claude Code to vibe code and add features.\"\n\n검증 시 판정 필요 사항:\n(1) 스코프 핵심 쟁점 — Questgen은 4년 전 출시로 **AI 코딩 도구 이전에 만들어졌고**, Claude Code는 현재 기능 추가에 쓰인다(\"Nowadays\"). 즉 '도구로 만든 사례'가 아니라 '도구로 유지·확장하는 사례'다. 이 구분을 scope-judge가 판정해야 한다 — 아카이브가 어느 쪽까지 담을지에 대한 선례가 될 건이다.\n(2) 수치 불일치 — 헤드라인 \"$6.5K a month\" vs 본문 \"between $6k and $7k MRR\". 본문 범위 표기를 채택하고 헤드라인은 배제할 것.\n(3) 매출 추세 — 2025년 정점 ARR $100K에서 현재 월 $6~7K(연 $72~84K)로 **하락 추세**로 보인다. 현재형 표기 시 주의.\n(4) region·team_size 미확인."
+  "notes": "도구 발화가 명시적으로 확보된 드문 건 — \"Nowadays, I use tools like Claude Code to vibe code and add features.\"\n\n검증 시 판정 필요 사항:\n(1) 스코프 핵심 쟁점 — Questgen은 4년 전 출시로 **AI 코딩 도구 이전에 만들어졌고**, Claude Code는 현재 기능 추가에 쓰인다(\"Nowadays\"). 즉 '도구로 만든 사례'가 아니라 '도구로 유지·확장하는 사례'다. 이 구분을 scope-judge가 판정해야 한다 — 아카이브가 어느 쪽까지 담을지에 대한 선례가 될 건이다.\n(2) 수치 불일치 — 헤드라인 \"$6.5K a month\" vs 본문 \"between $6k and $7k MRR\". 본문 범위 표기를 채택하고 헤드라인은 배제할 것.\n(3) 매출 추세 — 2025년 정점 ARR $100K에서 현재 월 $6~7K(연 $72~84K)로 **하락 추세**로 보인다. 현재형 표기 시 주의.\n(4) region·team_size 미확인.\n\n## Stage 2 사전 스크리닝 (2026-08-12)\n\n- `founded_year`: 2022 — Questgen이 2026-07 시점 '출시 4년'이라 약 2022년\n\n**[스코프 결정적]** 최초 제품 Questgen이 약 2022년 출시로 **스코프 창(2023~) 밖**이다. 본인 도구 발화는 \"**Nowadays**, I use tools like Claude Code to vibe code and add features\"로 현재형이다 — 즉 '도구로 만든 사례'가 아니라 '도구로 유지·확장하는 사례'다. laravel-shift(2015)·savvycal(2020)·superpower-chatgpt(2022)는 같은 축에서 기각됐다. scope-judge가 '유지·확장형'을 스코프에 넣을지 판정해야 하며, 이는 선례가 된다.\n\n- `region`: '인도 추정'은 이름 기반 추정으로 미확인. **이름으로 국적을 추정하지 말 것** — klipy에서 같은 오류를 정정했다. 본인 GitHub·dev.to·LinkedIn 프로필 location을 확인할 것.\n"
  }
 }
