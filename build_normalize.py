@@ -149,6 +149,10 @@ ENRICH = {
     founder_background="developer", founder_experience="first-time",
     revenue_annual_usd_est=126000,
     normalize_note="앱 매출 월 ~$10.5K × 12 (2026-05 자가보고). 2025-11 주력 앱 퇴출 후 하락 추세(RevenueCat 연동 트래커 기준 단일 앱 MRR $1.4K, 2026-08) — 스냅샷 시점 주의. 플랫폼 리스크 표본."),
+"ninjapear": dict(domain_category="생산성/업무도구 SaaS", team_size_bucket="solo",
+    founder_background="developer", founder_experience="serial",
+    revenue_annual_usd_est=180000, ingested_at="2026-08-12",
+    normalize_note="월 총매출 $15K × 12 (2026-05 실적, 본인 발화). **연환산은 정렬용 기계 계산이며 본인 ARR 주장이 아니다** — 크레딧 종량 충전을 포함한 gross라 MRR이 아니고, 본인이 밝힌 ARR은 2026-03 시점 $66K(실적)와 $1M(목표)뿐. 런칭 2026-01-30이므로 $15K는 4개월차 수치. region '싱가포르'는 Nubela Pte. Ltd. 법인 소재지 기준이며 창업자 본인 거주지 발화는 미확보. 이전 회사 Proxycurl의 ARR $10M은 별건이라 합산하지 않음. 창업자가 이전 exit 2건과 초기 암호화폐 투자로 '수익 압박 없이 무기한 운영 가능'하다고 발화(2026-07) — 매출 램프 해석 시 참고."),
 }
 
 def bucket(v):
@@ -171,7 +175,10 @@ for c in raw:
     merged.setdefault("exit_value_usd", None)
     merged.setdefault("funding_usd", None)
     merged.setdefault("valuation_usd", None)
-    merged["ingested_at"] = "2026-08-10"
+    # 기본값은 최초 일괄 적재일. 이후 추가되는 사례는 ENRICH에 ingested_at을 넣어
+    # 실제 반영일로 덮는다 — app.js의 신규 배지가 이 값으로 계산되므로, 전부 같은
+    # 날짜면 신규 사례가 방문자에게 새것으로 보이지 않는다.
+    merged["ingested_at"] = e.get("ingested_at", "2026-08-10")
     out.append(merged)
 
 with open("data/cases.json", "w", encoding="utf-8") as f:

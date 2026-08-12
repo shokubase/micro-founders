@@ -1583,5 +1583,47 @@
     "funding_usd": null,
     "valuation_usd": null,
     "ingested_at": "2026-08-10"
+  },
+  {
+    "id": "ninjapear",
+    "founders": [
+      "Steven Goh"
+    ],
+    "product": "NinjaPear",
+    "domain": "B2B 데이터 엔리치먼트 API",
+    "one_liner": "이전 회사가 소송으로 문을 닫은 뒤 Claude Code로 2주 만에 만들어 재출발한 데이터 엔리치먼트 API",
+    "team_size": "1인 (채용 계획 없음을 본인 명시)",
+    "region": "싱가포르",
+    "revenue": "월 총매출(gross) $15,000 초과 — 2026-05 실적, 본인 블로그(2026-06-30) \"15K revenue last mo\" 및 인터뷰 \"We did over $15k in gross revenue last month\". 같은 글에 \"more than 10K in the last 2 months\"도 병존해 월 $10K~15K대 범위. 본인 ARR 발화는 2026-03 $66K(실적)와 $1M(목표)뿐",
+    "revenue_date": "2026-05",
+    "exit_status": "운영 중 (본인 흑자 발화)",
+    "stack": [
+      "자택 하드웨어 Kubernetes (Intel NUC + Framework)",
+      "OpenRouter",
+      "Xero"
+    ],
+    "ai_tools": [
+      "Claude Code",
+      "Codex"
+    ],
+    "founder_background": "developer",
+    "business_model": "하이브리드 — 구독 플랜 + PAYG 크레딧 (3일·10크레딧 무료체험)",
+    "sources": [
+      "https://www.indiehackers.com/post/MMWkpCaClOB6wVgbuPI7",
+      "https://nubela.co/blog/how-im-building-a-1m-arr-venture-with-ai-as-a-bootstrapped-solo-founder-15k-revenue-last-mo-10m-last-exit-w-proxycurl/",
+      "https://nubela.co/blog/introducing-ninjapear-2026-customer-listing-api/",
+      "https://nubela.co/blog/introducing-person-profile-endpoint-also-1000-users-66k-arr/"
+    ],
+    "confidence": "high",
+    "domain_category": "생산성/업무도구 SaaS",
+    "team_size_bucket": "solo",
+    "founder_experience": "serial",
+    "revenue_annual_usd_est": 180000,
+    "ingested_at": "2026-08-12",
+    "normalize_note": "월 총매출 $15K × 12 (2026-05 실적, 본인 발화). **연환산은 정렬용 기계 계산이며 본인 ARR 주장이 아니다** — 크레딧 종량 충전을 포함한 gross라 MRR이 아니고, 본인이 밝힌 ARR은 2026-03 시점 $66K(실적)와 $1M(목표)뿐. 런칭 2026-01-30이므로 $15K는 4개월차 수치. region '싱가포르'는 Nubela Pte. Ltd. 법인 소재지 기준이며 창업자 본인 거주지 발화는 미확보. 이전 회사 Proxycurl의 ARR $10M은 별건이라 합산하지 않음. 창업자가 이전 exit 2건과 초기 암호화폐 투자로 '수익 압박 없이 무기한 운영 가능'하다고 발화(2026-07) — 매출 램프 해석 시 참고.",
+    "revenue_bucket": "100K-1M",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null
   }
 ]

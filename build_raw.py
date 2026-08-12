@@ -426,6 +426,23 @@ dict(id="stoppr", founders=["David Attias"], product="STOPPR 외 앱 포트폴�
      sources=["https://www.indiehackers.com/post/tech/from-zero-to-10k-mo-app-portfolio-in-a-year-71h2PPGYn1VnPOkj9qi6",
               "https://www.whatsthe.app/com.stoppr.app",
               "https://x.com/david_attisaas/status/1998081954856513893"], confidence="medium"),
+
+dict(id="ninjapear", founders=["Steven Goh"], product="NinjaPear",
+     domain="B2B 데이터 엔리치먼트 API",
+     one_liner="이전 회사가 소송으로 문을 닫은 뒤 Claude Code로 2주 만에 만들어 재출발한 데이터 엔리치먼트 API",
+     team_size="1인 (채용 계획 없음을 본인 명시)",
+     region="싱가포르",
+     revenue="월 총매출(gross) $15,000 초과 — 2026-05 실적, 본인 블로그(2026-06-30) \"15K revenue last mo\" 및 인터뷰 \"We did over $15k in gross revenue last month\". 같은 글에 \"more than 10K in the last 2 months\"도 병존해 월 $10K~15K대 범위. 본인 ARR 발화는 2026-03 $66K(실적)와 $1M(목표)뿐",
+     revenue_date="2026-05", exit_status="운영 중 (본인 흑자 발화)",
+     stack=["자택 하드웨어 Kubernetes (Intel NUC + Framework)", "OpenRouter", "Xero"],
+     ai_tools=["Claude Code", "Codex"],
+     founder_background="연쇄창업가. 이전 회사 Proxycurl(SWE 과반 포함 약 60인)을 ARR $10M까지 키웠으나 2025-01 LinkedIn 소송 후 2025-07 서비스 종료. 이후 '경쟁사에 매각'이라 발화했으나 본인의 종료 공지 및 독립 보도는 셧다운으로만 기술 — 매각은 미확인",
+     business_model="하이브리드 — 구독 플랜 + PAYG 크레딧 (3일·10크레딧 무료체험)",
+     sources=["https://www.indiehackers.com/post/MMWkpCaClOB6wVgbuPI7",
+              "https://nubela.co/blog/how-im-building-a-1m-arr-venture-with-ai-as-a-bootstrapped-solo-founder-15k-revenue-last-mo-10m-last-exit-w-proxycurl/",
+              "https://nubela.co/blog/introducing-ninjapear-2026-customer-listing-api/",
+              "https://nubela.co/blog/introducing-person-profile-endpoint-also-1000-users-66k-arr/"],
+     confidence="high"),
 ]
 
 with open("data/raw_cases.json", "w", encoding="utf-8") as f:
