@@ -1,0 +1,49 @@
+{
+ "id": "savvycal",
+ "status": "rejected",
+ "discovered_at": "2026-08-12",
+ "discovery_source": "https://www.indiehackers.com/tech 피드 직접 순회 (Tier1) — 2026-08-05 게시글: https://www.indiehackers.com/post/24ddaphAJ0Zn3m4RKtqc",
+ "case": {
+  "founders": [
+   "Derrick Reimer"
+  ],
+  "product": "SavvyCal",
+  "domain": "일정 조율 SaaS",
+  "one_liner": "시장을 수개월 분석한 뒤 만든 일정 조율 도구",
+  "team_size": "3인 (창업자 + 풀스택 1 + 지원 1)",
+  "region": "미국",
+  "revenue": "월 $10,000 초과 (5-figure MRR 표현)",
+  "revenue_date": "2026-08",
+  "exit_status": "운영 중",
+  "stack": [
+   "Elixir",
+   "Phoenix",
+   "React",
+   "Inertia.js"
+  ],
+  "ai_tools": [],
+  "founder_background": "연쇄창업가 (이전 대형 시도 실패 후)",
+  "business_model": "사용자당 구독(Meetings) + 사용량·계약 기반 영업형(Appointments)",
+  "sources": [
+   "https://www.indiehackers.com/post/24ddaphAJ0Zn3m4RKtqc",
+   "https://savvycal.com"
+  ],
+  "confidence": "medium",
+  "id": "savvycal"
+ },
+ "verification": {
+  "verified_at": "2026-08-12",
+  "checklist_passed": [
+   "existence:pass",
+   "figures:pass",
+   "scope:fail"
+  ],
+  "primary_sources": [
+   "https://www.indiehackers.com/post/24ddaphAJ0Zn3m4RKtqc (창업자 본인 인터뷰, 2026-08-05)"
+  ],
+  "corrections": [],
+  "excluded_figures": [],
+  "confidence_recommendation": "medium",
+  "notes": "판정: 스코프 렌즈 fail → rejected. **2020년 창업**으로 AI 코딩 도구 시대 이전이고 도구 언급도 없다(Elixir/Phoenix 스택). (2026-08-12 수동조사)"
+ }
+}

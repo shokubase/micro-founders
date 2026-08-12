@@ -1,0 +1,47 @@
+{
+ "id": "bazzly",
+ "status": "pending_verification",
+ "discovered_at": "2026-08-12",
+ "discovery_source": "https://www.indiehackers.com/tech 피드 직접 순회 (Tier1) — 2026-07-16 게시글: https://www.indiehackers.com/post/xaDBfmynasknHQkim3sO",
+ "case": {
+  "founders": [
+   "Filip Panoski"
+  ],
+  "product": "Bazzly",
+  "domain": "SaaS (세부 확인 필요)",
+  "one_liner": "5번 실패 후 퇴사하고 12개월 만에 월 $7.5K에 도달한 1인 제품",
+  "team_size": "1인 (MRR $1K 시점에 매출 50% 배분 파트너 1인 합류)",
+  "region": "unknown",
+  "revenue": "월 $7.5K (MRR $5K + 일회성 확장매출 $2.5K); $0 → $100 → $1K → $5K MRR을 12개월에 통과",
+  "revenue_date": "2026-07",
+  "exit_status": "운영 중",
+  "stack": [
+   "Next.js",
+   "Supabase",
+   "Node.js",
+   "React"
+  ],
+  "ai_tools": [
+   "unknown (본인이 AI 활용을 긍정 발화하나 도구명 미특정)"
+  ],
+  "founder_background": "기술 창업자, 제품 5회 실패 후 전업 전환",
+  "business_model": "구독 + 일회성 충전, 이후 단일 $99/월 플랜으로 단순화",
+  "sources": [
+   "https://www.indiehackers.com/post/xaDBfmynasknHQkim3sO",
+   "https://www.bazzly.ai/"
+  ],
+  "confidence": "medium",
+  "id": "bazzly"
+ },
+ "verification": {
+  "verified_at": null,
+  "checklist_passed": [],
+  "primary_sources": [
+   "https://www.indiehackers.com/post/xaDBfmynasknHQkim3sO (창업자 본인 인터뷰, 2026-07-16)"
+  ],
+  "corrections": [],
+  "excluded_figures": [],
+  "confidence_recommendation": null,
+  "notes": "스코프: 도구명은 없으나 긍정 발화 확보 — \"Being a technical founder, AI gave me a big advantage to ship fast and build quality software\". 새 기준상 명시적 부정이 아니므로 fail이 아니라 borderline → pass 처리 대상. 도구 특정은 본인 X/블로그 확인 필요.\n\n검증 시 판정 필요:\n(1) domain이 불명 — 기사에서 제품 카테고리를 확정할 것.\n(2) 수치 — MRR $5K와 일회성 $2.5K 분리 표기 필수.\n(3) 출시 연도 미명시(2025년 추정) — 확정 필요."
+ }
+}

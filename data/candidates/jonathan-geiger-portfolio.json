@@ -1,0 +1,45 @@
+{
+ "id": "jonathan-geiger-portfolio",
+ "status": "pending_verification",
+ "discovered_at": "2026-08-12",
+ "discovery_source": "https://www.indiehackers.com/tech 피드 직접 순회 (Tier1) — 2026-07-28 게시글: https://www.indiehackers.com/post/5kZRj2Lln7jO7nVVoYFP",
+ "case": {
+  "founders": [
+   "Jonathan Geiger"
+  ],
+  "product": "SocialKit / PostPeer",
+  "domain": "소셜미디어 데이터 API·게시 도구",
+  "one_liner": "3년간 사이드로 시도하다 5·6번째 제품에서 트랙션을 얻은 개발자 API 포트폴리오",
+  "team_size": "1인 (PostPeer는 플랫폼 연동 담당 파트너 1인 합류)",
+  "region": "unknown",
+  "revenue": "합계 MRR $6.4K — SocialKit 월 약 $3.5K(MRR $2.8K + 일회성 약 $700, 활성구독 110건), PostPeer 월 약 $2.9K(MRR $2.4K + 일회성 약 $500, 유저 1,000명)",
+  "revenue_date": "2026-07",
+  "exit_status": "운영 중",
+  "stack": [
+   "unknown"
+  ],
+  "ai_tools": [
+   "Claude"
+  ],
+  "founder_background": "3년간 사이드 프로젝트를 반복하다 전업 전환",
+  "business_model": "API 사용량 크레딧 구독 + 일회성 크레딧 팩",
+  "sources": [
+   "https://www.indiehackers.com/post/5kZRj2Lln7jO7nVVoYFP",
+   "https://socialkit.dev",
+   "https://postpeer.dev"
+  ],
+  "confidence": "medium",
+  "id": "jonathan-geiger-portfolio"
+ },
+ "verification": {
+  "verified_at": null,
+  "checklist_passed": [],
+  "primary_sources": [
+   "https://www.indiehackers.com/post/5kZRj2Lln7jO7nVVoYFP (창업자 본인 인터뷰, 2026-07-28)"
+  ],
+  "corrections": [],
+  "excluded_figures": [],
+  "confidence_recommendation": null,
+  "notes": "도구 발화 원문: \"Claude is my team, from writing code to (recently) running my social media through my own API.\" — 코드 작성에 쓴다는 명시가 있으나 **제품명이 'Claude'이지 'Claude Code'가 아니다.** 검증 시 어느 쪽인지 확인할 것.\n\n검증 시 판정 필요:\n(1) 출시 시점 — SocialKit 약 2025-06, PostPeer 2026-04. 둘 다 스코프 창 안.\n(2) 수치 구성 — MRR과 일회성 매출이 섞여 있다. 합계 $6.4K를 MRR로 표기하면 부풀려진다. 원문대로 분리 표기할 것.\n(3) team_size — PostPeer에 파트너가 있어 제품별로 다르다. 포트폴리오 단위 표기 주의."
+ }
+}

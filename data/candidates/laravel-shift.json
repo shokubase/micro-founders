@@ -1,0 +1,51 @@
+{
+ "id": "laravel-shift",
+ "status": "rejected",
+ "discovered_at": "2026-08-12",
+ "discovery_source": "https://www.indiehackers.com/tech 피드 직접 순회 (Tier1) — 2026-06-30 게시글: https://www.indiehackers.com/post/9GL6b2gcc31LXjx7g3yC",
+ "case": {
+  "founders": [
+   "Jason McCreary"
+  ],
+  "product": "Shift (laravelshift.com)",
+  "domain": "Laravel 자동 업그레이드 개발자 도구",
+  "one_liner": "Laravel 버전 업그레이드를 자동화해 월 $50K를 만든 1인 개발자 도구",
+  "team_size": "1인",
+  "region": "unknown",
+  "revenue": "MRR $50,000",
+  "revenue_date": "2026-06",
+  "exit_status": "운영 중",
+  "stack": [
+   "PHP",
+   "Laravel",
+   "Tailwind CSS",
+   "Stripe",
+   "Pusher",
+   "AWS SES"
+  ],
+  "ai_tools": [],
+  "founder_background": "Laravel 커뮤니티 개발자",
+  "business_model": "종량 실행 + 구독 (매출 반반)",
+  "sources": [
+   "https://www.indiehackers.com/post/9GL6b2gcc31LXjx7g3yC",
+   "https://laravelshift.com"
+  ],
+  "confidence": "medium",
+  "id": "laravel-shift"
+ },
+ "verification": {
+  "verified_at": "2026-08-12",
+  "checklist_passed": [
+   "existence:pass",
+   "figures:pass",
+   "scope:fail"
+  ],
+  "primary_sources": [
+   "https://www.indiehackers.com/post/9GL6b2gcc31LXjx7g3yC (창업자 본인 인터뷰, 2026-06-30)"
+  ],
+  "corrections": [],
+  "excluded_figures": [],
+  "confidence_recommendation": "medium",
+  "notes": "판정: 스코프 렌즈 fail → rejected. **2015-12-23 창업**으로 AI 코딩 도구 시대보다 7년 이상 앞선다. 도구 언급도 없다. flexiple 제거 선례와 동일. (2026-08-12 수동조사)"
+ }
+}

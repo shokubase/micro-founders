@@ -1,0 +1,46 @@
+{
+ "id": "jobric",
+ "status": "pending_verification",
+ "discovered_at": "2026-08-12",
+ "discovery_source": "https://www.indiehackers.com/tech 피드 직접 순회 (Tier1) — 2026-06-26 게시글: https://www.indiehackers.com/post/eb5timbPqFlDFWZjha9i",
+ "case": {
+  "founders": [
+   "Erik Chavez"
+  ],
+  "product": "Jobric",
+  "domain": "구직자 매칭 플랫폼",
+  "one_liner": "본업을 유지하며 2개월 만에 MRR $3.3K에 도달한 구직 매칭 서비스",
+  "team_size": "1인 (영역별 프랙셔널 자문 활용)",
+  "region": "unknown",
+  "revenue": "MRR $3,300 (2026-05 기준, 2026-05-01 출시 후 2개월 내 달성)",
+  "revenue_date": "2026-05",
+  "exit_status": "운영 중",
+  "stack": [
+   "Python",
+   "TypeScript",
+   "Node"
+  ],
+  "ai_tools": [
+   "자체 운영 소형 언어모델"
+  ],
+  "founder_background": "클라우드 아키텍처 15년 이상 경력",
+  "business_model": "구독 3단계 (무료 Seeker / Candidate $29·월 / Contender $49·월)",
+  "sources": [
+   "https://www.indiehackers.com/post/eb5timbPqFlDFWZjha9i",
+   "https://www.jobric.ai"
+  ],
+  "confidence": "medium",
+  "id": "jobric"
+ },
+ "verification": {
+  "verified_at": null,
+  "checklist_passed": [],
+  "primary_sources": [
+   "https://www.indiehackers.com/post/eb5timbPqFlDFWZjha9i (창업자 본인 인터뷰, 2026-06-26)"
+  ],
+  "corrections": [],
+  "excluded_figures": [],
+  "confidence_recommendation": null,
+  "notes": "2026-05-01 출시로 스코프 창 안이며 가장 최근 사례군.\n\n검증 시 판정 필요:\n(1) 본문은 외부 AI 서비스 대신 **소형 언어모델을 자체 운영**한다고 서술한다. 이는 제품 구성이지 제작 도구가 아니다.\n(2) 규모가 작다(MRR $3.3K). 기존 DB 최저선(habit-pixel MRR $1K)보다는 크지만 하위권.\n(3) 출시 2개월 시점 수치라 지속성 미확인 — revenue_date를 반드시 명기할 것.\n\n**스코프 상태: borderline (도구 근거 미확보).** 본문에 AI 코딩 도구 언급이 없으나 **명시적 부정도 없다.** 새 기준(scope-judge)상 이는 `fail`이 아니라 `unknown`이며 borderline → pass 처리 대상이다. 검증 시 창업자 본인 공개 계정 1곳 이상(X/LinkedIn/블로그/체인지로그)을 확인해 도구를 특정하고, 찾지 못하면 `ai_tools: unknown`으로 두되 기각 사유로 삼지 말 것."
+ }
+}

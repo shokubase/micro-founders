@@ -1,0 +1,49 @@
+{
+ "id": "erik-aronesty-portfolio",
+ "status": "pending_verification",
+ "discovered_at": "2026-08-12",
+ "discovery_source": "https://www.indiehackers.com/tech 피드 직접 순회 (Tier1) — 2026-07-22 게시글: https://www.indiehackers.com/post/n5NdriCp6HBqm4ApZO05",
+ "case": {
+  "founders": [
+   "Erik Aronesty"
+  ],
+  "product": "OnwardTravel / DirtSignal / PrismClip (외 약 30개 프로젝트)",
+  "domain": "폐기 도메인 기반 기수요 대상 서비스 포트폴리오",
+  "one_liner": "이미 수요가 있는 폐기 도메인을 사들여 그 위에 서비스를 얹는 방식의 포트폴리오",
+  "team_size": "1인",
+  "region": "unknown",
+  "revenue": "월 약 $15,000 (본인 발화상 대부분 경상매출 아님) — OnwardTravel 약 70%($10.5K), DirtSignal 약 20%($3K), 롱테일 약 10%($1.5K)",
+  "revenue_date": "2026-07",
+  "exit_status": "운영 중 (PrismClip은 매출 전)",
+  "stack": [
+   "Cloudflare",
+   "DigitalOcean managed Postgres",
+   "BoxPDF",
+   "LakeQL"
+  ],
+  "ai_tools": [
+   "Codex",
+   "Claude"
+  ],
+  "founder_background": "약 30개 프로젝트를 병행 운영하는 1인 개발자",
+  "business_model": "서비스별 상이 (OnwardTravel: 예약증명 발급, DirtSignal: 데이터/정보공개청구 대행)",
+  "sources": [
+   "https://www.indiehackers.com/post/n5NdriCp6HBqm4ApZO05",
+   "https://onwardtravel.com",
+   "https://dirtsignal.com"
+  ],
+  "confidence": "low",
+  "id": "erik-aronesty-portfolio"
+ },
+ "verification": {
+  "verified_at": null,
+  "checklist_passed": [],
+  "primary_sources": [
+   "https://www.indiehackers.com/post/n5NdriCp6HBqm4ApZO05 (창업자 본인 인터뷰, 2026-07-22)"
+  ],
+  "corrections": [],
+  "excluded_figures": [],
+  "confidence_recommendation": null,
+  "notes": "스코프: 본인이 밝힌 스택에 Codex·Claude가 포함되고 \"Usually, Hermes+Gpt5.6 makes all the decisions\"라고 발화. 다만 이것이 **개발 도구인지 런타임 구성요소인지 원문에서 구분되지 않는다** — 검증 시 확정 필요. 구분 실패 시 borderline.\n\n검증 시 판정 필요:\n(1) 수치 성격 — 본인이 '대부분 경상매출이 아니다'라고 명시. 월 $15K를 MRR로 표기하면 오류. 연환산 시 특히 주의.\n(2) 사업 성격 — OnwardTravel은 'dummy ticket'(비자·입국심사용 임시 항공예약 증명) 판매다. 합법 영역이나 회색지대라는 지적이 있는 업종이므로 아카이브 게재 시 도메인 설명을 중립적·정확하게 쓸 것. 스코프 기각 사유는 아님.\n(3) 제품 30개 중 실제 매출 기여는 3개 — product 필드에 전부 나열하지 말 것."
+ }
+}

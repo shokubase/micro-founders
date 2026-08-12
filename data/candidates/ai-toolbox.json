@@ -1,0 +1,45 @@
+{
+ "id": "ai-toolbox",
+ "status": "pending_verification",
+ "discovered_at": "2026-08-12",
+ "discovery_source": "https://www.indiehackers.com/tech 피드 직접 순회 (Tier1) — 2026-07-23 게시글: https://www.indiehackers.com/post/ltsw3AYvsvslFIYZtYZG",
+ "case": {
+  "founders": [
+   "Adi Leviim",
+   "Mohammad El-Esawi"
+  ],
+  "product": "AI Toolbox",
+  "domain": "크롬 확장 기반 AI 유틸리티 묶음",
+  "one_liner": "크롬 웹스토어 마켓플레이스 유통을 지렛대로 2년 만에 5자리 MRR에 도달",
+  "team_size": "2인",
+  "region": "unknown",
+  "revenue": "월 $10,000 초과 (5-figure MRR 표현, 정확한 수치 비공개)",
+  "revenue_date": "2026-07",
+  "exit_status": "운영 중",
+  "stack": [
+   "TypeScript (UI 프레임워크 미사용)"
+  ],
+  "ai_tools": [
+   "unknown"
+  ],
+  "founder_background": "본인이 문제를 발견하고 퇴사해 창업",
+  "business_model": "프리미엄 (월 구독 + 라이프타임, All Access·팀 시트 플랜 추가)",
+  "sources": [
+   "https://www.indiehackers.com/post/ltsw3AYvsvslFIYZtYZG",
+   "https://ai-toolbox.co/"
+  ],
+  "confidence": "medium",
+  "id": "ai-toolbox"
+ },
+ "verification": {
+  "verified_at": null,
+  "checklist_passed": [],
+  "primary_sources": [
+   "https://www.indiehackers.com/post/ltsw3AYvsvslFIYZtYZG (창업자 본인 인터뷰, 2026-07-23)"
+  ],
+  "corrections": [],
+  "excluded_figures": [],
+  "confidence_recommendation": null,
+  "notes": "2024년 중반 착안, 2024-09 크롬 웹스토어 출시 — 스코프 창 안.\n\n검증 시 판정 필요:\n(1) 매출이 '$10K 초과'로만 공개되고 정확한 수치가 없다. revenue_bucket 배정 시 하한값으로 처리할 것.\n(2) React·Vue를 의도적으로 피하고 TypeScript 직접 작성이라는 서술이 있어, 도구 사용 여부 확인이 특히 필요하다.\n\n**스코프 상태: borderline (도구 근거 미확보).** 본문에 AI 코딩 도구 언급이 없으나 **명시적 부정도 없다.** 새 기준(scope-judge)상 이는 `fail`이 아니라 `unknown`이며 borderline → pass 처리 대상이다. 검증 시 창업자 본인 공개 계정 1곳 이상(X/LinkedIn/블로그/체인지로그)을 확인해 도구를 특정하고, 찾지 못하면 `ai_tools: unknown`으로 두되 기각 사유로 삼지 말 것."
+ }
+}

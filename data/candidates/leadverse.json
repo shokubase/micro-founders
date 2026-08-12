@@ -1,0 +1,47 @@
+{
+ "id": "leadverse",
+ "status": "pending_verification",
+ "discovered_at": "2026-08-12",
+ "discovery_source": "https://www.indiehackers.com/tech 피드 직접 순회 (Tier1) — 2026-08-11 게시글: https://www.indiehackers.com/post/U9btJ44RYRcAaukCqHoj",
+ "case": {
+  "founders": [
+   "Jakub Mužík"
+  ],
+  "product": "Leadverse",
+  "domain": "LLM 기반 리드 발굴 SaaS",
+  "one_liner": "여러 앱을 반복 출시하다 하나가 궤도에 오른 완전 부트스트랩 제품",
+  "team_size": "1인",
+  "region": "unknown (체코계 추정 — 확인 필요)",
+  "revenue": "MRR $3.3K; 누적 총매출 $20K 초과, 유료 고객 130명 이상",
+  "revenue_date": "2026-08",
+  "exit_status": "운영 중",
+  "stack": [
+   "React",
+   "Supabase",
+   "Stripe",
+   "Resend"
+  ],
+  "ai_tools": [
+   "unknown"
+  ],
+  "founder_background": "다수 앱을 출시했으나 성과가 없다가 이번 제품에서 트랙션 확보",
+  "business_model": "7일 무료체험(카드 선등록) 후 구독 $9/$14/$19·월 + 커스텀 플랜",
+  "sources": [
+   "https://www.indiehackers.com/post/U9btJ44RYRcAaukCqHoj",
+   "https://leadverse.ai/"
+  ],
+  "confidence": "medium",
+  "id": "leadverse"
+ },
+ "verification": {
+  "verified_at": null,
+  "checklist_passed": [],
+  "primary_sources": [
+   "https://www.indiehackers.com/post/U9btJ44RYRcAaukCqHoj (창업자 본인 인터뷰, 2026-08-11)"
+  ],
+  "corrections": [],
+  "excluded_figures": [],
+  "confidence_recommendation": null,
+  "notes": "피드에서 가장 최신 건(2026-08-11).\n\n검증 시 판정 필요:\n(1) 규모가 작다(MRR $3.3K). 다만 유료 고객 130명 이상이라 실체는 뚜렷하다.\n(2) 제품이 LLM을 쓰는 것과 제작에 AI 도구를 쓴 것은 별개 — 혼동하지 말 것.\n(3) region 미확인. 이름만으로 국적을 추정하지 말 것.\n\n**스코프 상태: borderline (도구 근거 미확보).** 본문에 AI 코딩 도구 언급이 없으나 **명시적 부정도 없다.** 새 기준(scope-judge)상 이는 `fail`이 아니라 `unknown`이며 borderline → pass 처리 대상이다. 검증 시 창업자 본인 공개 계정 1곳 이상(X/LinkedIn/블로그/체인지로그)을 확인해 도구를 특정하고, 찾지 못하면 `ai_tools: unknown`으로 두되 기각 사유로 삼지 말 것."
+ }
+}

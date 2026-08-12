@@ -1,0 +1,48 @@
+{
+ "id": "pckgr",
+ "status": "rejected",
+ "discovered_at": "2026-08-12",
+ "discovery_source": "https://www.indiehackers.com/tech 피드 직접 순회 (Tier1) — 2026-07-14 게시글: https://www.indiehackers.com/post/ekxDn4Rdn8zD3uZU2asY",
+ "case": {
+  "founders": [
+   "Thomas Mahony"
+  ],
+  "product": "Pckgr",
+  "domain": "Microsoft 생태계 애플리케이션 패키징 자동화",
+  "one_liner": "MS 생태계 니치에서 연 $1M을 만든 노코드 기반 SaaS",
+  "team_size": "소규모 팀 (명시 없음)",
+  "region": "unknown",
+  "revenue": "월 $83K (연환산 약 $996K), 본문 표현 \"over $1M ARR\"",
+  "revenue_date": "2026-07",
+  "exit_status": "운영 중",
+  "stack": [
+   "Bubble",
+   "GitHub Actions",
+   "Microsoft Azure"
+  ],
+  "ai_tools": [],
+  "founder_background": "직장에서 니치 문제를 발견해 제품화",
+  "business_model": "구독 SaaS (Starter $25/월부터 4단계)",
+  "sources": [
+   "https://www.indiehackers.com/post/ekxDn4Rdn8zD3uZU2asY",
+   "https://pckgr.com/"
+  ],
+  "confidence": "medium",
+  "id": "pckgr"
+ },
+ "verification": {
+  "verified_at": "2026-08-12",
+  "checklist_passed": [
+   "existence:pass",
+   "figures:pass",
+   "scope:fail"
+  ],
+  "primary_sources": [
+   "https://www.indiehackers.com/post/ekxDn4Rdn8zD3uZU2asY (창업자 본인 인터뷰, 2026-07-14)"
+  ],
+  "corrections": [],
+  "excluded_figures": [],
+  "confidence_recommendation": "medium",
+  "notes": "판정: 스코프 렌즈 fail → rejected. 수치·실존은 문제 없음(본인 인터뷰에서 월 $83K 직접 발화).\n\n기각 사유는 **창업자 본인의 명시적 부정**이다: \"This was before AI tools like Claude Code and Cursor were available, so I completed much of the development and troubleshooting manually.\" 그는 현재 상황을 별도로 언급할 뿐이다 — \"With Claude Code and other AI solutions, the barrier to entry feels incredibly low.\"\n\nBubble을 쓰지만 노코드+LLM API 조합(my-askai 선례)이 아니라 순수 노코드+Azure이고, 본인이 AI 도구 이전 제작임을 명시했다. zigpoll과 동일 유형. (2026-08-12 수동조사)"
+ }
+}

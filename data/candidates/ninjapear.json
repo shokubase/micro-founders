@@ -1,0 +1,44 @@
+{
+ "id": "ninjapear",
+ "status": "pending_verification",
+ "discovered_at": "2026-08-12",
+ "discovery_source": "https://www.indiehackers.com/tech 피드 직접 순회 (Tier1) — 2026-07-07 게시글: https://www.indiehackers.com/post/MMWkpCaClOB6wVgbuPI7",
+ "case": {
+  "founders": [
+   "Steven Goh"
+  ],
+  "product": "NinjaPear",
+  "domain": "B2B 데이터 엔리치먼트 API",
+  "one_liner": "이전 회사 매각 정산 2주 뒤 Claude Code로 2주 만에 만들어 런칭한 데이터 API",
+  "team_size": "1인",
+  "region": "unknown",
+  "revenue": "월 $15,000 (2026-07 기준, 총매출 기준이며 본인은 이미 흑자라고 발화)",
+  "revenue_date": "2026-07",
+  "exit_status": "운영 중",
+  "stack": [
+   "unknown"
+  ],
+  "ai_tools": [
+   "Claude Code"
+  ],
+  "founder_background": "연쇄창업가 — 이전 회사 Proxycurl은 ARR $10M 도달 후 LinkedIn 소송을 거쳐 매각",
+  "business_model": "크레딧 기반 (구독 + 종량 충전)",
+  "sources": [
+   "https://www.indiehackers.com/post/MMWkpCaClOB6wVgbuPI7",
+   "https://nubela.co"
+  ],
+  "confidence": "medium",
+  "id": "ninjapear"
+ },
+ "verification": {
+  "verified_at": null,
+  "checklist_passed": [],
+  "primary_sources": [
+   "https://www.indiehackers.com/post/MMWkpCaClOB6wVgbuPI7 (창업자 본인 인터뷰, 2026-07-07)"
+  ],
+  "corrections": [],
+  "excluded_figures": [],
+  "confidence_recommendation": null,
+  "notes": "이번 실행 최상급 스코프 적합 사례. 도구 발화 원문: \"All it took was two weeks of time and a Claude 20x Max subscription.\" — 2026년 제작, 2주, 1인, 도구 명시가 모두 갖춰진 드문 조합.\n\n검증 시 판정 필요:\n(1) 수치 성격 — $15K는 **총매출(gross)**이라고 본인이 명시. MRR인지 월 총매출인지 구분 필요.\n(2) 스코프 경계 — 창업자가 이전 exit 자본과 초기 암호화폐 투자 수익으로 '수익 압박 없이 무기한 운영 가능'하다고 발화. 1인이지만 자본 조건이 일반 인디해커와 다르다. 기각 사유는 아니나 founder_background에 반영할 것.\n(3) Proxycurl ARR $10M·LinkedIn 소송·매각은 별건(이전 회사)이므로 이 사례 수치에 섞지 말 것."
+ }
+}
