@@ -1,6 +1,6 @@
 {
  "id": "rightblogger",
- "status": "pending_verification",
+ "status": "verified",
  "discovered_at": "2026-08-12",
  "discovery_source": "https://www.indiehackers.com/tech 피드 직접 순회 (Tier1) — 2026-07-01 게시글: https://www.indiehackers.com/post/KxUy5Zjfn1hJTTGYrl47",
  "case": {
@@ -11,10 +11,10 @@
   "product": "RightBlogger",
   "domain": "블로거·콘텐츠 마케터용 AI 도구 묶음",
   "one_liner": "오디언스를 먼저 쌓고 그 위에 얹어 첫 주에 MRR $2K를 낸 콘텐츠 SaaS",
-  "team_size": "2인 + COO 1인 최근 합류",
-  "region": "미국 콜로라도",
-  "revenue": "ARR $350K / MRR $29K (2026-07); 2023년 출시 첫 주 MRR $2K",
-  "revenue_date": "2026-07",
+  "team_size": "3인 (창업 2인: Ryan 유통·영업 / Andy 개발, 이후 운영 총괄 1인 합류)",
+  "region": "미국 (원격 분산 — Ryan: 콜로라도 Salida / Andy: 미주리 세인트루이스 / 운영 총괄: 플로리다)",
+  "revenue": "약 $350K/년 — 창업자 본인 발화 \"We're currently at $350k ARR\" (2026-07-01). 2023년 출시 첫 주 본인 발화 \"We got our first $2k MRR during week one\"",
+  "revenue_date": "2026-07 (게재 2026-07-01, 본인 'currently' 발화 기준. 인터뷰 실시일 미공개)",
   "exit_status": "운영 중",
   "stack": [
    "Next.js",
@@ -23,12 +23,10 @@
    "PostgreSQL"
   ],
   "ai_tools": [
-   "Anthropic API",
-   "OpenAI API",
-   "Gemini API"
+   "Claude Code (제작 — 기술 공동창업자 Andy Feliciotti 본인 블로그)"
   ],
-  "founder_background": "블로거 출신 — 제품 출시 전에 오디언스를 먼저 구축",
-  "business_model": "구독 SaaS 3단계 (프리미엄·사용량 과금 없음)",
+  "founder_background": "Ryan Robinson은 ryrob.com 월 독자 약 50만명·이메일 구독 30만명을 12년 축적한 블로거 출신(Forbes·Entrepreneur·FastCompany 기고). Andy Feliciotti는 10년+ 경력 실무 개발자. **선행 오디언스 위에 얹은 출시**로 첫 주에 이미 MRR $2K",
+  "business_model": "구독 SaaS 3단계 — Solo $59 / Pro $89 / Agency $299 (2026-08-12 관측). IH 본문(2026-07-01)은 Agency를 $249로 기재해 그 사이 변동",
   "sources": [
    "https://www.indiehackers.com/post/KxUy5Zjfn1hJTTGYrl47",
    "https://rightblogger.com/"
@@ -38,14 +36,39 @@
   "founded_year": 2023
  },
  "verification": {
-  "verified_at": null,
-  "checklist_passed": [],
-  "primary_sources": [
-   "https://www.indiehackers.com/post/KxUy5Zjfn1hJTTGYrl47 (창업자 본인 인터뷰, 2026-07-01)"
+  "verified_at": "2026-08-12",
+  "checklist_passed": [
+   "existence:pass",
+   "figures:pass",
+   "scope:pass"
   ],
-  "corrections": [],
-  "excluded_figures": [],
-  "confidence_recommendation": null,
-  "notes": "2023년 출시로 스코프 창 안. 규모도 DB 중상위권(ARR $350K).\n\n검증 시 판정 필요:\n(1) 성장 동력이 제품이 아니라 **선행 오디언스**다. 아카이브의 '1인/소규모가 AI 도구로 만들어 수익화' 서사와 결이 다를 수 있어 scope-judge 확인 필요.\n(2) 나열된 API는 제품 기능용이지 제작 도구가 아니다 — ai_tools 필드에서 이 둘을 섞지 말 것.\n\n**스코프 상태: borderline (도구 근거 미확보).** 본문에 AI 코딩 도구 언급이 없으나 **명시적 부정도 없다.** 새 기준(scope-judge)상 이는 `fail`이 아니라 `unknown`이며 borderline → pass 처리 대상이다. 검증 시 창업자 본인 공개 계정 1곳 이상(X/LinkedIn/블로그/체인지로그)을 확인해 도구를 특정하고, 찾지 못하면 `ai_tools: unknown`으로 두되 기각 사유로 삼지 말 것.\n\n## Stage 2 사전 스크리닝 (2026-08-12)\n\n- `founded_year`: 2023 — IH 본문 '2023년 출시', 출시 첫 주 MRR $2K 발화\n\n**[헤더 수치 역산 의심 — 검증 최우선]** `$350,000 ÷ 12 = $29,167 ≈ $29K`. IH 헤드라인이 \"Hitting $29k MRR by building an audience first\"였다. 즉 MRR $29K가 독립 측정값이 아니라 ARR에서 역산된 편집부 값일 가능성이 크다 — faceless-video($1M÷12=$83K)·thirstysprout($2.5M÷12=$208K)와 동일 패턴. 수치 렌즈는 본문에서 **본인이 MRR을 직접 말한 문장**을 찾고, 없으면 ARR $350K만 채택할 것.\n\n- `region`이 unknown이면 창업자 GitHub·dev.to·LinkedIn 프로필의 location 필드를 먼저 볼 것 (2026-08-12에 unknown으로 둔 2건이 모두 여기 있었다).\n\n- `region` 확정: **미국 콜로라도**. 본인 사이트 ryrob.com/about 자기신고. RocketReach는 'Los Angeles, CA'로 다르나 애그리게이터라 본인 신고를 채택.\n- 본인 X: https://x.com/TheRyanRobinson , LinkedIn: /in/theryanrobinson/\n- 직함이 **Co-Founder**로 확인된다 — 후보 파일의 founders 2인(Ryan Robinson, Andy Feliciotti) 표기와 정합.\n- 규모 참고: ryrob.com 월 독자 약 50만명. 성장 동력이 선행 오디언스라는 후보 노트의 지적을 뒷받침한다.\n"
+  "primary_sources": [
+   "https://www.indiehackers.com/post/KxUy5Zjfn1hJTTGYrl47 (본인 1인칭 인터뷰, 2026-07-01, 편집자 James Fleischmann)",
+   "https://drawne.com/claude-code-commands/ (**기술 공동창업자 Andy Feliciotti 본인 블로그, 2026-07-26** — 도구 발화 원출처)",
+   "https://ryan.biz/ (Ryan 본인 사이트 — 'co-founded with my friend Andy', '$350K TTM Revenue')",
+   "https://www.ryrob.com/about/ (Ryan 본인 — 'mountains of Colorado')",
+   "https://drawne.com/about/ (Andy 본인 — 'In 2023 I launched RightBlogger')",
+   "https://github.com/someguy9 (Andy 본인 GitHub — company=RightBlogger, location=St. Louis MO)",
+   "https://rightblogger.com/about (회사 자기신고 — 팀 3인 로스터·가격)",
+   "https://www.cloudflare.com/case-studies/rightblogger/ (independent — 두 창업자 직함·실명 인용, 설립 2023)"
+  ],
+  "corrections": [
+   "**revenue에서 'MRR $29K' 삭제.** IH의 $29k는 전부 편집부 3인칭이다 — 헤드라인, 스탯박스 'Revenue >$29K a month', 본문 \"Today, **he's** at $29k MRR.\" 본인 1인칭은 \"**We're** currently at $350k ARR.\"뿐이고 $350,000÷12=$29,166.67과 일치한다. faceless-video($1M÷12)·thirstysprout($2.5M÷12)와 동일 패턴. **화자 분석으로 확정**",
+   "ai_tools 교정: 기존 [Anthropic/OpenAI/Gemini API]는 전부 제품 기능용이다. 제작 도구는 별도로 확보됐다 — 기술 공동창업자 Andy Feliciotti 블로그(2026-07-26): \"I've been running Claude Code as my main coding tool for most of the past year. Most of the work I do at RightBlogger ... goes through it at some point.\" 제작 도구와 제품측 API를 섞으면 코퍼스 통계가 오염된다",
+   "region 교정: '미국 콜로라도' → 원격 분산 표기. 팀 3인이 CO·MO·FL에 흩어져 있다. **충돌 기록**: 회사 about 페이지는 Ryan을 'Los Angeles'로 적어 본인 X·ryrob 신고와 어긋난다 — RocketReach의 LA도 애그리게이터 오류가 아니라 이 페이지 유래로 보인다. 최신·구체 자기신고 채택",
+   "team_size: COO 직함 표기가 갈린다 — 본인 IH 발화는 'COO', 회사 about 페이지는 'Head of Operations'",
+   "business_model 가격 갱신 + 관측일 병기. IH(2026-07-01) Agency $249 → 현재 $299",
+   "founder_background에 선행 오디언스 조건 명시. 이게 없으면 '2인이 AI로 만들어 ARR $350K'만 남아 재현 불가능한 성공이 재현 가능한 것처럼 보인다 (스코프 렌즈 권고)"
+  ],
+  "excluded_figures": [
+   "[figures] MRR $29K — refuted. 편집부 3인칭 역산값($350K÷12)",
+   "[figures] ryrob.com 블로그 수익($30,000/mo+, 연 $451,238, 2021년 리포트 $23K~$57K/mo) — **별개 사업체**. RightBlogger 매출과 병기 금지. 수치 근접성이 오염 벡터다",
+   "[figures] 제3자 약력 유래 'RightBlogger $500,000+ annual revenue' — 본인 페이지에서 확인 불가, 블로그+SaaS 합산 의심",
+   "[figures] GetLatka 'ARR $220K(2025), 밸류 $660K' — 자체 'Est.' 표기 + '경영진 인터뷰 없음' 명시",
+   "[figures] '50k'는 사용자 수이며 매출 아님. 표기도 갈린다 — IH·ryan.biz '50K+ users' vs X bio '50k marketing teams & agencies'",
+   "[figures] TrustMRR 미등재(404) — 제3자 결제사 검증 없음"
+  ],
+  "confidence_recommendation": "medium",
+  "notes": "판정: **3/3 pass** → verified, confidence medium.\n\n## 이 건의 핵심 교훈 — 역할 분담형 팀은 기술 창업자를 봐야 한다\n\n스코프는 1차에서 borderline이었다가 pass로 뒤집혔다. 원인은 조사 대상이 틀린 것이었다 — 오케스트레이터의 사전조사가 **유통 담당 창업자(Ryan)의 X만** 봤고, 그 타임라인 20.2K개에는 도구 언급이 없다(콘텐츠가 전부 SEO다). 도구 근거는 **기술 공동창업자 Andy의 개인 블로그**에 있었다.\n\n2인 이상 팀에서 non-technical 창업자 계정에 도구 언급이 없는 것은 정상이다. 이 교훈을 RESEARCH_PIPELINE.md에 규칙으로 넣었다.\n\n## 수치 — 산술 스크리닝이 3연속 적중했고 화자 분석으로 확증됐다\n\n사전 스크리닝의 $350,000÷12=$29,167 예측이 맞았고, 수치 렌즈가 인칭으로 확증했다. 여러 값이 병존할 때 **인칭이 곧 출처 등급**이라는 방법이 확립됐다.\n\n**남은 약점 — 라벨 불일치.** 같은 $350K를 IH 인터뷰는 'ARR'(전향 런레이트), 본인 사이트 ryan.biz는 '$350K TTM Revenue'(과거 12개월 실적)로 적는다. 서로 다른 지표다. 크기는 두 본인 채널로 잘 뒷받침되나 라벨은 신뢰할 수 없으므로 **÷12 파생을 어느 방향으로도 하지 말 것.**\n\n## 스코프 경계 — 선행 오디언스는 기각 사유가 아니다\n\n아카이브 포함 기준은 '1인/소규모 + AI 코딩 도구 + 수익화' 세 축이고 성장 동력이 오디언스인지 제품인지는 축이 아니다. 코퍼스 선례가 이미 그 방향이다(marc-lou-portfolio, creator-buddy, subscribr 사전판매 $20K). 오히려 '유통이 곧 방어선'인 대조군 가치가 있다. 단 서사 왜곡을 막으려 founder_background에 조건을 명시했다.\n\n## 도구 사용 시점 주의\n\n2023 MVP는 SaaS 보일러플레이트 + OpenAI API로 주말에 만들었고, Claude Code는 2025~2026 구간의 지속 개발 도구다. '바이브코딩으로 처음부터 만든' 사례가 아니라 **'개발 워크플로가 AI 도구로 이전된' 사례**로 기록하는 편이 정확하다.\n\n혼동 금지: 'RightBlogger MCP for Claude/Cursor'는 제품 통합 기능이지 제작 도구 근거가 아니다."
  }
 }

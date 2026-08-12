@@ -1,29 +1,32 @@
 {
  "id": "ramsri-portfolio",
- "status": "pending_verification",
+ "status": "verified",
  "discovered_at": "2026-08-12",
  "discovery_source": "https://www.indiehackers.com/tech 피드 직접 순회 (Tier1) — 2026-07-30 게시글",
  "case": {
   "id": "ramsri-portfolio",
   "founders": [
-   "Ramsri Goutham Golla"
+   "Ramsri Goutham Golla",
+   "Sanjeev NC (Supermeme.ai 공동창업)",
+   "Nico Botha (Supermeme.ai 공동창업)"
   ],
-  "product": "Questgen.ai / Supermeme.ai / AiArtist.io (포트폴리오)",
+  "product": "Questgen.ai (1인) / AiArtist.io (1인) / Supermeme.ai (3인 공동창업)",
   "domain": "AI 문제생성·밈생성·이미지생성 SaaS 포트폴리오",
   "one_liner": "본업(데이터 사이언티스트)을 유지하며 AI SaaS 3종을 운영하는 사이드 포트폴리오",
-  "team_size": "unknown",
-  "region": "인도 추정 (확인 필요)",
-  "revenue": "월 $6,000~$7,000 MRR (기사 헤드라인은 \"$6.5K a month\"); Questgen 출시 4년간 누적 $150,000 초과, 2025년 정점 총 ARR $100K",
+  "team_size": "혼합 — Questgen·AiArtist는 1인 단독, Supermeme.ai는 3인 공동창업. 직원 없음, 본업(Knownwell Lead Data Scientist) 겸업",
+  "region": "인도 하이데라바드",
+  "revenue": "포트폴리오 3종 합산 월 $6,000~$7,000 MRR — 본인 발화 \"Currently, they hover between $6k and $7k MRR\" (2026-07-30). **합산액에 3인 공동창업 제품(Supermeme.ai)이 포함되며 본인 개인 귀속분은 원문에서 분해 불가.** 분해 가능한 유일한 수치는 Questgen 누적 $150K USD(4년) 및 Questgen 월 $3~4K MRR(본인 Medium, 2024-08 시점). 2025년 정점 총 ARR $100K에서 현재 연환산 $72~84K로 하락",
   "revenue_date": "2026-07",
   "exit_status": "운영 중",
   "stack": [
-   "unknown"
+   "NextJS",
+   "Supabase"
   ],
   "ai_tools": [
    "Claude Code"
   ],
-  "founder_background": "정규직 데이터 사이언티스트 겸 인디메이커",
-  "business_model": "구독 SaaS (스타터 $10~15, 상위 $50, 연간 40% 할인)",
+  "founder_background": "인도 하이데라바드 소재. 정규직 데이터 사이언티스트(Knownwell Lead Data Scientist — 독립 보도 확인) 겸 인디메이커. Questgen 첫 버전은 Bubble 노코드로 제작",
+  "business_model": "Questgen·Supermeme 구독 (스타터 $10~15, 상위 $50, 연간 40% 할인) / AiArtist는 구독이 아니라 $99 일회성 연간 패스(월 100 크레딧)",
   "sources": [
    "https://www.indiehackers.com/post/quOo7AXtrGlePopsGslc",
    "https://questgen.ai",
@@ -33,14 +36,38 @@
   "founded_year": 2022
  },
  "verification": {
-  "verified_at": null,
-  "checklist_passed": [],
-  "primary_sources": [
-   "https://www.indiehackers.com/post/quOo7AXtrGlePopsGslc (창업자 본인 인터뷰, 2026-07-30 — 도구 발화: \"Nowadays, I use tools like Claude Code to vibe code and add features.\")"
+  "verified_at": "2026-08-12",
+  "checklist_passed": [
+   "existence:pass(귀속 교정 후)",
+   "figures:pass(귀속 교정 후)",
+   "scope:pass"
   ],
-  "corrections": [],
-  "excluded_figures": [],
-  "confidence_recommendation": null,
-  "notes": "도구 발화가 명시적으로 확보된 드문 건 — \"Nowadays, I use tools like Claude Code to vibe code and add features.\"\n\n검증 시 판정 필요 사항:\n(1) 스코프 핵심 쟁점 — Questgen은 4년 전 출시로 **AI 코딩 도구 이전에 만들어졌고**, Claude Code는 현재 기능 추가에 쓰인다(\"Nowadays\"). 즉 '도구로 만든 사례'가 아니라 '도구로 유지·확장하는 사례'다. 이 구분을 scope-judge가 판정해야 한다 — 아카이브가 어느 쪽까지 담을지에 대한 선례가 될 건이다.\n(2) 수치 불일치 — 헤드라인 \"$6.5K a month\" vs 본문 \"between $6k and $7k MRR\". 본문 범위 표기를 채택하고 헤드라인은 배제할 것.\n(3) 매출 추세 — 2025년 정점 ARR $100K에서 현재 월 $6~7K(연 $72~84K)로 **하락 추세**로 보인다. 현재형 표기 시 주의.\n(4) region·team_size 미확인.\n\n## Stage 2 사전 스크리닝 (2026-08-12)\n\n- `founded_year`: 2022 — Questgen이 2026-07 시점 '출시 4년'이라 약 2022년\n\n**[스코프 결정적]** 최초 제품 Questgen이 약 2022년 출시로 **스코프 창(2023~) 밖**이다. 본인 도구 발화는 \"**Nowadays**, I use tools like Claude Code to vibe code and add features\"로 현재형이다 — 즉 '도구로 만든 사례'가 아니라 '도구로 유지·확장하는 사례'다. laravel-shift(2015)·savvycal(2020)·superpower-chatgpt(2022)는 같은 축에서 기각됐다. scope-judge가 '유지·확장형'을 스코프에 넣을지 판정해야 하며, 이는 선례가 된다.\n\n- `region`: '인도 추정'은 이름 기반 추정으로 미확인. **이름으로 국적을 추정하지 말 것** — klipy에서 같은 오류를 정정했다. 본인 GitHub·dev.to·LinkedIn 프로필 location을 확인할 것.\n"
+  "primary_sources": [
+   "https://www.indiehackers.com/post/quOo7AXtrGlePopsGslc (본인 1인칭 기고, 2026-07-30 — 매출·도구·스택 발화)",
+   "https://ramsrigoutham.medium.com/the-story-of-my-4k-mrr-solo-saas-questgen-ai-41f68f4f6a5a (본인 Medium, 2024-08 — Questgen MRR $3~4K)",
+   "https://github.com/ramsrigouthamg (본인 GitHub — location 'Hyderabad, India')",
+   "https://supermeme.ai/team (**공동창업자 3인 확인** — Sanjeev NC / Nico Botha / Ramsri Golla 전원 'Co-founder')",
+   "https://www.questgen.ai/team (1인 등재 — 'solo developer of Questgen')",
+   "https://aiartist.io (라이브, 'Ramsri is the founder', $99 일회성)",
+   "https://www.prweb.com/releases/knownwell-welcomes-ramsri-goutham-golla-as-lead-data-scientist-302179852.html (independent — 본업 확인)"
+  ],
+  "corrections": [
+   "**founders/team_size 필수 교정 — 이게 이 건의 핵심 오류였다.** 후보 최초 기재는 Ramsri 1인만 두고 **3인 공동창업 회사(Supermeme.ai)의 매출까지 합산**한 $6~7K를 붙여놨다. supermeme.ai/team에 Sanjeev NC·Nico Botha·Ramsri Golla가 전원 'Co-founder'로 등재된다. IH 원문도 PH 런치 서술에서 \"Since none of us had a huge audience\"로 복수 주체가 새어 나온다. **2026-08-10에 실증된 '창업자 수 1인↔3인' 오류 유형 그 자체다.** 포트폴리오 표기를 유지하되 공동창업자 2인을 명기하고 team_size를 혼합으로 바꿨다",
+   "region: '인도 추정(이름 기반)' → **'인도 하이데라바드' 확정.** GitHub location 필드 축자값 'Hyderabad, India'(본인 관리 = primary) + IH 본문 자기서술 'a microSaaS builder from India' 이중 확인. **이름 기반 추정을 프로필 location으로 대체한 사례** — klipy에서 같은 방법으로 홍콩을 확정했다",
+   "**후보 최초 기재의 '헤드라인 $6.5K a month'는 오인용이었다.** 실제 헤드라인은 \"This full-time data scientist built a $7k/mo portfolio of side projects\"다. $6.5K는 $6k~$7k의 중간값(파생값)이라 어느 쪽이든 배제 대상이지만, **내 배제 지시 자체가 틀린 인용에 기반해 있었다**",
+   "stack: unknown → NextJS + Supabase (본인 발화)",
+   "business_model 교정: AiArtist.io는 구독이 아니라 $99 일회성 연간 패스다. 후보 기재 '$10~15/$50/연 40% 할인'은 Questgen·Supermeme 기준",
+   "founder_background에 본업(Knownwell Lead Data Scientist) 및 Questgen 첫 버전 Bubble 제작 추가",
+   "founded_year 2022는 Questgen 기준으로만 유효. AiArtist는 2026-02 신규 출시 — 포트폴리오 단일 연도 표기의 한계를 normalize_note에 기록할 것"
+  ],
+  "excluded_figures": [
+   "[figures] '헤드라인 $6.5K a month' — 실제 헤드라인이 아니며 $6k~$7k의 중간값 파생",
+   "[figures] 2025년 정점 총 ARR $100K를 현재형으로 표기 — 현재는 연환산 $72~84K로 하락",
+   "[figures] 제품별 현재 MRR 분해 — unverifiable. IH는 Questgen 누적 $150K, Supermeme은 사용자 수(2M 등록), AiArtist는 '유료 20명+'만 공개한다",
+   "[figures] Questgen 월 $3~4K MRR — 본인 Medium 2024-08 시점 값이며 현재 수치 아님",
+   "[figures] TrustMRR 등 결제사 검증 미등재 — 전부 자기보고. confidence 상한 medium"
+  ],
+  "confidence_recommendation": "medium",
+  "notes": "판정: **3/3 pass(실존·수치는 귀속 교정 후)** → verified, confidence medium.\n\n## 이 건은 아카이브 선례를 만들었다 — '유지·확장형' 포함\n\n`founded_year=2022`로 최초 제품 Questgen이 스코프 창 밖인데도 통과시켰다. 근거는 **기각 선례를 전수 대조한 결과 '창 밖 단독' 기각이 하나도 없었다**는 것이다 — laravel-shift(2015)·savvycal(2020)·superpower-chatgpt(2022)·thirstysprout(2018)은 전부 '창 밖 AND 도구 근거 없음' 조합이었고, zigpoll·pckgr·faceless-video·klipy는 창 *안*인데도 본인 명시적 부정으로 기각됐다.\n\n즉 창(2023~)은 규칙이 아니라 **'성과가 도구에 귀속되는가'의 프록시**다. 프록시를 규칙으로 굳히면 도구를 쓰는 오래된 제품을 기각하고 도구를 안 쓰는 신생 제품을 통과시키는 두 방향 오류가 동시에 생긴다. 일관성 논거도 있다 — 코퍼스에 이미 `pieter-levels-portfolio`(Nomad List 2014·RemoteOK 2015 기원, confidence high, ai_tools가 제품측 AI뿐으로 이 후보보다 **약한** 도구 근거)와 `formula-bot`(2022-08 Bubble+OpenAI)이 등재돼 있다.\n\n**가드레일 두 조건을 동시에 충족했다:**\n1. 창업자 1인칭 명시 도구 발화 — \"nowadays, I use tools like Claude Code to vibe code and add features\" (현재형)\n2. 도구 시대 산출물 실재 — AiArtist.io 2026-02 단독 런칭(Product Hunt + 본인 트윗/LinkedIn 교차 확인) + Questgen 현행 스택 NextJS+Supabase\n\n이 가드레일을 RESEARCH_PIPELINE.md §0.5로 규칙화했다.\n\n## 발화 편향의 반례\n\n도구 발화 확인 채널을 전수 점검한 결과 이 창업자는 **도구 얘기를 별로 안 하는 유형**이다 — GitHub 66 repos에 언급 없음, Medium 2026-02 AiArtist 기술 글도 Remotion·Veo 3.1만 논의. 그런데도 1차 출처에 발화가 있었다. 즉 '언급을 요구하면 도구 얘기하는 사람만 수집된다'는 발화 편향 우려의 반례에 해당한다 — 조사 표면을 넓히면 조용한 유형도 잡힌다.\n\n## Stage 4 반영 시 normalize_note 필수 4건\n\n(1) **합산 MRR에 3인 공동창업 제품이 포함되며 개인 귀속분 분해 불가** — 1인 매출로 표기 금지, (2) 2025 정점 ARR $100K는 과거 시점 명기, 현재는 하락, (3) **'유지·확장형 — 기원 2022(창 밖), 창 안 근거는 AiArtist.io 2026-02 + Claude Code 현재형 발화'**, (4) 전부 자기보고이며 결제사 검증 없음."
  }
 }

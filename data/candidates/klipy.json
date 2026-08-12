@@ -1,18 +1,20 @@
 {
  "id": "klipy",
- "status": "pending_verification",
+ "status": "rejected",
  "discovered_at": "2026-08-12",
  "discovery_source": "https://www.indiehackers.com/tech 피드 직접 순회 (Tier1) — 2026-07-15 게시글: https://www.indiehackers.com/post/jzXCQaChntz3v1usYLz5",
  "case": {
   "founders": [
-   "Jung Hong Kim"
+   "Jung-Hong Kim (CEO & Engineer)",
+   "Tina Law (COO & Strategy)",
+   "Joey Lee (CPO & Design)"
   ],
-  "product": "Klipy.ai",
-  "domain": "B2B SaaS (세부 확인 필요)",
+  "product": "Klipy.ai (법인 Vire KLL Inc., 보조 도메인 useklipy.com)",
+  "domain": "B2B SaaS — AI CRO / AI 네이티브 CRM·영업 자동화 (owner-led B2B 서비스 기업 대상)",
   "one_liner": "이전 실패로 빚을 진 뒤 재기해 5자리 MRR에 도달",
-  "team_size": "3인 (공동창업자 3)",
-  "region": "미국 (본인 LinkedIn 자기신고. 법인 HQ 델라웨어)",
-  "revenue": "월 $10,000 초과 (5-figure MRR 표현); 2026년 말 ARR $1.5M 목표",
+  "team_size": "3인 (창업 시점부터 현재까지 동일 — 본인 발화 \"We still operate with only the three founders\", Tracxn 독립 집계 employees=3 @2026-04-30)",
+  "region": "홍콩 (창업자 본인 GitHub location 자기신고 + Tracxn HQ. 법인 등록지는 미국 델라웨어)",
+  "revenue": "5-figure MRR — 하한 월 $10,000. 창업자 원문은 \"We're at a 5-figure MRR\"이며 **점값 진술은 어디에도 없다**. 고객사 약 4,000곳",
   "revenue_date": "2026-07",
   "exit_status": "운영 중",
   "stack": [
@@ -26,7 +28,7 @@
    "unknown"
   ],
   "founder_background": "두 번의 성공 뒤 실패로 부채를 진 상태에서 재기",
-  "business_model": "프리미엄 + 시트당 과금 ($39~$149/시트/월)",
+  "business_model": "프리미엄 + 시트당 과금 ($39~$149/시트/월). 부트스트랩(정부 보조금 + 자기자금), pre-seed 투자자 1인 cap table 등재, AppWorks Batch #31(2025-09)·SparkLabs Taiwan(2026-06)·500 Global 프로그램 참여",
   "sources": [
    "https://www.indiehackers.com/post/jzXCQaChntz3v1usYLz5",
    "https://klipy.ai/"
@@ -36,14 +38,36 @@
   "founded_year": 2024
  },
  "verification": {
-  "verified_at": null,
-  "checklist_passed": [],
-  "primary_sources": [
-   "https://www.indiehackers.com/post/jzXCQaChntz3v1usYLz5 (창업자 본인 인터뷰, 2026-07-15)"
+  "verified_at": "2026-08-12",
+  "checklist_passed": [
+   "existence:pass",
+   "figures:pass",
+   "scope:fail"
   ],
-  "corrections": [],
-  "excluded_figures": [],
-  "confidence_recommendation": null,
-  "notes": "2024-11 출시 — 스코프 창 안. 3인이라 소규모 요건도 충족.\n\n검증 시 판정 필요:\n(1) region이 미확인이다. 창업자명이 한국계로 보이나 **이름만으로 국적을 추정하지 말 것** — 본인 공개 계정에서 확인.\n(2) domain이 불명 — 제품 카테고리 확정 필요.\n(3) 'ARR $1.5M 목표'는 목표치이므로 revenue 필드에 실적처럼 쓰지 말 것.\n\n**스코프 상태: borderline (도구 근거 미확보).** 본문에 AI 코딩 도구 언급이 없으나 **명시적 부정도 없다.** 새 기준(scope-judge)상 이는 `fail`이 아니라 `unknown`이며 borderline → pass 처리 대상이다. 검증 시 창업자 본인 공개 계정 1곳 이상(X/LinkedIn/블로그/체인지로그)을 확인해 도구를 특정하고, 찾지 못하면 `ai_tools: unknown`으로 두되 기각 사유로 삼지 말 것.\n\n## Stage 2 사전 스크리닝 (2026-08-12)\n\n- `founded_year`: 2024 — IH 본문 '2024년 11월 제품 출시'\n\n- `region`이 unknown이면 창업자 GitHub·dev.to·LinkedIn 프로필의 location 필드를 먼저 볼 것 (2026-08-12에 unknown으로 둔 2건이 모두 여기 있었다).\n\n- `region`: 본인 LinkedIn 'United States' 자기신고. 법인 HQ는 델라웨어.\n- 본인 LinkedIn: /in/junghongkim/ , 직함 'CEO and Co-Founder'\n- **[스코프 — team_size 재검토 필수]** 회사가 **홍콩·서울·타이베이·뉴욕 4개 오피스**를 표기한다. 후보 파일의 '3인 공동창업'과 정합하지 않을 수 있다 — 4개 도시 오피스는 3인으로 운영되기 어렵다. Tracxn에 창업자·이사회 페이지가 있으니 대조할 것. thirstysprout이 같은 축(팀 규모)에서 기각됐다.\n- 창업자 학력 HKUST — '한국계 추정'은 이름 기반 추정이었고 확인 안 됨. **이름으로 국적을 추정하지 말 것.**\n"
+  "primary_sources": [
+   "https://www.indiehackers.com/post/jzXCQaChntz3v1usYLz5 (창업자 1인칭 인터뷰, 2026-07-15 — **기각 근거 발화 원출처**)",
+   "https://klipy.ai/about (자사 공식 — 창업자 3인 실명·역할, 2024-08 설립, 'we are still just three founders')",
+   "https://github.com/sudopaeg (창업자 본인 GitHub — location 'Hong Kong', 'Co-Founder & CEO at Klipy AI')",
+   "https://klipy.ai/ (제품 카테고리·가격 'Starting at $39/month per seat')",
+   "https://tracxn.com/d/companies/klipy/... (independent — 창업자 3인, employees=3 @2026-04-30)",
+   "https://weekly-opportunities.com/p/a-5-figure-mrr-success-after-a-failed-product-buried-him-in-debt (independent 재인용 — 'He hand-coded the MVP in three months')"
+  ],
+  "corrections": [
+   "region 교정: '미국(LinkedIn 자기신고, HQ 델라웨어)' → **'홍콩'**. 창업자 본인 GitHub location이 'Hong Kong'이고 Tracxn HQ도 홍콩이며, 사이트상 유일한 실제 주소도 홍콩 2곳이다. 델라웨어는 Vire KLL Inc. 법인 등록지일 뿐이다. 내가 근거로 든 LinkedIn 'United States' 표기는 HTTP 999로 직접 확인하지 못했다",
+   "founders에 3인 실명 기입 — Jung-Hong Kim / Tina Law / Joey Lee. 후보 최초 기재는 인원만 있고 이름이 없었다",
+   "domain 확정: 'B2B SaaS (세부 확인 필요)' → AI CRO / AI 네이티브 CRM·영업 자동화",
+   "revenue를 하한 진술로 재작성. '월 $10,000 초과'는 창업자 발화가 아니라 IH가 '5-figure'의 산술 하한을 스탯 헤더로 렌더링한 값이다. faceless-video의 '6-figure MRR'과 같은 처리",
+   "투자 정보 추가 — 후보 파일에 전무했다. 다만 액셀러레이터 규모(≤USD 100K)이고 정부 보조금+자기저축으로 흑자 전환한 3인 팀이라 'VC 대규모'에는 해당하지 않아 team_size를 fail시키지 않았다",
+   "'한국계 추정' 흔적 제거. IH가 'Korean serial founder'로 명시하나 학력은 HKUST, 거주는 홍콩이다. **이름으로 국적을 추정한 최초 기재가 결과적으로 맞았더라도 방법은 틀렸다**"
+  ],
+  "excluded_figures": [
+   "[figures] '월 $10,000 초과'를 창업자 점값 발화로 표기 — 편집부가 '5-figure'의 하한을 렌더링한 값",
+   "[figures] '5-figure MRR'의 범위 상단 추정 금지 ($10K~$99K)",
+   "[figures] 'ARR $1.5M' — 2026년 말 목표치이며 실적 아님",
+   "[figures] TrustMRR 등 결제사 검증 미등재 — 수치는 전부 자기보고 단일 발화 파생",
+   "[existence] '홍콩·서울·타이베이·뉴욕 4개 오피스' — 물리 거점 아님. 실제 주소는 홍콩 2곳뿐이고 서울·뉴욕은 사이트가 스스로 remote-first로 기술, 타이베이는 주소조차 없다. **team_size 반증으로 쓸 수 없다**"
+  ],
+  "confidence_recommendation": "medium",
+  "notes": "판정: **스코프 fail → rejected.** 실존·수치는 통과했으나 AI 코딩 도구 사용이 창업자 본인에 의해 부정됐다.\n\n## 기각 근거 — 명시적 부정\n\nIH 1차 출처, 창업자 1인칭: **\"I hand-coded the first MVP in about three months.\"** 동일 인터뷰를 다룬 뉴스레터에서도 \"He hand-coded the MVP in three months\"로 독립 재현됐다. 이는 침묵(=unknown)이 아니라 저술 방식에 대한 적극적 자기규정이며, zigpoll(\"I built the first version myself with a code editor\") 선례와 구조·범위(첫 버전)가 동일하다.\n\n도구 근거는 6개 표면에서 전무했다 — klipy.ai/about, GitHub(공개 레포는 Klipy 이전 유물, .cursorrules·CLAUDE.md·agents.md 없음), arrfounder, IH 본문, LinkedIn 검색, 뉴스레터.\n\n**주의: 'Claude' 언급은 전부 제품 측이다** — Klipy가 MCP로 Claude에 연결되는 기능, klipy.ai/blog의 'Claude Code Source Code Leaked' 콘텐츠 마케팅. 'AI를 씀'이지 'AI로 만듦'이 아니다.\n\n## 유보 조건 (사람 승인 단계에서 뒤집을 수 있음)\n\n'hand-coded'에 잔여 모호성이 있다 — (a) 2026년 담론에서 AI 생성의 표준 반의어, (b) '외주·채용 대신 내가 직접'. 부채·재기 서사는 (b)와도 정합하고, zigpoll과 달리 비AI 편집기를 명시하진 않았다. 게다가 도구 발화가 가장 있을 법한 두 표면(X 402, LinkedIn 999)을 읽지 못했다. 그러나 fail의 근거는 '못 봐서'가 아니라 '적극적 진술이 있어서'이므로 borderline으로 내리지 않았다. 그 두 계정에서 도구 발화가 나오면 뒤집을 것.\n\n## 내 사전 스크리닝이 3개 다 틀렸다 — 기록해둔다\n\n| 사전 예단 | 실제 |\n|---|---|\n| team_size 쟁점(4개 오피스 → 3인 불가능) | **pass.** 등기주소·remote-first였고 3인이 3출처로 확증 |\n| ai_tools는 '언급 없으나 부정도 없음' → borderline | **fail.** 본문에 'I hand-coded the first MVP' |\n| region 미국(LinkedIn 자기신고) | **홍콩.** IH 본문 + GitHub location |\n\n원인은 하나다 — **1차 출처 본문을 다시 읽지 않고 이전 WebFetch 요약으로 예단했다.** 산술 검산처럼 계산으로 결론이 나는 것과 달리, 요약 기반 추측을 프롬프트에 심으면 렌즈가 엉뚱한 곳을 파고 정작 본문에 있는 결정적 문장을 놓친다. 이 교훈을 RESEARCH_PIPELINE.md에 기록했다.\n\n## 재심 트리거\n\nIH에 '스케일 위해 현재 자금 유치 중' 서술이 있다. 향후 대규모 라운드가 확정되면 team_size 축에서도 스코프가 변할 수 있다."
  }
 }
