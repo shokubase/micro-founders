@@ -1,0 +1,46 @@
+{
+ "id": "idm",
+ "status": "pending_verification",
+ "discovered_at": "2026-08-12",
+ "discovery_source": "https://shiftb.dev/articles/indie-dev-success-stories (Tier3 JP 리스티클 — 발견 신호) → 1차 출처 역추적: https://note.com/bubecode/n/n94f235367089 (창업자 본인 note)",
+ "case": {
+  "id": "idm",
+  "founders": [
+   "立川修平 (핸들 ぶべ)"
+  ],
+  "product": "iDM",
+  "domain": "Instagram DM 자동응답 SaaS",
+  "one_liner": "Meta 공식 API 기반 인스타그램 DM 자동응답 툴 — 기존 서비스(월 22,000엔~) 대비 저가 포지셔닝",
+  "team_size": "1인",
+  "region": "일본",
+  "revenue": "월 매출 약 25만엔 (2025-10 시점, 창업자 본인 note 표기 \"約25万円\"); 2차 출처는 MRR 약 30만엔·유료 약 70계정·설치 1,500계정 이상으로 기재",
+  "revenue_date": "2025-10",
+  "exit_status": "운영 중",
+  "stack": [
+   "Meta 공식 Instagram API"
+  ],
+  "ai_tools": [
+   "unknown"
+  ],
+  "founder_background": "연쇄 개인개발자 (2020년부터 5개 서비스 제작), 현재 개인개발 스쿨 ShiftB 운영",
+  "business_model": "SaaS 구독 (월 3,980엔~, 14일 무료체험)",
+  "sources": [
+   "https://note.com/bubecode/n/n94f235367089",
+   "https://note.com/bubecode/n/nb90768350a20",
+   "https://shiftb.dev/articles/indie-dev-success-stories",
+   "https://www.instagram.com/idm.reply/"
+  ],
+  "confidence": "medium"
+ },
+ "verification": {
+  "verified_at": null,
+  "checklist_passed": [],
+  "primary_sources": [
+   "https://note.com/bubecode/n/n94f235367089 (창업자 본인 note, 2025-10-29 — iDM 월 매출 \"約25万円\", 개발 시간 약 200시간, 1인 개발 본인 발화)"
+  ],
+  "corrections": [],
+  "excluded_figures": [],
+  "confidence_recommendation": null,
+  "notes": "2026-08-12 일본어권 첫 실행에서 발견. 발견 경로는 SEO 리스티클이지만 본인 note로 역추적해 매출 발화 확보 — 이 층에서 1차 출처까지 닿은 유일한 건.\n\n검증 시 판정 필요 사항:\n(1) 수치 불일치 — 본인 note는 '월 매출 약 25만엔'(2025-10), 2차 출처는 'MRR 약 30만엔'. 매출과 MRR을 구분하고 시점을 명기할 것.\n(2) AI 코딩 도구 근거 부재 — iDM은 2023년 개발이고 본인 글에 도구 언급이 없다. 단 본인은 현재 Claude Code Max·Cursor Pro에 월 4만엔 이상 과금한다고 알려져 있는데, 그건 2026년 스쿨 운영 맥락이라 iDM 제작 시점과 별개다. 새 기준(scope-judge)상 명시적 부정이 없으므로 fail이 아니라 borderline — 본인 X/note에서 iDM 개발·개선에 AI 도구를 썼다는 발화를 찾아야 한다.\n(3) 이해관계 — 창업자가 개인개발 스쿨(ShiftB, 수강생 150명 이상)을 운영한다. 매출 주장이 강좌 판매의 마케팅 기능을 겸할 수 있어 kevin-badi-portfolio와 같은 회의 각도를 적용할 것. 다만 본인 note 수치(25만엔)는 2차 출처(30만엔)보다 낮게 말하고 있어 과장 방향은 아니다.\n(4) 규모 — 월 25만엔은 약 $1,700/월. 기존 DB 최저선(habit-pixel MRR $1,000)보다는 크다."
+ }
+}
