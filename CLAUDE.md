@@ -21,7 +21,11 @@ build_feed.py  →  feed.xml             (RSS 생성 — cases.json 기반)
 
 - `index.html` + `app.js` + `style.css` — 사이트 전체. `app.js`가 `data/cases.json`을 fetch해서 필터/검색/정렬/모달/신규 배지 렌더링
 - 정규화 필드(`domain_category`, `team_size_bucket`, `founder_background`, `revenue_bucket` 등)는 `build_normalize.py`의 `ENRICH` 딕셔너리에서 사례 id별로 매핑
-- 매출 표기 원칙: 카드/상세엔 원문 그대로, 내부 정렬/필터용으로만 연환산 USD 추정치 사용. 산출 근거는 `normalize_note`에 기록 (1 USD≈1,350원, 1 EUR≈1.08 USD)
+- 매출 표기 원칙: 카드/상세엔 원문 그대로, 내부 정렬/필터용으로만 연환산 USD 추정치 사용. 산출 근거는 `normalize_note`에 기록
+- **환산 레이트는 여기 정의된 것만 쓴다:** 1 USD≈1,350원, 1 EUR≈1.08 USD, **1 USD≈150 JPY**
+  (JPY는 2026-08-12 추가 — idm 후보에서 정의 없는 ≈147 레이트를 임의로 넣었다가 지적받았다.
+  이 저장소가 €↔$로 겪은 사고와 같은 유형이다). **목록에 없는 통화가 나오면 레이트를 임의로
+  만들지 말고 이 줄에 먼저 추가하라.**
 
 ## 3. 작업 규칙 (auto 모드)
 

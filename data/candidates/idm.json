@@ -1,6 +1,6 @@
 {
  "id": "idm",
- "status": "pending_verification",
+ "status": "verified",
  "discovered_at": "2026-08-12",
  "discovery_source": "https://shiftb.dev/articles/indie-dev-success-stories (Tier3 JP 리스티클 — 발견 신호) → 1차 출처 역추적: https://note.com/bubecode/n/n94f235367089 (창업자 본인 note)",
  "case": {
@@ -11,37 +11,62 @@
   "product": "iDM",
   "domain": "Instagram DM 자동응답 SaaS",
   "one_liner": "Meta 공식 API 기반 인스타그램 DM 자동응답 툴 — 기존 서비스(월 22,000엔~) 대비 저가 포지셔닝",
-  "team_size": "1인",
-  "region": "일본",
-  "revenue": "월 매출 약 25만엔 (2025-10 시점, 창업자 본인 note 표기 \"約25万円\"); 2차 출처는 MRR 약 30만엔·유료 약 70계정·설치 1,500계정 이상으로 기재",
-  "revenue_date": "2025-10",
+  "team_size": "iDM 기준 1인 (개인개발, 운영 월 약 30분). 운영 주체는 株式会社bubekichi이며 스쿨 ShiftB·vibely·JS Gym 등 별개 사업을 함께 운영 — 순수 1인 회사 아님",
+  "region": "일본 도쿄 (시부야 — 법인 株式会社bubekichi, 2023-07 설립)",
+  "revenue": "월 수익 약 25만엔 (2025-10 시점, 본인 note 원문 「2025年10月時点で月に25万円程度の収益化ができています」). 후속 자가공개: 2026-04 「月30万円弱のMRR」(30만엔 미달). 원문 단어가 売上·MRR이 아니라 「収益化」이므로 '매출'로 단정하지 말 것",
+  "revenue_date": "2025-10 (후속 자가공개 2026-04 별도 기록)",
   "exit_status": "운영 중",
   "stack": [
    "Meta 공식 Instagram API"
   ],
   "ai_tools": [
-   "unknown"
+   "Claude Code",
+   "Cursor"
   ],
-  "founder_background": "연쇄 개인개발자 (2020년부터 5개 서비스 제작), 현재 개인개발 스쿨 ShiftB 운영",
+  "founder_background": "실명 立川修平 / 핸들 ぶべ. 株式会社bubekichi(2023-07 설립, 도쿄 시부야) 대표. 2020년부터 개인개발 5~6건(발화 시점별로 5건/6건 상이). 개인개발 스쿨 ShiftB 운영",
   "business_model": "SaaS 구독 (월 3,980엔~, 14일 무료체험)",
   "sources": [
    "https://note.com/bubecode/n/n94f235367089",
    "https://note.com/bubecode/n/nb90768350a20",
-   "https://shiftb.dev/articles/indie-dev-success-stories",
-   "https://www.instagram.com/idm.reply/"
+   "https://note.com/bubecode/n/ncd4f31289d7c",
+   "https://idm-reply.com/",
+   "https://bubekichi.com/",
+   "https://shiftb.dev/articles/indie-dev-success-stories"
   ],
   "confidence": "medium",
   "founded_year": 2023
  },
  "verification": {
-  "verified_at": null,
-  "checklist_passed": [],
+  "verified_at": "2026-08-12",
+  "checklist_passed": [
+   "existence:pass",
+   "figures:pass",
+   "scope:pass"
+  ],
   "primary_sources": [
    "https://note.com/bubecode/n/n94f235367089 (창업자 본인 note, 2025-10-29 — iDM 월 매출 \"約25万円\", 개발 시간 약 200시간, 1인 개발 본인 발화)"
   ],
-  "corrections": [],
-  "excluded_figures": [],
-  "confidence_recommendation": null,
-  "notes": "2026-08-12 일본어권 첫 실행에서 발견. 발견 경로는 SEO 리스티클이지만 본인 note로 역추적해 매출 발화 확보 — 이 층에서 1차 출처까지 닿은 유일한 건.\n\n검증 시 판정 필요 사항:\n(1) 수치 불일치 — 본인 note는 '월 매출 약 25만엔'(2025-10), 2차 출처는 'MRR 약 30만엔'. 매출과 MRR을 구분하고 시점을 명기할 것.\n(2) AI 코딩 도구 근거 부재 — iDM은 2023년 개발이고 본인 글에 도구 언급이 없다. 단 본인은 현재 Claude Code Max·Cursor Pro에 월 4만엔 이상 과금한다고 알려져 있는데, 그건 2026년 스쿨 운영 맥락이라 iDM 제작 시점과 별개다. 새 기준(scope-judge)상 명시적 부정이 없으므로 fail이 아니라 borderline — 본인 X/note에서 iDM 개발·개선에 AI 도구를 썼다는 발화를 찾아야 한다.\n(3) 이해관계 — 창업자가 개인개발 스쿨(ShiftB, 수강생 150명 이상)을 운영한다. 매출 주장이 강좌 판매의 마케팅 기능을 겸할 수 있어 kevin-badi-portfolio와 같은 회의 각도를 적용할 것. 다만 본인 note 수치(25만엔)는 2차 출처(30만엔)보다 낮게 말하고 있어 과장 방향은 아니다.\n(4) 규모 — 월 25만엔은 약 $1,700/월. 기존 DB 최저선(habit-pixel MRR $1,000)보다는 크다.\n\n## Stage 2 사전 스크리닝 (2026-08-12)\n\n- `founded_year`: 2023 — 본인 note 기준 iDM은 2023년 제작 (2020년부터 5개 서비스 중 5번째)\n"
+  "corrections": [
+   "**[내 오류] 축자 인용 「約25万円」이 지목한 1차 출처에 없다.** 2025-10-29 note의 실제 표현은 「2025年10月時点で月に25万円程度の収益化ができています」다. 「約25万円」은 **별개 기사(2026-01-08 note)**의 「毎月約25万円が安定して入ってきている」에서 왔다 — 두 기사를 뒤섞었다",
+   "**[내 오류] '2차 출처 30만엔'은 2차가 아니다.** shiftb.dev 기사는 **같은 창업자 본인 집필**이고 본문에 「これは僕（ShiftB校長・ぶべ）自身の事例です」라고 명시된다. 즉 '본인 발화 vs 애그리게이터 모순' 구조가 오진이며, 실제로는 **동일 인물의 시계열 두 지점**(2025-10 25만엔 → 2026-04 30만엔 弱)이다. 따라서 내가 쓴 '본인이 2차보다 낮게 말하니 과장 방향 아님'이라는 안심 논거는 **무효**다 — 양쪽 다 자기보고고 독립 교차검증은 0건이다. 원문은 「弱」이므로 30만엔 **미달**임도 유지할 것",
+   "**[내 오류] USD 환산 $1,700에 근거가 없었다.** ≈147 JPY/USD를 함의하는데 CLAUDE.md §2에 JPY 레이트가 정의돼 있지 않았다 — €↔$ 사고와 동형. CLAUDE.md에 1 USD≈150 JPY를 추가했다",
+   "discovery_source 등급 오분류 교정: shiftb.dev를 'Tier3 JP 리스티클'로 적었으나 실제로는 **창업자 본인 소유 스쿨 사이트 + 본인 집필 = 자가공개(상업적 유인 있음)**",
+   "ai_tools: unknown → ['Claude Code', 'Cursor']. 본인 note 1인칭 발화 확보 — 「僕は毎日、Claude Codeと一緒にサービスを作っています」(2026-07-29). 본인 기명 기사에도 「Claude Code・Cursorで累計30以上のプロダクトを開発」, 「Claude Max($200)・Cursor Pro 등에 매월 4만엔 이상 과금」. **단 iDM을 지목한 발화는 없어 도구 근거는 '유지·확장' 성격이다**",
+   "region 정밀화: '일본' → '일본 도쿄(시부야)'. 법인 등기 〒150-0031 東京都渋谷区桜丘町23番17号",
+   "team_size 조건부 재기술 — iDM 기준 1인이나 운영 주체 법인이 별개 사업 다수를 운영한다",
+   "유료 계정 수는 **단정 기재 금지.** 본인 발화가 2026-01 「50人程度」(×4,000엔=20만엔, 25만엔과 25% 불일치)와 2026-04 「約70アカウント」(×3,980엔=27.9만엔)로 상충하고 요금제가 단일이라 티어 차이로 설명되지 않는다",
+   "설치 계정 수 상충: 제품 공식·인스타 bio 「1,000以上」 vs 강좌 사이트 「1,500以上」 — 낮은 쪽 채택",
+   "sources에 제품 공식(idm-reply.com)·법인(bubekichi.com) 추가. 기존에는 팔로워 21명·휴면 인스타만 있어 실존 근거로 약했다"
+  ],
+  "excluded_figures": [
+   "[figures] 「約25万円」 축자 인용 — 지목한 2025-10 note에 존재하지 않음(별 기사 문구)",
+   "[figures] '30만엔'을 애그리게이터/2차 출처 수치로 취급 — 같은 창업자 자가공개(2026-04)이며 「30万円弱」(미달)이다",
+   "[figures] 유료 계정 수(50 또는 70) — 본인 발화 안에서 상충, 단가 검산과 불일치",
+   "[figures] 설치 1,500계정 — 제품 측 표기는 1,000+이고 1,500은 강좌 판매 문맥에만 있다",
+   "[figures] 2026-08 현재 수치로의 표기 — 2026-05 이후 본인 발화 미발견. 어떤 수치도 현재형 금지",
+   "[검색요약 오염] 'iDM 월 약 3,000만엔' — 어느 원문에서도 확인되지 않음. 또 '25만과 30만을 한 괄호에 병기'하는 2차 기술도 관측됐다"
+  ],
+  "confidence_recommendation": "medium",
+  "notes": "판정: **3/3 pass** → verified, confidence medium. **코퍼스 첫 일본 사례다.**\n\n## JP 층 선례 — 도구 발화는 제품 글에 없다\n\n이 검증에서 층 특성이 확립됐다. **제품 소개글에는 도구명이 0회 나온다** — 같은 창업자가 vibely 릴리스 글에서 스택 14종을 나열하면서 Claude Code를 한 줄도 안 쓰는데, 개발일기에서는 「매일 Claude Code와 함께 만든다」고 쓴다. **제품 글만 보고 판정하면 JP 층은 전멸한다.** 프로브 순서를 RESEARCH_PIPELINE.md에 고정했다.\n\n## 스코프 pass — §0.5 가드레일 이중 충족\n\niDM 자체가 2023년 제작으로 **창 안**이라 기존 관례만으로도 borderline→pass다. 여기에 §0.5 유지·확장형 조건까지 얹으면 근거가 이중이 된다 — (1) 1인칭 현재형 도구 발화, (2) 창 안 신규 산출물 2건(vibely 2025-10, JS Gym 2025-03).\n\n## 이해관계 — kevin-badi와 구조가 다르다\n\nkevin-badi는 **수익 자체가 강좌 판매+유튜브**였다(성공을 파는 사업이 성공의 내용). iDM은 제3자 대상 SaaS 구독(월 3,980엔)이 별도 라인으로 라이브하고 스쿨은 다른 제품이다. 아카이브에 담는 대상은 iDM이지 스쿨이 아니므로 스코프는 통과한다. **단 iDM 수치의 발화 채널 일부가 스쿨 마케팅 자산이라는 점은 confidence 상한으로 반영했다 — high 금지.**\n\n## 규모\n\n25만엔/월 ≈ 연 $20K(1 USD≈150 JPY). 코퍼스 최저선(habit-pixel 연 $12K) 위, 하위권. JP 첫 사례가 하위권 규모라는 점은 층 특성으로 기록해둘 가치가 있다 — JP는 금액 공개 자체가 드물고 공개하는 쪽이 소규모다."
  }
 }
