@@ -41,12 +41,25 @@ Claude Code 사용이 기본값이라 창업자가 굳이 언급하지 않는 �
 
 확인 결과에 따라 세 갈래로 나눈다:
 
-- `fail` — **본인이 명시적으로 부정**한 경우에만. (선례: zigpoll — "I built the
-  first version myself with a code editor")
+- `fail` — **본인이 명시적으로 부정**한 경우에만. 선례:
+  - zigpoll: "I built the first version myself with a code editor"
+  - pckgr: "This was before AI tools like Claude Code and Cursor were available"
+  - faceless-video: 호스트가 바이브코딩을 "talking to cursor to code"로 설명했는데도
+    두 창업자가 "so out of that sphere"라 답함 — 단문 부정이 없어도 **합성 증거가 등가**일 수 있다
 - `borderline` — 확인했으나 언급을 못 찾음. **`unknown`이지 `none`이 아니다.**
   pass로 처리하고 notes에 "도구 근거 미확인, 부정 근거도 없음"으로 남겨 사람 승인
   단계에서 보이게 한다
 - `pass` — 도구 사용 근거 확인
+
+**`tool_question_probed`를 반환에 반드시 포함하라.** 네가 도구 항목을 실제로 심사했으면
+`true`다 — 판정이 pass든 borderline이든 무관하고, "확인했는가"만 묻는다. 확인 수단이
+없어 `fetch_requests`로 넘긴 채 끝냈으면 `false`다.
+
+이 필드가 왜 있는가: 이 아카이브는 "부정이 기록된 경우에만 fail"이라 걸러지는 대상이
+**부정한 사람이 아니라 질문받은 사람**이 된다(faceless-video는 팟캐스트에서 질문받아
+기각됐고, 스택이 동일한 my-askai·formula-bot은 아무도 안 물어봐서 통과 상태다).
+이 비대칭을 은폐하지 않으려면 심사 여부 자체가 데이터로 남아야 한다. 2026-08-12 기준
+사례 41건 중 심사된 것은 6건(15%)뿐이다.
 
 기존 DB에 `ai_tools: unknown`인 사례가 13건 있다(도구 제작사 본인 5건, 스코프 창
 밖 1건, 근거는 있는데 필드 미기입 2건, 진짜 미확인 5건). 신규 후보에게 코퍼스보다
@@ -70,6 +83,7 @@ Claude Code 사용이 기본값이라 창업자가 굳이 언급하지 않는 �
     "team_size": "pass | fail — 근거",
     "monetization": "pass | fail — 근거"
   },
+  "tool_question_probed": true,
   "duplicate_check": {
     "verdict": "unique | duplicate | suspected — 근거",
     "matched_against": "겹치는 기존 id (있다면)"

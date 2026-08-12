@@ -119,6 +119,18 @@ def corpus_report(cases, cands):
                if not c.get("ai_tools") or c.get("ai_tools") == ["unknown"]]
     print(f"  {len(missing)}/{len(cases)}건: {', '.join(missing)}")
 
+    # ai_tools가 채워져 있다는 것과 도구 사용을 실제로 심사했다는 것은 다르다.
+    # 이 비율이 낮으면 코퍼스의 도구 데이터 대부분이 '언급이 없어서 안 적음'이라는 뜻이다.
+    print("\n--- 도구 심사 여부 (tool_question_probed) ---")
+    probed = [c["id"] for c in cases if c.get("tool_question_probed")]
+    print(f"  심사됨 {len(probed)}/{len(cases)}건 ({len(probed)/len(cases):.0%})"
+          f": {', '.join(probed) if probed else '-'}")
+    filled_unprobed = [c["id"] for c in cases
+                       if not c.get("tool_question_probed")
+                       and c.get("ai_tools") and c.get("ai_tools") != ["unknown"]]
+    print(f"  * ai_tools는 있으나 미심사: {len(filled_unprobed)}건"
+          " — 값이 맞을 수는 있으나 검증된 것은 아니다")
+
     print("\n--- confidence ---")
     print(f"  {dict(Counter(c.get('confidence') for c in cases).most_common())}")
 

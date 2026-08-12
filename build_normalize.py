@@ -6,6 +6,19 @@ raw = json.load(open("data/raw_cases.json", encoding="utf-8"))
 # domain_category, team_size_bucket, founder_background(dev/non-dev/mixed/unknown),
 # founder_experience(first-time/serial/unknown), revenue_annual_usd_est (int or None)
 
+# ---- 도구 심사 여부 (tool_question_probed) ----
+# ai_tools 필드가 채워져 있다는 것과 "도구 사용 여부를 실제로 심사했다"는 것은 다르다.
+# 아래 사례들은 Stage 3 3렌즈 검증에서 scope-judge가 도구 항목을 명시적으로 판정했다.
+# 나머지는 초기 일괄 적재분으로, 언급이 없어서 안 적었을 뿐 확인한 것이 아니다.
+#
+# 왜 이 구분이 필요한가 (2026-08-12): faceless-video는 팟캐스트에서 바이브코딩을
+# 질문받고 "out of that sphere"라 답한 기록 때문에 기각됐다. 반면 my-askai·formula-bot은
+# 스택 구조가 동일한데 아무도 물어본 적이 없어 통과 상태다. 즉 "부정한 사람"이 아니라
+# "질문받은 사람"이 걸러진다. 이 비대칭을 은폐하지 않고 데이터에 노출한다.
+TOOL_PROBED = {
+    "imaginary-space", "kleo", "lumoo", "ninjapear", "stoppr", "superx",
+}
+
 ENRICH = {
 "base44": dict(domain_category="AI 코딩/개발툴", team_size_bucket="solo",
     founder_background="developer", founder_experience="serial",
@@ -175,6 +188,7 @@ for c in raw:
     merged.setdefault("exit_value_usd", None)
     merged.setdefault("funding_usd", None)
     merged.setdefault("valuation_usd", None)
+    merged["tool_question_probed"] = c["id"] in TOOL_PROBED
     # 기본값은 최초 일괄 적재일. 이후 추가되는 사례는 ENRICH에 ingested_at을 넣어
     # 실제 반영일로 덮는다 — app.js의 신규 배지가 이 값으로 계산되므로, 전부 같은
     # 날짜면 신규 사례가 방문자에게 새것으로 보이지 않는다.
