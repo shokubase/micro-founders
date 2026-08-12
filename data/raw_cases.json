@@ -1215,5 +1215,71 @@
       "https://nubela.co/blog/introducing-person-profile-endpoint-also-1000-users-66k-arr/"
     ],
     "confidence": "high"
+  },
+  {
+    "id": "jonathan-geiger-portfolio",
+    "founders": [
+      "Jonathan Geiger",
+      "Yoav Mendelson (PostPeer 공동창업자)"
+    ],
+    "product": "PostPeer / SocialKit(2026-08 매각)",
+    "domain": "개발자용 소셜미디어 데이터·게시 API",
+    "one_liner": "3년간 사이드로 시도하다 5·6번째 제품에서 트랙션을 얻고 연쇄 매각으로 이어간 개발자 API 포트폴리오",
+    "team_size": "SocialKit 1인 / PostPeer 2인 공동창업",
+    "region": "이스라엘",
+    "revenue": "2026-07 월매출 $7,740 (PostPeer $3,998 + SocialKit $3,742) — 창업자 본인 2026-08-01 X 결산, 전업 전환 후 첫 만월. 2026-08-06 SocialKit 매각으로 이후 잔존 제품은 PostPeer 단독. PostPeer MRR은 본인 $2,661/활성구독 112(2026-07-29)와 Polar API 검증 $1,989/활성구독 79(2026-08-11)가 불일치",
+    "revenue_date": "2026-07",
+    "exit_status": "부분 exit — SocialKit 2026-08-06 매각(매각가 비공개). 과거 exit: LectureKit $7K, CaptureKit $15K",
+    "stack": [
+      "unknown"
+    ],
+    "ai_tools": [
+      "Claude"
+    ],
+    "founder_background": "3년간 사이드 프로젝트를 반복하다 2026-07 전업 전환. 연쇄 exit 3건 — LectureKit $7K, CaptureKit $15K(런칭 2.5개월 후, 당시 MRR $127), SocialKit(2026-08, 금액 비공개)",
+    "business_model": "API 사용량 크레딧 구독 + 일회성 크레딧 팩",
+    "sources": [
+      "https://www.indiehackers.com/post/5kZRj2Lln7jO7nVVoYFP",
+      "https://x.com/JonathanGeige18",
+      "https://www.postpeer.dev/about",
+      "https://trustmrr.com/startup/postpeer"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "sergiu-chiriac-portfolio",
+    "founders": [
+      "Sergiu Chiriac"
+    ],
+    "product": "AI Directories / TransClipper / BrandReply / ColdConvert",
+    "domain": "인디메이커 대상 제품 등록·유통 자동화 툴",
+    "one_liner": "자기가 쓰려고 만든 디렉터리 등록 자동화 툴을 포트폴리오로 확장한 1인 메이커",
+    "team_size": "1인 (공동창업자 없음)",
+    "region": "포르투갈 리스본",
+    "revenue": "본인 일반진술 \"Across all my projects, I typically generate over $10k/mo\" (IH 2026-08-06). 2026-07 본인 결산 총 $20,500 — 항목: AI Directories $9,771 / 제휴 $7,900 / 제품명 비공개 앱 $2,500 / TransClipper $50 (항목 합 $20,221로 본인 표기 총액과 $279 불일치). 일회성 구매 중심이라 MRR 아님",
+    "revenue_date": "2026-07",
+    "exit_status": "운영 중",
+    "stack": [
+      "Next.js",
+      "MongoDB",
+      "Prisma",
+      "Tailwind",
+      "Vercel",
+      "Coolify",
+      "Stripe",
+      "Resend"
+    ],
+    "ai_tools": [
+      "Cursor"
+    ],
+    "founder_background": "본인이 겪은 제품 등록 문제를 풀려고 만든 툴에서 출발한 1인 메이커. 몰도바 출생, 포르투갈 20년 거주",
+    "business_model": "일회성 구매 중심 (디렉터리 등록 Starter $99 / Pro $149 / Premium $199) + 제휴 수입(2026-07 기준 38.5%) + 컨설팅 판매",
+    "sources": [
+      "https://www.indiehackers.com/post/1r8AaZOjxXZSB5MMAhG5",
+      "https://x.com/s_chiriac/status/2083116055854002519",
+      "https://www.aidirectori.es/about-us",
+      "https://www.sergiuchiriac.com/"
+    ],
+    "confidence": "medium"
   }
 ]

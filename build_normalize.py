@@ -17,6 +17,7 @@ raw = json.load(open("data/raw_cases.json", encoding="utf-8"))
 # "질문받은 사람"이 걸러진다. 이 비대칭을 은폐하지 않고 데이터에 노출한다.
 TOOL_PROBED = {
     "imaginary-space", "kleo", "lumoo", "ninjapear", "stoppr", "superx",
+    "jonathan-geiger-portfolio", "sergiu-chiriac-portfolio",
 }
 
 ENRICH = {
@@ -162,6 +163,14 @@ ENRICH = {
     founder_background="developer", founder_experience="first-time",
     revenue_annual_usd_est=126000,
     normalize_note="앱 매출 월 ~$10.5K × 12 (2026-05 자가보고). 2025-11 주력 앱 퇴출 후 하락 추세(RevenueCat 연동 트래커 기준 단일 앱 MRR $1.4K, 2026-08) — 스냅샷 시점 주의. 플랫폼 리스크 표본."),
+"jonathan-geiger-portfolio": dict(domain_category="AI 코딩/개발툴", team_size_bucket="2-3",
+    founder_background="developer", founder_experience="serial",
+    revenue_annual_usd_est=92880, ingested_at="2026-08-12",
+    normalize_note="2026-07 월매출 $7,740 × 12 (본인 2026-08-01 X 결산). **매각 전 실적이며 현재 런레이트가 아니다** — 2026-08-06 SocialKit 매각으로 잔존 제품은 PostPeer 단독이므로 매각 후 런레이트는 약 $48K/yr($3,998×12) 수준. PostPeer MRR은 자기보고($2,661/112구독, 2026-07-29)와 Polar API 검증($1,989/79구독, 2026-08-11)이 어긋나 단일 값으로 쓸 수 없어 병기했다 — 단가는 $23.8 vs $25.2로 정합하므로 괴리는 구독 건수 정의 차이로 보인다. SocialKit 누적매출 본인 주장 $23,120은 LemonSqueezy API 검증 $14,730과 +57% 어긋나므로 단정 표기 금지. 참고로 총매출 지표에서는 본인 클레임이 검증치보다 낮다(-12%) — '과장'이 아니라 MRR 산정 정의 불일치."),
+"sergiu-chiriac-portfolio": dict(domain_category="커머스/마케팅", team_size_bucket="solo",
+    founder_background="developer", founder_experience="serial",
+    revenue_annual_usd_est=120000, ingested_at="2026-08-12",
+    normalize_note="본인 일반진술 '경상 월 $10K 초과' × 12 = $120K를 하한으로 사용. **2026-07 최고치 $20,500을 연환산하지 않았다** — 일회성 구매 중심이라 월 변동이 크고(본인 발화 \"My revenue varies monthly because most of my products are one-time purchases\") 최고치 연환산은 부풀리기다. 더 중요하게 **이 총액은 제품 매출이 아니다** — 2026-07 구성의 38.5%($7,900)가 제휴 수입이고 $2,500은 제품명 비공개 앱이다. 이름이 특정된 자사 제품 매출은 $9,821(47.9%)에 그친다. 본인 표기 총액 $20,500과 항목 합 $20,221이 $279 어긋나며 원문에 5번째 항목은 없다 — 정상 반올림이 아니고 목표 달성을 위한 상향 유인도 없다($20,221도 이미 본인 $20K 목표 초과). IH 일반진술의 발화 시점은 불확정(게재 2026-08-06이나 본문 'Last month $15.7k'가 7월 결산과 불일치해 작성은 2026-07 이전). 도메인 분류 참고: scope-judge는 '메이커 툴/유통' 신설을 권고했으나 단일 사례 카테고리를 피해 '커머스/마케팅'으로 뒀다 — marc-lou·superx·kleo·launch-fast 등 '인디메이커에게 파는' 사례군을 함께 재분류할 때 반영할 것."),
 "ninjapear": dict(domain_category="생산성/업무도구 SaaS", team_size_bucket="solo",
     founder_background="developer", founder_experience="serial",
     revenue_annual_usd_est=180000, ingested_at="2026-08-12",
