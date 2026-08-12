@@ -38,6 +38,31 @@ RESEARCH_PIPELINE.md의 4단계를 에이전트 팬아웃으로 실행하는 표
 
 ## Stage 3 — 3렌즈 검증 (후보당 2/3 통과제)
 
+### Stage 3.0 — 1차 출처 사전 수집 (에이전트 투입 전)
+
+**에이전트를 띄우기 전에 네가 직접 브라우저로 1차 출처를 받아둔다.** 에이전트에는
+브라우저 도구가 없다 — 공유 인스턴스라 병렬로 쓰면 서로 탭을 뺏는다
+(2026-08-12 실증, RESEARCH_PIPELINE.md §Stage 3 참조).
+
+1. 후보의 `verification.primary_sources` URL 목록을 뽑는다
+2. `mcp__playwright__browser_navigate` → `browser_evaluate`로 **하나씩 순차** 수집:
+   ```js
+   () => new Promise(r => setTimeout(() => r({ url: location.href, title: document.title,
+     og: (document.querySelector('meta[property="og:description"]')||{}).content,
+     body: document.body.innerText.slice(0, 9000) }), 4000))
+   ```
+3. 스크래치패드 `sources/<candidate-id>/<slug>.md`에 저장. 파일 상단에 원본 URL과
+   수집 시각을 적을 것
+4. 에이전트 호출 프롬프트에 그 디렉터리 경로를 명시한다
+
+검색은 WebSearch로만 하라 — 브라우저로 검색엔진에 가면 차단기에 막힌다.
+
+에이전트가 `fetch_requests`를 담아 돌아오면 그 URL을 같은 방식으로 받아
+`SendMessage`로 해당 에이전트를 재개시킨다. `not_attempted` 판정은 기각 근거가
+아니므로 반드시 이 왕복을 완료하고 최종 판정을 받아라.
+
+### Stage 3.1 — 3렌즈 투입
+
 후보마다 서브에이전트 3개를 투입한다 (후보 간 병렬 가능):
 
 | 렌즈 | 에이전트 | 판정 대상 |

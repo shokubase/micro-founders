@@ -1,0 +1,9 @@
+# playwright MCP가 남기는 페이지 스냅샷·콘솔 로그 (리서치 실행 중 생성)
+.playwright-mcp/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc

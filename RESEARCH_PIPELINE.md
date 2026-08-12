@@ -74,18 +74,42 @@ Stage 4 반영   사람 승인 → build_raw.py + build_normalize.py ENRICH 반�
 | 수치 | `case-verifier` (figures) | 매출 주장의 원문 발화(누가·어디서·언제·원문 통화), 애그리게이터 모순 스크리닝 |
 | 스코프·중복 | `scope-judge` | AI 코딩 툴(2023~) 사용, 팀 규모, 수익화 근거, 기존 사례와 중복 |
 
-#### 1차 출처 fetch 경로 (2026-08-12 추가)
+#### 1차 출처 fetch 경로 — 브라우저는 오케스트레이터 독점 (2026-08-12)
 
 **WebFetch는 x.com에서 402, JS 렌더링 사이트(IH `/products` 등)에서 빈 응답을 준다.**
 이 파이프라인의 1차 출처는 대부분 창업자 본인 X 발화이므로 이건 치명적이다 —
 2026-08-11 점검에서 기존 기각 5건(wrestle-ai, caret, kevin-badi-portfolio, lunair,
-shiftnex)이 전부 "원문 발화 미확보" 사유였는데, 당시 검증 에이전트 도구 목록에는
-브라우저가 없었다. 즉 **증거 부재가 아니라 도구 한계였을 가능성**이 있다.
+shiftnex)이 전부 "원문 발화 미확보" 사유였는데, 당시 검증 에이전트에는 그 페이지를
+열 수단 자체가 없었다. 즉 **증거 부재가 아니라 도구 한계였을 가능성**이 있다.
 
-fetch 실패 시 `mcp__playwright__browser_navigate` → `browser_evaluate` 순으로
-재시도한다 (구체 스니펫은 `.claude/agents/case-verifier.md`). x.com은 로그아웃
-상태에서도 `og:description`에 트윗 본문이 담기지만 ~280자에서 절단된다.
-**"찾을 수 없었다"는 WebFetch와 playwright를 모두 시도한 뒤에만 쓸 수 있다.**
+playwright가 그 페이지들을 여는 건 확인됐다(x.com 트윗 본문은 `og:description`,
+IH SPA는 대기 후 `innerText`). **단 브라우저를 에이전트에 붙이면 안 된다.**
+
+> 2026-08-12 실증: 검증 에이전트 3종에 playwright를 붙이고 5개를 병렬로 돌렸더니
+> 에이전트들이 서로 탭을 뺏었다. 에이전트 자체 로그에 "shared browser keeps
+> drifting to other agents' pages", "Browser is contended again"이 남았다.
+> A가 연 페이지를 B가 읽고 "확인했다"고 보고할 수 있다 — 출처 검증이 존재 이유인
+> 파이프라인에서 가장 나쁜 오염이다.
+
+그래서 구조는 이렇다:
+
+```
+오케스트레이터(메인 세션)          검증 에이전트
+  playwright 독점, 직렬 수집    →    Read로 스냅샷 판독
+  스냅샷 파일로 저장                 못 여는 URL은 fetch_requests로 요청
+  요청받은 URL 추가 수집        ←
+  SendMessage로 에이전트 재개   →    최종 판정
+```
+
+- 스냅샷 저장 위치: 스크래치패드 `sources/<candidate-id>/<slug>.md`,
+  파일 상단에 원본 URL과 수집 시각 기록
+- 에이전트 도구에 playwright를 **넣지 마라**. `.claude/agents/*.md`의 `tools:`는
+  WebSearch/WebFetch/Read(+Bash)로 유지
+- 사전 수집 대상은 후보 파일의 `verification.primary_sources` — 이미 URL 목록이 있다
+- **검색은 WebSearch로만.** 브라우저로 검색엔진에 가면 이 환경의 차단기(Freedom)에
+  막힌다. 브라우저는 지정된 URL 열람 전용
+- 에이전트는 `unverifiable`(찾았으나 확인 불가)과 `not_attempted`(수단이 없어 못 봄)를
+  구분해 반환한다. **후자는 기각 근거가 될 수 없다**
 
 #### 도구 미사용 판정 기준
 
