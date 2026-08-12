@@ -1,6 +1,6 @@
 {
  "id": "sergiu-chiriac-portfolio",
- "status": "pending_verification",
+ "status": "verified",
  "discovered_at": "2026-08-12",
  "discovery_source": "https://www.indiehackers.com/tech 피드 직접 순회 (Tier1) — 2026-08-06 게시글",
  "case": {
@@ -8,13 +8,13 @@
   "founders": [
    "Sergiu Chiriac"
   ],
-  "product": "AI Directories / TransClipper / BrandReply / ColdConvert / Backlink Rise (포트폴리오)",
+  "product": "AI Directories / TransClipper / BrandReply / ColdConvert (+ 제품명 비공개 앱 1종)",
   "domain": "제품 런칭·디렉터리 등록 자동화 등 인디메이커 대상 툴",
   "one_liner": "자기가 쓰려고 만든 제품 등록 자동화 툴을 포트폴리오로 확장한 1인 메이커",
-  "team_size": "1인 (공동창업자 없음) + 수동 제출 업무 조력자 — 본인이 2025-09 배우자 온보딩 발화",
-  "region": "포르투갈 리스본 (본인 dev.to/GitHub 프로필 자기신고, 몰도바 출생)",
-  "revenue": "월 $10,000 초과 (변동 — 본인 표현 \"Across all my projects, I typically generate over $10k/mo\", 일회성 구매 중심이라 MRR 아님). 자기보고 최고치는 2026-07 총 $20,500(AI Directories $9,771 / 제휴 $7,900 / 미공개 앱 $2,500 / TransClipper $50)",
-  "revenue_date": "2026-08 (IH 발화 시점)",
+  "team_size": "1인 (공동창업자 없음 — 본인 발화 IH 2026-08: \"I work best on my own\", 공식 About 단수 \"Hi, I'm Sergiu - the maker behind AI Directories\"). 디렉터리 수동 제출 실무에 조력 인력이 있다는 독립 보도 1건(2024-10) 있으나 본인 확인 없음·현재 상태 미확인",
+  "region": "포르투갈 리스본 (몰도바 출생)",
+  "revenue": "2026-07 본인 결산 총 $20,500 (본인 표기). 항목: AI Directories $9,771 / 제휴 $7,900 / 제품명 비공개 앱 $2,500 / TransClipper $50 — 항목 합 $20,221로 본인 표기 총액과 $279 불일치(원문에 5번째 항목 없음). 일회성 구매 중심이라 MRR 아님. IH 2026-08-06 일반진술 \"Across all my projects, I typically generate over $10k/mo\"",
+  "revenue_date": "2026-07",
   "exit_status": "운영 중",
   "stack": [
    "Next.js",
@@ -30,33 +30,53 @@
    "Cursor"
   ],
   "founder_background": "본인이 겪은 제품 등록 문제를 풀려고 만든 툴에서 출발한 1인 메이커",
-  "business_model": "일회성 구매 중심 (AI Directories 등록 Starter $99 / Pro $149 / Premium $199, 디렉터리 소유자 등재 $49는 별개 상품) + 제휴 수입 포함(2026-07 기준 약 38%)",
+  "business_model": "일회성 구매 중심 (AI Directories 등록 Starter $99 / Pro $149 / Premium $199, 디렉터리 소유자 등재 $49는 별개 상품) + 제휴 수입(2026-07 기준 38.5%) + 컨설팅 판매",
   "sources": [
    "https://www.indiehackers.com/post/1r8AaZOjxXZSB5MMAhG5",
    "https://www.aidirectori.es/"
   ],
-  "confidence": "low"
+  "confidence": "medium",
+  "founded_year": 2023
  },
  "verification": {
-  "verified_at": null,
+  "verified_at": "2026-08-12",
   "checklist_passed": [
-   "existence:fail(데이터 교정)",
-   "figures:fail",
+   "existence:pass",
+   "figures:pass(교정 후)",
    "scope:pass"
   ],
   "primary_sources": [
-   "https://www.indiehackers.com/post/1r8AaZOjxXZSB5MMAhG5 (창업자 본인 인터뷰, 2026-08-06 — 포트폴리오 월 $10K 초과, 최고 $15.7K 본인 발화)"
+   "https://www.indiehackers.com/post/1r8AaZOjxXZSB5MMAhG5 (창업자 본인 인터뷰, 2026-08-06 게재)",
+   "https://x.com/s_chiriac/status/2083116055854002519 (2026-07-31 월간 결산 **전문**, 절단 없음. 스냅샷 sources/sergiu__x-july-2026-settlement.md)",
+   "https://x.com/s_chiriac (프로필 bio 전문 + $100k/m 진행바 + 2026-08-04 BrandReply 출시 고정 트윗. 스냅샷 sources/sergiu__x-profile.md)",
+   "https://www.aidirectori.es/about-us (공식 About — 단수 자기소개)",
+   "https://pt.linkedin.com/in/schiriac (자기신고 'Lisboa, Lisboa, Portugal')",
+   "https://github.com/sergiuchiriac (자기신고 location 'Lisboa')",
+   "https://dev.to/sergiuchiriac (자기신고 location 'Lisbon')",
+   "https://www.sergiuchiriac.com/ (본인 포트폴리오 — Skills에 Cursor 자기신고, 컨설팅 판매)"
   ],
-  "corrections": [],
+  "corrections": [
+   "**[날조 제거]** team_size의 '본인이 2025-09 배우자 온보딩 발화' 절 삭제. 1차 실존 렌즈가 기각 근거로 지목한 트윗(x.com/s_chiriac/status/1957738853575307344)을 브라우저로 직접 열어보니 **2025-08-19자 @tcalves 컨설팅 통화 후기이고 배우자 언급이 전무**하다. 날짜도 다르다. 정확문구 검색으로 진짜 permalink를 찾았으나 0건 — 검색 요약이 없는 내용을 그 ID에 귀속시킨 것으로 판단",
+   "team_size: '1인' 확정. 본인 IH 발화가 정면으로 솔로를 진술하고 현재 공식 About도 단수. 반대 증거는 fakemayo(2024-10-13) 저자 서술 한 줄뿐이며 22개월 전이라 independent 단일 출처로 강등",
+   "region: 'unknown' → '포르투갈 리스본'. 자기신고 3건(LinkedIn/GitHub/dev.to)에 독립 보도 1건(포르투갈 20년 거주, 몰도바 출생)이 국가 단위 교차 확인",
+   "revenue: 총액과 항목을 괄호로 묶어 분해처럼 제시하던 형식을 폐기. 산술적으로 거짓이었다 — 항목 합 $20,221 ≠ 본인 표기 $20,500. 병렬 제시 + 불일치 명기 형식으로 교체",
+   "revenue_date: '2026-08 (IH 발화 시점)' → '2026-07'. 2026-08은 IH **게재일**이며, IH 본문의 'Last month $15.7k'가 7월 결산과 불일치하므로 인터뷰 작성 시점은 2026-07 이전",
+   "product: Backlink Rise 제외 — 셀프서브 제품이 아니라 **사전출시 상태의 링크빌딩 대행**(건당 $49.50 + 링크비 협상, 푸터 © 2025). 다른 제품과 동급 나열은 과대 표기",
+   "product: 본인 사이트에 걸린 Based Labs(basedlabs.ai)는 소유 근거 없음 — 추가 금지. 반대로 그 사이트에 TransClipper·BrandReply가 없어 sergiuchiriac.com 프로젝트 목록은 stale",
+   "business_model에 컨설팅 판매 추가. 본인 사이트 서비스 섹션 + 2025-08-19 트윗에서 확인",
+   "ai_tools: ['Cursor'] — 본인 포트폴리오 사이트 Skills 자기신고. OpenAI/Gemini/Anthropic API는 '제품이 AI를 씀'이므로 stack으로 분리"
+  ],
   "excluded_figures": [
-   "[figures] '최고 기록 월 $15.7K'를 현재값으로 표기 — refuted. 게재 시점에 이미 경신됐다. 본인 2026-07-31 월간 결산은 7월 총 $20,500 / AI Directories $9,771. IH의 '지난달'이 7월이 아니라는 뜻이므로 기록 월은 2026-06 이전",
-   "[figures] revenue_date '2026-08' — 원문은 기록 월을 'Last month'로만 쓰고 달 이름도 인터뷰 시점도 밝히지 않는다. 게시일을 매출 시점으로 옮긴 오류",
-   "[figures] '포트폴리오 합계'를 제품 매출로 표기 — refuted. 2026-07 구성의 $7,900(약 38%)가 제휴 수입이고 $2,500은 제품명 비공개 앱. 본인이 만든 제품의 매출이 아님",
+   "[figures] '최고 기록 월 $15.7K'를 현재값으로 표기 — refuted. 게재 시점에 이미 경신됐다(2026-07 총 $20,500). IH의 'Last month'가 7월이 아니라는 뜻이므로 기록 월은 2026-06 이전. 정확한 월은 unverifiable(6월 결산 게시물 미발견)",
+   "[figures] '월 $10,000 초과'를 제품 매출로 표기 — refuted. 원문이 'Across **all my projects**'이고 2026-07 실구성의 38.5%가 제휴 수입이다. 제품 매출은 검증 가능분 최소 $9,821(47.9%), 제품명 비공개 앱 포함 시 $12,321(60.1%)",
+   "[figures] X bio 'ai_directories -15K/mo' — refuted. 본인 항목별 결산 $9,771의 약 1.5배이고 IH의 $9.5k와도 어긋난다. bio에 transclipper.ai(2026-03경 런칭)가 있어 2026-03 이후 문구이므로 '오래된 표기' 해명 불가",
    "[figures] fakemayo(2024-10-13)의 '€5K per month' — 2024년 유로 표기이자 저자 요약. 현재 USD 수치와 혼입 금지 (이 아카이브가 실증한 €↔$ 오류 유형)",
    "[figures] 개인 사이트의 '$3,000/$10,000 MRR', 'made over $70K' — 2025년 목표 기준 미갱신 위젯",
-   "[existence] team_size '1인' — refuted. 본인 X 2025-09 배우자 온보딩 발화, fakemayo 2024-10 '조력 3인'. IH의 \"I prefer building the product...instead of relying on someone else\"는 공동창업자를 두지 않는다는 진술이지 조력자 부재 진술이 아님"
+   "[figures] 2026-08-11 'Got $1,235 to reinvest' — 재투자 가능액이며 매출 아님",
+   "[figures] 검색 요약이 생성한 '포트폴리오 총 $100k/mo' — 근거 없는 허구 수치. bio의 진행바 목표($100k/m)를 실적으로 오독한 것으로 보임",
+   "[existence] '2025-09 배우자 온보딩 발화' — **날조 확인**. 지목된 트윗 ID에 해당 내용 없음"
   ],
-  "confidence_recommendation": null,
-  "notes": "**상태: 후보 데이터 교정 완료. 수치 렌즈는 사례 자체의 표기 문제도 지적했으므로 재검증 필요.**\n\n스코프 pass — 도구가 특정됐다. IH 긍정 발화(\"AI has also become an essential part of my workflow — not only for product features but also for coding, debugging...\")에 더해 본인 포트폴리오 사이트 Skills에 **Cursor**가 자기신고로 등재돼 있다. 단 Skills 나열형이라 제품 단위 귀속은 아니다. OpenAI/Gemini/Anthropic API는 '제품이 AI를 씀'이므로 ai_tools가 아니라 stack 쪽 — 필드에서 분리했다.\n\n**교정 내역:** region unknown→리스본, team_size에 조력자 반영, product에 누락 2건 추가, stack·ai_tools·business_model 채움, revenue를 '변동 수입 $10K/mo 초과'로 고정.\n\n**남은 쟁점 — 이건 데이터 오류가 아니라 사례 성격 문제다.** 포트폴리오 합계의 약 38%가 제휴 수입이다. 바이브코딩으로 만든 제품의 수익화를 모으는 아카이브에서 이 합계를 그대로 제품 매출로 싣는 건 성격이 다른 돈을 섞는 것이다. 반영한다면 제품 매출만 분리하거나 normalize_note에 제휴 비중을 명기해야 한다.\n\n**스코프 경계 소견(기각 사유 아님).** 디렉터리 등록 대행은 SEO 성격이나 제품 실체가 100+ 디렉터리 자동 제출 SaaS이고 셀프서브 결제로 돌아가므로 컨설팅형이 아니다. 코퍼스에 '메이커 대상 툴' 선례가 이미 여럿(marc-lou ShipFast, superx, kleo). 다만 '인디메이커에게 파는 인디메이커' 편중이 대시보드에 보이도록 domain_category를 '메이커 툴/유통'으로 잡을 것을 권고.\n\n**오염 차단 기록.** braginpublic 집계 페이지는 메인 포스트가 다른 창업자(Jonathan Wilke, supastarter $200k)의 것이고 Sergiu 항목은 사이드바에만 있다. 같은 URL을 반복 호출하니 요약이 매번 다른 섹션을 잡아 남의 X permalink를 붙일 뻔했고, WebSearch 요약도 Capgo($27,005) 수치를 섞었다. 집계 페이지에서 수치를 뽑을 땐 attribution을 별도 질의로 재확인할 것."
+  "confidence_recommendation": "medium",
+  "notes": "판정: **3/3 pass(수치는 교정 후)** → verified, confidence medium.\n\n**이 건의 최대 교훈은 검색 요약 날조가 렌즈 판정까지 들어갔다는 것이다.** 1차 실존 렌즈가 team_size를 fail로 놓은 결정적 근거('2025-09 배우자 온보딩 발화')가 실재하지 않았다. 에이전트에게 x.com 접근 수단이 없어 원문 대조를 못 했고, 오케스트레이터가 브라우저로 열어보고서야 드러났다. 같은 요약기가 같은 세션에서 '포트폴리오 $100k/mo'라는 허구 수치도 만들어냈다.\n\n**수치 렌즈가 자기 1차 판단도 정정했다.** '제품 매출 = $9,821'에서 Stealth App $2,500을 뺀 근거를 '비제품'이라고 썼는데, 실제로는 그가 만든 앱이 맞고 빠질 이유는 '제품명 비공개라 실존 검증 불가'다. 성격이 다른 배제 사유를 섞었다며 스스로 고쳤다.\n\n**$279 불일치는 은폐하지 않고 노출한다.** 항목 합 $20,221과 본인 표기 총액 $20,500이 어긋나는데, 정상 반올림이 아니고($20,200/$20,000이 아님) $20,221도 이미 본인의 $20K 목표를 넘으므로 올릴 유인도 없다. 원문에 5번째 항목이 없다는 건 '그가 항목화하지 않았다'는 사실이지 '수입이 없었다'는 사실이 아니므로 미항목화 소액 채널 가능성도 남는다. 총액과 항목을 등호로 묶지 않고 병렬 제시하되 불일치를 명기하는 형식으로 처리했다 — 2차 출처가 어긋난 수치를 매끄럽게 다듬어 재인용하는 오류의 정반대다.\n\n**스코프 pass 논거.** IH 긍정 발화(\"AI has also become an essential part of my workflow — not only for product features but also for coding, debugging...\")에 더해 본인 포트폴리오 사이트 Skills에 Cursor가 자기신고로 등재돼 있다. 단 Skills 나열형이라 제품 단위 귀속은 아니다.\n\n**Stage 4 반영 시 normalize_note 필수 3건:** (1) $279 불일치와 5번째 항목 부재, (2) 제휴 38.5% 비중 — 제품 매출이 아님, (3) IH 일반진술의 발화 시점 불확정. domain_category는 '메이커 툴/유통'으로 잡아 '인디메이커에게 파는 인디메이커' 편중이 대시보드에 드러나게 할 것(스코프 렌즈 권고)."
  }
 }

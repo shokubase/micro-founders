@@ -1,6 +1,6 @@
 {
  "id": "jonathan-geiger-portfolio",
- "status": "pending_verification",
+ "status": "verified",
  "discovered_at": "2026-08-12",
  "discovery_source": "https://www.indiehackers.com/tech 피드 직접 순회 (Tier1) — 2026-07-28 게시글: https://www.indiehackers.com/post/5kZRj2Lln7jO7nVVoYFP",
  "case": {
@@ -8,47 +8,63 @@
    "Jonathan Geiger",
    "Yoav Mendelson (PostPeer 공동창업자)"
   ],
-  "product": "SocialKit / PostPeer",
+  "product": "PostPeer / SocialKit(2026-08 매각) — 개발자용 소셜 데이터·게시 API",
   "domain": "소셜미디어 데이터 API·게시 도구",
   "one_liner": "3년간 사이드로 시도하다 5·6번째 제품에서 트랙션을 얻은 개발자 API 포트폴리오",
   "team_size": "SocialKit 1인 / PostPeer 2인 공동창업",
   "region": "이스라엘",
-  "revenue": "2026-07 기준 합계 월매출 약 $6.4K (순수 MRR $5.2K + 일회성 약 $1.2K) — SocialKit 월 약 $3.5K(MRR $2.8K + 일회성 약 $700, 활성구독 110건), PostPeer 월 약 $2.9K(MRR $2.4K + 일회성 약 $500, 유저 1,000명). 창업자 본인 발화 기준",
+  "revenue": "2026-07 월매출 $7,740 (PostPeer $3,998 + SocialKit $3,742) — 창업자 본인 2026-08-01 X 결산, 전업 전환 후 첫 만월. 2026-08-06 SocialKit 매각으로 이후 잔존 제품은 PostPeer 단독. PostPeer MRR은 본인 $2,661/활성구독 112(2026-07-29)와 Polar API 검증 $1,989/활성구독 79(2026-08-11)가 불일치 — 병기",
   "revenue_date": "2026-07",
-  "exit_status": "운영 중",
+  "exit_status": "부분 exit — SocialKit 2026-08-06 매각(매각가 비공개, 매각 시점 본인 표기 MRR $3,290 + 팩 ~$700/mo). PostPeer 운영 중. 과거 exit: LectureKit $7K, CaptureKit $15K",
   "stack": [
    "unknown"
   ],
   "ai_tools": [
    "Claude"
   ],
-  "founder_background": "3년간 사이드 프로젝트를 반복하다 전업 전환",
+  "founder_background": "3년간 사이드 프로젝트를 반복하다 2026-07 전업 전환. 연쇄 exit — LectureKit $7K, CaptureKit $15K(런칭 2.5개월 후, 당시 MRR $127), SocialKit(2026-08, 금액 비공개). 본인 X bio: \"Sold SocialKit, CaptureKit, LectureKit. Currently building PostPeer.dev\"",
   "business_model": "API 사용량 크레딧 구독 + 일회성 크레딧 팩",
   "sources": [
    "https://www.indiehackers.com/post/5kZRj2Lln7jO7nVVoYFP",
    "https://socialkit.dev",
    "https://postpeer.dev"
   ],
-  "confidence": "low",
-  "id": "jonathan-geiger-portfolio"
+  "confidence": "medium",
+  "id": "jonathan-geiger-portfolio",
+  "founded_year": 2025
  },
  "verification": {
-  "verified_at": null,
+  "verified_at": "2026-08-12",
   "checklist_passed": [
    "existence:pass",
-   "figures:fail(데이터 교정)",
+   "figures:pass(교정 후)",
    "scope:pass"
   ],
   "primary_sources": [
-   "https://www.indiehackers.com/post/5kZRj2Lln7jO7nVVoYFP (창업자 본인 인터뷰, 2026-07-28)"
+   "https://www.indiehackers.com/post/5kZRj2Lln7jO7nVVoYFP (창업자 1인칭 인터뷰, 2026-07-28, 편집자 James Fleischmann — quasi-primary)",
+   "https://x.com/JonathanGeige18 (본인 계정 — 2026-08-06 SocialKit 매각 발표, 2026-08-01 7월 결산 $7,740, 2026-07-29 PostPeer MRR $2,661/112구독. 스냅샷 sources/geiger__x-profile.md, 2026-08-12 수집)",
+   "https://www.postpeer.dev/about (공동창업자 Yoav Mendelson 실명·지위 확인, 양측 모두 'co-founder' 자칭)",
+   "https://www.socialkit.dev/about (SocialKit 1인 빌드 확인)",
+   "https://github.com/geiger01 (본인 프로필 — location 'Israel' 자기신고)",
+   "https://trustmrr.com/startup/postpeer (Polar API 검증, 2026-08-11)",
+   "https://trustmrr.com/startup/socialkit (LemonSqueezy API 검증, 2026-08-12)"
   ],
-  "corrections": [],
+  "corrections": [
+   "revenue: '합계 월매출 약 $6.4K' → '2026-07 월매출 $7,740'. 전자는 IH 게재일(2026-07-28) 시점의 근사 스냅샷 합이고, 후자는 본인이 2026-08-01에 발표한 7월 캘린더월 확정 실적이다. 차액 $1,340 중 $1,098이 PostPeer에서 발생 — IH가 일회성을 '~$500/mo'로 과소 추정한 데서 온다",
+   "exit_status: '운영 중' → '부분 exit'. SocialKit 2026-08-06 매각. 독립 신호 3종 일치 — 본인 고정 트윗, bio 변경('Sold SocialKit...'), TrustMRR SocialKit 페이지의 'No active subscriptions'",
+   "founders: Yoav Mendelson을 PostPeer 공동창업자로 병기. postpeer.dev/about에서 양측이 서로를 'co-founder'로 칭한다 — 최초 기재의 '파트너 합류'는 지위 과소표기",
+   "region: 'unknown' → '이스라엘'. 본인 GitHub 프로필 location 자기신고",
+   "ai_tools: ['Claude'] 유지. 발화가 'Claude'이지 'Claude Code'가 아니므로 승격 표기 금지. 접미사 없는 'Claude'는 코퍼스에 이미 승인된 값(stoppr, wave-ai, base44)",
+   "confidence: low → medium. 헤드라인 월매출이 1차·일자 명시·산술 정합·결제사 API 검증 2건과 교차 확인됨. high 불가 사유는 누적매출·MRR 하위 수치가 독립 검증치와 충돌하고 매각가가 비공개인 것"
+  ],
   "excluded_figures": [
-   "[figures] '합계 MRR $6.4K' — refuted. MRR과 일회성 매출 혼합이며 IH 에디터 James Fleischmann의 헤드라인/인트로 표현. 창업자 1인칭 답변은 일관되게 둘을 분리한다. 같은 기사 구조화 필드는 'Revenue: $6.3K a month'로 또 달라 기사 내부에서도 불일치",
-   "[figures 모순기록] PostPeer 주장 MRR $2.4K vs Polar API 검증 $1,963(2026-07-19)/$1,989(2026-08-11) — 약 +21% 상회. 게재 9일 전 데이터라 '이후 하락'으로 설명 불가",
-   "[figures 모순기록] SocialKit 주장 월 약 $3.5K vs LemonSqueezy API 검증 last-30-days $2,874 — 약 -18%. 단 결제사 이원화(SocialKit=LemonSqueezy, PostPeer=Polar)로 커버리지 불완전 가능성"
+   "[figures] '합계 MRR $6.4K' — refuted. MRR과 일회성 혼합이며 IH 에디터 James Fleischmann의 헤드라인/인트로 표현. 창업자 1인칭 답변은 X에서도 예외 없이 둘을 분리하고, 합계를 말할 땐 'MRR'이라는 단어를 쓰지 않는다. 같은 기사 구조화 필드는 'Revenue: $6.3K a month'로 또 달라 기사 내부에서도 불일치",
+   "[figures] IH 유래 'PostPeer MRR $2.4K'·'일회성 $500/mo'·'유저 1,000명'·'SocialKit MRR $2.8K/활성구독 110' — 2026-07-28 스냅샷으로, 본인 X 후속 발화(07-29, 08-01, 08-06)에 의해 대체됨. 현재형 표기 금지",
+   "[figures 모순기록] SocialKit 누적매출 본인 주장 $23,120(2026-08-06) vs LemonSqueezy API 검증 all-time $14,730(TrustMRR, 2026-08-12) — +57% 괴리. 본인이 IH에서 'SocialKit runs on LemonSqueezy' 단일 결제사를 명시했고 RapidAPI 등 대체 채널도 확인되지 않아 채널 분산으로 설명 불가. TrustMRR의 all-time 집계 시작 시점 정의가 불명확한 것이 유일한 완충 — DB 본문에 단정 표기 금지",
+   "[figures 모순기록] PostPeer MRR 본인 $2,661/112구독(07-29) vs Polar API 검증 $1,989/79구독(08-11). 단가는 $23.8 vs $25.2로 정합하므로 괴리는 전적으로 구독 건수 정의 차이(트라이얼/연체 포함 여부 추정). 단 총매출에서는 본인 클레임 $3,998이 검증치 $4,565보다 **낮아** '상습 과장' 가설은 기각됨",
+   "[figures] SocialKit 매각가 — unverifiable. 매각 트윗 본문·검색·socialkit.dev 어디에도 없음. 리플 48개 미확인"
   ],
-  "confidence_recommendation": null,
-  "notes": "**상태: 후보 데이터 교정 완료, 수치 렌즈 재검증 대기.**\n\n실존 pass(확정, high) / 스코프 pass / 수치 fail. 수치 fail은 **내가 IH 에디터 헤드라인을 그대로 옮긴 탓**이다. 창업자 본인은 recurring과 one-time을 일관되게 분리해 발화하며, 그 습관은 본인 LinkedIn 게시물에서도 확인된다(2026-06-21 \"$1,022 MRR - 50 active subscriptions (+24 one-time) - 550 users\"). 수치 렌즈가 \"revenue 문자열을 교체하고 confidence를 low로 낮추면 통과 가능\"이라고 명시했다.\n\n**교정 내역:** revenue를 MRR/일회성 분리 표기로 교체, founders에 공동창업자 Yoav Mendelson 추가, team_size를 '파트너 합류'에서 '2인 공동창업'으로 승격(postpeer.dev/about에서 양쪽 모두 자신을 'co-founder'로 칭함), region unknown→이스라엘(본인 GitHub location), confidence medium→low.\n\n**스코프 pass 논거.** 발화 원문 \"Claude is my team, from writing code to (recently) running my social media through my own API.\" SKU가 'Claude Code'가 아니라는 이유로 떨구면 안 된다 — 아카이브 기준은 'AI로 만듦'이지 특정 제품 SKU가 아니고, 접미사 없는 'Claude'는 코퍼스에 이미 승인된 값이다(stoppr, wave-ai, base44). deep-personality는 아예 'Claude/GPT-4 계열 **추정**'으로 등재돼 있다. 따라서 ai_tools는 ['Claude']로 원문 유지하고 'Claude Code'로 승격 표기 금지.\n\n**주의:** postpeer.dev 홈이 연동 대상으로 'Claude Code, Cursor, Codex'를 명시하는데 이건 **제품 기능**(고객이 쓰는 연동)이지 창업자의 개발 도구가 아니다. 혼동 금지.\n\n**오귀속 함정 차단 기록.** 검색엔진이 limitededitionjonathan.substack.com의 'How I Work With Claude Code'(2026-02-07)를 이 창업자 글로 요약해 반환하는데, 해당 Substack에 성(Geiger) 표기도 제품 링크도 없다. 동일인 근거 없음 — 도구 증거로 인용 금지.\n\n**보강 재료:** 과거 exit 2건(CaptureKit $15K, LectureKit $7K 매각) — founder_experience=serial 근거."
+  "confidence_recommendation": "medium",
+  "notes": "판정: **3/3 pass(수치는 교정 후)** → verified, confidence medium.\n\n**재검증에서 사례가 통째로 갱신됐다.** 1차 검증 후 오케스트레이터가 본인 X 계정을 브라우저로 수집(WebFetch 402)해 스냅샷으로 넘겼고, 거기서 IH 인터뷰(2026-07-28) **이후** 사실이 나왔다:\n- 2026-08-06 SocialKit 매각 → exit_status 변경\n- 2026-08-01 본인 7월 결산 $7,740 → revenue 교체\n- 2026-07-29 PostPeer MRR $2,661/112구독\n\n**수치 렌즈 1차 반박은 재검증에서 강화됐다.** '$6.4k MRR'이 IH 에디터 산물이라는 판정은, 본인이 X에서도 예외 없이 MRR과 일회성을 분리 발화하고 합계를 말할 땐 'MRR'을 쓰지 않는다는 행동 패턴으로 뒷받침된다.\n\n**자기보고 편향의 방향이 지표별로 갈린다 — 기록해둘 가치가 있다.** MRR에서는 본인 수치가 결제사 검증치를 상회하지만(+34%), 총매출에서는 오히려 하회한다(-12%). 따라서 '과장' 프레임이 아니라 'MRR 산정 정의 불일치'로 읽어야 한다. 이 아카이브가 자기보고 수치를 다룰 때의 참고 사례.\n\n**스코프 pass 논거.** 발화 원문 \"Claude is my team, from writing code to (recently) running my social media through my own API.\" SKU가 'Claude Code'가 아니라는 이유로 떨구면 안 된다 — 아카이브 기준은 'AI로 만듦'이지 특정 SKU가 아니고, 접미사 없는 'Claude'는 코퍼스에 이미 승인된 값이다. 다만 발화 시제가 2026-07 현재형이라 SocialKit 초기 빌드(2025-06)에 Claude를 썼다는 직접 증거는 아니다 — PostPeer(2026-04 출시)는 발화 시점과 사실상 겹친다.\n\n**주의 — 혼동 금지 2건.** (1) postpeer.dev 홈이 연동 대상으로 'Claude Code, Cursor, Codex'를 명시하는데 이건 고객이 쓰는 **제품 기능**이지 창업자의 개발 도구가 아니다. (2) 검색엔진이 limitededitionjonathan.substack.com의 'How I Work With Claude Code'(2026-02-07)를 이 창업자 글로 요약해 반환하는데, 해당 Substack에 성(Geiger) 표기도 제품 링크도 없다. 동일인 근거 없음 — 도구 증거로 인용 금지.\n\n**Stage 4 반영 시.** normalize_note에 (1) $7,740은 SocialKit 매각 전 실적이라 현재 런레이트가 아님, (2) PostPeer MRR은 자기보고와 결제사 검증치를 병기, (3) 누적매출 $23,120은 검증치와 충돌하므로 단정 금지 — 세 가지를 명기할 것. 포트폴리오에 4번째 제품 NextUpKit(TrustMRR all-time $345, 'For Sale')이 있으나 수치상 미미해 미기재."
  }
 }

@@ -1,6 +1,6 @@
 {
  "id": "faceless-video",
- "status": "pending_verification",
+ "status": "rejected",
  "discovered_at": "2026-08-12",
  "discovery_source": "https://www.indiehackers.com/tech 피드 직접 순회 (Tier1) — 2026-07-21 게시글. 검색으로는 3회차까지 한 번도 걸리지 않았음",
  "case": {
@@ -12,8 +12,8 @@
   "product": "Faceless.video",
   "domain": "AI 숏폼 영상 자동생성 SaaS",
   "one_liner": "Bubble 노코드로 만든 얼굴 없는 숏폼 영상 자동 생성·배포 서비스",
-  "team_size": "2인 공동창업 (개발은 Jacob Seeger 단독 담당). 현재 총 인원 미확정",
-  "region": "미국 캘리포니아 로스앤젤레스",
+  "team_size": "창업 시점 2인 (Jacob Seeger 개발 단독 / Alex Steinberg 마케팅·스토리텔링). 2025-03 본인 발화 'now hired a decent amount of people', 2025-06 'our new team' — 현재 2인 초과 확실, 정확한 총원 미확정",
+  "region": "미국 (Jacob Seeger 캘리포니아 LA / Alex Steinberg 뉴욕 — 원격 분산. 회사 소재지 표기는 LA)",
   "revenue": "6-figure MRR (월 $100K 이상, 창업자 본인 발화 2026-07-21 \"We're currently at 6-figures in MRR\"); 출시 10개월만에 ARR(연환산 런레이트) $1M 도달 — 2023-10 런칭 기준 2024년경",
   "revenue_date": "2026-07",
   "exit_status": "운영 중",
@@ -24,10 +24,10 @@
    "Replicate"
   ],
   "ai_tools": [
-   "Replicate(영상 생성 모델 호출)"
+   "Replicate / RunPod (제품 내 영상 생성모델 호출 — 제작 도구 아님)"
   ],
   "founder_background": "Bubble로 2년 반 동안 앱 6개를 실패한 뒤 7번째 제품에서 성공",
-  "business_model": "구독 SaaS (사용량 연동, $20~수백/월, 최다 이용 플랜 $35/월)",
+  "business_model": "구독 SaaS 4티어 — Starter $20 / Daily $35(최다) / Double $59 / Studio $149, 연간 결제 30% 할인(Daily 실효 $25), 크레딧 top-up 별도($8/$35/$120)",
   "sources": [
    "https://www.indiehackers.com/post/3FvQoHUh2SglJvAJGkSF",
    "https://faceless.video"
@@ -36,23 +36,39 @@
   "founded_year": 2023
  },
  "verification": {
-  "verified_at": null,
+  "verified_at": "2026-08-12",
   "checklist_passed": [
-   "existence:fail(데이터 교정)",
-   "figures:fail(데이터 교정)",
-   "scope:pass"
+   "existence:pass(교정 후)",
+   "figures:pass",
+   "scope:fail"
   ],
   "primary_sources": [
-   "https://www.indiehackers.com/post/3FvQoHUh2SglJvAJGkSF (창업자 본인 인터뷰, 2026-07-21 — \">$83K a month\", \"$1M ARR within 10 months\" 본인 발화)"
+   "https://www.indiehackers.com/post/3FvQoHUh2SglJvAJGkSF (Jacob Seeger 1인칭 인터뷰, 2026-07-21, 편집자 James Fleischmann — quasi-primary)",
+   "https://arcmira.com/watch?v=LelNtkWpqAI (Jason Levin Show #83 전사, 2025-03-20 — 두 창업자 동반 출연. 공동창업·거주지·바이브코딩 무지 발화의 원출처)",
+   "https://arcmira.com/watch?v=x9TUDb4sLE0 (Starter Story 영상 전사, 2025-06-14 — Jacob 'six failed SaaS ideas')",
+   "https://jacobseeger.com/ (본인 사이트)",
+   "https://www.alexandersteinberg.com/ (Alex 본인 사이트 — NYC 거주)",
+   "https://faceless.video/pricing (공식 가격표. 스냅샷 sources/faceless-video__pricing.md)",
+   "https://bubble.io/showcase/faceless-video (Bubble 공식 쇼케이스, 2025-02 — Jacob 인용)"
   ],
-  "corrections": [],
+  "corrections": [
+   "founders: ['Jacob Seeger'] → ['Jacob Seeger', 'Alex Steinberg']. **등급이 independent가 아니라 primary다** — Alex 본인 발화 \"we started a software company together\", \"Jacob and I when we started we were two person team\" (Jason Levin Show #83 전사)",
+   "region: '미국 캘리포니아 로스앤젤레스' → 분산 표기. Alex 본인 발화 \"I'm in New York\" / \"Jacob's in LA\"에 본인 사이트('New York City–based')와 X 프로필('New York, NY')이 3중 일치. founders를 2인으로 올린 순간 LA 단수 표기는 한 명을 오귀속한다",
+   "revenue: '월 $83,000' → '6-figure MRR'. $83K는 $1M ARR÷12 파생값이자 2024년 중반 마일스톤이며, 점값 '$83.3K'를 만든 주체는 Starter Story(2025-03-28)다. IH 인포박스는 '>$83K a month'로 **부등호 포함 하한**이라 6-figure와 모순되지 않는다 — 후보가 이를 점값으로 옮긴 것이 오류였다",
+   "business_model: '$20~수백/월' → '$20~$149/월 + top-up'. 공개 가격표 최고 티어는 Studio $149. 본인 발화 'The price ranges from $20 to hundreds per month'는 Studio+top-up 합산 기준 표현으로 보임",
+   "출처 등급 강등: Digital Journal(Jon Stojan, 2024-10-30)과 Grit Daily(Greg Grzesiak, 2024-08-16)는 independent가 아니라 **PR 배치성 secondary**. Digital Journal은 sponsored article placement를 상품으로 판매하고, Grit Daily 필자는 Grit Daily Group 자체 인물이다",
+   "founder_background: 자기보고 caveat 불필요. IH의 '2.5년·Bubble 앱 6개'와 Starter Story 영상의 'six failed SaaS ideas'가 독립적으로 정합",
+   "sources의 LinkedIn은 /in/jacob-seeger/ 하나만. /in/jacob-seeger-6a1582b7/는 동일 인물의 자동생성 구 URL(jacobseeger.com이 전자를 canonical로 자기링크)"
+  ],
   "excluded_figures": [
-   "[figures] 월 $83,000 — refuted. 창업자 발화가 아니라 IH 편집 인포박스 필드이며 $1,000,000÷12=$83,333 파생값(Starter Story가 'Monthly Revenue $83.3K / ARR $1M' 병기로 노출). 시점도 2024년 중반 마일스톤이라 2026-07 현재값이 아님",
-   "[figures] '$83K/월'과 '6-figure MRR'의 동일시 — refuted. $83K는 5자리라 산술적으로 불가능",
-   "[figures] GetLatka 'ARR $330K(2025 추정)' — 본인 6-figure MRR 발언과 약 4배 모순. GetLatka 자체가 '경영진 인터뷰 없는 추정'이라 명시하므로 미채택, 모순만 보존",
-   "[existence] team_size '1인' — refuted. 공동창업자 Alex Steinberg 존재 (Grit Daily 2024-08, Digital Journal 2024-10, Starter Story, 두 사람 동반 팟캐스트 출연). Bubble 쇼케이스의 'just one Bubble Developer'는 개발자 수이지 팀 규모가 아님"
+   "[figures] 월 $83,000 — refuted. $1,000,000÷12=$83,333 파생값이며 2024년 중반 마일스톤. 본인 2026-07 발화는 'We're currently at 6-figures in MRR'로 오히려 높다",
+   "[figures] '6-figures'의 범위 상단 — 가격표 산술상 성립 불가. $999K MRR = $35 기준 28,540 구독 = 누적 가입 2.5M의 1.14%가 현재 활성 유료여야 함. 이 발화가 담보하는 것은 **$100K 하한뿐**이며 점값으로 정규화 금지",
+   "[figures] GetLatka 'ARR $330K(2025 추정)' — 2025-03 독립 점값 $120K/월과 4.4배 어긋남. GetLatka 자체가 '경영진 인터뷰 없는 추정'이라 명시. 미채택, 모순만 보존",
+   "[figures] GetLatka '350K customers'·'직원 3명(2026)' — 동일 추정치 계열. team_size 산정에 사용 금지",
+   "[existence] team_size '1인' — refuted. 공동창업자 Alex Steinberg 본인 발화로 확정",
+   "[existence] region 'LA 단수' — refuted. Alex는 뉴욕 거주"
   ],
-  "confidence_recommendation": null,
-  "notes": "**상태: 후보 데이터 교정 완료, 수치 렌즈 재검증 대기.**\n\n실존·수치 두 렌즈가 fail을 냈으나 **둘 다 사례의 결함이 아니라 내 후보 파일의 오류**였고, 두 렌즈 모두 정확한 교정값을 제시했다. 창업자 본인의 실제 주장은 오히려 더 강하다 — $83K(내 기재)보다 높은 '6-figures in MRR'이고, '$0→$1M ARR in 10 months'는 IH 인터뷰와 본인 사이트(jacobseeger.com) 양쪽에 동일 문구로 존재하는 1차 발화로 살아남았다.\n\n**교정 내역:** founders 1인→2인(Alex Steinberg), region unknown→LA, revenue $83K→6-figure MRR, founded_year 2023 추가.\n\n**스코프는 pass.** Bubble 노코드 + Replicate/RunPod(생성모델 호출) 조합이 my-askai·formula-bot 선례에 정확히 대응하고, 2023-10 런칭으로 시대 요건도 충족. pckgr·zigpoll과의 결정적 차이는 **본인의 과거 사용 부정이 없다**는 점 — \"If I were starting over today, I would only vibe code...Use Lovable!\"는 가정법 미래형 조언이라 도구 근거로도 부정 근거로도 쓰지 않았다.\n\n**남은 약점(사람 승인 시 반드시 보일 것):** IH 원문 제목 자체가 'hitting a 7-figure ARR in 10 months **with no code**'로 창업자가 노코드 서사로 프레이밍한다. '언급 부재'보다 한 단계 강한 음성 신호다. 미확인 표면 하나 — 'migrated some features off Bubble and toward custom code'(2024~2026) 구간에서 AI 코딩 도구가 쓰였을 개연성이 있으나 본인 X 계정 미확인.\n\n**재검증 시 확인할 것:** 교정된 '6-figure MRR'의 점값, 현재 총 인원, 유저 수 출처별 편차(275K→850K→1M+→2.5M)."
+  "confidence_recommendation": "medium",
+  "notes": "판정: **스코프 재심 fail → rejected.** 실존·수치는 교정 후 모두 통과했으나 AI 코딩 도구 사용 근거가 확정적으로 부정됐다.\n\n## 기각의 결정적 증거\n\n1차 스코프 판정은 pass(borderline)였다 — 'Bubble 노코드지만 명시적 부정이 없다'는 이유였다. 수치 렌즈가 팟캐스트 챕터 '(27:28) First time learning about vibe coding'을 발견했고, 재심에서 전사를 직접 확인하니 **제목보다 강했다.**\n\nJason Levin Show #83(2025-03-20), 두 창업자 동반 출연:\n- 호스트: \"what do you think about Vibe coding, this is all the rage right now on Twitter — you guys had no idea what I was talking about\"\n- 호스트가 용어를 실물로 풀어줌: \"it's talking to cursor or whatever to code, right?\"\n- 두 창업자: **\"so out of that sphere\"**\n\n즉 용어 무지가 아니라 관행 자체에 대한 무지다. 재심 에이전트가 우선 검토한 구제 경로('vibe coding'은 Karpathy가 2025-02-02에 만든 신조어이고 이 에피소드는 6.5주 뒤이므로 용어만 몰랐을 수 있다)가 이 대목에서 닫혔다.\n\n시점: 런칭(2023-10) 17개월 후이자 $1M ARR 도달(2024-08) 7개월 후 — **성공 구간 전체를 커버한다.**\n\n보강 증거 3건:\n- Bubble 공식 쇼케이스(2025-02), Jacob 인용: \"We decided to use Bubble as a starting point and our ending point. There's no intention to switch off of it.\"\n- Starter Story 영상(2025-06): 여전히 전량 Bubble, AI 코딩 도구 언급 0\n- IH(2026-07) 본인 회고: \"I was early to no-code, building with tools that still required technical knowledge, manual setup, and architectural thinking/planning. Now, AI can do all of that for you.\" — 자기 빌드를 pre-AI로 명시 대비시킨다\n\n'2024~2026 커스텀 코드 이관' 반대 논거도 무너졌다. 같은 IH 인터뷰가 Codex·Claude Code를 이유로 든 본격 이관을 **미래형**('we are now considering migrating to custom code')으로 둔다. 게다가 2025-03 이후 인력을 채용했으므로 이관 작업의 도구 사용은 고용된 개발자 몫일 수 있고, 그건 창업자의 바이브코딩이 아니다.\n\n## pckgr 대비 — 단문 부정은 없지만 합성 증거가 등가\n\npckgr은 'This was before AI tools like Claude Code and Cursor were available'라는 단문 부정으로 기각됐다. Seeger에겐 그 단문이 없다. 대신 (2025-03 관행 자체를 몰랐다는 양인 진술) + (2026-07 '나는 no-code로 지었고 이제는 AI가 그걸 다 해준다'는 과거/현재 대비) + ('starting over today라면 vibe code만 하겠다'는 반사실 가정법이 전제하는 미실행)이 합쳐진다. '언급 부재'(borderline)가 아니라 **다중 1차 출처로 정합하는 확정 음성**이다.\n\n## ⚠️ 사람이 정해야 할 코퍼스 레벨 미결 사안\n\n이 기각은 my-askai·formula-bot 선례를 **계보 규칙**으로 읽는 해석에 의존한다. 코퍼스를 직접 대조하면 스택 구조가 동일하다:\n- my-askai: stack ['Bubble(약 80%)','Python','OpenAI API'] / ai_tools ['OpenAI API']\n- formula-bot: stack ['Bubble(노코드)','OpenAI API'] / ai_tools ['OpenAI API','Gemini']\n- faceless-video: Bubble + Replicate/RunPod\n\n선례를 **구조 규칙**('Bubble+LLM API면 창업자 인지와 무관하게 포함')으로 확정하면 이 판정은 pass로 뒤집혀야 하고, 그때 ai_tools는 '빌드에 AI 코딩 도구 미사용, 제품 내 생성모델 호출만'으로 정직하게 기재해야 한다. 반대로 **계보 규칙**을 채택하면 my-askai·formula-bot도 동일 검사(창업자가 AI 코딩 궤도 위에 있었는가)를 받아야 형평이 맞는다.\n\n**어느 쪽이든 신규 후보에게만 엄격한 잣대를 대는 상태로 두면 안 된다.** 사람 결정 대기.\n\n## 자기 점검 (재심 에이전트 기록)\n\n이 fail은 '도구 얘기를 안 한 사람'을 벌하는 게 아니라 '질문받고 모른다고 답한 것이 기록된 사람'을 반영한다. 후자를 벌하는 것도 편향의 일종(솔직한 피인터뷰자 역차별)이라는 점은 인지하고 있다. 그럼에도 아카이브의 유일한 fail 경로가 '본인 부정'인 이상, 기록된 부정은 그 경로로 처리하는 것이 설계 의도에 맞다고 판단했다.\n\n## 별도 리드\n\nJacob Seeger는 두 번째 제품 **Domno**(뮤지션 대상 음악 마케팅)를 운영한다(LinkedIn 'Founder of Faceless.video & Domno'). 같은 창업자의 다른 제품은 중복이 아니므로 별도 후보 검토 대상이나, 서비스업 성격으로 보여 스코프 적합성 미확인."
  }
 }
