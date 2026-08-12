@@ -1,0 +1,47 @@
+{
+ "id": "sergiu-chiriac-portfolio",
+ "status": "pending_verification",
+ "discovered_at": "2026-08-12",
+ "discovery_source": "https://www.indiehackers.com/tech 피드 직접 순회 (Tier1) — 2026-08-06 게시글",
+ "case": {
+  "id": "sergiu-chiriac-portfolio",
+  "founders": [
+   "Sergiu Chiriac"
+  ],
+  "product": "AI Directories / TransClipper / BrandReply (포트폴리오)",
+  "domain": "제품 런칭·디렉터리 등록 자동화 등 인디메이커 대상 툴",
+  "one_liner": "자기가 쓰려고 만든 제품 등록 자동화 툴을 포트폴리오로 확장한 1인 메이커",
+  "team_size": "1인",
+  "region": "unknown",
+  "revenue": "포트폴리오 합계 월 $10,000 초과; 최고 기록 월 $15.7K (그중 AI Directories $9.5K)",
+  "revenue_date": "2026-08",
+  "exit_status": "운영 중",
+  "stack": [
+   "unknown"
+  ],
+  "ai_tools": [
+   "unknown (본인이 코딩·디버깅에 AI를 쓴다고 명시하나 도구명 미특정)",
+   "OpenAI API",
+   "Gemini API",
+   "Anthropic API"
+  ],
+  "founder_background": "본인이 겪은 제품 등록 문제를 풀려고 만든 툴에서 출발한 1인 메이커",
+  "business_model": "일회성 구매 중심 (디렉터리 등록 $49, 게스트포스트, 스폰서 노출)",
+  "sources": [
+   "https://www.indiehackers.com/post/1r8AaZOjxXZSB5MMAhG5",
+   "https://www.aidirectori.es/"
+  ],
+  "confidence": "medium"
+ },
+ "verification": {
+  "verified_at": null,
+  "checklist_passed": [],
+  "primary_sources": [
+   "https://www.indiehackers.com/post/1r8AaZOjxXZSB5MMAhG5 (창업자 본인 인터뷰, 2026-08-06 — 포트폴리오 월 $10K 초과, 최고 $15.7K 본인 발화)"
+  ],
+  "corrections": [],
+  "excluded_figures": [],
+  "confidence_recommendation": null,
+  "notes": "검증 시 판정 필요 사항:\n(1) 스코프 — 도구명은 안 나오지만 창업자가 AI 코딩 사용을 **긍정적으로 발화**한다: \"AI has also become an essential part of my workflow — not only for product features but also for coding, debugging, writing content, and brainstorming\". 새 기준상 명시적 부정이 아니므로 fail이 아니다. 도구명을 특정하려면 본인 X/블로그 확인 필요.\n(2) 수치 성격 — '월 $10K 초과'(경상)와 '최고 기록 $15.7K'(단발 최고치)를 구분해 표기할 것. 일회성 구매 모델이라 MRR 개념이 아니며, 연환산 시 최고치를 쓰면 부풀려진다. normalize_note에 반드시 근거 기록.\n(3) region 미확인."
+ }
+}
