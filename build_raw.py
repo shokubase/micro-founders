@@ -200,10 +200,10 @@ dict(id="sleek-design", founders=["Mattia Pomelli", "외 2명(친구)"], product
 dict(id="habit-pixel", founders=["Hirvesh Munogee"], product="Habit Pixel", domain="습관 트래커 앱",
      one_liner="픽셀아트 게이미피케이션 요소가 있는 크로스플랫폼 습관 트래커", team_size="1인", region="모리셔스",
      revenue="6개월 MRR $28 → 11월 $407 → 12월 $840 → 이듬해 1월 $1,000+ MRR", revenue_date="2025-06~2026-01",
-     exit_status="운영 중", stack=["unknown"], ai_tools=["unknown"],
+     exit_status="운영 중", stack=["unknown"], ai_tools=["Claude Code"],
      founder_background="독학 개발자, 본인의 습관형성 어려움을 해결하려고 제작",
      business_model="프리미엄 ($4.99/월 또는 $29.99/년, PPP 가격, 블프 라이프타임 프로모션)",
-     sources=["https://www.indiehackers.com/post/from-0-to-1k-mrr-in-8-months-bootstrapping-habit-pixel-as-a-solo-dev-53d8687d15"],
+     sources=["https://www.indiehackers.com/post/from-0-to-1k-mrr-in-8-months-bootstrapping-habit-pixel-as-a-solo-dev-684b6c056d"],
      confidence="high"),
 
 dict(id="subscribr", founders=["Gil Hildebrand", "(18개월 후 공동창업자 합류)"], product="Subscribr",

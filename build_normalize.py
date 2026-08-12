@@ -18,7 +18,21 @@ raw = json.load(open("data/raw_cases.json", encoding="utf-8"))
 TOOL_PROBED = {
     "imaginary-space", "kleo", "lumoo", "ninjapear", "stoppr", "superx",
     "jonathan-geiger-portfolio", "sergiu-chiriac-portfolio",
+    # 2026-08-12 백필로 1차 출처 원문을 직접 확인한 건
+    "habit-pixel",
 }
+
+# 백필 시도했으나 확정 실패 — 재시도 시 같은 벽을 다시 치지 않도록 기록한다.
+#
+# samuel-rondot-portfolio: ai_tools를 채우지 않는다.
+#   IH 글(OA5p18fXtvHGxP9xTAwG)의 Claude/Cursor 언급 11건이 **전부 제3자 댓글**이다.
+#   viascan("I created a SAAS in two days thanks to Claude AI")과 jettfu("All coding
+#   written by Claude")는 댓글 작성자 본인 얘기이고, Finalertcleveland("Are you still
+#   building by coding by yourself or vibe coding now?")와 Edgar("if you'd had today's
+#   AI coding tools from the very beginning?")는 창업자에게 던진 **질문**이다.
+#   창업자 본인 발화는 하나도 없다.
+#   본문에 'Leveraging AI tools to build' 섹션이 존재하나 **IH 페이월** 안에 있어
+#   접근 불가다(계정 생성은 하지 않는다). 즉 근거 부재가 아니라 not_attempted다.
 
 ENRICH = {
 "base44": dict(domain_category="AI 코딩/개발툴", team_size_bucket="solo",
@@ -82,7 +96,8 @@ ENRICH = {
     revenue_annual_usd_est=120000, normalize_note="MRR $10K * 12."),
 "habit-pixel": dict(domain_category="헬스/라이프스타일", team_size_bucket="solo",
     founder_background="developer", founder_experience="first-time",
-    revenue_annual_usd_est=12000, normalize_note="MRR $1K * 12."),
+    revenue_annual_usd_est=12000,
+    normalize_note="MRR $1K * 12. ai_tools 백필(2026-08-12): 1차 출처에서 창업자 본인 1인칭 발화 3건 확인 — \"I used Claude Code to have it extract everything into localizable strings\", \"I asked Claude Code to simply translate the key values in the localization files (JSON)\", \"I have a checklist which Claude Code mantains\". 단 용도가 **로컬라이제이션 워크플로에 한정**돼 확인됐다(문자열 추출·번역·구현 체크리스트 유지). 앱 전체를 Claude Code로 만들었다는 근거는 아니므로 '도구로 만든 사례'로 과대 서술하지 말 것."),
 "subscribr": dict(domain_category="커머스/마케팅", team_size_bucket="2-3",
     founder_background="developer", founder_experience="serial",
     revenue_annual_usd_est=744000, normalize_note="MRR $62K * 12 (1년차 실적 $500K와 유사)."),

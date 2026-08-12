@@ -706,24 +706,24 @@
       "unknown"
     ],
     "ai_tools": [
-      "unknown"
+      "Claude Code"
     ],
     "founder_background": "developer",
     "business_model": "프리미엄 ($4.99/월 또는 $29.99/년, PPP 가격, 블프 라이프타임 프로모션)",
     "sources": [
-      "https://www.indiehackers.com/post/from-0-to-1k-mrr-in-8-months-bootstrapping-habit-pixel-as-a-solo-dev-53d8687d15"
+      "https://www.indiehackers.com/post/from-0-to-1k-mrr-in-8-months-bootstrapping-habit-pixel-as-a-solo-dev-684b6c056d"
     ],
     "confidence": "high",
     "domain_category": "헬스/라이프스타일",
     "team_size_bucket": "solo",
     "founder_experience": "first-time",
     "revenue_annual_usd_est": 12000,
-    "normalize_note": "MRR $1K * 12.",
+    "normalize_note": "MRR $1K * 12. ai_tools 백필(2026-08-12): 1차 출처에서 창업자 본인 1인칭 발화 3건 확인 — \"I used Claude Code to have it extract everything into localizable strings\", \"I asked Claude Code to simply translate the key values in the localization files (JSON)\", \"I have a checklist which Claude Code mantains\". 단 용도가 **로컬라이제이션 워크플로에 한정**돼 확인됐다(문자열 추출·번역·구현 체크리스트 유지). 앱 전체를 Claude Code로 만들었다는 근거는 아니므로 '도구로 만든 사례'로 과대 서술하지 말 것.",
     "revenue_bucket": "<100K",
     "exit_value_usd": null,
     "funding_usd": null,
     "valuation_usd": null,
-    "tool_question_probed": false,
+    "tool_question_probed": true,
     "ingested_at": "2026-08-10"
   },
   {
