@@ -25,7 +25,12 @@
       "Bash(head:*)",
       "Bash(tail:*)",
       "Bash(wc:*)",
-      "Bash(open:*)"
+      "Bash(open:*)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_evaluate",
+      "mcp__playwright__browser_close",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_wait_for"
     ],
     "deny": [
       "Bash(git push --force:*)",
