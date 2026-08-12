@@ -35,6 +35,12 @@ _REGION_TRIM = re.compile(r"[(（].*$")
 
 
 def norm_region(v):
+    """층 라벨용 국가명 추출.
+
+    region 필드는 도시·단서가 붙은 자유 문자열이라 그대로 세면 같은 층이 갈린다
+    ('인도' vs '인도 하이데라바드'). 괄호·복수표기·추정 표현을 떼고 **첫 토큰(국가)**만
+    남긴다 — 한국어 국가명은 대부분 한 단어라 이 규칙으로 충분하다.
+    """
     if not v or v == "unknown":
         return "unknown"
     base = _REGION_TRIM.sub("", str(v)).strip()
@@ -42,6 +48,8 @@ def norm_region(v):
     # "영국(Rob) / 프랑스(Tibo)" 같은 복수 표기는 첫 번째 국가로 귀속
     if "/" in base:
         base = base.split("/")[0].strip()
+    # "포르투갈 리스본" → "포르투갈", "인도 하이데라바드" → "인도"
+    base = base.split()[0] if base.split() else ""
     return base or "unknown"
 
 

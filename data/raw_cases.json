@@ -1281,5 +1281,102 @@
       "https://www.sergiuchiriac.com/"
     ],
     "confidence": "medium"
+  },
+  {
+    "id": "rightblogger",
+    "founders": [
+      "Ryan Robinson",
+      "Andy Feliciotti"
+    ],
+    "product": "RightBlogger",
+    "domain": "블로거·콘텐츠 마케터용 AI 도구 묶음",
+    "one_liner": "12년 축적한 블로그 오디언스(월 독자 50만) 위에 얹어 출시 첫 주에 MRR $2K를 낸 콘텐츠 SaaS",
+    "team_size": "3인 (창업 2인: Ryan 유통·영업 / Andy 개발, 이후 운영 총괄 1인 합류)",
+    "region": "미국",
+    "revenue": "약 $350K/년 — 본인 발화 \"We're currently at $350k ARR\" (2026-07-01). 2023년 출시 첫 주 본인 발화 \"We got our first $2k MRR during week one\"",
+    "revenue_date": "2026-07",
+    "exit_status": "운영 중",
+    "stack": [
+      "Next.js",
+      "React",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "ai_tools": [
+      "Claude Code"
+    ],
+    "founder_background": "Ryan Robinson은 ryrob.com 월 독자 약 50만·이메일 구독 30만을 12년 축적한 블로거(Forbes·Entrepreneur 기고), Andy Feliciotti는 10년+ 경력 실무 개발자. 선행 오디언스 위에 얹은 출시로 첫 주에 이미 MRR $2K",
+    "business_model": "구독 SaaS 3단계 (Solo $59 / Pro $89 / Agency $299, 2026-08 관측)",
+    "sources": [
+      "https://www.indiehackers.com/post/KxUy5Zjfn1hJTTGYrl47",
+      "https://drawne.com/claude-code-commands/",
+      "https://ryan.biz/",
+      "https://www.cloudflare.com/case-studies/rightblogger/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "leadverse",
+    "founders": [
+      "Jakub Mužík"
+    ],
+    "product": "Leadverse",
+    "domain": "소셜 리드 발굴 SaaS (Reddit·X 등)",
+    "one_liner": "본업·프리랜스·육아를 병행하며 1인으로 만든 소셜 리드 발굴 도구 — Reddit API 회수 사건을 겪은 플랫폼 리스크 표본",
+    "team_size": "1인",
+    "region": "체코 프라하",
+    "revenue": "MRR $3.3K / 누적 총매출(gross) $20K 초과 / 유료 고객 130명 이상 — 본인 발화(2026-08-11). 유료 130명 중 약 30명이 가격을 스스로 조정하는 커스텀 플랜. 2026-01 시점 MRR $1,100+",
+    "revenue_date": "2026-08-11 (발화 시점 — 측정 시점은 2026-07 중순 추정)",
+    "exit_status": "운영 중 — 2026-07-16경 Reddit이 API 키 4개를 예고 없이 전량 회수해 핵심 기능이 정지한 이력(당시 유료 130명+). 복구 방법 본인 발화는 미확보",
+    "stack": [
+      "React",
+      "Supabase",
+      "Stripe",
+      "Resend"
+    ],
+    "ai_tools": [
+      "unknown"
+    ],
+    "founder_background": "본업(MSD Salesforce 개발자) + 프리랜스 + 육아 병행 사이드 프로젝트. 체코생명과학대 정보학 석사",
+    "business_model": "구독 — 최초 €9/€14(EUR)로 시작해 약 1개월 후 USD 전환, 현재 Explorer $19 / Founder $29 / Business $39 + 커스텀. 7일 무료체험",
+    "sources": [
+      "https://www.indiehackers.com/post/U9btJ44RYRcAaukCqHoj",
+      "https://x.com/jakubmuzzik",
+      "https://cz.linkedin.com/in/jakub-muzik",
+      "https://www.capterra.com/p/10040556/Leadverse/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "ramsri-portfolio",
+    "founders": [
+      "Ramsri Goutham Golla",
+      "Sanjeev NC",
+      "Nico Botha (Supermeme.ai 공동창업 2인)"
+    ],
+    "product": "Questgen.ai / AiArtist.io / Supermeme.ai (포트폴리오)",
+    "domain": "AI 문제생성·이미지생성·밈생성 SaaS 포트폴리오",
+    "one_liner": "정규직 데이터 사이언티스트가 겸업으로 운영하는 AI SaaS 3종 — 2022년 기원 제품을 Claude Code로 유지·확장하는 유형",
+    "team_size": "혼합 — Questgen·AiArtist는 1인 단독, Supermeme.ai는 3인 공동창업. 직원 없음",
+    "region": "인도 하이데라바드",
+    "revenue": "포트폴리오 3종 합산 월 $6,000~$7,000 MRR — 본인 발화 \"Currently, they hover between $6k and $7k MRR\" (2026-07-30). 분해 가능한 수치는 Questgen 누적 $150K USD(4년). 2025년 정점 총 ARR $100K에서 하락",
+    "revenue_date": "2026-07",
+    "exit_status": "운영 중",
+    "stack": [
+      "NextJS",
+      "Supabase"
+    ],
+    "ai_tools": [
+      "Claude Code"
+    ],
+    "founder_background": "인도 하이데라바드 소재. 정규직 데이터 사이언티스트(Knownwell Lead Data Scientist) 겸 인디메이커. Questgen 첫 버전은 Bubble 노코드로 제작",
+    "business_model": "Questgen·Supermeme 구독 (스타터 $10~15, 상위 $50, 연 40% 할인) / AiArtist는 $99 일회성 연간 패스",
+    "sources": [
+      "https://www.indiehackers.com/post/quOo7AXtrGlePopsGslc",
+      "https://ramsrigoutham.medium.com/the-story-of-my-4k-mrr-solo-saas-questgen-ai-41f68f4f6a5a",
+      "https://supermeme.ai/team",
+      "https://github.com/ramsrigouthamg"
+    ],
+    "confidence": "medium"
   }
 ]

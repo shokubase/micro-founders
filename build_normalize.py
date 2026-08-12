@@ -20,6 +20,8 @@ TOOL_PROBED = {
     "jonathan-geiger-portfolio", "sergiu-chiriac-portfolio",
     # 2026-08-12 백필로 1차 출처 원문을 직접 확인한 건
     "habit-pixel",
+    # 2026-08-12 쟁점 4건 3렌즈 검증 통과분
+    "rightblogger", "leadverse", "ramsri-portfolio",
 }
 
 # 백필 시도했으나 확정 실패 — 재시도 시 같은 벽을 다시 치지 않도록 기록한다.
@@ -178,6 +180,18 @@ ENRICH = {
     founder_background="developer", founder_experience="first-time",
     revenue_annual_usd_est=126000,
     normalize_note="앱 매출 월 ~$10.5K × 12 (2026-05 자가보고). 2025-11 주력 앱 퇴출 후 하락 추세(RevenueCat 연동 트래커 기준 단일 앱 MRR $1.4K, 2026-08) — 스냅샷 시점 주의. 플랫폼 리스크 표본."),
+"rightblogger": dict(domain_category="커머스/마케팅", team_size_bucket="2-3",
+    founder_background="mixed", founder_experience="serial",
+    revenue_annual_usd_est=350000, ingested_at="2026-08-12",
+    normalize_note="region '미국'은 팀 3인이 콜로라도(Ryan)·미주리(Andy)·플로리다(운영 총괄)로 원격 분산된 것을 국가 단위로 축약한 값이다. 회사 about 페이지는 Ryan을 'Los Angeles'로 적어 본인 X·ryrob 신고(콜로라도 Salida)와 충돌하며, 애그리게이터의 LA 표기도 이 페이지 유래로 보인다 — 최신·구체 자기신고를 채택했다. 본인 발화 '$350k ARR'(2026-07-01)을 그대로 사용. **÷12 파생을 어느 방향으로도 하지 말 것** — 같은 $350K를 IH 인터뷰는 'ARR'(전향 런레이트), 본인 사이트 ryan.biz는 '$350K TTM Revenue'(과거 12개월 실적)로 적어 지표명이 불일치한다. 크기는 두 본인 채널로 뒷받침되나 라벨은 신뢰 불가. IH 헤드라인·스탯박스의 'MRR $29K'는 편집부 3인칭 역산값($350K÷12=$29,167)이라 배제했다 — 본문에서 1인칭은 ARR뿐이고 3인칭이 MRR을 말한다. 도구는 **기술 공동창업자 Andy Feliciotti** 블로그(2026-07-26) 'running Claude Code as my main coding tool' — 유통 담당 창업자(Ryan) 계정에는 언급이 없다. 2023 MVP는 SaaS 보일러플레이트+OpenAI API였고 Claude Code는 2025~2026 지속 개발 도구이므로 '처음부터 바이브코딩'이 아니라 **개발 워크플로가 AI 도구로 이전된** 사례. ryrob.com 블로그 수익(월 $30K+)은 별개 사업체이므로 병기 금지. 성장 동력이 12년 축적 오디언스(월 독자 50만·이메일 30만)라는 조건이 빠지면 재현 불가능한 성공이 재현 가능해 보인다."),
+"leadverse": dict(domain_category="커머스/마케팅", team_size_bucket="solo",
+    founder_background="developer", founder_experience="first-time",
+    revenue_annual_usd_est=39600, ingested_at="2026-08-12",
+    normalize_note="MRR $3.3K × 12 (본인 발화 2026-08-11). **측정 시점 주의** — Stripe 검증 스냅샷이 2026-07-16 08:57(Reddit API 회수 당일)에 멈춘 'last 30 days $3,230'과 사실상 동일하고 IH 인터뷰가 그 사건을 한 줄도 언급하지 않아, 측정은 2026-07 중순일 개연성이 높다. 2026-07-16경 Reddit이 API 키 4개를 예고 없이 전량 회수해 핵심 기능이 정지했고(당시 유료 130명+) **복구 방법에 대한 본인 발화는 미확보**다 — stoppr(Apple 앱 퇴출)와 같은 플랫폼 리스크 표본. ARPU $25.4는 유료 130명 중 약 30명이 커스텀 플랜(가격 자가조정)이라 정상 범위다. 최초 가격은 **€9/€14(EUR)**였고 약 1개월 후 USD 전환 — 후보 최초 기재의 '$9/$14'는 통화 오류였다. ai_tools는 unknown 유지: 본인 발화는 'GPT Pro 5x and Claude Max 5x' **구독 사실**뿐이고 코딩에 썼다는 행위 발화가 없다(ninjapear는 둘 다 있어 pass였다)."),
+"ramsri-portfolio": dict(domain_category="교육", team_size_bucket="2-3",
+    founder_background="developer", founder_experience="serial",
+    revenue_annual_usd_est=72000, ingested_at="2026-08-12",
+    normalize_note="본인 발화 범위 '월 $6k~$7k MRR'의 **하한** $6,000 × 12 = $72K를 사용. 헤드라인성 '$6.5K'는 범위 중간값 파생이라 배제. **이 합산액은 1인 매출이 아니다** — Supermeme.ai가 3인 공동창업(Sanjeev NC·Nico Botha·Ramsri)이고 개인 귀속분은 원문에서 분해 불가하다. 분해 가능한 유일한 수치는 Questgen 누적 $150K USD(4년). 2025년 정점 총 ARR $100K에서 현재 연환산 $72~84K로 **하락 추세**. **유지·확장형 — 기원 2022(스코프 창 밖), 창 안 근거는 AiArtist.io 2026-02 단독 런칭 + \"nowadays, I use tools like Claude Code to vibe code and add features\" 현재형 발화**(RESEARCH_PIPELINE.md §0.5 가드레일 2조건 충족, 첫 적용 사례). domain은 매출 앵커인 Questgen(문제 생성) 기준이며 포트폴리오에 이미지·밈 생성이 섞여 있다. 전부 자기보고이며 결제사 검증 없음."),
 "jonathan-geiger-portfolio": dict(domain_category="AI 코딩/개발툴", team_size_bucket="2-3",
     founder_background="developer", founder_experience="serial",
     revenue_annual_usd_est=92880, ingested_at="2026-08-12",
