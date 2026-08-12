@@ -66,10 +66,16 @@ RESEARCH_PIPELINE.md의 4단계를 에이전트 팬아웃으로 실행하는 표
 ## 마무리
 
 1. `python3 check_candidates.py` 통과 확인 (실패 시 수정 후 재실행)
-2. 후보 큐 커밋 + 푸시 (auto 모드 — CLAUDE.md §3)
-3. 사용자에게 보고: 신규 후보 N건 (verified M건 / rejected K건), 후보별 한 줄 요약과
-   confidence, borderline 논거. **verified 후보의 Stage 4 반영은 승인을 기다린다**
-4. 승인받은 후보만: `build_raw.py` + `build_normalize.py` ENRICH 반영 → 파이프라인
+2. **실행 지표 산출.** 이번 실행에서 마주친 고유 리드(기존 사례로 판명된 것 포함)를
+   한 줄에 하나씩 파일로 모아 실행:
+   `python3 research_metrics.py <leads.txt> --as-of <실행 시작일>`
+   `--as-of`를 빠뜨리면 방금 만든 후보가 인덱스에 있어 재포획률이 100%로 나온다.
+   재포획률이 70%를 넘으면 그 층은 포화 — 보고에 "다음 실행은 새 층에서" 명시
+3. 후보 큐 커밋 + 푸시 (auto 모드 — CLAUDE.md §3)
+4. 사용자에게 보고: 신규 후보 N건 (verified M건 / rejected K건), 후보별 한 줄 요약과
+   confidence, borderline 논거, **재포획률과 층 포화도**.
+   **verified 후보의 Stage 4 반영은 승인을 기다린다**
+5. 승인받은 후보만: `build_raw.py` + `build_normalize.py` ENRICH 반영 → 파이프라인
    3종 재실행 → candidate status `merged` → 커밋 메시지에 건수·출처 요약
 
 ## 비용 참고
@@ -77,3 +83,8 @@ RESEARCH_PIPELINE.md의 4단계를 에이전트 팬아웃으로 실행하는 표
 Workflow 하네스(adversarial verify 패턴)로 검증 팬아웃을 돌리면 후보가 많을 때
 효율적이다 — 단, 사용자가 명시적으로 요청("워크플로 써")한 경우에만 사용하고,
 아니면 Agent 툴 병렬 호출로 진행한다.
+
+**포화된 층에서는 팬아웃을 늘리지 마라.** 2026-08-11 실행에서 영어권 인디미디어
+층 재포획률이 77%로 측정됐다 — 이 층에 에이전트를 더 투입하면 서로 같은 사례를
+중복 발견해 토큰만 쓴다. 팬아웃 확대는 언어권을 늘린 다음, 언어권별로 붙일 때
+의미가 있다 (RESEARCH_PIPELINE.md §4 참조).

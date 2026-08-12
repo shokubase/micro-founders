@@ -74,6 +74,29 @@ Stage 4 반영   사람 승인 → build_raw.py + build_normalize.py ENRICH 반�
 | 수치 | `case-verifier` (figures) | 매출 주장의 원문 발화(누가·어디서·언제·원문 통화), 애그리게이터 모순 스크리닝 |
 | 스코프·중복 | `scope-judge` | AI 코딩 툴(2023~) 사용, 팀 규모, 수익화 근거, 기존 사례와 중복 |
 
+#### 1차 출처 fetch 경로 (2026-08-12 추가)
+
+**WebFetch는 x.com에서 402, JS 렌더링 사이트(IH `/products` 등)에서 빈 응답을 준다.**
+이 파이프라인의 1차 출처는 대부분 창업자 본인 X 발화이므로 이건 치명적이다 —
+2026-08-11 점검에서 기존 기각 5건(wrestle-ai, caret, kevin-badi-portfolio, lunair,
+shiftnex)이 전부 "원문 발화 미확보" 사유였는데, 당시 검증 에이전트 도구 목록에는
+브라우저가 없었다. 즉 **증거 부재가 아니라 도구 한계였을 가능성**이 있다.
+
+fetch 실패 시 `mcp__playwright__browser_navigate` → `browser_evaluate` 순으로
+재시도한다 (구체 스니펫은 `.claude/agents/case-verifier.md`). x.com은 로그아웃
+상태에서도 `og:description`에 트윗 본문이 담기지만 ~280자에서 절단된다.
+**"찾을 수 없었다"는 WebFetch와 playwright를 모두 시도한 뒤에만 쓸 수 있다.**
+
+#### 도구 미사용 판정 기준
+
+문서 한 편에 도구 언급이 없는 건 미사용의 증거가 아니다. 2026년에는 Cursor·
+Claude Code 사용이 기본값이라 언급하지 않는 쪽이 정상이고, 언급을 요구하면 도구를
+*쓴* 사람이 아니라 도구 *얘기를 하는* 사람만 수집되는 발화 편향이 생긴다.
+
+- `fail` — **본인이 명시적으로 부정**한 경우에만 (선례: zigpoll)
+- `borderline` → pass — 확인했으나 언급 미발견. `unknown`이지 `none`이 아니다
+- 판정 전 창업자 본인 공개 계정 1곳 이상 확인 필수
+
 판정 규칙:
 - **3/3 pass** → `verified` (confidence = 세 렌즈 recommendation의 최솟값)
 - **2/3 pass** → `verified`, 단 fail 렌즈의 반박 내용을 notes에 명시
@@ -116,12 +139,30 @@ Stage 4 반영   사람 승인 → build_raw.py + build_normalize.py ENRICH 반�
 표준 실행 절차는 **`/research-run` 스킬**(`.claude/skills/research-run/SKILL.md`)로
 고정되어 있다 — 어느 세션에서든 스킬 호출 한 번으로 동일 프로토콜이 실행된다. 개요:
 
+0. **실행 전 리드 대조.** 발견한 리드는 `python3 research_metrics.py --check "제품명"`으로
+   먼저 걸러라. 재포획률이 높아 상당수가 이미 있는 사례다 — 검증에 들어가기 전에 버린다
 1. Tier 1-2 소스별 신규 글 확인 + Tier 3 표준 쿼리 1회전
    (`source-hunter` 각도별 병렬 팬아웃 — 각도 간 결과 비공유가 설계 의도)
 2. 신규 후보 → Stage 2 추출 → Stage 3 3렌즈 검증 → Stage 3.5 completeness critic
 3. `check_candidates.py` 통과 확인 → 후보 큐 커밋
 4. verified 후보는 사용자 승인 요청 → 승인분만 Stage 4 반영
-5. 커밋 메시지에 신규/검증/반영 건수 요약
+5. **실행 지표 기록.** 마주친 고유 리드를 파일로 모아
+   `python3 research_metrics.py leads.txt --as-of <실행일>` 실행.
+   `--as-of` 없이 사후에 재면 신규 후보가 이미 인덱스에 있어 항상 100%가 나온다
+6. 커밋 메시지에 신규/검증/반영 건수 + **재포획률** 요약
 
-검증 팬아웃은 후보가 많은 실행에서 Workflow 하네스(adversarial verify 패턴)로
-확장 가능 — 사용자 명시 요청 시에만.
+### 재포획률로 어디를 팔지 정한다
+
+`research_metrics.py`가 내는 재포획률(= 마주친 리드 중 이미 DB/큐에 있던 비율)이
+그 층(stratum)의 포화도다. Lincoln-Petersen 추정치도 함께 나오는데, 유명 사례일수록
+양쪽 표본에 잡혀 중복이 부풀므로 **이 값은 하한**이다.
+
+- 2026-08-11 실행: 영어권 인디미디어 층 재포획률 **77%**, 모집단 하한 ≈52건 (현재 40건)
+  → 이 층은 거의 훑렸다. 스코프 규칙을 완화해서 얻는 건 남은 10여 건의 일부뿐이다
+- 성장은 재포획률이 낮은 **새 층**에서 나온다. 미개척: 일본어·중국어·스페인어·
+  포르투갈어권 (현재 각 0건)
+
+**포화된 층에서 Workflow 팬아웃을 늘리지 마라** — 병렬 에이전트가 서로 같은 사례를
+중복 발견해 토큰만 쓴다. 팬아웃은 층이 여러 개일 때 의미가 있으므로,
+언어권 확장을 먼저 하고 그다음 언어권별 병렬로 붙이는 순서여야 한다
+(Workflow 하네스는 사용자 명시 요청 시에만).
