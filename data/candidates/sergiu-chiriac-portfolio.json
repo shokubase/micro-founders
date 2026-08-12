@@ -8,40 +8,55 @@
   "founders": [
    "Sergiu Chiriac"
   ],
-  "product": "AI Directories / TransClipper / BrandReply (포트폴리오)",
+  "product": "AI Directories / TransClipper / BrandReply / ColdConvert / Backlink Rise (포트폴리오)",
   "domain": "제품 런칭·디렉터리 등록 자동화 등 인디메이커 대상 툴",
   "one_liner": "자기가 쓰려고 만든 제품 등록 자동화 툴을 포트폴리오로 확장한 1인 메이커",
-  "team_size": "1인",
-  "region": "unknown",
-  "revenue": "포트폴리오 합계 월 $10,000 초과; 최고 기록 월 $15.7K (그중 AI Directories $9.5K)",
-  "revenue_date": "2026-08",
+  "team_size": "1인 (공동창업자 없음) + 수동 제출 업무 조력자 — 본인이 2025-09 배우자 온보딩 발화",
+  "region": "포르투갈 리스본 (본인 dev.to/GitHub 프로필 자기신고, 몰도바 출생)",
+  "revenue": "월 $10,000 초과 (변동 — 본인 표현 \"Across all my projects, I typically generate over $10k/mo\", 일회성 구매 중심이라 MRR 아님). 자기보고 최고치는 2026-07 총 $20,500(AI Directories $9,771 / 제휴 $7,900 / 미공개 앱 $2,500 / TransClipper $50)",
+  "revenue_date": "2026-08 (IH 발화 시점)",
   "exit_status": "운영 중",
   "stack": [
-   "unknown"
+   "Next.js",
+   "MongoDB",
+   "Prisma",
+   "Tailwind",
+   "Vercel",
+   "Coolify",
+   "Stripe",
+   "Resend"
   ],
   "ai_tools": [
-   "unknown (본인이 코딩·디버깅에 AI를 쓴다고 명시하나 도구명 미특정)",
-   "OpenAI API",
-   "Gemini API",
-   "Anthropic API"
+   "Cursor"
   ],
   "founder_background": "본인이 겪은 제품 등록 문제를 풀려고 만든 툴에서 출발한 1인 메이커",
-  "business_model": "일회성 구매 중심 (디렉터리 등록 $49, 게스트포스트, 스폰서 노출)",
+  "business_model": "일회성 구매 중심 (AI Directories 등록 Starter $99 / Pro $149 / Premium $199, 디렉터리 소유자 등재 $49는 별개 상품) + 제휴 수입 포함(2026-07 기준 약 38%)",
   "sources": [
    "https://www.indiehackers.com/post/1r8AaZOjxXZSB5MMAhG5",
    "https://www.aidirectori.es/"
   ],
-  "confidence": "medium"
+  "confidence": "low"
  },
  "verification": {
   "verified_at": null,
-  "checklist_passed": [],
+  "checklist_passed": [
+   "existence:fail(데이터 교정)",
+   "figures:fail",
+   "scope:pass"
+  ],
   "primary_sources": [
    "https://www.indiehackers.com/post/1r8AaZOjxXZSB5MMAhG5 (창업자 본인 인터뷰, 2026-08-06 — 포트폴리오 월 $10K 초과, 최고 $15.7K 본인 발화)"
   ],
   "corrections": [],
-  "excluded_figures": [],
+  "excluded_figures": [
+   "[figures] '최고 기록 월 $15.7K'를 현재값으로 표기 — refuted. 게재 시점에 이미 경신됐다. 본인 2026-07-31 월간 결산은 7월 총 $20,500 / AI Directories $9,771. IH의 '지난달'이 7월이 아니라는 뜻이므로 기록 월은 2026-06 이전",
+   "[figures] revenue_date '2026-08' — 원문은 기록 월을 'Last month'로만 쓰고 달 이름도 인터뷰 시점도 밝히지 않는다. 게시일을 매출 시점으로 옮긴 오류",
+   "[figures] '포트폴리오 합계'를 제품 매출로 표기 — refuted. 2026-07 구성의 $7,900(약 38%)가 제휴 수입이고 $2,500은 제품명 비공개 앱. 본인이 만든 제품의 매출이 아님",
+   "[figures] fakemayo(2024-10-13)의 '€5K per month' — 2024년 유로 표기이자 저자 요약. 현재 USD 수치와 혼입 금지 (이 아카이브가 실증한 €↔$ 오류 유형)",
+   "[figures] 개인 사이트의 '$3,000/$10,000 MRR', 'made over $70K' — 2025년 목표 기준 미갱신 위젯",
+   "[existence] team_size '1인' — refuted. 본인 X 2025-09 배우자 온보딩 발화, fakemayo 2024-10 '조력 3인'. IH의 \"I prefer building the product...instead of relying on someone else\"는 공동창업자를 두지 않는다는 진술이지 조력자 부재 진술이 아님"
+  ],
   "confidence_recommendation": null,
-  "notes": "검증 시 판정 필요 사항:\n(1) 스코프 — 도구명은 안 나오지만 창업자가 AI 코딩 사용을 **긍정적으로 발화**한다: \"AI has also become an essential part of my workflow — not only for product features but also for coding, debugging, writing content, and brainstorming\". 새 기준상 명시적 부정이 아니므로 fail이 아니다. 도구명을 특정하려면 본인 X/블로그 확인 필요.\n(2) 수치 성격 — '월 $10K 초과'(경상)와 '최고 기록 $15.7K'(단발 최고치)를 구분해 표기할 것. 일회성 구매 모델이라 MRR 개념이 아니며, 연환산 시 최고치를 쓰면 부풀려진다. normalize_note에 반드시 근거 기록.\n(3) region 미확인."
+  "notes": "**상태: 후보 데이터 교정 완료. 수치 렌즈는 사례 자체의 표기 문제도 지적했으므로 재검증 필요.**\n\n스코프 pass — 도구가 특정됐다. IH 긍정 발화(\"AI has also become an essential part of my workflow — not only for product features but also for coding, debugging...\")에 더해 본인 포트폴리오 사이트 Skills에 **Cursor**가 자기신고로 등재돼 있다. 단 Skills 나열형이라 제품 단위 귀속은 아니다. OpenAI/Gemini/Anthropic API는 '제품이 AI를 씀'이므로 ai_tools가 아니라 stack 쪽 — 필드에서 분리했다.\n\n**교정 내역:** region unknown→리스본, team_size에 조력자 반영, product에 누락 2건 추가, stack·ai_tools·business_model 채움, revenue를 '변동 수입 $10K/mo 초과'로 고정.\n\n**남은 쟁점 — 이건 데이터 오류가 아니라 사례 성격 문제다.** 포트폴리오 합계의 약 38%가 제휴 수입이다. 바이브코딩으로 만든 제품의 수익화를 모으는 아카이브에서 이 합계를 그대로 제품 매출로 싣는 건 성격이 다른 돈을 섞는 것이다. 반영한다면 제품 매출만 분리하거나 normalize_note에 제휴 비중을 명기해야 한다.\n\n**스코프 경계 소견(기각 사유 아님).** 디렉터리 등록 대행은 SEO 성격이나 제품 실체가 100+ 디렉터리 자동 제출 SaaS이고 셀프서브 결제로 돌아가므로 컨설팅형이 아니다. 코퍼스에 '메이커 대상 툴' 선례가 이미 여럿(marc-lou ShipFast, superx, kleo). 다만 '인디메이커에게 파는 인디메이커' 편중이 대시보드에 보이도록 domain_category를 '메이커 툴/유통'으로 잡을 것을 권고.\n\n**오염 차단 기록.** braginpublic 집계 페이지는 메인 포스트가 다른 창업자(Jonathan Wilke, supastarter $200k)의 것이고 Sergiu 항목은 사이드바에만 있다. 같은 URL을 반복 호출하니 요약이 매번 다른 섹션을 잡아 남의 X permalink를 붙일 뻔했고, WebSearch 요약도 Capgo($27,005) 수치를 섞었다. 집계 페이지에서 수치를 뽑을 땐 attribution을 별도 질의로 재확인할 것."
  }
 }

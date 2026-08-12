@@ -101,10 +101,43 @@
 ```
 Stage 1 발견   Tier 1-3 순회 → 신규 후보 식별 (기존 id/제품명과 중복 체크)
 Stage 2 추출   후보 스키마(§3)로 구조화 → data/candidates/<id>.json (status: pending_verification)
+               ※ Stage 2 필수 규칙 3종은 아래 참조 — 안 지키면 Stage 3에서 전부 되돌아온다
 Stage 3 검증   아래 체크리스트 수행 → verification 블록 기록 (status: verified)
 Stage 4 반영   사람 승인 → build_raw.py + build_normalize.py ENRICH 반영 →
                파이프라인 재실행 → candidate status: merged → 커밋
 ```
+
+### Stage 2 필수 규칙 (2026-08-12 실증)
+
+3렌즈 검증 5건을 돌린 결과, **fail의 대부분이 사례 결함이 아니라 후보 파일 기재 오류**였다.
+아래 셋을 Stage 2에서 지키면 그 왕복이 사라진다.
+
+#### (1) 애그리게이터·매체의 헤더 수치를 후보 파일에 옮기지 마라
+
+Indie Hackers 글은 제목·인포박스에 **편집부가 계산한 수치**를 싣는다. 본문의 창업자
+1인칭 발화와 다르다. 2026-08-12 실행에서 IH 유래 후보 3건이 전부 여기 걸렸다:
+
+| 후보 | 내가 옮긴 값 | 실제 |
+|---|---|---|
+| faceless-video | 월 $83K | $1M ARR ÷ 12 파생값, 2024년 마일스톤. 본인 발화는 "6-figures in MRR"(더 높다) |
+| jonathan-geiger | "MRR $6.4K" | 순수 MRR은 $5.2K. $6.4K는 MRR+일회성 총매출. 같은 기사 필드는 "$6.3K a month"로 또 다름 |
+| thirstysprout | 월 $208K | 연 $2.5M ÷ 12 = $208,333 역산치. 창업자는 월 단위 금액을 말한 적 없음 |
+
+**규칙: 수치는 본문의 1인칭 발화에서만 뽑고, 제목·인포박스 값은 그것과 다르면 기록조차
+하지 마라.** 나눠떨어지는 수치(연매출÷12)를 보면 역산치를 의심할 것.
+
+#### (2) `founded_year`를 반드시 채워라 — 스코프 창 판정의 결정값
+
+thirstysprout(2018년 창업)이 Stage 3까지 살아온 이유는 **후보 스키마에 창업 연도 필드가
+없었기** 때문이다. 이 값 하나면 Stage 2에서 걸러졌다. laravel-shift(2015)·savvycal(2020)·
+superpower-chatgpt(2022)도 같은 축에서 기각됐다.
+
+#### (3) `region`을 unknown으로 두기 전에 개발자 프로필을 봐라
+
+2026-08-12에 unknown으로 적은 2건이 모두 틀렸고, 둘 다 **본인 GitHub/dev.to 프로필의
+location 필드**에 있었다 (sergiu → 포르투갈 리스본, jonathan-geiger → 이스라엘).
+IH 본문만 보고 unknown 처리하는 패턴이 원인이다. GitHub·dev.to·LinkedIn 프로필의
+location을 기본 확인 항목에 넣을 것.
 
 ### Stage 3 검증 — 3렌즈 심사, 2/3 통과제
 
@@ -171,6 +204,22 @@ Claude Code 사용이 기본값이라 언급하지 않는 쪽이 정상이고, �
 - **1/3 이하** → `rejected` (사유 보존)
 - 예외: **수치 렌즈 fail + 매출이 핵심 주장**인 후보는 2/3이어도 `rejected`
 
+#### fail의 두 유형을 구분하라 (2026-08-12 신설)
+
+위 규칙을 기계적으로 적용하면 안 된다. fail에는 성격이 다른 두 가지가 섞인다:
+
+- **사례 결함** — 창업자의 주장 자체가 무너지거나 스코프 밖. → `rejected`
+  (예: thirstysprout — 2018년 창업, GMV/net 미확정, 팀 수십 명)
+- **후보 데이터 오류** — 창업자 주장은 멀쩡한데 **내가 잘못 옮겨 적었고** 렌즈가 교정값을
+  제시한 경우. → 교정 후 `pending_verification` 유지, 해당 렌즈만 재검증
+
+후자를 기각하면 멀쩡한 사례를 잃는다. 2026-08-12 실행에서 faceless-video는 실제 수치가
+내가 적은 것보다 **높았고**(월 $83K → 6-figure MRR), jonathan-geiger는 창업자 본인이
+recurring과 one-time을 정확히 분리해 말했는데 내가 편집부 헤드라인을 옮긴 것이었다.
+
+판별 기준: **렌즈가 교정값을 제시했는가.** 제시했다면 데이터 오류이고, "확정 불가"로
+끝났다면 사례 결함이다.
+
 ### Stage 3.5 — Completeness critic
 
 실행 말미에 별도 에이전트 1개가 전체 실행을 심사: 안 돌린 쿼리, 안 읽은 1차 출처,
@@ -186,7 +235,10 @@ Claude Code 사용이 기본값이라 언급하지 않는 쪽이 정상이고, �
   "status": "pending_verification | verified | approved | rejected | merged",
   "discovered_at": "2026-08-10",
   "discovery_source": "발견 경로 URL (Tier 1-3 중 어디서)",
-  "case": { "build_raw.py의 dict와 동일한 필드": "..." },
+  "case": {
+    "build_raw.py의 dict와 동일한 필드": "...",
+    "founded_year": "정수. 스코프 창(2023~) 판정의 결정값 — 반드시 채울 것 (§Stage 2 필수 규칙)"
+  },
   "verification": {
     "verified_at": null,
     "checklist_passed": [],

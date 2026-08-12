@@ -1,6 +1,6 @@
 {
  "id": "thirstysprout",
- "status": "pending_verification",
+ "status": "rejected",
  "discovered_at": "2026-08-12",
  "discovery_source": "https://www.indiehackers.com/tech 피드 직접 순회 (Tier1) — 2026-08-04 게시글: https://www.indiehackers.com/post/9CktlRa1UunyRWHrftxv",
  "case": {
@@ -10,10 +10,10 @@
   "product": "ThirstySprout / ChoppingBlock.ai",
   "domain": "개발자 인재 마켓플레이스 (스태프 오그멘테이션)",
   "one_liner": "Claude를 운영 전반의 축으로 삼아 계약직 50인 체제를 대폭 축소한 인재 중개",
-  "team_size": "unknown (계약직 50인+ 체제에서 대폭 축소했다고만 발화)",
-  "region": "unknown",
-  "revenue": "월 $208,000 초과, 연 $2.5M 초과 (2026-08 기준); 연내 $5M 돌파 목표",
-  "revenue_date": "2026-08",
+  "team_size": "내부 인력 수십 명 규모 (본인은 '계약직 50인+에서 대폭 축소'라 발화하나 수치 미제시. 독립 추정: LeadIQ 약 34명(2026-07), LinkedIn 51-200 밴드, theorg 11-50·직속 23명. 축소를 뒷받침하는 독립 증거 없음)",
+  "region": "미국 워싱턴주 시애틀 (본사 1411 4th Ave; 팀은 4개 대륙 원격 분산)",
+  "revenue": "연 $2.5M 돌파 — 단 본인이 'a while back'이라 명시한 과거 시점이며, 동일 창업자가 2023-07-28 인터뷰에서 이미 '약 $2.5M'을 발화. 회사 귀속 매출(net)인지 총청구액(GMV)인지 어떤 출처로도 미확정",
+  "revenue_date": "시점 미상 (최소 2023-07 이전 발화 존재)",
   "exit_status": "운영 중",
   "stack": [
    "Next.js",
@@ -31,17 +31,29 @@
    "https://thirstysprout.com/"
   ],
   "confidence": "low",
-  "id": "thirstysprout"
+  "id": "thirstysprout",
+  "founded_year": 2018
  },
  "verification": {
-  "verified_at": null,
-  "checklist_passed": [],
+  "verified_at": "2026-08-12",
+  "checklist_passed": [
+   "existence:fail",
+   "figures:fail",
+   "scope:fail"
+  ],
   "primary_sources": [
    "https://www.indiehackers.com/post/9CktlRa1UunyRWHrftxv (창업자 본인 인터뷰, 2026-08-04)"
   ],
   "corrections": [],
-  "excluded_figures": [],
-  "confidence_recommendation": null,
-  "notes": "도구 발화는 강하다: \"the spine of the company today is Claude — and I mean that literally, not as a buzzword\" + 에이전틱 빌드에 Claude Code 언급.\n\n**단 스코프 최대 쟁점은 팀 규모다.** 계약직 50인+ 체제였다가 축소한 것이라 '1인/소규모'로 출발한 사례가 아니다. 아카이브 기준은 창업 시점 팀 규모이므로 scope-judge가 판정해야 한다. 유사 선례: ai-coding-consultancy(B2B 대행) — 단 그쪽은 소규모였다.\n부차 쟁점: 매출이 인력 중개 마진이라 제품 매출이 아니다. 기존 사례군과 성격이 다르다는 점을 명시할 것."
+  "excluded_figures": [
+   "[figures] 월 $208,000 초과 — refuted. 창업자 발화가 아니라 IH 편집부 헤더 필드이며 $2,500,000÷12=$208,333의 역산치",
+   "[figures] '연 $2.5M = 2026-08 기준' — refuted. 동일 창업자가 2023-07-28에 같은 금액 발화, Inc.5000 2024 등재(#247, 3년 성장 1,655%)는 FY2023 재무 기준이라 $2.5M=FY2023 시사",
+   "[figures] $2.5M의 성격(net vs GMV) — unverifiable. 30% 마크업 + Deel 계약자 직접 지급 구조상 총청구액 개연성. net이면 회사 귀속 약 23%(연 약 $575K)",
+   "[figures] 자사 llm-info의 '누적 매출 $45M+' — 2018 창업·연 $2.5M 궤적과 산술적 양립 불가",
+   "[figures] Starter Story 후속편 '월 $300K'(2024+) — IH의 $208K(2026)보다 높아 역성장 시사",
+   "[existence] '대폭 축소한 lean team' — 독립 증거 없음. 게시 한 달 전 애그리게이터가 약 34명"
+  ],
+  "confidence_recommendation": "low",
+  "notes": "판정: **0/3 → rejected.** 세 렌즈가 독립적으로 무너뜨렸다.\n\n**스코프 fail (주된 기각 사유).** 2018년 시애틀 창업으로 AI 코딩 도구 시대(2023~)보다 5년 앞선다. '소규모 창업 후 성장은 포함' 조항은 창업 시점이 스코프 창 안일 때 성립하는데 여기선 창업 자체가 창 밖이다. 정확한 선례는 **flexiple 제거** — 그쪽도 프리랜스 개발자 중개 마켓플레이스였고 pre-2023 창업으로 빠졌다. laravel-shift(2015)·savvycal(2020) 기각과 동일 계열.\n\n**ai-coding-consultancy는 선례가 되지 않는다.** 그쪽(Ignyt Labs)은 2-3인이고 무엇보다 *납품물 자체를 Lovable·Cursor·Claude Code로 생산*한다 — 도구가 생산수단이다. ThirstySprout의 납품물은 클라이언트에 배치되는 인간 엔지니어이고 마진은 인건비 차익이며, Claude 용도로 원문이 열거하는 것은 전부 백오피스다(후보 심사·재무분석·계약서 작성·콘텐츠·전략). 'AI 코딩 도구로 만든 사례'가 아니라 'AI로 운영하는 회사'다.\n\n**수치 fail.** 월 $208K는 창업자 발화가 아니라 IH 편집 헤더의 연매출÷12 역산치다. $2.5M은 2023-07에도 같은 금액이 발화됐고 '2배 목표'까지 3년 간격으로 반복된다. 배정된 핵심 질문(GMV냐 net이냐)은 어떤 출처로도 확정 불가.\n\n**실존 fail.** 인물·제품 실재는 통과했으나 팀 규모 주장이 독립 출처와 불일치. 또 후보가 한 사례로 묶은 ChoppingBlock.ai는 공식 About에 창업자 3인 명시(Stepania + Ben Smokovich + Derek Skinnell) — 2026-08-10에 실증된 '창업자 수 1인↔3인' 오류 유형.\n\n**통과한 항목도 기록해둔다:** 신용카드 적자 이력은 3년 간격 두 인터뷰에서 금액($50K~$100K)·기간('first year or two')·무급 여부가 전부 일치해 각색 의심을 넘겼다. region도 시애틀로 확정됐다.\n\n재검토 조건: 없음. 창업 연도가 스코프 창 밖이라는 사실은 바뀌지 않는다."
  }
 }

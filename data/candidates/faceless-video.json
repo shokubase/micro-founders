@@ -6,14 +6,15 @@
  "case": {
   "id": "faceless-video",
   "founders": [
-   "Jacob Seeger"
+   "Jacob Seeger",
+   "Alex Steinberg"
   ],
   "product": "Faceless.video",
   "domain": "AI 숏폼 영상 자동생성 SaaS",
   "one_liner": "Bubble 노코드로 만든 얼굴 없는 숏폼 영상 자동 생성·배포 서비스",
-  "team_size": "1인 (인하우스 팀 구성은 향후 계획으로 언급)",
-  "region": "unknown",
-  "revenue": "월 $83,000 초과 (6-figure MRR 표현, 창업자 IH 인터뷰 2026-07-21); 출시 10개월만에 ARR $1M 도달",
+  "team_size": "2인 공동창업 (개발은 Jacob Seeger 단독 담당). 현재 총 인원 미확정",
+  "region": "미국 캘리포니아 로스앤젤레스",
+  "revenue": "6-figure MRR (월 $100K 이상, 창업자 본인 발화 2026-07-21 \"We're currently at 6-figures in MRR\"); 출시 10개월만에 ARR(연환산 런레이트) $1M 도달 — 2023-10 런칭 기준 2024년경",
   "revenue_date": "2026-07",
   "exit_status": "운영 중",
   "stack": [
@@ -31,17 +32,27 @@
    "https://www.indiehackers.com/post/3FvQoHUh2SglJvAJGkSF",
    "https://faceless.video"
   ],
-  "confidence": "medium"
+  "confidence": "medium",
+  "founded_year": 2023
  },
  "verification": {
   "verified_at": null,
-  "checklist_passed": [],
+  "checklist_passed": [
+   "existence:fail(데이터 교정)",
+   "figures:fail(데이터 교정)",
+   "scope:pass"
+  ],
   "primary_sources": [
    "https://www.indiehackers.com/post/3FvQoHUh2SglJvAJGkSF (창업자 본인 인터뷰, 2026-07-21 — \">$83K a month\", \"$1M ARR within 10 months\" 본인 발화)"
   ],
   "corrections": [],
-  "excluded_figures": [],
+  "excluded_figures": [
+   "[figures] 월 $83,000 — refuted. 창업자 발화가 아니라 IH 편집 인포박스 필드이며 $1,000,000÷12=$83,333 파생값(Starter Story가 'Monthly Revenue $83.3K / ARR $1M' 병기로 노출). 시점도 2024년 중반 마일스톤이라 2026-07 현재값이 아님",
+   "[figures] '$83K/월'과 '6-figure MRR'의 동일시 — refuted. $83K는 5자리라 산술적으로 불가능",
+   "[figures] GetLatka 'ARR $330K(2025 추정)' — 본인 6-figure MRR 발언과 약 4배 모순. GetLatka 자체가 '경영진 인터뷰 없는 추정'이라 명시하므로 미채택, 모순만 보존",
+   "[existence] team_size '1인' — refuted. 공동창업자 Alex Steinberg 존재 (Grit Daily 2024-08, Digital Journal 2024-10, Starter Story, 두 사람 동반 팟캐스트 출연). Bubble 쇼케이스의 'just one Bubble Developer'는 개발자 수이지 팀 규모가 아님"
+  ],
   "confidence_recommendation": null,
-  "notes": "이번 실행 최대 수확. 규모($83K/월)와 속도(10개월 ARR $1M) 모두 기존 DB 상위권.\n\n검증 시 판정 필요 사항:\n(1) 스코프 — 제작 도구는 AI 코딩 도구가 아니라 **Bubble 노코드**다. 단 scope-judge 기준상 '노코드+LLM API 조합은 바이브코딩 전신으로 포함' 선례(my-askai, formula-bot)에 정확히 해당한다. 제품 자체가 Replicate로 생성모델을 호출하는 AI 제품이고, 창업자는 \"If I were starting over today, I would only vibe code...Use Lovable!\"라고 발화 — 도구 계보 인식이 본인에게도 있다. 다만 이건 '지금이라면'이라는 미래형이라 **실제 제작에 쓴 도구가 아님**을 note에 명기할 것.\n(2) 수치 표현 혼재 — 본문 \">$83K a month\"와 \"6-figure MRR\"이 같이 쓰인다. $83K는 6자리가 아니므로 어느 쪽이 현재값인지 확정 필요.\n(3) team_size — '1인'은 추정이다. 본문에 명시가 없고 '인하우스 팀에 투자'가 향후 전략으로 언급된다. 실존 렌즈에서 현재 인원 확인 필요.\n(4) region 미확인."
+  "notes": "**상태: 후보 데이터 교정 완료, 수치 렌즈 재검증 대기.**\n\n실존·수치 두 렌즈가 fail을 냈으나 **둘 다 사례의 결함이 아니라 내 후보 파일의 오류**였고, 두 렌즈 모두 정확한 교정값을 제시했다. 창업자 본인의 실제 주장은 오히려 더 강하다 — $83K(내 기재)보다 높은 '6-figures in MRR'이고, '$0→$1M ARR in 10 months'는 IH 인터뷰와 본인 사이트(jacobseeger.com) 양쪽에 동일 문구로 존재하는 1차 발화로 살아남았다.\n\n**교정 내역:** founders 1인→2인(Alex Steinberg), region unknown→LA, revenue $83K→6-figure MRR, founded_year 2023 추가.\n\n**스코프는 pass.** Bubble 노코드 + Replicate/RunPod(생성모델 호출) 조합이 my-askai·formula-bot 선례에 정확히 대응하고, 2023-10 런칭으로 시대 요건도 충족. pckgr·zigpoll과의 결정적 차이는 **본인의 과거 사용 부정이 없다**는 점 — \"If I were starting over today, I would only vibe code...Use Lovable!\"는 가정법 미래형 조언이라 도구 근거로도 부정 근거로도 쓰지 않았다.\n\n**남은 약점(사람 승인 시 반드시 보일 것):** IH 원문 제목 자체가 'hitting a 7-figure ARR in 10 months **with no code**'로 창업자가 노코드 서사로 프레이밍한다. '언급 부재'보다 한 단계 강한 음성 신호다. 미확인 표면 하나 — 'migrated some features off Bubble and toward custom code'(2024~2026) 구간에서 AI 코딩 도구가 쓰였을 개연성이 있으나 본인 X 계정 미확인.\n\n**재검증 시 확인할 것:** 교정된 '6-figure MRR'의 점값, 현재 총 인원, 유저 수 출처별 편차(275K→850K→1M+→2.5M)."
  }
 }

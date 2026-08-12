@@ -1,44 +1,75 @@
 {
  "id": "ninjapear",
- "status": "pending_verification",
+ "status": "verified",
  "discovered_at": "2026-08-12",
  "discovery_source": "https://www.indiehackers.com/tech 피드 직접 순회 (Tier1) — 2026-07-07 게시글: https://www.indiehackers.com/post/MMWkpCaClOB6wVgbuPI7",
  "case": {
+  "id": "ninjapear",
   "founders": [
    "Steven Goh"
   ],
   "product": "NinjaPear",
   "domain": "B2B 데이터 엔리치먼트 API",
-  "one_liner": "이전 회사 매각 정산 2주 뒤 Claude Code로 2주 만에 만들어 런칭한 데이터 API",
-  "team_size": "1인",
-  "region": "unknown",
-  "revenue": "월 $15,000 (2026-07 기준, 총매출 기준이며 본인은 이미 흑자라고 발화)",
-  "revenue_date": "2026-07",
-  "exit_status": "운영 중",
+  "one_liner": "이전 회사 종료 후 Claude Code로 2주 만에 만들어 재런칭한 데이터 엔리치먼트 API",
+  "team_size": "1인 (채용 계획 없음을 본인 명시)",
+  "region": "싱가포르 (Nubela Pte. Ltd. 법인 소재지 기준 — 2026년 현재 창업자 본인 거주지 발화는 미확보)",
+  "revenue": "월 총매출(gross) $15,000 초과 — 2026-05 실적, 본인 2026-06-30 블로그 \"15K revenue last mo\" 및 2026-07-07 인터뷰 \"We did over $15k in gross revenue last month\". 같은 블로그에 \"making more than 10K in the last 2 months\"도 병존해 월 $10K~15K대 범위로 읽힘. 본인 ARR 발화는 2026-03 시점 $66K(실적)와 $1M(목표)뿐",
+  "revenue_date": "2026-05",
+  "exit_status": "운영 중 (본인 \"already profitable\" 발화)",
   "stack": [
-   "unknown"
+   "자택 하드웨어 기반 Kubernetes 클러스터 (Intel NUC + Framework 데스크톱 노드)",
+   "OpenRouter (제품 LLM 호출)",
+   "Xero (부기 자동화)",
+   "자체 AI 챗봇 위젯"
   ],
   "ai_tools": [
-   "Claude Code"
+   "Claude Code",
+   "Codex"
   ],
-  "founder_background": "연쇄창업가 — 이전 회사 Proxycurl은 ARR $10M 도달 후 LinkedIn 소송을 거쳐 매각",
-  "business_model": "크레딧 기반 (구독 + 종량 충전)",
+  "founder_background": "연쇄창업가. 이전 회사 Proxycurl(SWE 과반 포함 약 60인 규모)을 ARR $10M까지 키웠으나 2025-01 LinkedIn 소송 제소 후 2025-07 서비스 종료. 본인은 이후 '경쟁사에 매각'이라고 발화했으나 독립 확인 안 됨 — 본인의 2025-07-04 종료 공지와 독립 보도는 모두 셧다운·영구금지명령으로만 기술",
+  "business_model": "하이브리드 — 구독 플랜 + PAYG 크레딧 (3일·10크레딧 무료체험)",
   "sources": [
    "https://www.indiehackers.com/post/MMWkpCaClOB6wVgbuPI7",
-   "https://nubela.co"
+   "https://nubela.co/blog/how-im-building-a-1m-arr-venture-with-ai-as-a-bootstrapped-solo-founder-15k-revenue-last-mo-10m-last-exit-w-proxycurl/",
+   "https://nubela.co/blog/introducing-person-profile-endpoint-also-1000-users-66k-arr/",
+   "https://nubela.co/blog/introducing-ninjapear-2026-customer-listing-api/",
+   "https://nubela.co (NinjaPear 공식 사이트 — Nubela Pte. Ltd.는 2014년 설립 모회사, Proxycurl 시절 도메인을 SEO 목적으로 승계. ninjapear.com은 302로 리다이렉트)",
+   "https://nubela.co/blog/goodbye-proxycurl/"
   ],
-  "confidence": "medium",
-  "id": "ninjapear"
+  "confidence": "high"
  },
  "verification": {
-  "verified_at": null,
-  "checklist_passed": [],
-  "primary_sources": [
-   "https://www.indiehackers.com/post/MMWkpCaClOB6wVgbuPI7 (창업자 본인 인터뷰, 2026-07-07)"
+  "verified_at": "2026-08-12",
+  "checklist_passed": [
+   "existence:pass",
+   "figures:pass",
+   "scope:pass"
   ],
-  "corrections": [],
-  "excluded_figures": [],
-  "confidence_recommendation": null,
-  "notes": "이번 실행 최상급 스코프 적합 사례. 도구 발화 원문: \"All it took was two weeks of time and a Claude 20x Max subscription.\" — 2026년 제작, 2주, 1인, 도구 명시가 모두 갖춰진 드문 조합.\n\n검증 시 판정 필요:\n(1) 수치 성격 — $15K는 **총매출(gross)**이라고 본인이 명시. MRR인지 월 총매출인지 구분 필요.\n(2) 스코프 경계 — 창업자가 이전 exit 자본과 초기 암호화폐 투자 수익으로 '수익 압박 없이 무기한 운영 가능'하다고 발화. 1인이지만 자본 조건이 일반 인디해커와 다르다. 기각 사유는 아니나 founder_background에 반영할 것.\n(3) Proxycurl ARR $10M·LinkedIn 소송·매각은 별건(이전 회사)이므로 이 사례 수치에 섞지 말 것."
+  "primary_sources": [
+   "https://nubela.co/blog/how-im-building-a-1m-arr-venture-with-ai-as-a-bootstrapped-solo-founder-15k-revenue-last-mo-10m-last-exit-w-proxycurl/ (창업자 본인 블로그, 2026-06-30 — 매출·도구·1인 발화 원출처)",
+   "https://www.indiehackers.com/post/MMWkpCaClOB6wVgbuPI7 (2026-07-07 — 본인 직접인용 다수, 인터뷰어 James Fleischmann 편집이므로 quasi-primary)",
+   "https://nubela.co/blog/introducing-ninjapear-2026-customer-listing-api/ (2026-01-30 — 런칭 공지)",
+   "https://nubela.co/blog/introducing-person-profile-endpoint-also-1000-users-66k-arr/ (2026-03-25 — '54 days since we launched'로 런칭일 교차확인, 당시 ARR $66K)",
+   "https://nubela.co/blog/goodbye-proxycurl/ (2025-07-04 — 본인 작성 Proxycurl 종료 공지)",
+   "https://www.law.com/therecorder/2025/01/27/linkedin-suit-says-millions-of-profiles-scraped-by-singapore-firms-fake-accounts/ (independent — LinkedIn Corp. v. Nubela Pte. Ltd. 법원 기록)"
+  ],
+  "corrections": [
+   "revenue_date: '2026-07' → '2026-05'. 본인 2026-06-30 발화 '15K revenue last mo' 기준. 2026-07은 IH 게시일일 뿐",
+   "런칭일 2026-01-30 확정 (2026-03-25 글의 '54 days since we launched'로 교차확인). 후보 최초 기재의 '2026-05 런칭 후 2개월' 프레이밍은 오류 — $15K는 런칭 4개월차 실적",
+   "ai_tools: ['Claude Code'] → ['Claude Code', 'Codex']. 본인 블로그에 '5x max plan for Codex' 병용 명시. 창업 시점 2주 프로토타입을 지탱하는 건 Claude Code, Codex는 이후 운영 스택 추가분",
+   "region: 'unknown' → '싱가포르(법인 소재지)'. 법원 기록상 Nubela Pte. Ltd. 싱가포르 법인. 단 창업자 본인 거주지 발화는 미확보이므로 구분 표기",
+   "stack: 'unknown' → 자택 K8s(Intel NUC + Framework) / OpenRouter / Xero / 자체 챗봇 위젯. 별도로 언급된 'Python, TS/Tailwind, Redash, Grafana'는 축자 확인 실패로 미기재",
+   "founder_background: Proxycurl '매각'을 단정형으로 쓰지 말 것 — 본인 2025-07-04 종료 공지와 독립 보도는 셧다운으로 일관, '매각'은 2026-07 발화 1건뿐이라 본인 주장으로만 표기",
+   "business_model: 후보 최초 표기 '크레딧 기반(구독 + 종량 충전)'이 정확함 확인 — 수정 불필요"
+  ],
+  "excluded_figures": [
+   "[figures] $180K/yr — 단일 월 총매출의 기계적 연환산. 크레딧 종량 충전 포함 gross라 MRR 아님. 본인 ARR 주장 아님",
+   "[figures] ARR $1M — 본인이 밝힌 목표치이지 실적 아님",
+   "[figures] Proxycurl ARR $10M — 별건(이전 회사). 이 사례 수치에 합산 금지. 본인 원문은 '~10M last exit'로 ARR인지 매각가인지 모호",
+   "[existence] '경쟁사에 매각' — unverifiable. 본인 이전 발화 및 독립 보도와 충돌",
+   "[existence] nubela.co 잔존 페이지의 '40+ 팀'·50여 명 명단 — Proxycurl 시절 미갱신 페이지로 판단, 최신 1차 발화(2026-07 'solo, full-time founder')를 채택"
+  ],
+  "confidence_recommendation": "high",
+  "notes": "판정: **3/3 pass** → verified, confidence는 세 렌즈 최솟값 high.\n\n도구 발화가 확정적이다. 본인 블로그: \"I started to toy around with Claude Code\" → 2주 프로토타입. IH: \"All it took was two weeks of time and a Claude 20x Max subscription\", \"immobile — with Claude Code\". 스코프 렌즈 논거: Claude Max는 좌석형 구독이라 제품 백엔드 LLM 호출에 쓸 수 없고(본인이 제품 LLM 비용은 OpenRouter로 별도 명시), 이 대비가 '구독 = 빌드 도구비'를 확증한다.\n\n**동명이인 함정 차단.** 검색엔진 합성 답변이 migme/mig33 CEO Steven Goh를 동일인으로 단정했으나 연표로 갈렸다(mig33 2006 Perth 창업 vs NUS CS 2008-2012, Nubela 2014 창업). Crunchbase도 별개 프로필. 이 아카이브에서 'Steven Goh'를 다시 만나면 재확인할 것.\n\n**검증 중 철회된 소견 기록.** 스코프 렌즈가 1차 판정에서 '전작 고객 승계로 초기 매출 램프가 콜드스타트와 비교 불가'라는 소견을 냈다가 철회했다. 근거가 nubela.co 마케팅 카피(\"From the team that bootstrapped Proxycurl to $10M ARR\")뿐이었고 본인 발화에 고객 이관 언급이 없으며, 오히려 반증 신호가 있다 — 본인 블로그 'Our GTM hack that 10x our registrations from 300 users to 3163 registered users in 5 months'(2026-07-03)는 준-콜드스타트 성장 서사다. 확인된 사실은 브랜드·채널 인접성(동일 도메인·블로그 독자)까지이고, 유료 고객 이관은 미확인 가설이므로 데이터에 넣지 않는다.\n\n**스코프 경계 소견(기각 사유 아님).** 본인 발화: \"Money isn't really an issue anyway... allow me to work on NinjaPear indefinitely without needing to turn a profit.\" 아카이브의 1인/소규모는 팀 규모 요건이지 자본 요건이 아니므로 위반이 아니다. 다만 60인 회사를 운영해본 경험치가 1인 성과에 실려 있다는 점이 독자에게 보이도록 founder_background에 반영했다.\n\n**Stage 4 반영 시 주의.** normalize_note에 (1) $15K는 gross이며 MRR 승격 금지, (2) 연환산 $180K는 단일 월 기계 연환산이라 본인 주장 아님, (3) 자본 조건은 본인 직접 인용 범위에서만 기록 — 세 가지를 명기할 것."
  }
 }
