@@ -28,7 +28,8 @@
 | savvycal | 2020 | 언급 없음 (Elixir/Phoenix 명시) |
 | superpower-chatgpt | 2022 | 언급 없음 + "vanilla JS, no framework" 자기명시 |
 | thirstysprout | 2018 | Claude 용도가 전부 백오피스 |
-| zigpoll / pckgr / faceless-video / klipy | **창 안** | **본인 명시적 부정** |
+| pckgr / faceless-video / klipy | **창 안** | **본인 명시적 부정** |
+| ~~zigpoll~~ | ~~창 안~~ → **2018 (창 밖)** | ~~명시적 부정~~ → **오독. 2026-08-13 재심에서 pass로 번복** (§0.6) |
 
 즉 창(2023~)은 규칙이 아니라 **"성과가 도구에 귀속되는가"의 프록시**다. 프록시를 규칙으로
 굳히면 두 방향 오류가 동시에 생긴다 — 도구를 쓰는 오래된 제품을 기각하고, 도구를 안 쓰는
@@ -49,6 +50,51 @@ NextJS+Supabase 양쪽 충족.
 
 `normalize_note`에 **'유지·확장형 — 기원 연도(창 밖), 창 안 근거는 ○○'**를 반드시 기록해
 창업연도 기반 집계가 왜곡되지 않게 할 것.
+
+### 0.6 '명시적 부정' 판별 2단 테스트 (2026-08-13 신설)
+
+위 표의 `fail` 트리거는 강력해서 **한 번 잘못 붙으면 사례를 죽이고 그 판정이 다시 선례로
+인용된다.** 실제로 그렇게 됐다 — zigpoll 오독이 §0.5 표와 아래 '도구 미사용 판정 기준'
+두 곳에 박혔고, `ai-toolbox.json`·`jobric.json`이 다시 그것을 대조 기준으로 인용했다.
+
+부정으로 **보이는** 문장을 찾았다면, 부정 근거로 채택하기 전에 둘 다 통과시켜라.
+
+**1) 부정항 테스트 — 부정의 대비항을 문장에서 지목하라.** 대비항이 AI 도구가 아니면
+도구 부정이 아니다.
+
+| 문장 | 부정된 항 | 판정 |
+|---|---|---|
+| pckgr "before AI tools like Claude Code and Cursor were available" | **AI 도구** (명사로 지목) | fail 유효 |
+| klipy "I hand-coded the first MVP" | **저술 방식** ('hand-coded'는 AI 생성의 표준 반의어) | fail 유효 |
+| ~~zigpoll "with a code editor, **not a budget**"~~ | **자본** — 섹션 제목이 "Funding himself"이고 인접 절이 전부 "cost far more time than money" / "Nights and weekends were the real currency" / "no VC, no angel" | **부정 아님** |
+| ai-toolbox "TypeScript with no UI framework" | **아키텍처** (번들 크기 선택) | 부정 아님 |
+| jobric "not a wrapper around an LLM" | **제품 포지셔닝** | 부정 아님 |
+
+zigpoll 문장에는 **AI를 지시하는 토큰이 하나도 없다.** 도구 부정으로 읽으려면 부정항을
+문장에 없는 것으로 바꿔치기해야 한다.
+
+**2) 2차 출처 반증 테스트 — 부정 판정 전에 같은 창업자의 다른 1차 출처를 최소 1건 열어라.**
+
+문서 한 편의 부정 독해는 다른 문서의 긍정 발화로 뒤집힌다. 2026-08-13 재심 4건 중
+**셋에서 뒤집혔고, 셋 다 같은 구조였다:**
+
+| 사례 | 도구 언급이 **없던** 곳 | 실제 발화가 **있던** 곳 |
+|---|---|---|
+| zigpoll | IH 기사(성장 서사) — AI 언급은 전부 유통 채널 | 팟캐스트 5주 전 |
+| artmvstd | IH 기사(성장 서사) | notjust.dev 팟캐스트 |
+| setter-ai | IH 기사 2편 | 본인 YouTube Shorts (일자별 빌드 로그) |
+
+**성장·수익 서사 글에는 도구 얘기가 안 나오고, 프로세스 대화에 나온다.** JP 층에서
+확립한 프로브 순서(§JP)가 언어권 무관 규칙이다. **1차 출처 한 편만 보고 도구 부재를
+판정하지 마라** — setter-ai 1회차는 판단 기준이 아니라 조사 범위가 문제였다
+(IH 1편만 보고 창업자 YouTube 62편·GitHub·Substack을 열지 않았다).
+
+**보조 규칙 — 음성 전사 표기를 액면으로 읽지 마라.** ASR은 도구명을 뭉갠다. 실측:
+`Claude Code → "Cloud Code"`(zigpoll·setter-ai 양쪽), `Cursor → "corser"/"course store"`,
+`v0 → "vzero"`, `Setter AI → "set AI"`. 확정하려면 교차 근거를 요구하라 — zigpoll의
+'Cloud Code'는 (a) 같은 문장의 MCP 병치, (b) 자사 문서의 'Claude Code (CLI)' 명기,
+(c) 본인 레포의 `.claude-plugin`으로 3중 확정했다. **교차 근거가 없으면 배열에 적지 마라**
+— artmvstd의 Cursor는 그래서 제외하고 `ChatGPT`만 남겼다.
 
 ## 1. 소스 레지스트리
 
@@ -279,6 +325,11 @@ jobric 사전조사에 *"이전 직함 'VP, Enterprise Cloud and DevOps at Arria
 
 #### (2) `founded_year`를 반드시 채워라 — 스코프 창 판정의 결정값
 
+> **2026-08-13 실증 — 이 필드의 부재는 양방향으로 틀린다.** thirstysprout은 이 필드가
+> 없어서 **살아남았고**(2018년 창업이 뒤늦게 드러나 기각), zigpoll은 이 필드가 없어서
+> **죽었다**(2018년 기원인데 창 안으로 취급돼 §0.5 유지·확장형 심사를 아예 받지 못했다).
+> 재심 5건 중 **5건 전부 `founded_year`가 비어 있었다.**
+
 thirstysprout(2018년 창업)이 Stage 3까지 살아온 이유는 **후보 스키마에 창업 연도 필드가
 없었기** 때문이다. 이 값 하나면 Stage 2에서 걸러졌다. laravel-shift(2015)·savvycal(2020)·
 superpower-chatgpt(2022)도 같은 축에서 기각됐다.
@@ -366,9 +417,16 @@ zigpoll 재심에서 `fetch(location.href, {credentials:'omit'})` → 343KB HTML
 Claude Code 사용이 기본값이라 언급하지 않는 쪽이 정상이고, 언급을 요구하면 도구를
 *쓴* 사람이 아니라 도구 *얘기를 하는* 사람만 수집되는 발화 편향이 생긴다.
 
-- `fail` — **본인이 명시적으로 부정**한 경우에만 (선례: zigpoll, pckgr, faceless-video)
+- `fail` — **본인이 명시적으로 부정**한 경우에만 (선례: pckgr, faceless-video, klipy).
+  단 '부정'으로 보이는 문장은 **§0.6의 2단 테스트를 통과해야** fail 근거가 된다
+  — zigpoll이 이 단계를 건너뛰어 잘못 기각됐다
 - `borderline` → pass — 확인했으나 언급 미발견. `unknown`이지 `none`이 아니다
-- 판정 전 창업자 본인 공개 계정 1곳 이상 확인 필수
+- 판정 전 창업자 본인 공개 계정 1곳 이상 확인 필수. **IH·매체 기사 한 편은 '확인'이 아니다**
+  (§0.6 표: 2026-08-13 재심 3건 전부 기사에는 없고 본인 채널에 있었다)
+- **화자를 raw HTML의 작성자 필드로 확인하라.** artmvstd는 IH **댓글 작성자**의 발언
+  ("CAS runs the stack for me")이 창업자 발언으로 후보 파일에 들어가 '광고 수익 모델'이라는
+  틀린 사실을 만들었고, 그게 기각 논거가 됐다. 경로는 **요약 모델이 그 댓글을
+  "he delegates: I let a publisher run..."으로 창업자 1인칭처럼 돌려준 것**이다
 
 #### 증거 비대칭을 데이터로 노출한다 — `tool_question_probed` (2026-08-12 신설)
 

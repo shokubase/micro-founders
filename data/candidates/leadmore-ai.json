@@ -1,6 +1,6 @@
 {
  "id": "leadmore-ai",
- "status": "verified",
+ "status": "merged",
  "discovered_at": "2026-08-11",
  "discovery_source": "https://www.indiehackers.com/post/tech/hitting-30k-mrr-with-an-ai-marketing-product-n59ORJCYjnZC61Q096UL (Tier1 IH, 2025-12-18) — Tier3 검색(tamimbuilds Medium 리스트)에서 리드 포착",
  "case": {
@@ -74,5 +74,6 @@
   ],
   "confidence_recommendation": "medium",
   "notes": "판정: **3/3 pass → verified** (2026-08-11 rejected 번복).\n\n## 도구 근거의 위치 — bazzly보다 약간 약하고 leadverse와 비슷하다\n\n본인 발화에 'vibe coding'이 긍정 맥락으로 존재한다 — \"With vibe coding today, you can often ship a very basic MVP in one or two weeks\"(2025-12-18, MVP 구축 질문에 대한 답). **다만 'you can'의 일반론이라 자기 빌드에 대한 귀속이 아니다.** bazzly는 \"Being a technical founder, AI gave me a big advantage to ship fast\"로 1인칭 자기귀속이었다. 그래서 방향은 명확히 긍정이지만 **ai_tools는 unknown 유지**한다 — 배열에 도구명을 적으면 미확인 귀속이 데이터로 굳는다(leadverse·bazzly 선례 동일).\n\n## 제품측 AI를 도구 근거로 쓰지 않았다\n\nLeadmore는 AI 마케팅 SaaS라 'AI를 씀 vs AI로 만듦' 오분류 위험군이다. 기존 기각 노트의 '제품이 AI를 쓰는 것과 AI 코딩 도구로 만든 것은 별개'라는 구분 **자체는 옳다** — 다만 그건 제품측 AI를 도구 근거로 오인할 위험의 문제이지 배제 사유가 아니다. 여기서는 제품측 AI를 근거로 전혀 쓰지 않았다.\n\n## 별건 리드 발생 (중복 아님)\n\n**Vismore** (vismore.ai, AEO 플랫폼, 2026-03경 런칭) — 같은 창업자의 다른 제품이므로 별도 사례다. IH 프로필에 '$100k/month' 표기가 있고 사전판매 $8,400(7명 × $399 × 3개월) 발화가 있다. 후보 큐에 별도 등록 권고.\n\n## 미해결\n\nregion 미확정. X 2계정·LinkedIn 전부 HTTP 차단으로 미열람 — **증거 부재가 아니라 도구 한계**다."
- }
+ },
+ "merged_at": "2026-08-13"
 }

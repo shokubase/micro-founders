@@ -1,6 +1,6 @@
 {
  "id": "zigpoll",
- "status": "verified",
+ "status": "merged",
  "discovered_at": "2026-08-11",
  "discovery_source": "https://www.indiehackers.com/post/tech/hitting-125k-mrr-as-a-solo-founder-by-doubling-down-on-the-right-segment-c4o2Tfs6mjdpip5yZhaO (Tier1 IH, 2026-07-02)",
  "case": {
@@ -75,5 +75,6 @@
   ],
   "confidence_recommendation": "medium",
   "notes": "판정: **3/3 pass → verified** (2026-08-11 rejected 번복).\n\n## 이 건이 남긴 가장 큰 교훈 — 오독이 규칙이 되어 전파됐다\n\nzigpoll은 잘못된 fail 판정을 받았을 뿐 아니라, 그 판정이 RESEARCH_PIPELINE.md **두 곳에 '본인 명시적 부정' 선례로 인용**됐고 ai-toolbox·jobric 후보 파일이 다시 그것을 대조 기준으로 인용했다. 개별 사례 하나를 잃는 것으로 끝나지 않았다.\n\n게다가 §0.5 표는 zigpoll을 '창 안'으로 적었는데 이것도 오류다(2018 기원). **한 행에 오류가 둘**이었다.\n\n## §0.5 유지·확장형 판정 — 조건 1 강한 pass, 조건 2가 최약 고리\n\n창 **밖**(2018 착수 / 2019-04 출시)이므로 가드레일 2조건을 요구한다.\n\n**조건 1 (1인칭 명시 도구 발화): 강한 pass.** 현재형, 반복 워크플로('every three months'), 도구명 특정, 코딩 용도 자기명시. ramsri('nowadays, I use tools like Claude Code to vibe code')보다 구체적이다.\n\n**조건 2 (도구 시대 산출물): pass, 단 형태가 ramsri와 다르다.** GitHub API 확인 — n8n-nodes-zigpoll(2025-06-23), zigpoll-mcp-plugin(2026-02-13, .claude-plugin 포함), openclaw-zigpoll(2026-07-24). 플러스 synthetic survey 기능(본인 발화 \"It's brand new... I built it on a lark\"). **정직한 유보: 이들은 기존 제품의 신규 표면이지 ramsri의 AiArtist.io 같은 독립 신규 제품이 아니고, 코어는 2019년 Express/Mongo 그대로라 '현행 코드베이스 리라이트'도 아니다.** §0.5가 경계한 '2010년대 SaaS 창업자가 Cursor 쓴다고 트윗' 시나리오와의 거리는, 트윗 한 줄이 아니라 체계적 개발 루프이고 2026 상반기 +44% 성장이 그 루프와 동시대라는 점이다. **사람 승인 단계의 진짜 쟁점은 폐기된 '명시적 부정'이 아니라 이쪽이다.**\n\n## 프로브 순서 교훈이 영어권에서 재현됐다\n\nIH 기사(제품·성장 서사)에는 도구 언급이 **0건**이고 AI 언급은 전부 유통 채널이었다(\"Roughly 14% of new signups now come through ChatGPT, Claude, and Gemini\"). 도구 발화는 **팟캐스트(프로세스 대화)**에 있었다. RESEARCH_PIPELINE.md의 JP 층 프로브 순서에서 확립한 '제품 글만 보고 판정하면 전멸한다'가 언어권 무관 규칙임을 보여준다.\n\n## 미해결\n\nX 핸들 미특정(unverifiable — 검색이 반환한 '@Zigpoll'은 팟캐스트 제목 표기이지 계정 확인이 아니다). LinkedIn not_attempted. region 미확정."
- }
+ },
+ "merged_at": "2026-08-13"
 }

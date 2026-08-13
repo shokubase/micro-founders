@@ -1,6 +1,6 @@
 {
  "id": "artmvstd",
- "status": "verified",
+ "status": "merged",
  "discovered_at": "2026-08-11",
  "discovery_source": "https://www.indiehackers.com/post/tech/from-failed-app-to-30-app-portfolio-making-22k-mo-in-less-than-a-year-myy3U7K9evxGOVOHti8s (Tier1 IH, 2025-12-10)",
  "case": {
@@ -68,5 +68,6 @@
   ],
   "confidence_recommendation": "medium",
   "notes": "판정: **스코프 pass(기각 번복) → verified.** 에이전트는 high를 권고했으나 medium을 채택했다 — 도구명 하나가 ASR 판독이고, 매출이 8개월 된 값이며 gross/net이 미상이다.\n\n## 이 건이 남긴 가장 중요한 교훈 — 오염이 두 겹이었다\n\n이 후보는 **틀린 사실 위에서 기각됐다.** '광고 수익 모델이라 기존 사례군과 결이 다르다'가 기각 논거 중 하나였는데, 애초에 광고 모델이 아니었다. 그 오인의 출처는 **IH 댓글 작성자의 발언을 창업자 발언으로 옮긴 것**이고, 그렇게 된 경로는 **요약 모델이 댓글을 창업자 1인칭처럼 돌려준 것**이다. 즉 (a) 규칙에도 없는 기준을 신설했고 (b) 그 기준을 적용한 사실관계마저 오염된 요약에서 왔다.\n\n**화자 확인은 raw HTML의 작성자 필드로만 한다** — 이 세션에서 같은 경로의 사고가 반복됐다(zigpoll 문맥 오독, ai-toolbox 인포박스, rightblogger 편집부 MRR).\n\n## 프로브 순서 교훈이 또 재현됐다\n\nIH 기사(제품·성장 서사)에 도구 언급 **0건**, 팟캐스트(프로세스 대화)에 발화 존재. zigpoll과 정확히 같은 패턴이다. **1차 출처 한 편만 보고 도구 부재를 판정하면 안 된다.**\n\n## 코퍼스 사실관계 확인 결과\n\n'광고 모델은 기존과 결이 다르다'는 논거는 코퍼스로도 지지되지 않았다 — `trend-widget`이 business_model에 '인앱 광고 + 구독'을 명시하고 있고, 비구독 수익 사례는 headshotpro·marc-lou·sergiu·simon-berg·erik-aronesty·gendy 등 다수다."
- }
+ },
+ "merged_at": "2026-08-13"
 }

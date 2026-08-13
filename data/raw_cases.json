@@ -1545,5 +1545,145 @@
       "https://prismclip.com"
     ],
     "confidence": "medium"
+  },
+  {
+    "id": "zigpoll",
+    "founders": [
+      "Jason Zigelbaum"
+    ],
+    "product": "Zigpoll",
+    "domain": "Shopify 앱 설문·고객 피드백 SaaS",
+    "one_liner": "Shopify 앱스토어에 집중해 $1.5M 런레이트에 도달한 1인 SaaS — 2019년 제품을 에이전트 코딩 루프로 개선 중",
+    "team_size": "1인 — 본인 발화 \"I run the company solo: no cofounder, no funding, no sales team\"",
+    "region": "미국 (뉴욕 추정 — 자기신고 미확보)",
+    "revenue": "월 $125K MRR (2026-06) · 런레이트 약 $1.5M — 본인 발화 \"I started 2026 with about $1.03M ARR and am closing June around $125K MRR, roughly a $1.5M run rate. This represents about a 44% increase in the first half of the year.\" 본인 서술로 트랙션까지 약 2년, 이후 매년 매출 2배",
+    "revenue_date": "2026-06",
+    "exit_status": "운영 중",
+    "stack": [
+      "JavaScript",
+      "Express",
+      "MongoDB",
+      "React",
+      "Redis",
+      "MCP 서버"
+    ],
+    "ai_tools": [
+      "Claude Code"
+    ],
+    "founder_background": "개발자(본인 표현 \"I'm technical\"). 이전 SaaS 2건 — Metafields Manager는 Shopify가 인수, 다른 하나는 매각. 법인 Argonautic Labs",
+    "business_model": "Shopify 앱 SaaS 구독. 무료 티어 상시 제공, 에이전시·컨설턴트가 다수 스토어에 설치하는 구조가 핵심 성장 채널",
+    "sources": [
+      "https://www.indiehackers.com/post/tech/hitting-125k-mrr-as-a-solo-founder-by-doubling-down-on-the-right-segment-c4o2Tfs6mjdpip5yZhaO",
+      "https://honestecommerce.com/blogs/episodes/removing-buyer-friction-through-direct-feedback-jason-zigelbaum-zigpoll-bonus-episode",
+      "https://apps.shopify.com/zigpoll",
+      "https://docs.zigpoll.com/integrations/mcp",
+      "https://github.com/JasonZigelbaum"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "setter-ai",
+    "founders": [
+      "Josef Büttgen (기술)",
+      "Timo Tzschetzsch (마케팅·세일즈)"
+    ],
+    "product": "Setter AI",
+    "domain": "WhatsApp 리드 응대 AI 에이전트 (B2B 세일즈)",
+    "one_liner": "붕괴와 재기를 겪은 2인 팀 — 숙련 엔지니어가 AI를 '부분적으로' 쓴다고 스스로 밝힌 드문 사례",
+    "team_size": "2인 (공동창업자 2명, 고용 인력 없음). 미펀딩 — YC 5회 지원 전부 탈락",
+    "region": "독일 출신 2인 (Timo 방콕 / Josef 샌프란시스코 자기신고), 법인 Setter AI LLC는 미국",
+    "revenue": "MRR $6,694 · 지난 30일 $7,192 · 누적 $206,042 · 활성 구독 20건 — **Stripe API 연동 검증치**(TrustMRR, 2026-08-13). **정점 이후 하락 중**: 2025-02 $2.4K → 2025-07 $10K → 2026-08 $6.7K. 그 전 붕괴 이력도 본인 공개 — \"$0 to $10k MRR and back to $0 — all in the timespan of six months. In August 2024, the business basically collapsed, including a nearly $5,000 dispute.\"",
+    "revenue_date": "2026-08",
+    "exit_status": "운영 중",
+    "stack": [
+      "SvelteKit",
+      "TypeScript",
+      "Tailwind",
+      "Supabase",
+      "Clerk",
+      "Stripe",
+      "OpenAI"
+    ],
+    "ai_tools": [
+      "Cursor",
+      "Claude Code"
+    ],
+    "founder_background": "Josef Büttgen — 13세부터 독학, CS 전공 엔지니어. 첫 제품 약 1년 실패 후 '12개월 12스타트업' 챌린지 중 착수. / Timo Tzschetzsch — 마케팅·세일즈 담당, 선행 제품 Jinni AI 운영",
+    "business_model": "구독 SaaS (처리 리드 수 기반) + 고접점 고객 일회성 셋업 패키지",
+    "sources": [
+      "https://www.indiehackers.com/post/tech/from-desperation-and-dwindling-runway-to-10k-mrr-VRQprGga5zF3UFDqiCqw",
+      "https://www.indiehackers.com/post/tech/the-journey-from-0-to-10k-to-0-and-back-to-10k-mrr-again-0qEebF7eg4ImSVFTcbj6",
+      "https://www.youtube.com/shorts/NkR845KebqQ",
+      "https://www.youtube.com/shorts/FeL3gt7Lp14",
+      "https://trustmrr.com/startup/setter-ai-llc",
+      "https://github.com/J3012B"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "artmvstd",
+    "founders": [
+      "Max Artemov"
+    ],
+    "product": "ARTMVSTD (학습 앱 30개+ 포트폴리오)",
+    "domain": "모바일 앱 포트폴리오 (구독 IAP 중심, ASO 주도)",
+    "one_liner": "단일 앱 5년 실패 후 12개월간 경량 학습 앱 30개+로 전환 — 코드 90%를 복제하고 종목 전환은 AI에 맡긴다",
+    "team_size": "1인 (정규직 병행 사이드 프로젝트)",
+    "region": "라트비아",
+    "revenue": "앱 30개 합산 MRR $22K (2025-12, 본인 발화). 시계열: $7K MRR (2025-10) → $22K (2025-12). **gross/net 미상** — 스토어 수수료 15~30%와 UA 지출(Apple Search Ads 월 약 €400)의 차감 여부를 밝힌 적 없다",
+    "revenue_date": "2025-12",
+    "exit_status": "운영 중 (대표 앱 2026-07-15 갱신, 500K+ 다운로드)",
+    "stack": [
+      "Flutter",
+      "Firebase (Auth/Hosting/Cloud Functions)",
+      "Fastlane",
+      "ASO 툴 (Astro, FoxData)"
+    ],
+    "ai_tools": [
+      "ChatGPT"
+    ],
+    "founder_background": "iOS 개발 경력 약 8년. 칼로리 카운터 단일 앱 5년+ 시도 후 2025-02 포트폴리오 전략으로 전환. 정규직 병행",
+    "business_model": "앱 내 구독 IAP — 본인 발화 \"95% of all subs are weekly\", \"more than 80% of revenue comes from subscriptions\". 3일 무료체험 주간 구독 중심. 획득은 ASO 오가닉 주도, 보조로 Apple Search Ads 월 약 €400",
+    "sources": [
+      "https://www.indiehackers.com/post/tech/from-failed-app-to-30-app-portfolio-making-22k-mo-in-less-than-a-year-myy3U7K9evxGOVOHti8s",
+      "https://www.youtube.com/watch?v=H_oRgWaslSA",
+      "https://artmvstd.com/",
+      "https://play.google.com/store/apps/developer?id=Artmvstd"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "leadmore-ai",
+    "founders": [
+      "Richard Wang"
+    ],
+    "product": "Leadmore AI",
+    "domain": "Reddit 리드 발굴·운영 자동화 (마케팅 SaaS)",
+    "one_liner": "런칭 4개월에 월 $30K — 오디언스도 광고비도 없이 Reddit 한 채널로 올린 크레딧 종량제 SaaS",
+    "team_size": "창업 시점 1인 — 2025-12 글 전체가 'I'. 2026-02 이후 글부터 'we'가 등장하나 인원수 미공개",
+    "region": "unknown",
+    "revenue": "월 $30K 초과 (2025-12, 본인 글 제목 \"$30K MRR in 4 Months\") → 이후 ARR $1M (2026-02-11, 본인 게시물). **$1M의 산출법을 본인이 자진 공개했다** — \"The $1M ARR is based on a run rate calculation: revenue from a recent day multiplied by 365. This can be slightly higher than a strict subscription based ARR...\" 즉 최근 하루 매출 × 365이며 구독 ARR이 아니다",
+    "revenue_date": "2026-02",
+    "exit_status": "운영 중",
+    "stack": [
+      "Next.js",
+      "Go (Gin)",
+      "MongoDB",
+      "ClickHouse",
+      "Function Compute"
+    ],
+    "ai_tools": [
+      "unknown"
+    ],
+    "founder_background": "본인 발화 \"I have over five years of experience in the internet industry, and I've worked in both engineering and product roles at leading tech companies.\" 직전 실패작(AI B2C, 약 3개월 개발 후 종료) 이력. 동일 창업자가 별개 제품 Vismore(AEO 플랫폼)도 운영",
+    "business_model": "크레딧 기반 종량제 (미사용 크레딧 환불 가능). 2026-01경 지역별 가격제를 폐지하고 글로벌 단일가로 전환, 첫 구매가를 $9.9로 인하",
+    "sources": [
+      "https://www.indiehackers.com/post/tech/hitting-30k-mrr-with-an-ai-marketing-product-n59ORJCYjnZC61Q096UL",
+      "https://www.indiehackers.com/post/how-i-built-a-reddit-marketing-tool-to-30k-mrr-in-4-months-with-0-spent-on-marketing-470f39b763",
+      "https://www.indiehackers.com/post/i-built-a-reddit-marketing-product-leadmore-ai-and-it-just-crossed-1m-arr-f8b758eb1a",
+      "https://www.indiehackers.com/Richard_ai",
+      "https://leadmore.ai"
+    ],
+    "confidence": "medium"
   }
 ]
