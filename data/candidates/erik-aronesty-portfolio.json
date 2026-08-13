@@ -1,50 +1,83 @@
 {
  "id": "erik-aronesty-portfolio",
- "status": "pending_verification",
+ "status": "verified",
  "discovered_at": "2026-08-12",
  "discovery_source": "https://www.indiehackers.com/tech 피드 직접 순회 (Tier1) — 2026-07-22 게시글: https://www.indiehackers.com/post/n5NdriCp6HBqm4ApZO05",
  "case": {
   "founders": [
    "Erik Aronesty"
   ],
-  "product": "OnwardTravel / DirtSignal / PrismClip (외 약 30개 프로젝트)",
-  "domain": "폐기 도메인 기반 기수요 대상 서비스 포트폴리오",
-  "one_liner": "이미 수요가 있는 폐기 도메인을 사들여 그 위에 서비스를 얹는 방식의 포트폴리오",
-  "team_size": "1인",
-  "region": "unknown",
-  "revenue": "월 약 $15,000 (본인 발화상 대부분 경상매출 아님) — OnwardTravel 약 70%($10.5K), DirtSignal 약 20%($3K), 롱테일 약 10%($1.5K)",
+  "product": "OnwardTravel / DirtSignal / PrismClip (+ 롱테일 다수)",
+  "domain": "폐기 도메인을 인수해 기존 수요 위에 재구축하는 포트폴리오 — 항공 예약 홀드 발급, 공공기록 정보 서비스",
+  "one_liner": "정규직을 유지하며 죽은 도메인을 사들여 에이전트로 재구축하는 25년차 엔지니어의 주말 포트폴리오",
+  "team_size": "1인 (직원 없음, Q32 LLC 단독 보유). 정규직 병행 — 주말·야간 주 30시간",
+  "region": "미국 뉴욕",
+  "revenue": "월 약 $15,000 (2026-07 본인 발화 \"We currently generate approximately $15k in monthly revenue.\"). **대부분 경상매출이 아니다** — 본인 발화 \"Most of that is not recurring. Travel-related systems never are.\" 구성비는 본인이 비율로만 밝혔다: OnwardTravel 약 70%, DirtSignal 약 20%, 롱테일 약 10%. 30개 이상 사이트에서 월 매출이 발생하며 일부는 월 $60 수준",
   "revenue_date": "2026-07",
-  "exit_status": "운영 중 (PrismClip은 매출 전)",
+  "exit_status": "운영 중 (PrismClip은 2026-07 기준 매출 전, 이후 유료 티어 가동)",
   "stack": [
    "Cloudflare",
    "DigitalOcean managed Postgres",
-   "BoxPDF",
-   "LakeQL"
+   "BoxPDF(자작 OSS)",
+   "LakeQL(자작 OSS)"
   ],
   "ai_tools": [
    "Codex",
    "Claude"
   ],
-  "founder_background": "약 30개 프로젝트를 병행 운영하는 1인 개발자",
-  "business_model": "서비스별 상이 (OnwardTravel: 예약증명 발급, DirtSignal: 데이터/정보공개청구 대행)",
+  "founder_background": "25년+ 경력 시니어 엔지니어. Bloomberg NLP 그룹 암호화 시스템 설계(암호학 특허·논문), 최초의 온라인 프라임 브로커리지 개발, 글로벌 DNS 기업 ZoneEdit 구축 및 .GOV TLD 운영, 보안기업 Atakama CTO. 현재 Puzzle 정규직 시니어 SWE — 이 포트폴리오는 주말·야간 사이드 프로젝트",
+  "business_model": "OnwardTravel: 비자·입국심사의 출국편 증빙 요건 충족용 항공 예약 홀드(실제 PNR) 발급, $16 정액(전액 발권은 선택) / DirtSignal: 약 200개 지자체 코드 집행·심리 포털 스크래핑 및 정보공개청구 대행, $29/월부터 / PrismClip: 장시간 오디오·영상에서 숏폼 클립 생성, Free/$10/$20",
   "sources": [
    "https://www.indiehackers.com/post/n5NdriCp6HBqm4ApZO05",
-   "https://onwardtravel.com",
-   "https://dirtsignal.com"
+   "https://github.com/earonesty",
+   "https://q32.com",
+   "https://onwardtravel.com/terms",
+   "https://dirtsignal.com/updates",
+   "https://prismclip.com"
   ],
-  "confidence": "low",
+  "confidence": "medium",
   "id": "erik-aronesty-portfolio",
-  "founded_year": null
+  "founded_year": 2026
  },
  "verification": {
-  "verified_at": null,
-  "checklist_passed": [],
-  "primary_sources": [
-   "https://www.indiehackers.com/post/n5NdriCp6HBqm4ApZO05 (창업자 본인 인터뷰, 2026-07-22)"
+  "verified_at": "2026-08-12",
+  "checklist_passed": [
+   "existence:pass",
+   "figures:pass(교정 후)",
+   "scope:pass"
   ],
-  "corrections": [],
-  "excluded_figures": [],
-  "confidence_recommendation": null,
-  "notes": "스코프: 본인이 밝힌 스택에 Codex·Claude가 포함되고 \"Usually, Hermes+Gpt5.6 makes all the decisions\"라고 발화. 다만 이것이 **개발 도구인지 런타임 구성요소인지 원문에서 구분되지 않는다** — 검증 시 확정 필요. 구분 실패 시 borderline.\n\n검증 시 판정 필요:\n(1) 수치 성격 — 본인이 '대부분 경상매출이 아니다'라고 명시. 월 $15K를 MRR로 표기하면 오류. 연환산 시 특히 주의.\n(2) 사업 성격 — OnwardTravel은 'dummy ticket'(비자·입국심사용 임시 항공예약 증명) 판매다. 합법 영역이나 회색지대라는 지적이 있는 업종이므로 아카이브 게재 시 도메인 설명을 중립적·정확하게 쓸 것. 스코프 기각 사유는 아님.\n(3) 제품 30개 중 실제 매출 기여는 3개 — product 필드에 전부 나열하지 말 것.\n\n## Stage 2 사전 스크리닝 (2026-08-12)\n\n- `founded_year`: 미확정 — 미확인 — 검증 시 확정 필요\n\n**[항목 수치가 총액의 퍼센트 배분값]** OnwardTravel 70%=$10.5K, DirtSignal 20%=$3K, 롱테일 10%=$1.5K가 $15,000에 정확히 대응한다. 즉 제품별 금액이 독립 측정값이 아니라 총액을 비율로 나눈 값이다 — 개별 금액을 실측치처럼 싣지 말 것. 또 본인이 '대부분 경상매출이 아니다'라고 명시했으므로 연환산 시 특히 주의.\n\n- `region`이 unknown이면 창업자 GitHub·dev.to·LinkedIn 프로필의 location 필드를 먼저 볼 것 (2026-08-12에 unknown으로 둔 2건이 모두 여기 있었다).\n\n- `region`: 미확정. GitHub·dev.to 프로필을 검색으로 특정하지 못했다.\n- **[founder_background 보강 근거]** 이전에 보안기업 **Atakama의 CTO**였고 Cybersecurity Excellence Awards 후보로 등재된 인물이다. 후보 파일은 '약 30개 프로젝트를 병행 운영하는 1인 개발자'까지만 적었다 — 경력 배경이 빠져 있어 '1인 인디'라는 인상만 준다. 확인해 반영할 것.\n- DirtSignal은 부동산 투자자용 압류·행정처분 정보 서비스로 확인된다 (natlawreview 보도) — domain 서술 정확도 보강 가능.\n"
+  "primary_sources": [
+   "https://www.indiehackers.com/post/n5NdriCp6HBqm4ApZO05 (본인 1인칭, 2026-07-22 — 매출·비율·도구·경력 발화)",
+   "https://github.com/earonesty (본인 GitHub — location 'New York', **자작 라이브러리 boxpdf 2026-05-14 / boxpdf-html 2026-05-17 / lakeql 2026-06-13 생성일**)",
+   "https://github.com/q32llc (본인 LLC 조직 계정, 공개 멤버 0)",
+   "https://dev.to/earonesty (location 'NY')",
+   "https://q32.com (Q32, LLC 자사 사이트)",
+   "https://onwardtravel.com/terms ('operated by Q32, LLC')",
+   "https://dirtsignal.com/updates (2026-04-25 최초 항목 — 런칭 시점 교차확인)"
+  ],
+  "corrections": [
+   "**[내 오류 — 산술 스크리닝이 적중했다] 제품별 달러 금액을 전부 삭제했다.** 원문에 $10.5K/$3K/$1.5K는 **존재하지 않는다.** 창업자는 비율만 말했다 — \"Onward accounts for about 70% of our revenue.\" / \"DirtSignal is about 20%.\" / \"A long tail ... the remaining 10%.\" 원문의 달러 금액은 $15k, $60/month, $2k, $1 네 개뿐이고 제품명 옆에는 어떤 금액도 없다",
+   "**[내 오류] '약 30개 중 매출 기여는 3개'가 틀렸다.** 본인 발화는 \"I have monthly revenue from over 30 websites; some generate only $60/month, but that's a long tail.\" — **30개 이상에서 월 매출이 발생**하며 나머지가 $0도 미공개도 아니다. 상위 3개가 매출의 90%를 차지하는 구조다",
+   "**[내 오류] natlawreview는 독립 보도가 아니다.** URL 경로가 /press-releases/이고 연락처가 press@dirtsignal.com인 **자사 배포 보도자료**다. 후보 최초 기재의 '보도' 표현을 수정하고 출처 등급을 secondary로 조정했다",
+   "**ai_tools 쟁점 해소 — 개발도구/런타임 구분.** '런타임 나열' 가설의 근거였던 동거 항목 **BoxPDF·LakeQL이 실은 본인 자작 OSS**다(github.com/earonesty). 즉 그 목록은 '런타임 구성요소'가 아니라 '내가 쓰는 것 전부'의 잡탕이라 Cloudflare·Postgres와 나란히 있다는 사실 자체가 근거가 되지 못한다. 제작 역할을 못박는 1인칭 발화가 별도로 둘 있다 — \"Now, I can talk into my phone to launch a beta.\" / \"An agent will build it in 20 minutes and provide it.\"",
+   "**ai_tools에서 운영 자동화를 분리했다.** 'Hermes+Gpt5.6 makes all the decisions'와 'AI manages all my sites, monitors logs (Logtura)'는 운영 런타임이므로 ai_tools에 넣지 않는다. 섞으면 이 아카이브가 지켜낸 'AI를 씀 vs AI로 만듦' 구분선을 데이터에서 다시 뭉갠다. 'Claude'도 Claude Code로 승격 금지(원문 미분해)",
+   "**founded_year 2026 확정.** 1차 앵커는 \"I worked weekends and nights for the last four months\"(2026-07-22 기준 → 착수 ~2026-03)이고, **자작 라이브러리 repo 생성일 3건이 전부 그 창 안**(2026-05-14 / 05-17 / 06-13)이라 자기보고와 GitHub 타임스탬프가 일치한다",
+   "region: unknown → **미국 뉴욕**. 본인 자기신고 2곳 일치(GitHub 'New York', dev.to 'NY'). 상충 1건 기록: rocketreach 'Oak Park, CA'는 데이터 브로커라 미채택",
+   "**founder_background 대폭 보강.** 최초 기재 '약 30개 프로젝트를 병행 운영하는 1인 개발자'는 **초보 바이브코더 인상을 준다.** 실제로는 Bloomberg NLP 암호화 시스템·암호학 특허, 최초 온라인 프라임 브로커리지, ZoneEdit 구축 및 .GOV TLD 운영, Atakama CTO를 거친 25년+ 시니어이며 **현재 Puzzle 정규직 재직 중**이다",
+   "법인 실체 추가: 세 제품 모두 **Q32, LLC** 소유(onwardtravel.com/terms 명시)",
+   "domain/business_model 중립·정확 서술로 교체. OnwardTravel은 본인이 'dummy ticket'이라 부르지만 실체는 **실제 PNR 홀드 발급**이다 — 위조 문서가 아니다",
+   "PrismClip 'pre-revenue'는 시점 한정: 2026-07 기준 발화이며 현재는 Free/$10/$20 티어가 가동 중"
+  ],
+  "excluded_figures": [
+   "[figures] 제품별 금액 $10.5K/$3K/$1.5K — **원문에 없다.** 총액에 비율을 곱한 값이며 독립 측정값이 아니다",
+   "[figures] '약 30개 중 매출 기여 3개' — refuted. 30개 이상에서 월 매출 발생",
+   "[figures] $15K를 MRR로 표기 — 금지. 본인이 \"Most of that is not recurring\"이라 명시했다. 세분하면 비경상 캐비어트는 주로 OnwardTravel(약 70%)에 걸리고 DirtSignal(약 20%)은 $29/월 구독이다",
+   "[figures] $180K 단순 연환산 — 여행 계절성 + 본인 자진 캐비어트로 위험. 정렬용 내부값임을 명기할 것",
+   "[figures] $15K의 gross/net 미확정 — OnwardTravel이 $16 정액이나 '전액 발권은 선택'이라 대금 통과분 포함 여부가 원문에서 확정되지 않는다. 본인이 revenue/profit·마진을 구분해 말한 적 없음",
+   "[figures] TrustMRR 미등재(founder/earonesty, startup/onwardtravel 모두 404) — 결제사 검증 대조 불가",
+   "[existence] natlawreview '보도' — 자사 배포 보도자료(secondary)"
+  ],
+  "confidence_recommendation": "medium",
+  "notes": "판정: **3/3 pass(수치는 교정 후)** → verified, confidence medium.\n\n## 산술 스크리닝이 4연속 적중한 건\n\n사전 스크리닝에서 70%/20%/10%가 $10.5K/$3K/$1.5K와 정확히 대응함을 계산으로 잡았고, 수치 렌즈가 **원문에 그 금액들이 존재하지 않음**을 확인했다. 창업자는 비율만 말했다. faceless-video·thirstysprout·rightblogger에 이어 네 번째다.\n\n## 'AI를 씀 vs AI로 만듦' 오분류 위험이 이 건엔 구조적으로 없다\n\nleadmore-ai·setter-ai·superpower-chatgpt가 탈락한 이유는 **제품 가치제안이 LLM 호출**이었기 때문이다. 여기 매출 기여 제품 둘은 어느 쪽도 LLM 래퍼가 아니다 — 항공사 실제 PNR 홀드 발급, 공공기록 스크래핑·랭킹. **제품측 AI가 없으므로 언급된 AI는 소거법으로 전부 제작·운영측이다.** 이게 이 건을 그 3건과 가르는 결정적 차이다.\n\n## 스코프 경계 — 폐기 도메인 모델을 포함하기로 했다\n\n§0.4 기준은 세 개(도구·팀규모·수익화)뿐이고 '수요 창출'은 없다. 신규 후보에게만 그 기준을 신설하면 이 아카이브가 경계해온 비대칭이 된다. 코퍼스에 이미 수요편승형이 있다 — Nomad List/RemoteOK, AI Directories, 실검 위젯.\n\n인과적으로도 바이브코딩 네이티브 전략이다. **잔존 트래픽 있는 죽은 도메인 인수가 수지 맞는 건 재구축 비용이 0에 수렴할 때뿐이고, 그걸 만든 게 에이전트다.** 본인 표현: \"Build what people are already looking for and visiting. Something that's broken. Then, fix it.\" 46건이 대부분 '신규 런칭'형인 아카이브에 **없는 패턴**이라는 점은 배제 사유가 아니라 수집 가치다.\n\n유보: 제품 사례가 아니라 **전략·포트폴리오 사례**다. '약 30개'는 미검증 총량이므로 product 필드엔 명명된 3개 + 롱테일로만 쓴다.\n\n## 회색지대(dummy ticket) — 게재하되 서술은 엄격 중립\n\n위조 문서가 아니다. 사이트가 \"A live reservation hold in the airline's system, under your name and verifiable with the code\"라 명시하고 실제 PNR + PDF 여정표를 낸다. 다만 출국편 요건을 실제 탑승 의사 없이 충족시키는 용도이고 시장에 저신뢰 사업자가 다수라 평판 인접 리스크는 실재한다.\n\n**선례가 결론을 낸다 — 아카이브는 이미 dreamgf(AI 컴패니언/NSFW), deep-personality, gendy를 싣고 있다. 업종 혐오로 배제하지 않는 게 확립된 관행이고, DreamGF를 두고 OnwardTravel을 빼면 일관성이 깨진다.**\n\n서술 규칙: (a) 사실만, 홍보 동사 금지 (b) 'dummy ticket'을 설명절 없이 쓰지 말 것 — 위조를 연상시키는데 파는 물건은 그게 아니다 (c) **'합법'이라고 단정하지 말 것** — 관할·항공사 정책마다 다르고 아카이브는 법률의견을 내는 자리가 아니다.\n\n**승인자 플래그(스코프 fail 아님):** 매출 70%가 이 업종에 묶여 있어 항공사 정책 변경이나 결제사 제한이 오면 수치가 급변한다. confidence·모니터링 이슈로 처리한다.\n\n## 별칭 워치리스트 (재유입 방지)\n\n포트폴리오가 약 30개라 개별 사이트가 단독 리드로 다시 잡힐 수 있고 그건 신규가 아니라 동일 사례다. 등록: Q32 LLC / OnwardTravel / DirtSignal / PrismClip / BrandMochi / Free Birds Magazine. 단 BizSnipe.com은 본인 제품인지 단순 이용 툴인지 불명 — 확인 없이 귀속 금지."
  }
 }
