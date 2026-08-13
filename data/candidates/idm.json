@@ -1,6 +1,6 @@
 {
  "id": "idm",
- "status": "verified",
+ "status": "merged",
  "discovered_at": "2026-08-12",
  "discovery_source": "https://shiftb.dev/articles/indie-dev-success-stories (Tier3 JP 리스티클 — 발견 신호) → 1차 출처 역추적: https://note.com/bubecode/n/n94f235367089 (창업자 본인 note)",
  "case": {
@@ -68,5 +68,6 @@
   ],
   "confidence_recommendation": "medium",
   "notes": "판정: **3/3 pass** → verified, confidence medium. **코퍼스 첫 일본 사례다.**\n\n## JP 층 선례 — 도구 발화는 제품 글에 없다\n\n이 검증에서 층 특성이 확립됐다. **제품 소개글에는 도구명이 0회 나온다** — 같은 창업자가 vibely 릴리스 글에서 스택 14종을 나열하면서 Claude Code를 한 줄도 안 쓰는데, 개발일기에서는 「매일 Claude Code와 함께 만든다」고 쓴다. **제품 글만 보고 판정하면 JP 층은 전멸한다.** 프로브 순서를 RESEARCH_PIPELINE.md에 고정했다.\n\n## 스코프 pass — §0.5 가드레일 이중 충족\n\niDM 자체가 2023년 제작으로 **창 안**이라 기존 관례만으로도 borderline→pass다. 여기에 §0.5 유지·확장형 조건까지 얹으면 근거가 이중이 된다 — (1) 1인칭 현재형 도구 발화, (2) 창 안 신규 산출물 2건(vibely 2025-10, JS Gym 2025-03).\n\n## 이해관계 — kevin-badi와 구조가 다르다\n\nkevin-badi는 **수익 자체가 강좌 판매+유튜브**였다(성공을 파는 사업이 성공의 내용). iDM은 제3자 대상 SaaS 구독(월 3,980엔)이 별도 라인으로 라이브하고 스쿨은 다른 제품이다. 아카이브에 담는 대상은 iDM이지 스쿨이 아니므로 스코프는 통과한다. **단 iDM 수치의 발화 채널 일부가 스쿨 마케팅 자산이라는 점은 confidence 상한으로 반영했다 — high 금지.**\n\n## 규모\n\n25만엔/월 ≈ 연 $20K(1 USD≈150 JPY). 코퍼스 최저선(habit-pixel 연 $12K) 위, 하위권. JP 첫 사례가 하위권 규모라는 점은 층 특성으로 기록해둘 가치가 있다 — JP는 금액 공개 자체가 드물고 공개하는 쪽이 소규모다."
- }
+ },
+ "merged_at": "2026-08-13"
 }

@@ -1,6 +1,6 @@
 {
  "id": "ai-toolbox",
- "status": "verified",
+ "status": "merged",
  "discovered_at": "2026-08-12",
  "discovery_source": "https://www.indiehackers.com/tech 피드 직접 순회 (Tier1) — 2026-07-23 게시글: https://www.indiehackers.com/post/ltsw3AYvsvslFIYZtYZG",
  "case": {
@@ -71,5 +71,6 @@
   ],
   "confidence_recommendation": "medium",
   "notes": "판정: **3/3 pass** → verified, confidence medium(실존 렌즈는 high 권고했으나 최솟값 채택).\n\n## 이 건이 남긴 방법론 — 인포박스가 스스로를 증명했다\n\nIH 인포박스가 편집부 필드라는 것을 **같은 박스 안의 오류로 증명**했다. 공동창업 2인 사례인데 'Founder: Adi Leviim'이라고 단수로 적혀 있다. 즉 그 박스의 'Revenue: >$10K a month'도 창업자 발화가 아니다. rightblogger에서는 인칭으로, 여기서는 **박스 내부 모순**으로 같은 결론에 도달했다 — 편집부 필드를 식별하는 두 번째 기법이다.\n\n## 스코프 — borderline pass\n\n8개 면(창업자 2인 계정, IH 본문, AppSumo Q&A, 공식 체인지로그 2024-09~2026-07, 프레스킷, indieniche 인터뷰)을 훑었고 제품 코드에 대한 AI 코딩 도구 언급이 없다. 명시적 부정도 없다.\n\n**중요한 구분 하나:** Adi Leviim은 자기 UX Collective 에세이에서 'I used Claude Code (an AI coding assistant) for structural feedback and copy editing on the draft'라고 **Claude Code 사용을 본인이 공개**했다. 그러나 그 문장이 용도를 '초고 편집'으로 한정 명시하므로 **제품 코드 작성 근거로 전용할 수 없다** — erik-aronesty의 '용도 구분 필요'와 동일 유형이다.\n\n**기술 담당자 면을 지정 확인했다** — rightblogger 전례(유통 담당만 보고 borderline)를 피하려 백엔드·알고리즘·AI/LLM 담당인 Mohammad El-Esawi의 창업자 프로필 페이지를 별도로 봤고 도구 언급이 없었다.\n\n**IH 본문의 'TypeScript with no UI framework (no React, Vue, or others)'는 번들 크기 아키텍처 선택이며 코드 저술 방식 진술이 아니다** — 근거도 'a content script is a guest in someone else's DOM. Every kilobyte we ship adds to the user's page load'로 명시된다. zigpoll의 'with a code editor'(도구 명시 부정)와는 성격이 다르다.\n\n## superpower-chatgpt 선례를 그대로 끌어오면 안 된다\n\n그쪽도 '프레임워크 없는 vanilla' 서술로 기각됐으나 **결정적 사유는 2022년 말 제작 = 스코프 창 밖**이었다. 이 후보는 2024-09 출시로 창 안이다. 제품이 ChatGPT 확장이라는 점도 겹칠 뿐 동일 사례가 아니다(창업자·제품·시점·수익구조 전부 다름)."
- }
+ },
+ "merged_at": "2026-08-13"
 }

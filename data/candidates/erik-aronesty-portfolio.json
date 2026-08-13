@@ -1,6 +1,6 @@
 {
  "id": "erik-aronesty-portfolio",
- "status": "verified",
+ "status": "merged",
  "discovered_at": "2026-08-12",
  "discovery_source": "https://www.indiehackers.com/tech 피드 직접 순회 (Tier1) — 2026-07-22 게시글: https://www.indiehackers.com/post/n5NdriCp6HBqm4ApZO05",
  "case": {
@@ -79,5 +79,6 @@
   ],
   "confidence_recommendation": "medium",
   "notes": "판정: **3/3 pass(수치는 교정 후)** → verified, confidence medium.\n\n## 산술 스크리닝이 4연속 적중한 건\n\n사전 스크리닝에서 70%/20%/10%가 $10.5K/$3K/$1.5K와 정확히 대응함을 계산으로 잡았고, 수치 렌즈가 **원문에 그 금액들이 존재하지 않음**을 확인했다. 창업자는 비율만 말했다. faceless-video·thirstysprout·rightblogger에 이어 네 번째다.\n\n## 'AI를 씀 vs AI로 만듦' 오분류 위험이 이 건엔 구조적으로 없다\n\nleadmore-ai·setter-ai·superpower-chatgpt가 탈락한 이유는 **제품 가치제안이 LLM 호출**이었기 때문이다. 여기 매출 기여 제품 둘은 어느 쪽도 LLM 래퍼가 아니다 — 항공사 실제 PNR 홀드 발급, 공공기록 스크래핑·랭킹. **제품측 AI가 없으므로 언급된 AI는 소거법으로 전부 제작·운영측이다.** 이게 이 건을 그 3건과 가르는 결정적 차이다.\n\n## 스코프 경계 — 폐기 도메인 모델을 포함하기로 했다\n\n§0.4 기준은 세 개(도구·팀규모·수익화)뿐이고 '수요 창출'은 없다. 신규 후보에게만 그 기준을 신설하면 이 아카이브가 경계해온 비대칭이 된다. 코퍼스에 이미 수요편승형이 있다 — Nomad List/RemoteOK, AI Directories, 실검 위젯.\n\n인과적으로도 바이브코딩 네이티브 전략이다. **잔존 트래픽 있는 죽은 도메인 인수가 수지 맞는 건 재구축 비용이 0에 수렴할 때뿐이고, 그걸 만든 게 에이전트다.** 본인 표현: \"Build what people are already looking for and visiting. Something that's broken. Then, fix it.\" 46건이 대부분 '신규 런칭'형인 아카이브에 **없는 패턴**이라는 점은 배제 사유가 아니라 수집 가치다.\n\n유보: 제품 사례가 아니라 **전략·포트폴리오 사례**다. '약 30개'는 미검증 총량이므로 product 필드엔 명명된 3개 + 롱테일로만 쓴다.\n\n## 회색지대(dummy ticket) — 게재하되 서술은 엄격 중립\n\n위조 문서가 아니다. 사이트가 \"A live reservation hold in the airline's system, under your name and verifiable with the code\"라 명시하고 실제 PNR + PDF 여정표를 낸다. 다만 출국편 요건을 실제 탑승 의사 없이 충족시키는 용도이고 시장에 저신뢰 사업자가 다수라 평판 인접 리스크는 실재한다.\n\n**선례가 결론을 낸다 — 아카이브는 이미 dreamgf(AI 컴패니언/NSFW), deep-personality, gendy를 싣고 있다. 업종 혐오로 배제하지 않는 게 확립된 관행이고, DreamGF를 두고 OnwardTravel을 빼면 일관성이 깨진다.**\n\n서술 규칙: (a) 사실만, 홍보 동사 금지 (b) 'dummy ticket'을 설명절 없이 쓰지 말 것 — 위조를 연상시키는데 파는 물건은 그게 아니다 (c) **'합법'이라고 단정하지 말 것** — 관할·항공사 정책마다 다르고 아카이브는 법률의견을 내는 자리가 아니다.\n\n**승인자 플래그(스코프 fail 아님):** 매출 70%가 이 업종에 묶여 있어 항공사 정책 변경이나 결제사 제한이 오면 수치가 급변한다. confidence·모니터링 이슈로 처리한다.\n\n## 별칭 워치리스트 (재유입 방지)\n\n포트폴리오가 약 30개라 개별 사이트가 단독 리드로 다시 잡힐 수 있고 그건 신규가 아니라 동일 사례다. 등록: Q32 LLC / OnwardTravel / DirtSignal / PrismClip / BrandMochi / Free Birds Magazine. 단 BizSnipe.com은 본인 제품인지 단순 이용 툴인지 불명 — 확인 없이 귀속 금지."
- }
+ },
+ "merged_at": "2026-08-13"
 }

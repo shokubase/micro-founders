@@ -1,6 +1,6 @@
 {
  "id": "jobric",
- "status": "verified",
+ "status": "merged",
  "discovered_at": "2026-08-12",
  "discovery_source": "https://www.indiehackers.com/tech 피드 직접 순회 (Tier1) — 2026-06-26 게시글: https://www.indiehackers.com/post/eb5timbPqFlDFWZjha9i",
  "case": {
@@ -68,5 +68,6 @@
   ],
   "confidence_recommendation": "medium",
   "notes": "판정: **3/3 pass** → verified, confidence medium.\n\n## 수치에서 결정적이었던 것 — 고객 수 역산\n\n별도 인터뷰의 '약 80명'이 정가 조합으로 **정확히 닫힌다**: Candidate 31명 × $29 + Contender 49명 × $49 = **$3,300**. 조작 수치는 보통 이렇게 깔끔하게 닫히지 않는다. 그리고 $3.3k는 rightblogger처럼 편집부 역산치가 아니라 1인칭 발화의 반올림이다 — 화자 확인을 통과했다.\n\n## 스코프 — borderline pass\n\nStage 2가 예상한 'unknown'이 아니라 **'도구는 특정됐으나 코딩 용도 미확인'**이라는 중간 상태다. Claude를 쓴다고 명시했지만 용도가 '아이디어 리서치·문제 해결·초안'이고 코드 생성이 아니다. Cursor/Copilot/Claude Code 등 코딩 에이전트 언급은 두 인터뷰 어디에도 없다.\n\n기각 4건과의 차이가 명확하다 — superpower-chatgpt는 2022년 제작(창 밖), meerkats-ai는 수익 귀속 불명 병존, leadmore-ai·setter-ai는 어떤 형태의 AI 도구 발화도 0건이었다. jobric은 발화가 있고 코딩 귀속만 불확실하다.\n\n**숙련 개발자 쟁점을 예단 근거로 쓰지 않았다.** 15년 경력·Microsoft 현직은 rightblogger의 Andy(10년+)와 같은 조건이고 그쪽은 발화가 있어 pass였다. 여기서는 발화를 못 찾았을 뿐이다. 또 'engineering first, AI second' / 'not a wrapper around an LLM'은 **제품 포지셔닝 발화이지 코딩 도구 부정이 아니다** — zigpoll의 'with a code editor'와 달리 제작 수단을 부정하지 않는다.\n\n## 지속성 리스크\n\n출시 2개월 미만 단발 수치이고 유료 전환 직후 코호트라 이탈 반영 전 값일 수 있다. 다만 2026-06-26 → 2026-07-14 18일 간격으로 횡보가 확인됐다. 2026-08 데이터는 없다.\n\n## 중복 — thirstysprout과 전혀 다르다\n\nthirstysprout 기각 논거('납품물이 인간이라 AI 코딩 도구로 만든 사례가 아님')가 적용되지 않는다 — jobric의 납품물은 본인이 작성한 소프트웨어다. 고객(기업 vs 구직자), 수익구조(인건비 마진 vs 구독), 창업 연도(2018 vs 2026), 팀(34~50인+ vs 1인)이 전부 다르다."
- }
+ },
+ "merged_at": "2026-08-13"
 }

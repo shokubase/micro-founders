@@ -22,6 +22,10 @@ TOOL_PROBED = {
     "habit-pixel",
     # 2026-08-12 쟁점 4건 3렌즈 검증 통과분
     "rightblogger", "leadverse", "ramsri-portfolio",
+    # 2026-08-13 잔여 후보 5건 3렌즈 검증 통과분.
+    # bazzly/jobric/ai-toolbox는 프로브 결과가 unknown이지만 '찾아봤다'는 사실은 기록한다 —
+    # 이 플래그는 ai_tools가 채워졌는지가 아니라 우리가 실제로 캐물었는지를 재는 값이다.
+    "bazzly", "idm", "jobric", "ai-toolbox", "erik-aronesty-portfolio",
 }
 
 # 백필 시도했으나 확정 실패 — 재시도 시 같은 벽을 다시 치지 않도록 기록한다.
@@ -200,6 +204,26 @@ ENRICH = {
     founder_background="developer", founder_experience="serial",
     revenue_annual_usd_est=120000, ingested_at="2026-08-12",
     normalize_note="본인 일반진술 '경상 월 $10K 초과' × 12 = $120K를 하한으로 사용. **2026-07 최고치 $20,500을 연환산하지 않았다** — 일회성 구매 중심이라 월 변동이 크고(본인 발화 \"My revenue varies monthly because most of my products are one-time purchases\") 최고치 연환산은 부풀리기다. 더 중요하게 **이 총액은 제품 매출이 아니다** — 2026-07 구성의 38.5%($7,900)가 제휴 수입이고 $2,500은 제품명 비공개 앱이다. 이름이 특정된 자사 제품 매출은 $9,821(47.9%)에 그친다. 본인 표기 총액 $20,500과 항목 합 $20,221이 $279 어긋나며 원문에 5번째 항목은 없다 — 정상 반올림이 아니고 목표 달성을 위한 상향 유인도 없다($20,221도 이미 본인 $20K 목표 초과). IH 일반진술의 발화 시점은 불확정(게재 2026-08-06이나 본문 'Last month $15.7k'가 7월 결산과 불일치해 작성은 2026-07 이전). 도메인 분류 참고: scope-judge는 '메이커 툴/유통' 신설을 권고했으나 단일 사례 카테고리를 피해 '커머스/마케팅'으로 뒀다 — marc-lou·superx·kleo·launch-fast 등 '인디메이커에게 파는' 사례군을 함께 재분류할 때 반영할 것."),
+"bazzly": dict(domain_category="커머스/마케팅", team_size_bucket="2-3",
+    founder_background="developer", founder_experience="serial",
+    revenue_annual_usd_est=90000, ingested_at="2026-08-13",
+    normalize_note="본인 발화 월 총 $7.5K × 12 = $90K. **MRR이 아니다** — 본인이 구성을 스스로 분해했다: 경상 $5K + 플랫폼 내 일회성 결제 $2.5K. 연매출 추정에는 일회성도 실제 유입이므로 포함했으나 MRR로 표기하면 안 된다(ai-toolbox 라이프타임 배제 규칙과 같은 취지). 결제사 검증이 오히려 자기보고보다 **높다** — Stripe API 기준 MRR $6,781(본인 주장 $5K 대비 +36%), 지난 30일 $8,614. 과장 방향이 아니므로 $90K는 부풀린 값이 아니다. 괴리 원인은 MRR 정의 차이로 보인다(jonathan-geiger와 동일 유형). **ARPU 역산 함정 기록**: 검증 MRR $6,781 ÷ 활성구독 62 = $109.4로 단일 플랜 $99를 넘는데, 내가 처음 내린 '연간 플랜이나 상위 티어' 설명은 **틀렸다** — Bazzly에는 $99/월 단일 플랜만 있고 연간·상위 티어가 없다. 올바른 독법은 TrustMRR의 MRR 필드가 일회성 결제를 섞어 계산한다는 것, 즉 **애그리게이터의 MRR 정의 ≠ 창업자의 MRR 정의**다. team_size는 '2인'이나 지분 50% 파트너의 실명이 미공개이며 역할 분해도 확보되지 않았다. ai_tools unknown 유지 — 본인이 AI 활용을 긍정하지만 도구명을 특정하지 않았고, leadverse에 적용한 기준(구독 사실만으로는 부족)을 여기에도 동일하게 적용했다. **북마케도니아는 이 아카이브 첫 발칸 사례**다."),
+"idm": dict(domain_category="커머스/마케팅", team_size_bucket="solo",
+    founder_background="developer", founder_experience="serial",
+    revenue_annual_usd_est=20000, ingested_at="2026-08-13",
+    normalize_note="월 25만엔 × 12 = 300만엔, 1 USD≈150 JPY 적용 → 약 $20,000. **이 아카이브 첫 일본 사례.** 하한을 택했다 — 더 최근 자가공개(2026-04)는 「月30万円弱のMRR」이지만 '弱'(미달)이라 점값이 없고, 2025-10의 25만엔은 명시 수치다. **원문 단어가 「収益化」다** — 売上도 MRR도 아니므로 gross/net이 확정되지 않는다. 매출로 단정하지 말 것. **[내 오류 기록] 후보 최초 기재의 「約25万円」 인용은 지정된 출처에 그 문자열이 없었다** — 서로 다른 두 note 기사를 섞었다. 실제 문장은 「月に25万円程度の収益化ができています」다. 또한 내가 '2차 출처'로 격하했던 30만엔 기술은 **같은 창업자 본인의 글**이므로 1차다. team_size_bucket solo는 iDM 제품 기준이며 **법인 전체 기준이 아니다** — 株式会社bubekichi는 스쿨 ShiftB·vibely·JS Gym 등을 병행하므로 순수 1인 회사가 아니다. 도구는 본인이 Claude Code·Cursor를 명시 발화했다."),
+"jobric": dict(domain_category="생산성/업무도구 SaaS", team_size_bucket="solo",
+    founder_background="developer", founder_experience="first-time",
+    revenue_annual_usd_est=39600, ingested_at="2026-08-13",
+    normalize_note="MRR $3,300 × 12 = $39.6K. **런칭 2개월차 수치의 연환산이라 런레이트 신뢰도가 낮다** — 2026-05-01 출시 후 2개월 미만이며 코호트 유지율 관측 구간이 없다. 두 시점(2026-06-26 IH, 2026-07-14 인터뷰)에서 같은 $3,300이 반복돼 **성장이 정체했거나 창업자가 같은 수치를 재사용했을 가능성**이 있는데 원문으로 구분 불가하다. ARPU 역산 $3,300÷80≈$41은 $29/$49 두 티어 사이라 정합한다. team_size_bucket은 solo — 프랙셔널 자문 4인을 더해 본인이 'six people'이라 표현하나 상시 인력이 아니고 본인 스스로 \"not everyone writes code\"라 단서를 달았다. region unknown 유지: eastbayexpress(베이에어리어) 기사가 유일한 지리 단서인데 본인 자기신고가 아니고 인용된 인물이 창업자인지도 확정되지 않았다 — 추정으로 채우지 않는다. ai_tools unknown: 스택은 상세히 공개하나 코딩 도구 발화가 없다."),
+"ai-toolbox": dict(domain_category="AI 코딩/개발툴", team_size_bucket="2-3",
+    founder_background="developer", founder_experience="first-time",
+    revenue_annual_usd_est=120000, ingested_at="2026-08-13",
+    normalize_note="'5-figure MRR'의 **하한** $10,000 × 12 = $120K. 범위 중간값($55K/월)을 쓰면 안 된다 — 창업자는 자릿수만 말했다. **IH 인포박스의 '>$10K a month'는 창업자 발화가 아니다**: 같은 박스가 공동창업 2인 사례를 'Founder: Adi Leviim' 단수로 적고 있어 편집부 메타데이터 필드임이 박스 내부 모순으로 증명된다 — rightblogger(인칭으로 식별)에 이은 편집부 필드 식별 두 번째 기법. **라이프타임·AppSumo 일회성 매출은 MRR에 합산 금지**이며 경상/일회성 구성비는 미공개다. **ai_tools unknown이지만 명시적 부정은 아니다** — 8개 면을 훑어 도구 언급을 찾지 못했고 기술 담당(Mohammad El-Esawi) 프로필을 별도 확인했다(rightblogger에서 유통 담당만 보고 borderline을 낸 전례를 피하기 위함). Adi Leviim이 자기 에세이에서 Claude Code 사용을 공개하지만 용도를 '초고 편집'으로 한정 명시하므로 **제품 코드 근거로 전용할 수 없다**. IH 본문의 'TypeScript with no UI framework'는 번들 크기 아키텍처 선택이며 저술 방식 진술이 아니다 — zigpoll의 도구 명시 부정과 성격이 다르다. **[내 오류] 'Infi Developments 기성 개발사' 우려는 반박됐다** — 두 창업자가 제품 출시와 같은 달(2024-09) 세운 자기 법인이다. **[내 오류] '인스타 팔로워 50만 유통 승계' 가설도 1차 출처에 없다** — IH 제목의 'existing user bases'는 개인 팔로워가 아니라 호스트 마켓플레이스의 기성 사용자 기반이며(본문 'searching a store with hundreds of millions of users, and we paid \\$5 to be in it') 실명 채널은 크롬 웹스토어 검색·서브레딧·AppSumo다. **'$15K+ MRR' 수치는 이 사례에 귀속 금지** — 별개 제품 Landy AI(3인) 것이다. 리브랜딩 alias 유지: ChatGPT Toolbox → AI Toolbox(2026-04). superpower-chatgpt는 유사 제품이나 2022년 말 제작으로 스코프 창 밖이어서 기각된 별건이다."),
+"erik-aronesty-portfolio": dict(domain_category="커머스/마케팅", team_size_bucket="solo",
+    founder_background="developer", founder_experience="serial",
+    revenue_annual_usd_est=180000, ingested_at="2026-08-13",
+    normalize_note="월 $15K × 12 = $180K. **경고 3중**: (1) 본인이 \"Most of that is not recurring\"이라 명시했으므로 MRR로 읽으면 안 된다 (2) 매출 70%가 여행 업종이라 계절성이 크다 (3) OnwardTravel이 $16 정액이나 '전액 발권은 선택'이어서 **대금 통과분 포함 여부(gross/net)가 원문에서 확정되지 않는다**. TrustMRR 미등재로 결제사 대조 불가. **[내 오류 — 산술 스크리닝 4연속 적중] 후보 최초 기재의 제품별 금액 $10.5K/$3K/$1.5K는 원문에 존재하지 않는다** — 창업자는 비율(70%/20%/10%)만 말했고 그 금액들은 총액×비율 파생값이다. '약 30개 중 매출 기여 3개'도 오류로, 실제 발화는 30개 이상에서 월 매출이 발생하며 상위 3개가 90%를 차지한다는 것이다. **개발도구 vs 런타임 쟁점 해소**: '런타임 나열' 가설의 근거였던 동거 항목 BoxPDF·LakeQL이 실은 본인 자작 OSS라 그 목록은 잡탕이고 동거 사실이 근거가 못 된다. 제작 역할을 못박는 1인칭 발화가 둘 있다 — \"Now, I can talk into my phone to launch a beta\" / \"An agent will build it in 20 minutes and provide it.\" 반대로 'Hermes+Gpt5.6 makes all the decisions'와 Logtura 로그 감시는 **운영 런타임이므로 ai_tools에서 제외**했다(섞으면 'AI를 씀 vs AI로 만듦' 구분선이 데이터에서 뭉개진다). 'Claude'를 Claude Code로 승격하지 않았다 — 원문이 분해하지 않는다. **founded_year 2026 확정**: 본인 '지난 4개월' 발화 창 안에 자작 라이브러리 repo 생성일 3건이 전부 들어온다(boxpdf 2026-05-14, boxpdf-html 05-17, lakeql 06-13). **스코프 포함 근거**: §0.4 기준은 도구·팀규모·수익화 세 개뿐이고 '수요 창출'은 없다. 코퍼스에 이미 수요편승형(Nomad List/RemoteOK, AI Directories, 실검 위젯)이 있으며, 잔존 트래픽 있는 폐기 도메인 인수가 수지 맞는 건 재구축 비용이 0에 수렴할 때뿐이라 오히려 바이브코딩 네이티브 전략이다. 회색지대(OnwardTravel)도 dreamgf·deep-personality·gendy 선례대로 게재하되 서술은 엄격 중립으로 — 홍보 동사 금지, 'dummy ticket'을 설명절 없이 쓰지 말 것(실체는 실제 PNR 홀드이며 위조 문서가 아니다), **합법이라고 단정하지 말 것**(관할·항공사 정책마다 다르다). natlawreview는 독립 보도가 아니라 자사 배포 보도자료여서 출처에서 뺐다. **별칭 워치리스트(재유입 방지)**: Q32 LLC / OnwardTravel / DirtSignal / PrismClip / BrandMochi / Free Birds Magazine — 개별 사이트가 단독 리드로 잡히면 신규가 아니라 이 사례다. 단 BizSnipe.com은 본인 제품인지 이용 툴인지 불명이라 귀속 금지. **승인자 플래그**: 매출 70%가 단일 업종에 묶여 항공사 정책·결제사 제한 변경 시 수치가 급변한다."),
 "ninjapear": dict(domain_category="생산성/업무도구 SaaS", team_size_bucket="solo",
     founder_background="developer", founder_experience="serial",
     revenue_annual_usd_est=180000, ingested_at="2026-08-12",
