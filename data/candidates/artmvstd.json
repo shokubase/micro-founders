@@ -1,6 +1,6 @@
 {
  "id": "artmvstd",
- "status": "rejected",
+ "status": "verified",
  "discovered_at": "2026-08-11",
  "discovery_source": "https://www.indiehackers.com/post/tech/from-failed-app-to-30-app-portfolio-making-22k-mo-in-less-than-a-year-myy3U7K9evxGOVOHti8s (Tier1 IH, 2025-12-10)",
  "case": {
@@ -9,40 +9,64 @@
    "Max Artemov"
   ],
   "product": "ARTMVSTD (30개 앱 포트폴리오)",
-  "domain": "모바일 앱 포트폴리오 (광고 수익 중심)",
-  "one_liner": "단일 앱 5년 실패 후 12개월간 경량 앱 30개+로 전환한 1인 포트폴리오",
-  "team_size": "1인",
-  "region": "unknown",
-  "revenue": "앱 30개 합산 MRR $22K (2025-12 기준)",
+  "domain": "모바일 앱 포트폴리오 (구독 IAP 중심, ASO 주도)",
+  "one_liner": "단일 앱 5년 실패 후 12개월간 경량 학습 앱 30개+로 전환한 1인 포트폴리오 — 코드 90%를 복제하고 종목 전환은 AI에 맡긴다",
+  "team_size": "1인 (정규직 9-to-5 병행 사이드 프로젝트)",
+  "region": "라트비아",
+  "revenue": "앱 30개 합산 MRR $22K (2025-12, 본인 IH 발화). 시계열: $7K MRR (2025-10, notjust.dev 팟캐스트) → $22K (2025-12). **gross/net 미상** — 애플·구글 수수료 15~30%와 자기보고 UA 지출(Apple Search Ads 월 약 €400)의 차감 여부를 본인이 밝힌 적 없다",
   "revenue_date": "2025-12",
   "exit_status": "운영 중",
   "stack": [
    "Flutter",
-   "Firebase",
-   "CAS(광고 미디에이션)"
+   "Firebase (Auth/Hosting/Cloud Functions)",
+   "Fastlane",
+   "ASO 툴 (Astro, FoxData)"
   ],
-  "ai_tools": [],
-  "founder_background": "모바일 앱 개발자 (칼로리 카운터 앱 5년 시도 후 전략 전환)",
-  "business_model": "인앱 광고 + 유료 유저 획득(UA)",
+  "ai_tools": [
+   "ChatGPT"
+  ],
+  "founder_background": "Max Artemov. iOS 개발 경력 약 8년, 칼로리 카운터 단일 앱 5년+ 시도 후 2025-02 포트폴리오 전략으로 전환(Adam Lyttle 영상이 계기). 정규직 병행",
+  "business_model": "앱 내 구독 IAP — 본인 발화 \"95% of all subs are weekly\", \"more than 80% of revenue comes from subscriptions ... from onboarding\". 3일 무료체험 주간 구독 중심. 획득은 ASO 오가닉 주도, 보조로 Apple Search Ads 월 약 €400",
   "sources": [
    "https://www.indiehackers.com/post/tech/from-failed-app-to-30-app-portfolio-making-22k-mo-in-less-than-a-year-myy3U7K9evxGOVOHti8s",
+   "https://www.youtube.com/watch?v=H_oRgWaslSA",
+   "https://artmvstd.com/",
+   "https://play.google.com/store/apps/developer?id=Artmvstd",
    "https://x.com/maks6361"
   ],
-  "confidence": "medium"
+  "confidence": "medium",
+  "founded_year": 2025
  },
  "verification": {
-  "verified_at": "2026-08-11",
+  "verified_at": "2026-08-13",
   "checklist_passed": [
    "existence:pass",
-   "figures:pass",
-   "scope:fail"
+   "figures:borderline(교정 후)",
+   "scope:pass (2026-08-11 기각 번복)"
   ],
   "primary_sources": [
-   "https://www.indiehackers.com/post/tech/from-failed-app-to-30-app-portfolio-making-22k-mo-in-less-than-a-year-myy3U7K9evxGOVOHti8s (창업자 본인 인터뷰 발화, 2025-12-10, \"over 30 apps bringing in a total MRR of $22k\")"
+   "IH 기사 raw HTML (2025-12-10) — 359KB 전문. 페이월 없음",
+   "notjust.dev 팟캐스트 자동자막 (2025-10-29, 진행 Vadim Savin) — **도구·지역 발화 결정적 출처**. 16:15 코드 복제·AI 종목 전환, 23:51 2시간 출하, 53:20 라트비아 거주. **오케스트레이터가 자막 파일에서 세 인용 verbatim 대조 완료**",
+   "https://play.google.com/store/apps/developer?id=Artmvstd — 앱 20종+ 라이브",
+   "https://play.google.com/store/apps/details?id=com.artmvstd.scaleForgrams — 2026-07-15 갱신, 500K+ 다운로드, IAP $3.99~$39.99"
   ],
-  "corrections": [],
-  "excluded_figures": [],
+  "corrections": [
+   "**[기각 번복 — 논거 3개 전부 무효]** (1) '도구 언급 전무'는 현행 기준상 무효일 뿐 아니라 **사실오인이었다** — IH 기사 한 편만 보고 내린 판정이고 팟캐스트에 1인칭 도구 발화가 있다. (2) 'Flutter+Firebase 수작업 양산'은 순환논법이자 반증됐다 — 코드 이식을 AI가 한다고 본인이 말한다. (3) '광고 중심이라 결이 다름'은 §0.4에 없는 기준이자 **사실오인이다**",
+   "**[내 오류 — 화자 오귀속] 이 사례는 광고 수익 모델이 아니다.** 본인 발화는 \"95% of all subs are weekly\", \"more than 80% of revenue comes from subscriptions\"이고 Play 리스팅에도 IAP만 있고 'Contains ads' 라벨이 없다. 후보 최초 기재의 stack 'CAS(광고 미디에이션)'와 business_model '인앱 광고'는 **IH 댓글 작성자 Lupus3000의 발언**(\"I went the publisher route... CAS runs the stack for me\")을 창업자 발언으로 옮긴 것이었다. **요약 모델이 이 댓글을 'he delegates: I let a publisher run...'으로 창업자 발화처럼 돌려줬고**, raw HTML에서 작성자 필드를 직접 확인해서야 잡혔다 — 요약→인용 오염 경로가 또 재현됐다",
+   "**도구 발화 (1인칭, 성과 귀속형).** 16:15 \"I just uh copy the project. So it's almost 90% of the same code... Then I asked Chad GPT corser to go through and then change it from chemistry to math. Change it from statistics to geometry\" / 23:51 \"I copy 90% of the code, course store does the um like the conversion changing it from the one topic to another topic\" — 아이디어에서 앱스토어 제출까지 **2시간**. 이 생산 속도의 메커니즘을 본인이 AI에 귀속시킨다",
+   "**region: unknown → 라트비아 (1인칭 확정).** 53:20 \"I'm based in Latia [Latvia]... and Latvian EU account\". 매출 단위 EUR 혼용(€700 부스트, €350/월, ASA 월 약 €400)과도 정합. X 프로필 국기 표기는 검색 스니펫 경유라 미채택",
+   "**founded_year 2025 확정** (기존 필드 부재). 앵커는 본인 발화 \"Then, in February of this year, I found one of Adam Lyttle's YouTube videos where he advocated for growing a mobile app portfolio\" (2025-12-10 기준). **§0.5 유지·확장형 표기는 불필요** — 개발자 활동 기원은 창 밖(iOS 8년)이나 가드레일 2조건을 모두 충족하고, 매출을 내는 산출물 30개가 전부 2025년 신규다",
+   "ai_tools: [] → ['ChatGPT']. **Cursor는 넣지 않았다** — 아래 excluded 참조",
+   "team_size에 '정규직 병행' 명시 (팟캐스트 18:08, 47:06)"
+  ],
+  "excluded_figures": [
+   "[scope] **'Cursor'를 ai_tools에 넣지 않았다.** 자막의 'corser'(16:15)와 'course store'(23:51)가 Cursor의 ASR 오인식일 개연성은 높다 — 같은 의미 자리(코드 이식 주체)에서 두 번 독립적으로 오인식됐다. 그러나 **자동자막 판독만으로 도구명을 데이터에 굳히지 않는다**(ChatGPT는 같은 자막 내 다른 구간에 'chat GPT' 정상 표기가 반복돼 확정). **미해결 작업: 16:15·23:51 오디오 직접 청취.** 판독이 틀려도 'AI가 코드를 종목 간 이식한다'는 1인칭 진술 자체는 흔들리지 않으므로 스코프 판정은 불변",
+   "[figures] **$22K의 gross/net 미상.** 광고 gross/net 우려는 전제가 무너졌으나(광고 매출 아님) 스토어 수수료 15~30%와 UA 지출 차감 여부가 여전히 미상이다. 팟캐스트에서 App Store Connect 'proceeds' 뷰를 보며 개별 앱을 설명하는 대목이 있으나 $22K 합산치에 그대로 대응한다고 단정 불가",
+   "[figures] **$7K(2025-10) → $22K(2025-12), 3개월 3배.** 학습 앱 시즌성으로 설명 가능하나 미검증",
+   "[figures] **2026년 수치 미확인**(unverifiable). 2차 출처의 '$24k/mo'는 원문 403으로 미열람. x.com/maks6361이 병목인데 HTTP 402 차단 — **도구 한계이지 증거 부재가 아니다**",
+   "[existence] 생존은 확인됨 — 대표 앱 2026-07-15 갱신, 500K+ 다운로드. stoppr형 퇴출 징후 없음"
+  ],
   "confidence_recommendation": "medium",
-  "notes": "판정: 스코프 렌즈 fail → rejected. AI 코딩 도구 언급 전무 — Flutter + Firebase 수작업 양산 모델이고 성장 동력도 코딩 도구가 아니라 광고 미디에이션·UA 최적화. 수익 모델이 광고 중심인 점도 기존 사례군(구독/SaaS)과 결이 다름. 수치·실존은 이상 없음. AI 도구 도입 발화가 확인되면 재검토 가능. (2026-08-11 수동조사)"
+  "notes": "판정: **스코프 pass(기각 번복) → verified.** 에이전트는 high를 권고했으나 medium을 채택했다 — 도구명 하나가 ASR 판독이고, 매출이 8개월 된 값이며 gross/net이 미상이다.\n\n## 이 건이 남긴 가장 중요한 교훈 — 오염이 두 겹이었다\n\n이 후보는 **틀린 사실 위에서 기각됐다.** '광고 수익 모델이라 기존 사례군과 결이 다르다'가 기각 논거 중 하나였는데, 애초에 광고 모델이 아니었다. 그 오인의 출처는 **IH 댓글 작성자의 발언을 창업자 발언으로 옮긴 것**이고, 그렇게 된 경로는 **요약 모델이 댓글을 창업자 1인칭처럼 돌려준 것**이다. 즉 (a) 규칙에도 없는 기준을 신설했고 (b) 그 기준을 적용한 사실관계마저 오염된 요약에서 왔다.\n\n**화자 확인은 raw HTML의 작성자 필드로만 한다** — 이 세션에서 같은 경로의 사고가 반복됐다(zigpoll 문맥 오독, ai-toolbox 인포박스, rightblogger 편집부 MRR).\n\n## 프로브 순서 교훈이 또 재현됐다\n\nIH 기사(제품·성장 서사)에 도구 언급 **0건**, 팟캐스트(프로세스 대화)에 발화 존재. zigpoll과 정확히 같은 패턴이다. **1차 출처 한 편만 보고 도구 부재를 판정하면 안 된다.**\n\n## 코퍼스 사실관계 확인 결과\n\n'광고 모델은 기존과 결이 다르다'는 논거는 코퍼스로도 지지되지 않았다 — `trend-widget`이 business_model에 '인앱 광고 + 구독'을 명시하고 있고, 비구독 수익 사례는 headshotpro·marc-lou·sergiu·simon-berg·erik-aronesty·gendy 등 다수다."
  }
 }

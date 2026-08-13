@@ -1,19 +1,20 @@
 {
  "id": "meerkats-ai",
- "status": "rejected",
+ "status": "pending_verification",
  "discovered_at": "2026-08-11",
  "discovery_source": "https://www.indiehackers.com/post/tech/growing-an-ai-orchestration-platform-to-3k-mrr-in-4-weeks-gK3zYDqQjXYG9ANwmxzA (Tier1 IH, 2026-05-05)",
  "case": {
   "id": "meerkats-ai",
   "founders": [
-   "Santanu Dasgupta"
+   "Santanu DasGupta",
+   "Lakhvinder Singh (공동창업자 — Tracxn 표기, 원문 미대조)"
   ],
   "product": "Meerkats.ai",
-  "domain": "AI 에이전트 오케스트레이션 플랫폼 (에이전시 하이브리드)",
+  "domain": "AI 에이전트 오케스트레이션 플랫폼 — 2026-06 이후 인도 D2C/퀵커머스 CAC·어트리뷰션으로 포지셔닝 변경",
   "one_liner": "런칭 4주만에 MRR $3K를 만든 AI 에이전트 오케스트레이션 플랫폼",
-  "team_size": "unknown",
-  "region": "미국 (시카고대 Polsky Center 그랜트)",
-  "revenue": "MRR $3K+ (런칭 4주만에, 2026-05-05 기준)",
+  "team_size": "약 6명 (Tracxn 2026-04-30) / LinkedIn 기업 페이지 '2-10 employees'. 외부 투자 라운드 없음",
+  "region": "인도 벵갈루루 (본사) — 창업자는 UChicago Booth 동문이며 Polsky Center ANVC 그랜트 수혜",
+  "revenue": "MRR $3K+ (플랫폼 런칭 4주 시점, 본인 발화 2026-05-05 \"We launched the platform four weeks ago and are currently doing $3k+ MRR\"). 구성: 사용량 기반 플랫폼 과금 + 병행 에이전시 용역 — **둘의 비율은 원문에 없어 분해 불가**. UChicago Polsky Center ANVC 그랜트와 Azure/OpenAI/Anthropic 크레딧은 원문상 MRR과 별개 항목(각각 운영자금·모델비용 상계)이므로 매출에 계상하지 않는다",
   "revenue_date": "2026-04",
   "exit_status": "운영 중",
   "stack": [
@@ -21,30 +22,53 @@
    "LangChain",
    "Crew AI",
    "AutoGen",
-   "Google Cloud Platform"
+   "Google Cloud Platform",
+   "Supabase",
+   "React",
+   "Node.js",
+   "Fly.io",
+   "MCP servers"
   ],
-  "ai_tools": [],
-  "founder_background": "unknown",
-  "business_model": "사용량 기반 과금 + outcome-as-a-service + 에이전시 용역 병행",
+  "ai_tools": [
+   "unknown"
+  ],
+  "founder_background": "Santanu DasGupta — 개발자 출신(베이에어리어 Oracle 모바일DB 스핀아웃)에서 GTM/그로스로 전환해 20년(Gartner Consulting, Tata Consultancy Services). MBA Chicago Booth. 디지털마케팅 스타트업 다수 창업·매각",
+  "business_model": "소비 기반 과금 + outcome-as-a-service + 에이전시 용역 병행. **2026-08 현재 사이트 공시는 이벤트 볼륨 기반 정액 $199/$499·월로 변경됨**",
   "sources": [
    "https://www.indiehackers.com/post/tech/growing-an-ai-orchestration-platform-to-3k-mrr-in-4-weeks-gK3zYDqQjXYG9ANwmxzA",
    "https://meerkats.ai"
   ],
-  "confidence": "low"
+  "confidence": "low",
+  "founded_year": 2024
  },
  "verification": {
-  "verified_at": "2026-08-11",
+  "verified_at": "2026-08-13",
   "checklist_passed": [
-   "existence:pass",
-   "figures:pass",
-   "scope:fail"
+   "scope:pass (2026-08-11 기각 번복)",
+   "figures:borderline — 재검증 필요"
   ],
   "primary_sources": [
    "https://www.indiehackers.com/post/tech/growing-an-ai-orchestration-platform-to-3k-mrr-in-4-weeks-gK3zYDqQjXYG9ANwmxzA (창업자 본인 인터뷰 발화, 2026-05-05)"
   ],
-  "corrections": [],
-  "excluded_figures": [],
+  "corrections": [
+   "**[기각 번복 — 논거 3개 중 2개 무효]** (1) '제작 도구 언급 없음'은 현행 기준에서 fail이 아니라 borderline이고 본인 부정 발화가 0건이다. (3) '규모가 기존 최저선 대비 작다'는 §0.4에 없는 기준이고 **실측에도 반한다** — 코퍼스 최저는 habit-pixel $12,000이고 본 건은 약 $36,000으로 하위 4번째다. 거의 동일 조건의 선례가 이미 있다(jobric: 출시 2개월 미만 MRR $3,300 스냅샷으로 verified)",
+   "**[내 오류] 그랜트·크레딧이 MRR에 혼입됐다는 우려는 원문 문장 구조상 오독이었다.** 원문: \"We launched the platform four weeks ago and are currently doing $3k+ MRR. **To keep the lights on**, we got funding from the University of Chicago Polsky Center... We **also** offered Agency services... **And** we got generous credits from Azure, OpenAI, and Anthropic **towards model costs**.\" 그랜트는 별개 자금원, 크레딧은 명시적 비용 상계다. **혼입 가능성이 남는 것은 에이전시 용역 하나뿐**",
+   "**Claude Skills SDK는 런타임이다 — 제작 도구 아님.** 원문 주어가 \"The initial product leveraged\"이고 Skills.md가 에이전트 하네스 구성요소로 열거된다. erik-aronesty에서 세운 구분선 그대로 ai_tools에서 제외. (erik처럼 '실은 자작 OSS였다'류 반전 없음.) **애매점 기록: Codex가 같은 문장에서 모델로 한 번, 프레임워크로 한 번 나온다. Codex는 코딩 에이전트라 이중 용도지만 문장 주어가 제품이므로 도구 근거로 쓰지 않았다**",
+   "**team_size unknown 해제 — 약 6명.** 대학 액셀러레이터 소속이라 팀이 클 것이라는 우려는 실측으로 해소됐다(ANVC는 동문 대상 그랜트, 무투자)",
+   "**region 교정: 미국 → 인도 벵갈루루.** 기존 '미국'은 Polsky Center 그랜트만 보고 추정한 값이었다",
+   "founded_year 2024 확정 (LinkedIn·Tracxn 일치). 기사의 'launched four weeks ago'는 회사 창업이 아니라 **플랫폼 런칭(2026-04)**이다",
+   "founder 실명·background 확정. ai_tools [] → 'unknown'",
+   "**기사 내 'Cursor' 1건은 제3자 댓글**이며 창업자 발화가 아니다. 근거 불채택"
+  ],
+  "excluded_figures": [
+   "[figures] **$3K MRR은 2026-04 스냅샷인데 이후 과금 모델과 포지셔닝이 모두 바뀌었다** — 소비 기반 → 이벤트 볼륨 정액 $199/$499, GTM 오케스트레이션 → 인도 D2C 퀵커머스 CAC. **현존하지 않는 과금 구조 위의 수치라 런레이트 연장 불가.** 갱신 수치는 unverifiable(찾았으나 미발견)",
+   "[figures] 제품 단독 경상매출 분해 불가 — 에이전시 용역 혼입분 비율이 원문에 없다",
+   "[figures] 그랜트·클라우드 크레딧을 매출로 계상 금지",
+   "[existence] x.com/sdasgupt HTTP 402 차단 — 창업자 유일 미확인 공개 계정. 도구 발화가 남아 있을 가능성이 가장 높은 면이다. **not_attempted가 아니라 도구 차단**",
+   "[existence] 공동창업자 배열은 Tracxn·LinkedIn **요약 경유**이며 raw 대조 아님",
+   "[existence] 외부 동명 주의 — trymeerkat.ai(Mary Shea), meerkat.ai(Latka $220K)는 별개 회사다"
+  ],
   "confidence_recommendation": "low",
-  "notes": "판정: 스코프 렌즈 fail → rejected. 사유 2가지: (1) AI 코딩 도구 사용 근거 부재 — 나열된 것은 제품이 쓰는 런타임 프레임워크(LangChain/Crew AI/AutoGen)이고 제작 도구 언급 없음. (2) 수익 구성이 대학 그랜트 + 에이전시 용역 + 클라우드 크레딧 혼합이라 MRR $3K의 제품 귀속분이 불명확. 규모 자체도 기존 최저선 대비 작다. (2026-08-11 수동조사)"
+  "notes": "판정: **스코프 pass(기각 번복), 수치 borderline → `pending_verification`.**\n\n**merged로 보내지 않는다.** §0 원칙 1에 따라 low는 후보 큐에서 대기만 가능하다. 스코프 결격이 사라졌으므로 rejected는 부당하지만, 반영하기에는 수치가 약하다.\n\n## 왜 low인가\n\n① 매출이 1차 출처 단발 발화이고 결제사 검증이 없다. ② 용역/제품 분해 불가. ③ **가장 큰 문제 — 4주차 스냅샷 이후 4개월간 갱신치가 없는데 그 사이 과금 모델과 포지셔닝이 모두 바뀌었다.** 즉 $3K MRR은 지금 존재하지 않는 사업 구조 위의 숫자다. 생존 자체는 확인됐다(블로그 2026-07-28까지 발행, 결제 플랜 라이브).\n\n## 재개 조건\n\n새 과금 구조($199/$499 정액) 기준의 갱신 수치를 창업자 1인칭으로 확보하면 수치 렌즈 재검증 가능. x.com/sdasgupt 열람도 남아 있다."
  }
 }

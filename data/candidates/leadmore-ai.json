@@ -1,6 +1,6 @@
 {
  "id": "leadmore-ai",
- "status": "rejected",
+ "status": "verified",
  "discovered_at": "2026-08-11",
  "discovery_source": "https://www.indiehackers.com/post/tech/hitting-30k-mrr-with-an-ai-marketing-product-n59ORJCYjnZC61Q096UL (Tier1 IH, 2025-12-18) — Tier3 검색(tamimbuilds Medium 리스트)에서 리드 포착",
  "case": {
@@ -10,42 +10,69 @@
   ],
   "product": "Leadmore AI",
   "domain": "Reddit 리드 발굴/마케팅 SaaS",
-  "one_liner": "Reddit 대화를 찾아 밴 없이 리드에 접근하게 해주는 AI 마케팅 툴",
-  "team_size": "1인 (초기 1~2명 언급)",
+  "one_liner": "Reddit 대화를 찾아 밴 없이 리드에 접근하게 해주는 AI 마케팅 툴 — 런칭 4개월에 월 $30K",
+  "team_size": "창업 시점 1인 — 2025-12 글 전체가 'I'. 2026-02 이후 글부터 'we'가 등장하나 인원수 미공개",
   "region": "unknown",
-  "revenue": "월 $30K 초과 (본인 IH 인터뷰 2025-12-18); 2차 출처는 2026년 초 ARR $1M 주장",
-  "revenue_date": "2025-12",
+  "revenue": "월 $30K 초과 (2025-12, 본인 글 제목 \"$30K MRR in 4 Months\") → 이후 ARR $1M (2026-02-11, 본인 IH 게시물). **$1M의 산출법을 본인이 자진 공개했다** — \"The $1M ARR is based on a run rate calculation: revenue from a recent day multiplied by 365. This can be slightly higher than a strict subscription based ARR...\" 즉 최근 하루 매출 × 365이며 구독 ARR이 아니다",
+  "revenue_date": "2026-02",
   "exit_status": "운영 중",
   "stack": [
    "Next.js",
-   "Go (Gin)"
+   "Go (Gin)",
+   "MongoDB",
+   "ClickHouse",
+   "Function Compute"
   ],
-  "ai_tools": [],
-  "founder_background": "대기업 엔지니어링·프로덕트 5년 경력 후 독립",
-  "business_model": "크레딧 기반 종량제 (미사용 크레딧 환불 가능)",
+  "ai_tools": [
+   "unknown"
+  ],
+  "founder_background": "Richard Wang. 본인 발화 \"I have over five years of experience in the internet industry, and I've worked in both engineering and product roles at leading tech companies.\" 직전 실패작(AI B2C, 약 3개월 개발 후 종료) 이력. 동일 창업자가 별개 제품 Vismore(AEO 플랫폼)도 운영",
+  "business_model": "크레딧 기반 종량제 (미사용 크레딧 환불 가능). 2026-01경 지역별 가격제를 폐지하고 글로벌 단일가로 전환, 첫 구매가를 $9.9로 인하",
   "sources": [
    "https://www.indiehackers.com/post/tech/hitting-30k-mrr-with-an-ai-marketing-product-n59ORJCYjnZC61Q096UL",
+   "https://www.indiehackers.com/post/how-i-built-a-reddit-marketing-tool-to-30k-mrr-in-4-months-with-0-spent-on-marketing-470f39b763",
+   "https://www.indiehackers.com/post/i-built-a-reddit-marketing-product-leadmore-ai-and-it-just-crossed-1m-arr-f8b758eb1a",
+   "https://www.indiehackers.com/post/from-reddit-marketing-to-building-an-aeo-platform-8-400-before-writing-a-line-of-code-6bb3276343",
+   "https://www.indiehackers.com/Richard_ai",
    "https://leadmore.ai"
   ],
-  "confidence": "medium"
+  "confidence": "medium",
+  "founded_year": 2025
  },
  "verification": {
-  "verified_at": "2026-08-11",
+  "verified_at": "2026-08-13",
   "checklist_passed": [
    "existence:pass",
-   "figures:pass",
-   "scope:fail"
+   "figures:pass(교정 후)",
+   "scope:pass (2026-08-11 기각 번복)"
   ],
   "primary_sources": [
-   "https://www.indiehackers.com/post/tech/hitting-30k-mrr-with-an-ai-marketing-product-n59ORJCYjnZC61Q096UL (창업자 본인 인터뷰 발화, 2025-12-18, \">$30K a month\")"
+   "IH 본인 글 2025-12-07 ($30K MRR) — \"Development took a little over a month.\"",
+   "IH 인터뷰 2025-12-18 — 스택 상세 + \"With vibe coding today, you can often ship a very basic MVP in one or two weeks.\"",
+   "IH 본인 글 2026-02-11 ($1M ARR) — **오케스트레이터가 raw HTML로 verbatim 대조 완료.** 작성자 Richard_ai",
+   "IH 본인 글 2026-04-07 (Vismore/AEO)",
+   "https://www.indiehackers.com/Richard_ai — 본인 프로필"
   ],
   "corrections": [
-   "2차 출처(startupfounderstories.com, builtwithagents.ai)의 'ARR $1M by early 2026' 및 '2024년 창업' 표기는 본인 발화로 확인 안 됨 — 채택 불가"
+   "**[기각 번복] 유일한 기각 근거였던 '도구 언급 전무'는 현행 기준에서 fail이 아니라 borderline이다.** 명시적 부정은 4개 면 어디에도 없다",
+   "**[내 오류] '창업자가 대기업 엔지니어 출신이라 비개발자 유형이 아님'을 배제 사유로 썼다.** 개발자 배경은 배제 사유가 아니다 — 코퍼스 51건 중 founder_background=developer가 25건으로 최다이고 erik-aronesty는 25년차 Atakama CTO다",
+   "**[내 오류 — 중요] ARR $1M을 '2차 출처 주장'으로 배제한 것이 오판정이었다.** 1차 출처가 존재한다 — 본인 IH 게시물(2026-02-11)이고, 더구나 **본인이 산출법을 먼저 자진 공개**했다. rightblogger·ai-toolbox 유형(편집부 필드)이 **아니다**",
+   "**[본인 표기 착오 1건 기록] 2026-02 글이 \"went from zero to around $30K ARR\"라고 쓰는데 그 글의 제목은 \"$30K MRR in 4 Months\"다. 12월 값은 월 $30K가 맞고 2월 글의 'ARR'이 오기다.** 이 착오를 그대로 옮기면 $30K ARR → $1M ARR(33배)이라는 허구가 만들어진다",
+   "**founded_year 2025 신규 확정** (기존 필드 부재). 2025-12-07 시점 −4개월 → 런칭 약 2025-08. 직전 실패작 타임라인(2024-12경 착수, 3개월 개발 후 종료)과 충돌 없이 닫힌다. **창 안이므로 §0.5 미적용**",
+   "**microfounder.com의 'Jun 2024' 미채택** — 편집부 메타데이터이고 같은 페이지가 창업자를 'Jan Waldeck'으로 잘못 표기한다. 검색 요약의 'built solo in 2024'도 1차 근거 없음",
+   "ai_tools: [] → ['unknown']. 빈 배열은 'none'으로 오독된다",
+   "stack 보강 (MongoDB, ClickHouse, Function Compute), business_model에 가격 전환 이력 추가",
+   "region unknown 유지 — X가 '주로 중국어'라는 인터뷰 언급만으로 국가를 단정하지 않는다(jobric에서 베이에어리어 단서를 미채택한 것과 같은 처리)"
   ],
   "excluded_figures": [
-   "[figures] ARR $1M (2026년 초) — 2차 출처만, unverifiable"
+   "[figures] **ARR $1M을 정렬용 연환산값으로 쓰지 않았다** — 최근 '하루' 매출 × 365이고 크레딧 종량제라 일 매출 분산이 구독제보다 크다. 기준일 선택 편향이 구조적이다. sergiu에서 최고월 연환산을 거부한 것과 같은 처리",
+   "[figures] $30K/월 ≈ $986/일 → $1M/365 ≈ $2,740/일 = **2개월에 2.8배**. 본인이 동인 3개(지역가격제 폐지, 첫 구매 $9.9 인하, AEO 붐)를 제시하나 결제사 검증은 없다",
+   "[figures] 2026-02 글의 '$30K ARR' 표기 — 본인 착오. 인용 금지",
+   "[figures] 검색 요약의 'launched mid-2024 / $30K MRR Month 4 (Oct 2024) / $1M ARR Month 6 (Dec 2024)' — **1차 출처 어디에도 없고 IH 글 날짜와 정면 충돌한다. 폐기**",
+   "[existence] 검색 요약의 'Clad Labs를 Kevin Le와 공동창업한 Richard Wang' — 동명이인 충돌, 근거 없음. 폐기",
+   "[existence] X(@Richard_ai66, @Joe_688) HTTP 402 / LinkedIn HTTP 999 — **도구 차단이며 not_attempted가 아니다. 기각 근거로 쓸 수 없다**"
   ],
   "confidence_recommendation": "medium",
-  "notes": "판정: 스코프 렌즈 fail → rejected. 본인 IH 인터뷰로 $30K/월은 확보됐고 제품·창업자 실존도 확인. 기각 사유는 AI 코딩 도구 사용 근거 부재 — 인터뷰의 스택 서술은 Next.js + Go(Gin)뿐이고 Cursor/Claude Code/Lovable 등 언급 전무. 창업자가 원래 대기업 엔지니어 출신이라 '비개발자가 AI 툴로 만든' 유형도 아님. 제품이 AI를 쓰는 것(AI 마케팅 SaaS)과 AI 코딩 도구로 만든 것은 별개 — 이 구분에서 탈락. (2026-08-11 수동조사)"
+  "notes": "판정: **3/3 pass → verified** (2026-08-11 rejected 번복).\n\n## 도구 근거의 위치 — bazzly보다 약간 약하고 leadverse와 비슷하다\n\n본인 발화에 'vibe coding'이 긍정 맥락으로 존재한다 — \"With vibe coding today, you can often ship a very basic MVP in one or two weeks\"(2025-12-18, MVP 구축 질문에 대한 답). **다만 'you can'의 일반론이라 자기 빌드에 대한 귀속이 아니다.** bazzly는 \"Being a technical founder, AI gave me a big advantage to ship fast\"로 1인칭 자기귀속이었다. 그래서 방향은 명확히 긍정이지만 **ai_tools는 unknown 유지**한다 — 배열에 도구명을 적으면 미확인 귀속이 데이터로 굳는다(leadverse·bazzly 선례 동일).\n\n## 제품측 AI를 도구 근거로 쓰지 않았다\n\nLeadmore는 AI 마케팅 SaaS라 'AI를 씀 vs AI로 만듦' 오분류 위험군이다. 기존 기각 노트의 '제품이 AI를 쓰는 것과 AI 코딩 도구로 만든 것은 별개'라는 구분 **자체는 옳다** — 다만 그건 제품측 AI를 도구 근거로 오인할 위험의 문제이지 배제 사유가 아니다. 여기서는 제품측 AI를 근거로 전혀 쓰지 않았다.\n\n## 별건 리드 발생 (중복 아님)\n\n**Vismore** (vismore.ai, AEO 플랫폼, 2026-03경 런칭) — 같은 창업자의 다른 제품이므로 별도 사례다. IH 프로필에 '$100k/month' 표기가 있고 사전판매 $8,400(7명 × $399 × 3개월) 발화가 있다. 후보 큐에 별도 등록 권고.\n\n## 미해결\n\nregion 미확정. X 2계정·LinkedIn 전부 HTTP 차단으로 미열람 — **증거 부재가 아니라 도구 한계**다."
  }
 }

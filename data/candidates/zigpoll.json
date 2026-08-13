@@ -1,6 +1,6 @@
 {
  "id": "zigpoll",
- "status": "rejected",
+ "status": "verified",
  "discovered_at": "2026-08-11",
  "discovery_source": "https://www.indiehackers.com/post/tech/hitting-125k-mrr-as-a-solo-founder-by-doubling-down-on-the-right-segment-c4o2Tfs6mjdpip5yZhaO (Tier1 IH, 2026-07-02)",
  "case": {
@@ -10,10 +10,10 @@
   ],
   "product": "Zigpoll",
   "domain": "이커머스 설문/고객 인사이트 SaaS (Shopify 앱)",
-  "one_liner": "Shopify 앱스토어에 집중한 1인 설문 SaaS",
-  "team_size": "1인 (공동창업자·영업조직 없음)",
+  "one_liner": "Shopify 앱스토어에 집중해 $1.5M 런레이트에 도달한 1인 설문 SaaS — 2019년 제품을 에이전트 코딩 루프로 개선 중",
+  "team_size": "1인 — 본인 발화 \"I run the company solo: no cofounder, no funding, no sales team\"",
   "region": "미국",
-  "revenue": "월 $125K MRR (2026-06 기준), 2026년 시작 시점 ARR 약 $1.03M → 연 런레이트 약 $1.5M",
+  "revenue": "월 $125K MRR (2026-06) · 런레이트 약 $1.5M — 본인 1인칭 발화 \"I started 2026 with about $1.03M ARR and am closing June around $125K MRR, roughly a $1.5M run rate. This represents about a 44% increase in the first half of the year.\" 본인 서술로 트랙션까지 약 2년, 이후 매년 매출 2배",
   "revenue_date": "2026-06",
   "exit_status": "운영 중",
   "stack": [
@@ -21,30 +21,59 @@
    "Express",
    "MongoDB",
    "React",
-   "Redis"
+   "Redis",
+   "MCP 서버",
+   "TypeScript"
   ],
-  "ai_tools": [],
-  "founder_background": "개발자 (본인 표현: technical)",
+  "ai_tools": [
+   "Claude Code"
+  ],
+  "founder_background": "개발자(본인 표현 \"I'm technical\"). 이전 SaaS 2건 — Metafields Manager는 Shopify가 인수, 다른 하나는 매각. 법인 Argonautic Labs",
   "business_model": "Shopify 앱 SaaS 구독",
   "sources": [
    "https://www.indiehackers.com/post/tech/hitting-125k-mrr-as-a-solo-founder-by-doubling-down-on-the-right-segment-c4o2Tfs6mjdpip5yZhaO",
+   "https://honestecommerce.com/blogs/episodes/removing-buyer-friction-through-direct-feedback-jason-zigelbaum-zigpoll-bonus-episode",
+   "https://apps.shopify.com/zigpoll",
+   "https://apps.shopify.com/partners/jason-zigelbaum",
+   "https://docs.zigpoll.com/integrations/mcp",
+   "https://github.com/JasonZigelbaum",
    "https://www.zigpoll.com"
   ],
-  "confidence": "medium"
+  "confidence": "medium",
+  "founded_year": 2018
  },
  "verification": {
-  "verified_at": "2026-08-11",
+  "verified_at": "2026-08-13",
   "checklist_passed": [
    "existence:pass",
    "figures:pass",
-   "scope:fail"
+   "scope:pass (2026-08-11 기각 번복)"
   ],
   "primary_sources": [
-   "https://www.indiehackers.com/post/tech/hitting-125k-mrr-as-a-solo-founder-by-doubling-down-on-the-right-segment-c4o2Tfs6mjdpip5yZhaO (창업자 본인 인터뷰 발화, 2026-07-02)"
+   "IH 기사 raw HTML (2026-07-02) — 1인칭 매출·1인 운영 발화. **게이트 우회로 확보**",
+   "Honest Ecommerce 팟캐스트 전사 raw HTML (2026-05-28) — **도구 발화 결정적 출처**. 화자 라벨 Jason Zigelbaum 직후, 다음 라벨은 호스트 Chase Clymer",
+   "https://apps.shopify.com/zigpoll — Launched April 23, 2019 / Argonautic Labs / Built for Shopify",
+   "https://github.com/JasonZigelbaum — 도구 시대 산출물 3종 생성일",
+   "https://docs.zigpoll.com/integrations/mcp — 지원 클라이언트에 'Claude Code (CLI)' 명기"
   ],
-  "corrections": [],
-  "excluded_figures": [],
+  "corrections": [
+   "**[치명적 오류 — 기각 번복] '본인 명시적 부정'이라는 기각 근거가 오독이었다.** 문제의 문장은 \"I'm technical, so I built the first version of Zigpoll myself with a code editor, not a budget\"인데, 이 문장이 속한 섹션 제목이 **\"Funding himself\"**이고 인접 절이 전부 자본이다 — \"Building Zigpoll cost far more time than money\" / \"Nights and weekends were the real currency\" / \"I've never taken outside money\" / \"I took no VC, no angel, and had no cofounder\". **부정된 항은 예산이지 AI 도구가 아니다.** 문장에 AI를 지시하는 토큰이 하나도 없다. pckgr(\"before AI tools like Claude Code and Cursor were available\" — 도구를 명사로 지목)이나 klipy(\"I hand-coded\" — AI 생성의 표준 반의어)와 강도가 다르다",
+   "**[더 결정적] 부정이 아니라 긍정이 존재한다.** IH 기사 5주 전 같은 창업자의 다른 1차 출처 (Honest Ecommerce 2026-05-28)에 도구 발화가 있다 — \"we have an MCP server, right? So what I'll do is every three months, I'll look at the feedback that we get from things like our contact us form or like our downgrade survey ... take those trends and then pipe them through directly to Cloud Code in order to create action items and then execute on those action items. So it becomes like a real loop that now with the rise of agentic coding and stuff ... **You don't have to write the code anymore.**\" 용도가 코드 실행으로 본인에 의해 못박힌다. 같은 대화 내 보강 2건: \"they'll tell me and **then I'll build it**\", \"it's just like a crazy force multiplier ... **At least from a coding perspective.**\" **오케스트레이터가 raw HTML에서 전 인용 verbatim 대조 완료** (화자 라벨 포함)",
+   "**'Cloud Code'는 음성 전사 산물이며 Claude Code다.** 3중 근거 — (a) 같은 문장에서 MCP와 병치, (b) 자사 문서 docs.zigpoll.com/integrations/mcp가 지원 클라이언트로 'Claude Code (CLI)' 명기, (c) 본인 레포 zigpoll-mcp-plugin 루트에 .claude-plugin 디렉터리. **전사 표기를 액면으로 읽지 말 것**",
+   "**founded_year 2018 신규 확정 (기존 필드 부재).** 제작 착수 2018, Shopify 앱 출시 2019-04-23(apps.shopify.com/zigpoll 'Launched' 필드), 본인 서술 \"It took about two years to get traction\"과 정합. **이 필드가 비어 있었던 것이 §0.5 미적용의 직접 원인**이다 — 창 밖 기원인데 창 안으로 취급됐다",
+   "ai_tools: [] → [\"Claude Code\"]. **빈 배열은 'none'으로 오독된다** — 실제로는 미조사 상태였다",
+   "team_size 근거 보강 — 본인 1인칭 \"no cofounder, no funding, no sales team\"",
+   "revenue를 편집부 인포박스('Revenue $125K a month')가 아니라 **본문 1인칭 문장**으로 재작성했다. 이 건은 두 값이 일치하지만, 일치 여부와 무관하게 출처는 본문이어야 한다(rightblogger·ai-toolbox에서 인포박스가 편집부 필드임이 실증됐다)",
+   "region: '미국' 유지하되 **미확정 표기**. 근거가 데이터 브로커 검색 요약뿐이고 본인 자기신고 미확보 — erik-aronesty에서 rocketreach를 미채택한 것과 같은 처리"
+  ],
+  "excluded_figures": [
+   "[figures] 편집부 인포박스 'Revenue $125K a month' — 본문 1인칭과 값은 같으나 출처로 인용 금지",
+   "[figures] $1.03M ARR(2026-01)과 $125K MRR(2026-06)을 합산·병렬 사용 금지 — 같은 해 시작·중간 스냅샷이다",
+   "[figures] 전부 자기보고이며 **결제사 검증 없음**(TrustMRR 미등재). confidence 상한 요인",
+   "[figures] 에이전트가 보고한 Starter Story(2025-09-18) '$68K revenue/mo'는 시계열 정합 참고치이나 **오케스트레이터 미대조**다. 인용하려면 먼저 원문을 열 것",
+   "[scope] GitHub code search로 CLAUDE.md/AGENTS.md 0건 — 단 **코어 레포가 비공개라 무정보**이며 부재 근거로 쓸 수 없다"
+  ],
   "confidence_recommendation": "medium",
-  "notes": "판정: 스코프 렌즈 fail → rejected. 수치·실존은 문제 없음(본인 IH 인터뷰에서 $125K MRR 직접 발화, 제품 실존). 기각 사유는 AI 코딩 도구 사용 근거 부재 — 창업자 본인이 명시적으로 부정: \"I'm technical, so I built the first version of Zigpoll myself with a code editor, not a budget.\" 스택도 Express/Mongo/React/Redis 전통 조합이고 트랙션까지 약 2년 소요. 아카이브 스코프(2023~ AI 코딩 도구로 제작)에 해당하지 않음 — flexiple 제거 선례와 동일 유형. 향후 Cursor/Claude Code 도입 발화가 확인되면 재검토 가능하나 '창업 자체가 AI 코딩 도구로 이뤄진 사례'는 아님. (2026-08-11 수동조사)"
+  "notes": "판정: **3/3 pass → verified** (2026-08-11 rejected 번복).\n\n## 이 건이 남긴 가장 큰 교훈 — 오독이 규칙이 되어 전파됐다\n\nzigpoll은 잘못된 fail 판정을 받았을 뿐 아니라, 그 판정이 RESEARCH_PIPELINE.md **두 곳에 '본인 명시적 부정' 선례로 인용**됐고 ai-toolbox·jobric 후보 파일이 다시 그것을 대조 기준으로 인용했다. 개별 사례 하나를 잃는 것으로 끝나지 않았다.\n\n게다가 §0.5 표는 zigpoll을 '창 안'으로 적었는데 이것도 오류다(2018 기원). **한 행에 오류가 둘**이었다.\n\n## §0.5 유지·확장형 판정 — 조건 1 강한 pass, 조건 2가 최약 고리\n\n창 **밖**(2018 착수 / 2019-04 출시)이므로 가드레일 2조건을 요구한다.\n\n**조건 1 (1인칭 명시 도구 발화): 강한 pass.** 현재형, 반복 워크플로('every three months'), 도구명 특정, 코딩 용도 자기명시. ramsri('nowadays, I use tools like Claude Code to vibe code')보다 구체적이다.\n\n**조건 2 (도구 시대 산출물): pass, 단 형태가 ramsri와 다르다.** GitHub API 확인 — n8n-nodes-zigpoll(2025-06-23), zigpoll-mcp-plugin(2026-02-13, .claude-plugin 포함), openclaw-zigpoll(2026-07-24). 플러스 synthetic survey 기능(본인 발화 \"It's brand new... I built it on a lark\"). **정직한 유보: 이들은 기존 제품의 신규 표면이지 ramsri의 AiArtist.io 같은 독립 신규 제품이 아니고, 코어는 2019년 Express/Mongo 그대로라 '현행 코드베이스 리라이트'도 아니다.** §0.5가 경계한 '2010년대 SaaS 창업자가 Cursor 쓴다고 트윗' 시나리오와의 거리는, 트윗 한 줄이 아니라 체계적 개발 루프이고 2026 상반기 +44% 성장이 그 루프와 동시대라는 점이다. **사람 승인 단계의 진짜 쟁점은 폐기된 '명시적 부정'이 아니라 이쪽이다.**\n\n## 프로브 순서 교훈이 영어권에서 재현됐다\n\nIH 기사(제품·성장 서사)에는 도구 언급이 **0건**이고 AI 언급은 전부 유통 채널이었다(\"Roughly 14% of new signups now come through ChatGPT, Claude, and Gemini\"). 도구 발화는 **팟캐스트(프로세스 대화)**에 있었다. RESEARCH_PIPELINE.md의 JP 층 프로브 순서에서 확립한 '제품 글만 보고 판정하면 전멸한다'가 언어권 무관 규칙임을 보여준다.\n\n## 미해결\n\nX 핸들 미특정(unverifiable — 검색이 반환한 '@Zigpoll'은 팟캐스트 제목 표기이지 계정 확인이 아니다). LinkedIn not_attempted. region 미확정."
  }
 }
