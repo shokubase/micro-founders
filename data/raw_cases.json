@@ -1748,5 +1748,39 @@
       "https://news.ycombinator.com/item?id=44522847"
     ],
     "confidence": "medium"
+  },
+  {
+    "id": "lunair",
+    "founders": [
+      "Guy Manzur"
+    ],
+    "product": "Lunair (lunair.ai)",
+    "domain": "AI 영상 생성 플랫폼",
+    "one_liner": "영상 프로그래밍 전문가가 인프라 층을 AI 빌더에 위임해 1인으로 만든 AI 영상 생성 툴 — 출시 60일에 ARR $100K",
+    "team_size": "1인",
+    "region": "이스라엘 텔아비브",
+    "revenue": "ARR $100K (2026-02, 출시 약 60일 시점) — 창업자 본인 Product Hunt 발화 \"It's been a crazy 2 months. We hit $100k ARR and have 5,000+ creators using Lunair, all while being a solo founder.\" **출시 60일차 연환산 런레이트이지 실현 누적매출이 아니다**",
+    "revenue_date": "2026-02",
+    "exit_status": "운영 중 (2026-08 가격표 라이브, Product Hunt 2026-02-15 #1 Product of the Day)",
+    "stack": [
+      "Base44 (앱)",
+      "Webflow (마케팅 사이트)",
+      "Lemon Squeezy",
+      "Stripe",
+      "Google Cloud Storage"
+    ],
+    "ai_tools": [
+      "Base44"
+    ],
+    "founder_background": "14세부터 프로그래밍, 영상 프로그래밍 전문성 보유 — 비개발자가 아니다. 애니메이션 스튜디오(Guyman Studio) 10년 운영, Fiverr Pro Vetted Seller. 렌더링 엔진은 자체 구현",
+    "business_model": "구독 $29.70/월 + 일회성 Top-Up $38.70 — 일회성이 섞이는 모델이라 ARR 지표 자체가 무르다",
+    "sources": [
+      "https://www.producthunt.com/p/lunair/bootstrapping-an-ai-video-tool-to-100k-arr-in-60-days-solo",
+      "https://www.producthunt.com/products/lunair",
+      "https://www.calcalistech.com/ctechnews/article/4js8ftv79",
+      "https://il.linkedin.com/in/guymanzur",
+      "https://lunair.ai"
+    ],
+    "confidence": "medium"
   }
 ]

@@ -31,7 +31,7 @@ TOOL_PROBED = {
     "zigpoll", "setter-ai", "artmvstd", "leadmore-ai",
     # 2026-08-13 차단 소스 재심 통과분. caret은 도구 발화가 전멸했으나 창업자 GitHub
     # 산출물까지 훑어 심사했으므로 probed다 (결과는 unknown).
-    "wrestle-ai", "caret",
+    "wrestle-ai", "caret", "lunair",
 }
 
 # 백필 시도했으나 확정 실패 — 재시도 시 같은 벽을 다시 치지 않도록 기록한다.
@@ -210,6 +210,10 @@ ENRICH = {
     founder_background="developer", founder_experience="serial",
     revenue_annual_usd_est=120000, ingested_at="2026-08-12",
     normalize_note="본인 일반진술 '경상 월 $10K 초과' × 12 = $120K를 하한으로 사용. **2026-07 최고치 $20,500을 연환산하지 않았다** — 일회성 구매 중심이라 월 변동이 크고(본인 발화 \"My revenue varies monthly because most of my products are one-time purchases\") 최고치 연환산은 부풀리기다. 더 중요하게 **이 총액은 제품 매출이 아니다** — 2026-07 구성의 38.5%($7,900)가 제휴 수입이고 $2,500은 제품명 비공개 앱이다. 이름이 특정된 자사 제품 매출은 $9,821(47.9%)에 그친다. 본인 표기 총액 $20,500과 항목 합 $20,221이 $279 어긋나며 원문에 5번째 항목은 없다 — 정상 반올림이 아니고 목표 달성을 위한 상향 유인도 없다($20,221도 이미 본인 $20K 목표 초과). IH 일반진술의 발화 시점은 불확정(게재 2026-08-06이나 본문 'Last month $15.7k'가 7월 결산과 불일치해 작성은 2026-07 이전). 도메인 분류 참고: scope-judge는 '메이커 툴/유통' 신설을 권고했으나 단일 사례 카테고리를 피해 '커머스/마케팅'으로 뒀다 — marc-lou·superx·kleo·launch-fast 등 '인디메이커에게 파는' 사례군을 함께 재분류할 때 반영할 것."),
+"lunair": dict(domain_category="AI 이미지/영상 생성", team_size_bucket="solo",
+    founder_background="developer", founder_experience="first-time",
+    revenue_annual_usd_est=100000, ingested_at="2026-08-13",
+    normalize_note="본인 발화 ARR $100K를 그대로 사용. **출시 60일차 연환산 런레이트이지 실현 매출이 아니다.** 결제사 검증 없음(TrustMRR 미등재), 약 6개월 된 값이라 현재형 표기 금지. 구독($29.70/월)에 일회성 Top-Up($38.70)이 섞이는 모델이라 ARR 지표 자체가 무르다. **2026-08-10 기각 번복 건이고, 기각 사유였던 '세 갈래 수치 불일치'는 실재하는 모순이 아니라 벤더의 단위 탈락 1건이었다** — 창업자 원문은 전부 ARR인데 재유통되며 'ARR'이 떨어져 '$100k in revenue', 'hit $100k in 60 days', 슬러그 '50k in 30 days'가 됐다. 벤더 블로그는 **같은 글 안에서 자멸한다** — 'in revenue within the first 2 months'라 써놓고 다른 대목에서 'The immediate goal is clear: $100k ARR'이라 쓴다. '$8k MRR'도 $100,000÷12=$8,333 역산 의심. **[혼동 위험 최고] 본인 PH 글의 'A major VC committed $100K based on one deck'는 매출이 아니라 투자 커밋이다 — 매출액과 자릿수가 같으므로 절대 섞지 말 것.** 같은 이유로 **'완전 부트스트랩'이라 쓰면 안 된다**(벤더 CEO의 'fully bootstrapped'가 본인 발화와 충돌하며 본인 1인칭이 상위다). **ai_tools 근거는 벤더 채널이 아니다 — 화자가 아예 없는 런타임 지문이다.** app.lunair.ai 프로덕션 번들(8.0MB)에 `base44.functions.invoke` **157회**, `Base44-App-Id`·`base44_access_token`·`Base44Error` 문자열, HTML의 파비콘·OG가 `base44-prod` 버킷, `data-seo-source=\"builder\"`(오케스트레이터 직접 확인). 보강으로 창업자가 PH 런칭 shoutout에 직접 기입했고 그 시점(2026-02-15)이 벤더 블로그(2026-02-16)보다 **하루 앞선다**. **제품측 AI는 배제했다** — 번들의 InvokeLLM·agents 호출과 영상 생성 엔진은 제품이 AI를 쓰는 것이다. Notion도 제외(운영 도구). **이 창업자는 노코더가 아니다** — '14세부터 프로그래밍', 렌더링 엔진 자체 구현. '개발자가 인프라 층을 AI 빌더에 위임한' 유형으로 읽어야 오분류가 안 난다. **인접 사례 주의: `base44`(Maor Shlomo)가 코퍼스에 있으나 플랫폼 제공자 vs 그 위의 빌더로 층이 다르다. 다만 Maor가 Lunair 홍보 게시물의 화자이기도 하므로 두 사례가 서로의 출처로 순환 인용되지 않게 할 것.** 독립 매체 Calcalist(2026-04-16)는 금액을 일절 확인해주지 않는다."),
 "wrestle-ai": dict(domain_category="헬스/라이프스타일", team_size_bucket="2-3",
     founder_background="non-developer", founder_experience="first-time",
     revenue_annual_usd_est=180000, ingested_at="2026-08-13",

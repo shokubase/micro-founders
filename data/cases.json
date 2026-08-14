@@ -2375,5 +2375,50 @@
     "funding_usd": null,
     "valuation_usd": null,
     "tool_question_probed": true
+  },
+  {
+    "id": "lunair",
+    "founders": [
+      "Guy Manzur"
+    ],
+    "product": "Lunair (lunair.ai)",
+    "domain": "AI 영상 생성 플랫폼",
+    "one_liner": "영상 프로그래밍 전문가가 인프라 층을 AI 빌더에 위임해 1인으로 만든 AI 영상 생성 툴 — 출시 60일에 ARR $100K",
+    "team_size": "1인",
+    "region": "이스라엘 텔아비브",
+    "revenue": "ARR $100K (2026-02, 출시 약 60일 시점) — 창업자 본인 Product Hunt 발화 \"It's been a crazy 2 months. We hit $100k ARR and have 5,000+ creators using Lunair, all while being a solo founder.\" **출시 60일차 연환산 런레이트이지 실현 누적매출이 아니다**",
+    "revenue_date": "2026-02",
+    "exit_status": "운영 중 (2026-08 가격표 라이브, Product Hunt 2026-02-15 #1 Product of the Day)",
+    "stack": [
+      "Base44 (앱)",
+      "Webflow (마케팅 사이트)",
+      "Lemon Squeezy",
+      "Stripe",
+      "Google Cloud Storage"
+    ],
+    "ai_tools": [
+      "Base44"
+    ],
+    "founder_background": "developer",
+    "business_model": "구독 $29.70/월 + 일회성 Top-Up $38.70 — 일회성이 섞이는 모델이라 ARR 지표 자체가 무르다",
+    "sources": [
+      "https://www.producthunt.com/p/lunair/bootstrapping-an-ai-video-tool-to-100k-arr-in-60-days-solo",
+      "https://www.producthunt.com/products/lunair",
+      "https://www.calcalistech.com/ctechnews/article/4js8ftv79",
+      "https://il.linkedin.com/in/guymanzur",
+      "https://lunair.ai"
+    ],
+    "confidence": "medium",
+    "domain_category": "AI 이미지/영상 생성",
+    "team_size_bucket": "solo",
+    "founder_experience": "first-time",
+    "revenue_annual_usd_est": 100000,
+    "ingested_at": "2026-08-13",
+    "normalize_note": "본인 발화 ARR $100K를 그대로 사용. **출시 60일차 연환산 런레이트이지 실현 매출이 아니다.** 결제사 검증 없음(TrustMRR 미등재), 약 6개월 된 값이라 현재형 표기 금지. 구독($29.70/월)에 일회성 Top-Up($38.70)이 섞이는 모델이라 ARR 지표 자체가 무르다. **2026-08-10 기각 번복 건이고, 기각 사유였던 '세 갈래 수치 불일치'는 실재하는 모순이 아니라 벤더의 단위 탈락 1건이었다** — 창업자 원문은 전부 ARR인데 재유통되며 'ARR'이 떨어져 '$100k in revenue', 'hit $100k in 60 days', 슬러그 '50k in 30 days'가 됐다. 벤더 블로그는 **같은 글 안에서 자멸한다** — 'in revenue within the first 2 months'라 써놓고 다른 대목에서 'The immediate goal is clear: $100k ARR'이라 쓴다. '$8k MRR'도 $100,000÷12=$8,333 역산 의심. **[혼동 위험 최고] 본인 PH 글의 'A major VC committed $100K based on one deck'는 매출이 아니라 투자 커밋이다 — 매출액과 자릿수가 같으므로 절대 섞지 말 것.** 같은 이유로 **'완전 부트스트랩'이라 쓰면 안 된다**(벤더 CEO의 'fully bootstrapped'가 본인 발화와 충돌하며 본인 1인칭이 상위다). **ai_tools 근거는 벤더 채널이 아니다 — 화자가 아예 없는 런타임 지문이다.** app.lunair.ai 프로덕션 번들(8.0MB)에 `base44.functions.invoke` **157회**, `Base44-App-Id`·`base44_access_token`·`Base44Error` 문자열, HTML의 파비콘·OG가 `base44-prod` 버킷, `data-seo-source=\"builder\"`(오케스트레이터 직접 확인). 보강으로 창업자가 PH 런칭 shoutout에 직접 기입했고 그 시점(2026-02-15)이 벤더 블로그(2026-02-16)보다 **하루 앞선다**. **제품측 AI는 배제했다** — 번들의 InvokeLLM·agents 호출과 영상 생성 엔진은 제품이 AI를 쓰는 것이다. Notion도 제외(운영 도구). **이 창업자는 노코더가 아니다** — '14세부터 프로그래밍', 렌더링 엔진 자체 구현. '개발자가 인프라 층을 AI 빌더에 위임한' 유형으로 읽어야 오분류가 안 난다. **인접 사례 주의: `base44`(Maor Shlomo)가 코퍼스에 있으나 플랫폼 제공자 vs 그 위의 빌더로 층이 다르다. 다만 Maor가 Lunair 홍보 게시물의 화자이기도 하므로 두 사례가 서로의 출처로 순환 인용되지 않게 할 것.** 독립 매체 Calcalist(2026-04-16)는 금액을 일절 확인해주지 않는다.",
+    "revenue_bucket": "100K-1M",
+    "exit_value_usd": null,
+    "funding_usd": null,
+    "valuation_usd": null,
+    "tool_question_probed": true
   }
 ]

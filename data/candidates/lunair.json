@@ -1,6 +1,6 @@
 {
  "id": "lunair",
- "status": "pending_verification",
+ "status": "merged",
  "discovered_at": "2026-08-10",
  "discovery_source": "https://base44.com/blog/builder-spotlight-how-guy-manzur-built-an-ai-video-platform-and-hit-50k-in-30-days (Tier2)",
  "case": {
@@ -10,19 +10,23 @@
   ],
   "product": "Lunair (lunair.ai)",
   "domain": "AI 비디오 플랫폼",
-  "one_liner": "애니메이션 스튜디오 10년 경력자가 1인으로 만든 AI 영상 생성 툴 — 출시 60일에 ARR $100K",
+  "one_liner": "영상 프로그래밍 전문가가 인프라 층을 AI 빌더에 위임해 1인으로 만든 AI 영상 생성 툴 — 출시 60일에 ARR $100K",
   "team_size": "1인",
   "region": "이스라엘 텔아비브",
   "revenue": "ARR $100K (2026-02, 출시 약 60일 시점) — 창업자 본인 Product Hunt 발화 \"It's been a crazy 2 months. We hit $100k ARR and have 5,000+ creators using Lunair, all while being a solo founder.\" **출시 60일차 연환산 런레이트이지 실현 누적매출이 아니다**",
   "revenue_date": "2026-02",
   "exit_status": "운영 중",
   "stack": [
-   "Base44"
+   "Base44 (앱)",
+   "Webflow (마케팅 사이트)",
+   "Lemon Squeezy",
+   "Stripe",
+   "Google Cloud Storage"
   ],
   "ai_tools": [
    "Base44"
   ],
-  "founder_background": "Guy Manzur. 애니메이션 스튜디오(Guyman Studio) 10년 운영, Fiverr Pro Vetted Seller",
+  "founder_background": "Guy Manzur. **14세부터 프로그래밍**, 영상 프로그래밍 전문성 보유 — 비개발자가 아니다. 애니메이션 스튜디오(Guyman Studio) 10년 운영, Fiverr Pro Vetted Seller. 렌더링 엔진은 자체 구현",
   "business_model": "구독 $29.70/월 + 일회성 Top-Up $38.70 — 일회성이 섞이는 모델이라 ARR 지표 자체가 무르다",
   "sources": [
    "https://www.producthunt.com/p/lunair/bootstrapping-an-ai-video-tool-to-100k-arr-in-60-days-solo",
@@ -40,7 +44,7 @@
   "checklist_passed": [
    "figures:pass (2026-08-13 재심, 기각 번복)",
    "existence:pass",
-   "scope:미판정"
+   "scope:pass"
   ],
   "primary_sources": [
    "https://base44.com/blog/builder-spotlight-how-guy-manzur-built-an-ai-video-platform-and-hit-50k-in-30-days (secondary/marketing — 모든 수치의 유일 출처)",
@@ -61,7 +65,15 @@
    "region: 'unknown (이스라엘 추정 — Base44 생태계)' → **이스라엘 텔아비브**. **'생태계'는 지리 근거가 아니다** — LinkedIn location 'Tel Aviv District, Israel' 직접 확인, 히브리대 학력, 본인 PH 글 'first solo-founders in my country'",
    "founded_year 2025 신설 — Calcalist(2026-04-16) 본인 발화 \"My company has only been around for four months\" + Maor 게시물(≈2026-01-12) 교차",
    "team_size 1인 3중 확인 — 본인 발화 + Calcalist(독립) + 벤더",
-   "founder_background unknown → 애니메이션 스튜디오 10년"
+   "founder_background unknown → 애니메이션 스튜디오 10년",
+   "**[스코프 렌즈] ai_tools를 Base44로 확정했다. 근거가 벤더 채널이 아니다** — 서로 독립인 두 축이 일치한다:",
+   "  **(1) 런타임 지문 — 화자가 아예 없다.** app.lunair.ai는 창업자 본인 도메인에서 서빙되는 프로덕션 앱이고 벤더 발행 문서가 아니다. **오케스트레이터가 직접 받아 확인**: HTML의 파비콘·OG가 `base44-prod` 스토리지 버킷, `data-seo-source=\"builder\"`, 8.0MB 번들에 **`base44.functions.invoke` 157회**, `Base44-App-Id`·`base44_access_token`·`Base44Error` 문자열",
+   "  **(2) Product Hunt 런칭 shoutout — 창업자 본인이 벤더 무관 플랫폼에 직접 기입.** \"Base44's AI infrastructure capabilities and API-first approach made it the perfect fit... exactly what we needed for our video rendering pipeline and multiple third-party connections\". **시간순도 벤더 상류가 아니다** — PH 런칭 2026-02-15가 벤더 블로그(2026-02-16 발행)보다 하루 앞선다",
+   "**제품측 AI는 근거에서 명시적으로 배제했다.** 번들의 `base44.integrations.Core.InvokeLLM`·`base44.agents.*` 호출과 영상 생성 엔진은 **Lunair가 AI를 쓰는 것**이라 스코프 근거가 아니다. 채택한 것은 앱 자체가 Base44 플랫폼 위에 구축됐다는 사실뿐이다",
+   "**Notion은 ai_tools에 넣지 않았다** — 같은 shoutout에 있으나 본인 설명이 \"roadmap, specs, meeting notes, CRM-lite\"로 운영 도구다",
+   "**[중요] 이 창업자는 노코더가 아니다.** 본인 PH 글 \"Programming experience since age 14\", Calcalist \"expertise in video programming\", 렌더링 엔진 자체 구현. **'AI 빌더로 전부 만든 비개발자'가 아니라 '개발자가 인프라 층을 AI 빌더에 위임한' 유형**이며 one_liner에 반영했다",
+   "**'완전 부트스트랩'이라 쓰지 말 것.** 벤더 CEO의 \"fully bootstrapped\"는 창업자 본인 PH 글(\"A major VC committed $100K based on one deck\")과 충돌한다. 벤더 3인칭보다 본인 1인칭이 상위다",
+   "stack 확정 — Base44(앱) / Webflow(마케팅 사이트, cdn.prod.website-files.com) / Lemon Squeezy·Stripe(결제) / Google Cloud Storage"
   ],
   "excluded_figures": [
    "[figures] '$100k in revenue within the first 2 months' — refuted (ARR의 누적매출 오변환, 같은 글과 자기모순)",
@@ -73,6 +85,7 @@
    "[figures] ARR $100K는 약 6개월 된 값이다. 현재형 표기 금지"
   ],
   "confidence_recommendation": "medium",
-  "notes": "**수치 렌즈 pass (2026-08-10 기각 번복). 스코프 렌즈 미판정이라 pending_verification.**\n\n## 이 건이 남긴 것 — 벤더 재유통은 단위를 떨어뜨린다\n\n오염 사슬이 완전히 복원됐다: **창업자 'ARR $100K' → 벤더 블로그가 'in revenue'로 변환 → 제목·슬러그에서 'ARR' 탈락 → 후보 파일에 '세 갈래 불일치'로 기재.** 원 발화는 하나였다.\n\n판별법: **금액이 여러 갈래로 갈리면 각 갈래의 화자를 먼저 세워라.** 여기서는 갈래가 많을수록 상류에서 멀어지는 구조였고, 창업자에 가장 가까운 표기가 유일하게 단위를 갖고 있었다.\n\n## anything 선례와 갈리는 지점\n\n출처가 벤더(Base44) 마케팅이라 `anything`(유일 발화자가 Lovable CEO, confidence low)과 같은 구조로 보였으나 **결정적으로 다르다 — 벤더와 무관한 채널(Product Hunt)에서 창업자 본인이 직접 말했다.** 그래서 low가 아니라 medium이다.\n\n## 남은 것\n\n**스코프 렌즈 미판정.** Base44 사용 발화가 벤더 글에 인용된 1인칭이라 제3 채널 교차 확인이 필요하다. 제품측 AI(영상 생성)와 제작측 도구(Base44)는 구분돼 있다."
- }
+  "notes": "**수치 렌즈 pass (2026-08-10 기각 번복). 스코프 렌즈 미판정이라 pending_verification.**\n\n## 이 건이 남긴 것 — 벤더 재유통은 단위를 떨어뜨린다\n\n오염 사슬이 완전히 복원됐다: **창업자 'ARR $100K' → 벤더 블로그가 'in revenue'로 변환 → 제목·슬러그에서 'ARR' 탈락 → 후보 파일에 '세 갈래 불일치'로 기재.** 원 발화는 하나였다.\n\n판별법: **금액이 여러 갈래로 갈리면 각 갈래의 화자를 먼저 세워라.** 여기서는 갈래가 많을수록 상류에서 멀어지는 구조였고, 창업자에 가장 가까운 표기가 유일하게 단위를 갖고 있었다.\n\n## anything 선례와 갈리는 지점\n\n출처가 벤더(Base44) 마케팅이라 `anything`(유일 발화자가 Lovable CEO, confidence low)과 같은 구조로 보였으나 **결정적으로 다르다 — 벤더와 무관한 채널(Product Hunt)에서 창업자 본인이 직접 말했다.** 그래서 low가 아니라 medium이다.\n\n## 남은 것\n\n**스코프 렌즈 미판정.** Base44 사용 발화가 벤더 글에 인용된 1인칭이라 제3 채널 교차 확인이 필요하다. 제품측 AI(영상 생성)와 제작측 도구(Base44)는 구분돼 있다.\n\n---\n\n## 스코프 렌즈 pass (2026-08-13) — 새로운 증거 유형이 나왔다\n\n쟁점은 '도구 근거가 둘 다 벤더 채널'이었고, **런타임 지문**으로 해소됐다. 이건 발화도 인용도 아니고 **산출물 그 자체**라 ASR 오독·요약 왜곡·화자 오귀속 위험이 구조적으로 없다. 오늘 caret에서 GitHub 산출물로 도구를 확인한 것의 한 단계 강한 버전이다 — caret은 창업자의 *다른* 레포였지만, 여기는 **문제의 제품 그 자체**가 증거다.\n\n**§0.6 패턴이 또 재현됐다.** 성장·수익 서사 글(PH 스레드, LinkedIn 게시물)에는 도구 언급이 0건이고, 제작 맥락 필드(PH shoutout)와 산출물에 있었다. 오늘만 네 번째다(zigpoll·artmvstd·setter-ai·lunair).\n\n**anything 선례와 두 단계 다르다.** anything은 유일 화자가 벤더 CEO여서 low였다. 여기는 벤더 채널을 근거에서 전부 빼도 결론이 유지된다.\n\n## 인접 사례 주의\n\n`base44`(Maor Shlomo)가 이미 코퍼스에 있다. **플랫폼 제공자 vs 그 위의 빌더**로 층이 다르고 창업자·제품이 모두 달라 중복이 아니다. 다만 Maor Shlomo가 Lunair 홍보 게시물의 화자이기도 하므로 **두 사례가 서로의 출처로 순환 인용되지 않게** 할 것."
+ },
+ "merged_at": "2026-08-13"
 }
