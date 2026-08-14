@@ -29,6 +29,9 @@ TOOL_PROBED = {
     # 2026-08-13 재심 통과분 — 전부 2026-08-11에 '도구 언급 없음 = fail'로 기각됐던 건이다.
     # 넷 중 셋에서 실제로는 도구 발화가 존재했다(1차 출처를 한 편만 봤던 것이 원인).
     "zigpoll", "setter-ai", "artmvstd", "leadmore-ai",
+    # 2026-08-13 차단 소스 재심 통과분. caret은 도구 발화가 전멸했으나 창업자 GitHub
+    # 산출물까지 훑어 심사했으므로 probed다 (결과는 unknown).
+    "wrestle-ai", "caret",
 }
 
 # 백필 시도했으나 확정 실패 — 재시도 시 같은 벽을 다시 치지 않도록 기록한다.
@@ -207,6 +210,14 @@ ENRICH = {
     founder_background="developer", founder_experience="serial",
     revenue_annual_usd_est=120000, ingested_at="2026-08-12",
     normalize_note="본인 일반진술 '경상 월 $10K 초과' × 12 = $120K를 하한으로 사용. **2026-07 최고치 $20,500을 연환산하지 않았다** — 일회성 구매 중심이라 월 변동이 크고(본인 발화 \"My revenue varies monthly because most of my products are one-time purchases\") 최고치 연환산은 부풀리기다. 더 중요하게 **이 총액은 제품 매출이 아니다** — 2026-07 구성의 38.5%($7,900)가 제휴 수입이고 $2,500은 제품명 비공개 앱이다. 이름이 특정된 자사 제품 매출은 $9,821(47.9%)에 그친다. 본인 표기 총액 $20,500과 항목 합 $20,221이 $279 어긋나며 원문에 5번째 항목은 없다 — 정상 반올림이 아니고 목표 달성을 위한 상향 유인도 없다($20,221도 이미 본인 $20K 목표 초과). IH 일반진술의 발화 시점은 불확정(게재 2026-08-06이나 본문 'Last month $15.7k'가 7월 결산과 불일치해 작성은 2026-07 이전). 도메인 분류 참고: scope-judge는 '메이커 툴/유통' 신설을 권고했으나 단일 사례 카테고리를 피해 '커머스/마케팅'으로 뒀다 — marc-lou·superx·kleo·launch-fast 등 '인디메이커에게 파는' 사례군을 함께 재분류할 때 반영할 것."),
+"wrestle-ai": dict(domain_category="헬스/라이프스타일", team_size_bucket="2-3",
+    founder_background="non-developer", founder_experience="first-time",
+    revenue_annual_usd_est=180000, ingested_at="2026-08-13",
+    normalize_note="**최근 월별 $15K(2026-04) × 12를 썼다 — 정점이 아니라 최근값이다.** 본인 발화로 월별 시계열 전체가 확보된 드문 사례이고 궤적은 첫 달 $17K(2025-10) → $30K(12월) → **$40K 피크(2026-01)** → $28K → $20K → $15K(4월)다. setter-ai와 함께 하락 표본. **후보 최초 기재의 '월 $17,000'을 연환산하지 않았다** — 그건 첫 달 값이고, 더 중요하게 $8,000(월간 구독) + $9,000(그 달 결제된 연간 구독)의 **월 현금 합**이라 ×12하면 연간 플랜분이 매월 재발생한다고 가정하는 이중계상이 된다(연간 $9,000의 월 환산은 ÷12 ≈ $750). **미러 요약이 '첫 달/둘째 달'로 갈렸는데 원문 \"So 17,000 in the first month\"로 해소했다** — caret·artmvstd에 이은 요약 오염 세 번째다. **[내 오류] team_size '1인'이 반박됐다** — 본인 1인칭 \"I want to do this with you will be partners, like 50, 50\"이고 Rork 케이스 스터디도 독립 확인한다. 공동창업자 실명은 두 ASR 미러가 'Kaden Henshall'/'Kate and Henshaw'로 갈려 미확정(§0.6 ASR 규칙). **[내 오류] 'Fiverr 외주 $250'은 용도가 다르다** — 본인 발화는 인플루언서 아웃리치용 VA 채용이고, '프리랜스 개발자 $250'은 벤더(Rork) 서술뿐이다. ai_tools는 Rork 단독 — 본인 \"I built all these apps on Rourke... It's like an AI app builder. Like Replit? Exactly\"이며 ASR 'Rourke'는 패키지명 app.rork.wrestleai·벤더 케이스 스터디로 3중 확정. **ChatGPT는 제외** — 전사의 GPT 언급은 제품 백엔드 모델 질문에 대한 답이다. **Rork 벤더 수치는 본인 발화와 모순되므로 미채택**(벤더는 2026-02를 월 $39.4K라 했으나 본인은 \"it was like 28\"). gross/net 미확정 — \"Apple was holding 17 K that we're gonna get paid out in December\"로 보아 수수료 차감 전일 가능성. **다운로드 17,000건은 매출 $17,000과 자릿수가 같아 혼동 위험이 커 제거했다.** App Store id6753085689는 카피캣 가능성이 높으니 식별자는 id6751189075로 고정할 것. **2026-08-10 기각 번복 건** — 사유가 '원출처 URL 미확인'이었는데 Starter Story 에피소드는 실재했다. 증거 부재가 아니라 조사 미완이었다."),
+"caret": dict(domain_category="생산성/업무도구 SaaS", team_size_bucket="4+",
+    founder_background="developer", founder_experience="first-time",
+    revenue_annual_usd_est=60000, ingested_at="2026-08-13",
+    normalize_note="본인 발화 ARR $60K를 그대로 사용($60,000 × 1,350 = ₩81,000,000으로 자체 정합, 뉴스레터 부제 '3개월 만에 ARR 8,000만원'과 일치). **이 사례는 요약 모델이 죽였다가 살아난 건이다** — 기각 사유가 '6만인지 60만인지 확인 필요'였고 원문은 6만이었다. **요약 fetch가 자릿수를 10배 바꿨고 그 모순 때문에 15개월간 rejected였다.** 같은 날 artmvstd(댓글→창업자 1인칭)와 wrestle-ai(첫 달→둘째 달)에서도 요약 오염이 나왔다. **[가장 중요한 교정] 후보 최초 기재의 '바이브코딩으로 만든'은 근거가 없어 제거했다.** 인터뷰의 바이브코딩 발화는 사내 실험이다 — \"일부러 코드 하나도 안쓰고... 1시간 시간 제한 걸어놓고... 해커톤을 열어보려고\"에서 '일부러'·'시도'·'1시간 제한'·'해커톤' 네 표지가 전부 기본 워크플로로부터의 이탈을 가리키고, 질문 자체도 '팀이 자주 쓰는 AI 서비스'였지 제작 과정을 묻지 않았다. **단 §0.6 기준 부정 발화는 아니다** — '코드 하나도 안 쓰고'의 부정항은 직접 타이핑한 코드이며 오히려 '평소엔 사람이 코드를 쓴다'를 전제한다. 'Cursor for Email'도 이메일 제품 비유이지 도구 사용이 아니다. **도구 근거는 기사가 아니라 창업자 GitHub 산출물에서 나왔다** — 공동창업자 레포 hiddenest/awake는 README가 \"only while supported AI coding tools are actively progressing\"이고 claude-code·codex·cursor-agent·opencode를 감시 대상으로 명시한다(2026-07). CEO 레포 therne/opengmail에는 CLAUDE.md→AGENTS.md 에이전트 규칙 파일이 있다(2026-08). **발화 프로브가 전멸해도 산출물 프로브가 남는다**는 것이 이 건의 수확이다. **그럼에도 ai_tools는 unknown** — 그 산출물은 전부 2026년 Aside 시기이고 Caret 본체(2025-02, 2주 제작) 귀속은 미확인이다. team_size_bucket '4+'는 코퍼스 6건(cursor·lovable·bolt-new·cal-ai·quicktables·kleo)과 같은 층이며, 이 사례는 YC F25·프리시드 15억 원으로 아카이브 내 대형 층에 속한다. region은 setter-ai 선례대로 복합 표기(한국인 창업팀, 법인 At Your Side Inc. 샌프란시스코). **수치는 2025년 미팅노트 시기 스냅샷이고 제품은 이후 AI 브라우저 Aside로 피벗했다** — 현행 런레이트로 읽으면 안 된다. 2025-05 이후 15개월간 갱신 수치 없음. **동명이인 주의: 한국의 캐럿티브(Carrative)가 만든 오픈소스 바이브코딩 툴 '캐럿'은 전혀 다른 제품이며 검색에서 상위에 뜬다.**"),
 "zigpoll": dict(domain_category="생산성/업무도구 SaaS", team_size_bucket="solo",
     founder_background="developer", founder_experience="serial",
     revenue_annual_usd_est=1500000, ingested_at="2026-08-13",

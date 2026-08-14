@@ -1685,5 +1685,68 @@
       "https://leadmore.ai"
     ],
     "confidence": "medium"
+  },
+  {
+    "id": "wrestle-ai",
+    "founders": [
+      "George Lampropoulos",
+      "레슬링 인플루언서 공동창업자 1인 (지분 50%, 실명 미확정)"
+    ],
+    "product": "Wrestle AI (+ Fight AI 등)",
+    "domain": "레슬링 훈련 모바일 앱",
+    "one_liner": "코딩 경험 없이 AI 앱 빌더로 만든 레슬링 훈련 앱 — 9개월 누적 $225K, 인플루언서와 50/50",
+    "team_size": "2인 (본인 + 레슬링 인플루언서 공동창업자, 50/50 지분. 개발은 본인 단독)",
+    "region": "미국 뉴욕주 롱아일랜드",
+    "revenue": "전 앱 합산 누적 약 $225,000 (약 9개월) — 본인 발화 \"To date, I think 225,000... in like nine months of building vibe coding apps without any coding experience\" (2026-07). **Wrestle AI 월 총매출 추이(본인 발화): 2025-10 첫 달 $17K → 2025-12 $30K → 2026-01 $40K(피크) → 2026-02 $28K → 2026-03 $20K → 2026-04 $15K.** 정점 이후 하락 중이다",
+    "revenue_date": "2026-07 (누적) / 2026-04 (최근 월별)",
+    "exit_status": "운영 중 (App Store id6751189075, IMPROVESCAPE LLC, 4.8/1.9K 평점)",
+    "stack": [
+      "Rork (AI 앱 빌더)",
+      "Swift",
+      "OpenAI API"
+    ],
+    "ai_tools": [
+      "Rork"
+    ],
+    "founder_background": "코딩 경험 없이 시작 — 본인 발화 \"I don't know how to code\", \"I literally knew zero\". 첫 앱 Fight AI를 2025-07-02, Wrestle AI를 2025-09-26 출시",
+    "business_model": "앱 내 구독 — $9.99/월, $59.99/년 (본인 발화 \"10 bucks a month, 60 for a year\"), 할인 연간 $29.99",
+    "sources": [
+      "https://podscripts.co/podcasts/the-koerner-office-business-ideas-and-deep-dives-with-chris-koerner/19-year-old-made-225k-in-9-months-vibe-coding-no-experience-ep-318",
+      "https://podcasts.apple.com/at/podcast/i-vibe-coded-a-%2417k-month-mobile-app/id1856101070?i=1000741322265",
+      "https://apps.apple.com/us/app/wrestle-ai/id6751189075",
+      "https://maily.so/josh/posts/8do7kvwyrgq"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "caret",
+    "founders": [
+      "김효준 (Jun Kim, CEO)",
+      "이찬희 (Chanhee Lee)",
+      "이상훈 (Sanghun Lee)"
+    ],
+    "product": "Caret (caret.so)",
+    "domain": "AI 미팅노트 SaaS",
+    "one_liner": "고등학교 친구 3인이 2주 만에 만들어 3개월 만에 ARR $60K에 도달 — 이후 AI 브라우저로 피벗",
+    "team_size": "공동창업자 3인 (인터뷰 시점 4인, 2026-08 현재 YC 등재 5인)",
+    "region": "미국 샌프란시스코",
+    "revenue": "3개월 만에 ARR 약 $60,000 (2025-05) — 본인 발화 \"3개월 동안 ARR이 6만 불(약 8천만 원)이 조금 넘었어요\". 유저 약 3,000명 / 조직 약 50개 / 유료 약 300명(전체의 10%). B2B 반 B2C 반이며 당시 전주 대비 최소 20% 성장 중",
+    "revenue_date": "2025-05",
+    "exit_status": "운영 중 — 단 Caret은 이후 AI 브라우저 Aside로 피벗했다(YC F25, 한·미 합계 프리시드 15억 원). 이 수치는 2025년 미팅노트 시기 스냅샷이다",
+    "stack": [
+      "unknown"
+    ],
+    "ai_tools": [
+      "unknown"
+    ],
+    "founder_background": "공동창업자 3인 전원 엔지니어, 고등학교 동창. 인터뷰 시점 평균 26세이며 4명 경력 합계 26년. 이찬희는 AB180 출신(2024-12 퇴사)",
+    "business_model": "SaaS 구독 (Free 7일 무료체험 / 200분 크레딧 / Team / Enterprise) + 제품 출시 전 지인 선판매로 이틀 만에 100만 원",
+    "sources": [
+      "https://maily.so/unsexybusinesskr/posts/x1zgn49poqg",
+      "https://www.ycombinator.com/companies/aside",
+      "https://caret.so/",
+      "https://news.ycombinator.com/item?id=44522847"
+    ],
+    "confidence": "medium"
   }
 ]
