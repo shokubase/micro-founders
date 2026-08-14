@@ -32,19 +32,32 @@ TOOL_PROBED = {
     # 2026-08-13 차단 소스 재심 통과분. caret은 도구 발화가 전멸했으나 창업자 GitHub
     # 산출물까지 훑어 심사했으므로 probed다 (결과는 unknown).
     "wrestle-ai", "caret", "lunair",
+    # 2026-08-13 코퍼스 감사분. 게이트 뒤 섹션 + 본인 X·YouTube까지 훑었다.
+    # 결과는 unknown 유지지만 '찾아봤다'는 사실은 기록한다.
+    "samuel-rondot-portfolio",
 }
 
-# 백필 시도했으나 확정 실패 — 재시도 시 같은 벽을 다시 치지 않도록 기록한다.
+# 백필 기록.
 #
-# samuel-rondot-portfolio: ai_tools를 채우지 않는다.
-#   IH 글(OA5p18fXtvHGxP9xTAwG)의 Claude/Cursor 언급 11건이 **전부 제3자 댓글**이다.
-#   viascan("I created a SAAS in two days thanks to Claude AI")과 jettfu("All coding
-#   written by Claude")는 댓글 작성자 본인 얘기이고, Finalertcleveland("Are you still
-#   building by coding by yourself or vibe coding now?")와 Edgar("if you'd had today's
-#   AI coding tools from the very beginning?")는 창업자에게 던진 **질문**이다.
-#   창업자 본인 발화는 하나도 없다.
-#   본문에 'Leveraging AI tools to build' 섹션이 존재하나 **IH 페이월** 안에 있어
-#   접근 불가다(계정 생성은 하지 않는다). 즉 근거 부재가 아니라 not_attempted다.
+# samuel-rondot-portfolio (2026-08-13 감사로 갱신 — 아래 옛 판단은 폐기됐다):
+#   [폐기] "'Leveraging AI tools to build' 섹션이 IH 페이월 안에 있어 접근 불가,
+#          계정 생성은 하지 않으므로 not_attempted" → **계정은 필요 없었다.**
+#          raw HTML에 전문이 있다(§"IH 가입 장벽은 렌더링에만 걸린다").
+#   [유지] IH 본문의 Claude/Cursor 언급이 전부 제3자 댓글이라는 판단은 맞다.
+#          댓글 123건의 작성자 핸들을 전수 추출해도 samuelrdt는 0건이다 —
+#          도구 질문은 두 번 왔고 **창업자는 답하지 않았다.** 무응답은 부정이 아니다
+#          (faceless-video는 질문에 *답하며* 거부해서 fail이었다).
+#   [신규] 게이트 뒤 섹션은 제목과 내용이 반대였다. 제목은 편집자가 붙였고 창업자
+#          문장은 전부 가정법이다("If I had to start again today, I would use AI tools
+#          heavily... It would have saved me months"). §0.6 테스트 1 적용 결과
+#          부정항은 AI 도구가 아니라 "AI가 코딩 학습을 대체한다"는 명제이고,
+#          같은 글이 두 섹션 뒤에서 스스로 취소한다("Use AI coding tools to build
+#          your MVP fast").
+#   [신규] §0.6 테스트 2로 본인 YouTube(@samuelrdt)를 열었더니 **채널 자체가
+#          바이브코딩 프로세스 채널**이었다("Built 100% with Capacity.so",
+#          "the entire app was built in just a couple of days using AI").
+#          단 대상이 데모 앱이고 자사 도구(Capacity.so) 마케팅 맥락이라
+#          매출 제품 제작 귀속은 여전히 미확인 → ai_tools는 unknown 유지.
 
 ENRICH = {
 "base44": dict(domain_category="AI 코딩/개발툴", team_size_bucket="solo",
@@ -115,7 +128,8 @@ ENRICH = {
     revenue_annual_usd_est=744000, normalize_note="MRR $62K * 12 (1년차 실적 $500K와 유사)."),
 "samuel-rondot-portfolio": dict(domain_category="생산성/업무도구 SaaS", team_size_bucket="solo",
     founder_background="developer", founder_experience="serial",
-    revenue_annual_usd_est=360000, normalize_note="포트폴리오 합계 월 $28-35K * 12."),
+    revenue_annual_usd_est=336000, ingested_at="2026-08-13",
+    normalize_note="**유지·확장형 — 기원 2017(인스타그램 자동화 서비스, WordPress+인력 대행, 창 밖)이나 매출 축은 창 안이다**: StoryShort 2024-08-06 착수(TrustMRR Stripe 연동 레코드), Capacity ~2024-12 착수(본인 X 2025-12-08 \"@BaptisteStuder_ and I spent a year building\"). 연환산은 IH(2025-12) 본문 1인칭 합계 월 $28K × 12 = $336K. **종전 $360K는 2025-07 시점 $35K를 섞은 범위 상단값이라 폐기했다 — $35K→$28K는 증가가 아니라 감소다.** 범위 표기가 감소 추세를 위장하고 있었다. **단품 검증치:** StoryShort는 Stripe 연동 MRR $21,024 / 최근 30일 $21,117 / 활성구독 376 / 누적 $541,898(TrustMRR, 2026-08-13 갱신). 단가 $55.9로 공개 티어 $39~$199 범위 내 정합. useArtemis·Capacity는 TrustMRR 미등재(404)라 검증치 없음. **X 바이오 수치($15k/$25k/$1.6k)는 IH 기사와 역방향으로 엇갈려(Capacity는 낮고 useArtemis는 높다) 갱신 시점 불명 — 채택하지 않았다.** **[중대] StoryShort가 2025-12-18부터 호가 $1.2M로 매각 리스팅 중이다**(오퍼 20건, 30일 성장 -7.5%) — exit_status 해석 시 반영할 것. **ai_tools 감사 결과(2026-08-13):** IH의 'Leveraging AI tools to build' 섹션은 **제목이 편집자(James Fleischmann) 작성**이고 창업자 문장은 전부 가정법이다(\"If I had to start again today, I would... It would have saved me months\"). §0.6 테스트 1 적용 — 부정항은 AI 도구가 아니라 '**AI가 코딩 학습을 대체한다**'는 명제이고(대비 구조가 `learn to code` ↔ `even with AI coding tools`), 함의의 시간 범위도 \"early on... I didn't know how to code\"인 창 밖 기원기다. 게다가 **같은 글이 두 섹션 뒤에서 스스로 취소한다** — \"Use AI coding tools to build your MVP fast.\" 댓글 123건 작성자를 전수 추출해도 창업자는 0건이라 **도구 질문 2건에 답하지 않았다**(faceless-video는 답하며 거부해서 fail이었다 — 무응답은 부정이 아니다). §0.6 테스트 2로 본인 YouTube(@samuelrdt)를 열었더니 **채널 자체가 바이브코딩 프로세스 채널**이고 1인칭 발화가 다수다(\"Built 100% with Capacity.so\", \"the entire app was built in just a couple of days using AI\"). **그럼에도 ai_tools는 unknown을 유지한다 — 그 발화의 대상이 데모 앱이고 자사 도구 Capacity.so 마케팅 맥락이며, 매출의 90%+를 만드는 StoryShort·useArtemis를 AI 도구로 만들었다는 근거는 없다. 이 사례를 'AI 도구로 만든 매출 제품'으로 과대 서술하지 말 것.** region 확정: X 프로필 location 'Lyon, France' + TrustMRR country FR. **불일치 기록** — IH 본문의 \"I lived in France, right next to the Swiss border\"는 과거형이며 옵티션 시절 거주지다(리옹은 스위스 국경 인접이 아니다)."),
 "lancer": dict(domain_category="커머스/마케팅", team_size_bucket="2-3",
     founder_background="developer", founder_experience="serial",
     revenue_annual_usd_est=300000, normalize_note="현재 MRR $25K * 12."),
