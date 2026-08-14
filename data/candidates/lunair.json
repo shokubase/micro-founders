@@ -1,6 +1,6 @@
 {
  "id": "lunair",
- "status": "rejected",
+ "status": "pending_verification",
  "discovered_at": "2026-08-10",
  "discovery_source": "https://base44.com/blog/builder-spotlight-how-guy-manzur-built-an-ai-video-platform-and-hit-50k-in-30-days (Tier2)",
  "case": {
@@ -10,11 +10,11 @@
   ],
   "product": "Lunair (lunair.ai)",
   "domain": "AI 비디오 플랫폼",
-  "one_liner": "Base44로 만든 AI 비디오 플랫폼 — 출시 초기 고속 수익화 주장 (수치 불일치 있음)",
+  "one_liner": "애니메이션 스튜디오 10년 경력자가 1인으로 만든 AI 영상 생성 툴 — 출시 60일에 ARR $100K",
   "team_size": "1인",
-  "region": "unknown (이스라엘 추정 — Base44 생태계)",
-  "revenue": "\"$8k MRR (Lemon Squeezy 구독)\", \"$100k in revenue within the first 2 months\" — 단 글 제목은 'hit $100k in 60 days', URL 슬러그는 '50k in 30 days'로 불일치",
-  "revenue_date": "2025-2026",
+  "region": "이스라엘 텔아비브",
+  "revenue": "ARR $100K (2026-02, 출시 약 60일 시점) — 창업자 본인 Product Hunt 발화 \"It's been a crazy 2 months. We hit $100k ARR and have 5,000+ creators using Lunair, all while being a solo founder.\" **출시 60일차 연환산 런레이트이지 실현 누적매출이 아니다**",
+  "revenue_date": "2026-02",
   "exit_status": "운영 중",
   "stack": [
    "Base44"
@@ -22,20 +22,25 @@
   "ai_tools": [
    "Base44"
   ],
-  "founder_background": "unknown",
-  "business_model": "구독 (Lemon Squeezy)",
+  "founder_background": "Guy Manzur. 애니메이션 스튜디오(Guyman Studio) 10년 운영, Fiverr Pro Vetted Seller",
+  "business_model": "구독 $29.70/월 + 일회성 Top-Up $38.70 — 일회성이 섞이는 모델이라 ARR 지표 자체가 무르다",
   "sources": [
+   "https://www.producthunt.com/p/lunair/bootstrapping-an-ai-video-tool-to-100k-arr-in-60-days-solo",
+   "https://www.calcalistech.com/ctechnews/article/4js8ftv79",
+   "https://il.linkedin.com/in/guymanzur",
+   "https://www.producthunt.com/products/lunair",
    "https://base44.com/blog/builder-spotlight-how-guy-manzur-built-an-ai-video-platform-and-hit-50k-in-30-days",
    "https://lunair.ai"
   ],
-  "confidence": "low"
+  "confidence": "medium",
+  "founded_year": 2025
  },
  "verification": {
   "verified_at": "2026-08-10",
   "checklist_passed": [
+   "figures:pass (2026-08-13 재심, 기각 번복)",
    "existence:pass",
-   "figures:fail",
-   "scope:pass"
+   "scope:미판정"
   ],
   "primary_sources": [
    "https://base44.com/blog/builder-spotlight-how-guy-manzur-built-an-ai-video-platform-and-hit-50k-in-30-days (secondary/marketing — 모든 수치의 유일 출처)",
@@ -48,21 +53,26 @@
    "https://www.producthunt.com/p/self-promotion/how-i-got-100k-off-a-single-deck-building-lunair-solo-founder-2 (primary — 창업자 본인 게시, 단 $100K는 투자금 문맥이며 매출 발화 아님)"
   ],
   "corrections": [
-   "region: 'unknown (이스라엘 추정)' → '이스라엘 텔아비브' — 근거: LinkedIn 프로필 소재지 Tel Aviv District, Israel (https://il.linkedin.com/in/guymanzur) + Startup Nation Finder 이스라엘 스타트업 등재 (https://finder.startupnationcentral.org/company_page/lunair)",
-   "founder_background: 'unknown' → 'Fiverr 애니메이터/비디오 제작자 (Top Animator 2016, Pro Vetted Seller 2022)' — 근거: LinkedIn 프로필 + Calcalist Ctech 기사 교차 일치 (https://www.calcalistech.com/ctechnews/article/4js8ftv79)",
-   "revenue 필드의 세 수치($8k MRR, $100k in 2 months, $50k in 30 days) 전부 창업자 원문 발화 부재 — 벤더(Base44) 마케팅 편집 서술 단독 출처이므로 excluded_figures로 이동해야 함 (근거: https://base44.com/blog/builder-spotlight-how-guy-manzur-built-an-ai-video-platform-and-hit-50k-in-30-days 전문에 창업자 직접 인용 없음)",
-   "$100K의 창업자 본인 1차 발화는 매출이 아니라 VC 투자 커밋임 ('before I had an MVP, a major VC committed $100K based on one deck', solo founder 프로그램 일환) — 벤더 블로그의 '$100k revenue' 주장은 투자금↔매출 혼동 의혹 (근거: https://www.producthunt.com/p/self-promotion/how-i-got-100k-off-a-single-deck-building-lunair-solo-founder-2)",
-   "URL 슬러그 '50k-in-30-days' vs 현재 제목 '$100k in 60 days'는 사후 제목 편집 흔적이며, 원 수치는 YouTube 제목 기준 '$50K ARR'(연환산, ≈$4.2k MRR 상당)로 추정 — 실매출 표기로 쓰면 안 됨 (근거: https://www.youtube.com/watch?v=6jJgN3lLeRs)",
-   "$8k MRR × 2개월 ≈ $16k로 같은 글의 '$100k 구독 매출' 주장과 산술 충돌 — 벤더 글 내부 정합성 자체가 붕괴",
-   "revenue_date '2025-2026' → Base44 블로그 게시일은 2026-02-16(2/17 업데이트), Ctech(2026-04-16) 기준 회사는 당시 창업 4개월차(창업 ≈ 2025-12)"
+   "**[기각 번복] '세 갈래 수치 불일치'는 실재하는 모순이 아니라 벤더의 단위 탈락 1건이었다.** 세 표기가 전부 같은 하나의 창업자 발화에서 파생됐다 — 원문은 **ARR**인데 재유통 과정에서 'ARR'이 떨어져 나갔다",
+   "**창업자 1인칭 원문 확보 (벤더 무관 채널).** Product Hunt, 작성자 Guy Manzur: \"It's been a crazy 2 months. **We hit $100k ARR** and have 5,000+ creators using Lunair, all while being a solo founder.\" **오케스트레이터가 직접 열어 verbatim 대조 완료**",
+   "**'$100k in revenue within the first 2 months'(Base44 블로그 3인칭)는 refuted.** ARR을 누적매출로 오변환한 것이고, **같은 글 안에서 자멸한다** — 그 글이 다른 대목에서 \"The immediate goal is clear: $100k ARR\"이라 쓴다. 이미 2개월에 $100k를 벌었다면 $100k ARR이 '당면 목표'일 수 없다",
+   "**슬러그 '$50k in 30 days'도 ARR 탈락이었다.** 원 발화는 Base44 CEO Maor Shlomo의 X 게시물: \"He built it solo on top of Base44 fully bootstrapped **scaled to $50k ARR** 30 days after hitting the publish button.\" **오케스트레이터가 직접 열어 확인**",
+   "**'$8k MRR'은 역산 의심.** $100,000 ÷ 12 = $8,333 ≈ '$8k'. 벤더 3인칭 단독이고 결제사 검증 없음",
+   "region: 'unknown (이스라엘 추정 — Base44 생태계)' → **이스라엘 텔아비브**. **'생태계'는 지리 근거가 아니다** — LinkedIn location 'Tel Aviv District, Israel' 직접 확인, 히브리대 학력, 본인 PH 글 'first solo-founders in my country'",
+   "founded_year 2025 신설 — Calcalist(2026-04-16) 본인 발화 \"My company has only been around for four months\" + Maor 게시물(≈2026-01-12) 교차",
+   "team_size 1인 3중 확인 — 본인 발화 + Calcalist(독립) + 벤더",
+   "founder_background unknown → 애니메이션 스튜디오 10년"
   ],
   "excluded_figures": [
-   "[figures] \"$100k in revenue within the first 2 months of launch\" (Base44 블로그 본문/제목) — unverifiable",
-   "[figures] \"$8k MRR through subscription plans via Lemon Squeezy\" — unverifiable",
-   "[figures] \"$50k in 30 days\" (URL 슬러그) — 후보 파일이 지적한 제목 불일치 — refuted",
-   "[figures] 독립 보도에 의한 매출 확인 가능성 (Ctech, Calcalist) — unverifiable"
+   "[figures] '$100k in revenue within the first 2 months' — refuted (ARR의 누적매출 오변환, 같은 글과 자기모순)",
+   "[figures] '$8k MRR' — derived 의심($100,000÷12=$8,333). ARR과 병렬 표기 금지",
+   "[figures] 제목 'hit $100k in 60 days' / 슬러그 '50k in 30 days' — 둘 다 'ARR' 탈락 편집 산물",
+   "[figures] **'$100K' VC 커밋 — 매출이 아니다.** 본인 PH 글 \"A major VC committed $100K based on one deck\". **매출액과 자릿수가 같아 혼동 위험이 최고이므로 어떤 형태로도 DB에 넣지 말 것**",
+   "[figures] 결제사 검증 없음 — TrustMRR 미등재. Lemon Squeezy 수치는 벤더 3인칭 서술뿐이고 대시보드 증빙 없음",
+   "[figures] **독립 매체는 금액을 일절 확인해주지 않는다** — Calcalist(2026-04-16)에 수치 0건, \"reach significant revenue in a very short time\"이 전부",
+   "[figures] ARR $100K는 약 6개월 된 값이다. 현재형 표기 금지"
   ],
-  "confidence_recommendation": "low",
-  "notes": "벤더 마케팅 출처 단독 + 같은 글 안에서 수치 불일치($100k/60일 vs $50k/30일) — 수치 렌즈 엄격 적용 대상. | 판정: 수치 렌즈 fail — 매출이 핵심 주장인 후보 (원문 발화 미확보/반박됨). 1차 출처 확보 시 재검증 가능 / [figures fail] 실존 렌즈 소견: 실존성은 견고해 보임 — Guy Manzur LinkedIn 프로필, Product Hunt 제품 페이지(producthunt.com/products/lunair), Startup Nation Finder에 이스라엘 스타트업으로 등록(finder.startupnationcentral.org/company_page/lunair — region '이스라엘 추정'을 뒷받침), Calcalist Ctech 독립 보도(2026-04-16) 존재. Ctech 기준 2026-04 시점 창업 4개월차 → 창업 시점 ≈ 2025-12. 단 lunair.ai 사이트 생존 여부는 이번 렌즈에서 직접 확인하지 않음."
+  "confidence_recommendation": "medium",
+  "notes": "**수치 렌즈 pass (2026-08-10 기각 번복). 스코프 렌즈 미판정이라 pending_verification.**\n\n## 이 건이 남긴 것 — 벤더 재유통은 단위를 떨어뜨린다\n\n오염 사슬이 완전히 복원됐다: **창업자 'ARR $100K' → 벤더 블로그가 'in revenue'로 변환 → 제목·슬러그에서 'ARR' 탈락 → 후보 파일에 '세 갈래 불일치'로 기재.** 원 발화는 하나였다.\n\n판별법: **금액이 여러 갈래로 갈리면 각 갈래의 화자를 먼저 세워라.** 여기서는 갈래가 많을수록 상류에서 멀어지는 구조였고, 창업자에 가장 가까운 표기가 유일하게 단위를 갖고 있었다.\n\n## anything 선례와 갈리는 지점\n\n출처가 벤더(Base44) 마케팅이라 `anything`(유일 발화자가 Lovable CEO, confidence low)과 같은 구조로 보였으나 **결정적으로 다르다 — 벤더와 무관한 채널(Product Hunt)에서 창업자 본인이 직접 말했다.** 그래서 low가 아니라 medium이다.\n\n## 남은 것\n\n**스코프 렌즈 미판정.** Base44 사용 발화가 벤더 글에 인용된 1인칭이라 제3 채널 교차 확인이 필요하다. 제품측 AI(영상 생성)와 제작측 도구(Base44)는 구분돼 있다."
  }
 }

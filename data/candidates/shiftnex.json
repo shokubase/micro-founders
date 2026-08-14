@@ -6,37 +6,39 @@
  "case": {
   "id": "shiftnex",
   "founders": [
-   "Allan (성 미상)"
+   "Allan Njoroge",
+   "Oleksandra Matkovska"
   ],
   "product": "ShiftNex",
   "domain": "헬스케어 인력 스태핑 플랫폼",
   "one_liner": "Lovable로 만든 헬스케어 스태핑 플랫폼 — 5개월 만에 ARR $1M 주장",
-  "team_size": "unknown",
-  "region": "unknown",
-  "revenue": "\"€1M ARR in 5 months\" 또는 \"$1M ARR in just five months, 5,000+ healthcare users\" — 통화 혼재",
-  "revenue_date": "2025-2026",
+  "team_size": "약 11명 (회사 공식 About 명단 — AI 'Koojo' 제외). 공동창업 2인",
+  "region": "미국 워싱턴주 타코마",
+  "revenue": "**표기하지 않는다.** ARR $1M 주장의 원 화자가 창업자가 아니라 Lovable CEO다. 회사 자체 공개 운영 수치만 기록: 9,386 care hours delivered (2026-04), 1,100+ shifts filled, 5K+ active providers",
+  "revenue_date": "≈2025-09 (Osika 게시물 시점)",
   "exit_status": "운영 중",
   "stack": [
    "Lovable"
   ],
   "ai_tools": [
-   "Lovable"
+   "Lovable",
+   "Claude"
   ],
-  "founder_background": "unknown",
+  "founder_background": "Allan Njoroge — Actriv Healthcare(2017 설립, 워싱턴주 대형 스태핑 에이전시) 창업자·현직 CEO",
   "business_model": "unknown (스태핑 SaaS/수수료 추정)",
   "sources": [
    "https://aifundingtracker.com/lovable-vibe-coding-revenue/",
    "https://lovable.dev/blog/series-b",
    "https://www.shiftnex.com"
   ],
-  "confidence": "low"
+  "confidence": "low",
+  "founded_year": 2025
  },
  "verification": {
-  "verified_at": "2026-08-10",
+  "verified_at": "2026-08-13",
   "checklist_passed": [
-   "existence:pass",
-   "figures:fail",
-   "scope:pass"
+   "figures:fail (2026-08-13 재심 — 사유 교체)",
+   "scope:fail (팀 11명)"
   ],
   "primary_sources": [
    "https://lovable.dev/blog/series-b (Lovable 공식 블로그 — ShiftNex/Allan 언급 원문)",
@@ -48,26 +50,29 @@
    "https://www.shiftnex.com (공식 사이트, 2026 저작권, 라이브)"
   ],
   "corrections": [
-   "founders: 'Allan (성 미상)' → 'Allan Njoroge' (케냐 Eldoret 출신, 미국 거주). 근거: linkedin.com/in/akuotah (primary), crunchbase.com/person/allan-njoroge (independent), mwakilishi.com 2026-04-21 보도 (independent 하위)",
-   "region: unknown → 미국 워싱턴주 Tacoma. 근거: 본인 LinkedIn 프로필 위치 (primary), GetLatka (secondary)",
-   "product/도메인: 회사 공식 명칭은 'Shiftnex.ai' 사용 경향 — shiftnex.com과 shiftnex.ai 모두 라이브. sources에 shiftnex.ai 병기 권장",
-   "founder_background: unknown → Actriv Healthcare(2017 설립, Tacoma, Inc. 5000 #138) 창업자·CEO인 스태핑 업계 베테랑. '노코드 초보 1인 창업' 서사와 상충하므로 아카이브 분류 시 주의. 근거: councils.forbes.com 프로필, inc.com/author/allan-njoroge",
-   "team_size: unknown → 약 7명 (GetLatka 2026 추정, secondary — 확정치 아님). 1인(solo)으로 표기하면 안 됨",
-   "통화: €1M → $1M USD. € 표기는 AIFundingTracker(애그리게이터) 오류. 사슬 상류인 Lovable Series B 블로그와 케냐 언론 환산(Sh129M≈$1M) 모두 USD (https://lovable.dev/blog/series-b)",
-   "revenue_date: '2025-2026' → '~2025-08/09 (Anton Osika 트윗 밀스톤 시점), 2025-12 Lovable 블로그 재확인'. 2026-04 케냐 언론의 현재형 표기는 재유통 (https://www.linkedin.com/posts/seb-johnson_lovable-activity-7369080742842179585-4JIk)",
-   "$1M ARR 및 5,000+ users 수치는 excluded_figures로 이동 권고: 창업자 본인 원문 발화 부재, 확인 가능한 최초 출처가 벤더 마케팅(Lovable), GetLatka $770K 추정(2025)과 모순 (https://getlatka.com/companies/shiftnex.com)",
-   "GetLatka 모순 기록: 2025 ARR $770K 추정 / 팀 7명 / Tacoma, WA — $1M ARR 주장과 불일치, 단 GetLatka 스스로 '인터뷰 없는 추정'이라 명시"
+   "**[통화 쟁점 해소] USD가 맞고 €는 애그리게이터 오식이다.** 사슬 상류인 Lovable 공식 블로그가 \"$1M ARR in five months with 5,000+ healthcare users\"이고, 하류 aifundingtracker가 \"€1M ARR in 5 months\"로 바꿨다. **klar 사례와 동일 유형.** 케냐 언론의 KSh 129M도 같은 $1M의 환산 재유통이며 독립 수치가 아니다 (KES는 CLAUDE.md 레이트 목록에 없다 — 만들지 말 것)",
+   "**[결정적 — 기각 사유 교체] 원 화자가 창업자가 아니라 벤더 CEO다.** 사슬이 복원됐다: **Anton Osika(Lovable CEO) 게시물 → Seb Johnson LinkedIn → Lovable Series B 블로그 → aifundingtracker(€ 오류) → 케냐 언론(KSh).** 전 구간이 단일 벤더 발화의 재유통이다. `anything` 선례(유일 발화자가 Lovable CEO, confidence low)와 **정확히 같은 구조**",
+   "**창업자 본인 글 2편을 전문으로 읽었고 둘 다 매출 수치가 없다.** 2025-07 포스트: \"After 11 weeks live, we're quietly launching something game-changing... 100%–1000% week-over-week growth in clinicians / **Closed pilot group of invited facilities**\"",
+   "**[스코프 fail — 이게 더 결정적이다] 팀이 약 11명이다.** 회사 공식 About 페이지에 인간 11명이 실명으로 나열된다(Allan Njoroge, Oleksandra Matkovska 외 9인 + AI 'Koojo'). **오케스트레이터가 직접 열어 확인.** 이 아카이브는 1인·소규모가 기준이다",
+   "**[내 오류] founders가 2중으로 틀렸다.** '[\"Allan (성 미상)\"]'였는데 실명은 Allan Njoroge이고 **공동창업자 Oleksandra Matkovska가 있다**(Co-Founder · Operating Partner)",
+   "**'코딩 무경력 1인이 5개월 만에'는 벤더 마케팅 서사이며 사실과 다르다.** 창업자는 Actriv Healthcare(2017) 현직 CEO이고 초기 실적 기반인 '54+ facilities across the Pacific Northwest'가 Actriv 홈 마켓과 겹친다. Luma 이벤트 페이지도 \"what ShiftNex + Actriv are building\"이라 명시한다",
+   "**법인은 분리돼 있다** — shiftnex.com/v2 푸터 '© 2026 ShiftNex Inc.', About에 Actriv 언급 0회. 즉 thirstysprout(에이전시 그 자체)과 ai-toolbox(자기 신설 법인) 사이지만, **팀 규모만으로 이미 스코프 밖**이라 이 쟁점은 결정적이지 않다",
+   "**도구는 회사 공식 발화로 확인됐다** — shiftnex.com/about: \"**We ship with Lovable + Claude.** Landing pages iterate in hours.\" 스코프 밖이라 반영되지 않지만 기록은 남긴다",
+   "region unknown → 미국 워싱턴주 타코마 (shiftnex.com의 물리 주소 페이지 3650 S Cedar St)",
+   "founded_year 2025 — 창업자 본인 'After 11 weeks live'(2025-07) 역산. **GetLatka의 'Founded 2022'는 미채택** — Crunchbase 슬러그가 /organization/autorgy라 개명된 선행 법인 껍데기로 보이나 403이라 열지 못했다",
+   "도메인 관계 확정: shiftnex.com = 마케팅 사이트, shiftnex.ai = 앱. 동일 회사, 둘 다 라이브"
   ],
   "excluded_figures": [
-   "[existence] 팀 규모·지역 (후보 파일상 unknown) — unverifiable",
-   "[figures] €1M ARR in 5 months (AIFundingTracker 표기) — refuted",
-   "[figures] $1M ARR in 5 months — unverifiable",
-   "[figures] $1M ARR (수치 자체의 신뢰성) — unverifiable",
-   "[figures] ARR로서의 성격 (연환산 부풀리기 의심) — unverifiable",
-   "[figures] 5,000+ healthcare users — unverifiable",
-   "[figures] revenue_date: 2025-2026 (현재형 표기) — refuted"
+   "[figures] '€1M ARR' — **refuted.** aifundingtracker 통화 오식. 상류는 $1M",
+   "[figures] '$1M ARR in 5 months' — **원 화자가 Lovable CEO(벤더·이해관계).** 창업자 1인칭 부재, ARR 산출 근거 미공개. 헬스케어 스태핑은 통상 시프트 단위 gross billings(GMV)이지 구독 recurring이 아닌데, 총 청구액 런레이트인지 계약 기반인지 공개 근거가 없다",
+   "[figures] 'KSh 129M' — derived. 위 $1M의 환산 재유통",
+   "[figures] '5,000+ healthcare users' — **재정의 필요.** 회사 공식 표기는 '5K+ Active providers'로 **공급측 임상인력**이다. 'users/고객'으로 쓰면 오도",
+   "[figures] GetLatka $770K ARR / $2.3M valuation / 7 employees / Founded 2022 — secondary이며 본인이 'estimation'이라 명시. 단 $770K가 $1M과 모순된다는 사실은 기록",
+   "[figures] '$2M Series A, Aug 2024' — **not_attempted.** 검색 요약에서만 봤고 원문 미열람. 기재 금지",
+   "[existence] 2025-07 시점이 'closed pilot group of invited facilities'였는데 6주 뒤 $1M ARR이라는 램프다",
+   "[existence] x.com/AllanKuotah, crunchbase, dealroom, staffingindustry 전부 403 — not_attempted"
   ],
   "confidence_recommendation": "low",
-  "notes": "통화 €/$ 혼재 (Klar 사례와 동일 유형의 오류 의심). 창업자 성명·팀 규모 미확인. 출처가 전부 Lovable 마케팅 파생. | 판정: 수치 렌즈 fail — 매출이 핵심 주장인 후보 (원문 발화 미확보/반박됨). 1차 출처 확보 시 재검증 가능 / [figures fail] 실존 렌즈 참고: (1) 창업자 실명 특정 가능 — Allan Njoroge (LinkedIn akuotah, Crunchbase에 Actriv Healthcare 창업자·CEO로 등재). 후보의 'Allan (성 미상)'은 교정 가능. (2) 제품 도메인: 후보는 shiftnex.com을 기재했으나 Lovable 블로그는 shiftnex.ai로 링크 — 둘 다 존재하며 .ai가 제품 도메인으로 보임, 관계 확인 필요. (3) Njoroge는 워싱턴주 대형 스태핑 업체 Actriv의 기존 창업자로, '노코드 초보가 5개월 만에' 서사와 상충 — 기존 사업 인프라 위의 신규 플랫폼일 가능성 높음. GetLatka 기준 팀 7명, Tacoma WA (후보의 team_size/region unknown 갱신 가능)."
+  "notes": "판정: **rejected 유지. 단 기각 사유가 완전히 교체됐다.**\n\n2026-08-10에는 '원문 발화 미확보'(도구 한계)로 떨어뜨렸다. 이번 재심은 통화 쟁점을 해소하고($1M이 맞고 €는 애그리게이터 오식) **더 무거운 두 사실을 확인했다**:\n\n1. **팀이 11명이다** — 회사 공식 About 명단. 이 아카이브의 1인·소규모 기준 밖이다\n2. **매출 주장의 원 화자가 창업자가 아니라 벤더 CEO다** — Anton Osika 게시물이 유일한 상류이고, 창업자 본인 글 2편에는 매출 수치가 없다\n\n## 벤더 재유통 사슬이 완전히 복원된 첫 사례다\n\n**Anton Osika(Lovable CEO) → Seb Johnson LinkedIn → Lovable Series B 블로그 → aifundingtracker(€ 오식) → 케냐 언론(KSh 환산).** 다섯 단계를 거치며 통화가 두 번 바뀌었고, 각 단계가 독립 출처처럼 보였다. **출처가 여러 개로 보여도 상류를 끝까지 따라가면 하나일 수 있다.**\n\n## 벤더 서사가 사실과 어긋난 지점\n\n'코딩 무경력 1인이 5개월 만에 $1M'이라는 프레이밍인데, 실제로는 공동창업자가 있고 팀이 11명이며 창업자는 2017년 설립 대형 스태핑 에이전시의 현직 CEO다. **빌더 도구 벤더의 성공 사례는 그 도구를 돋보이게 하는 방향으로 서사가 단순화된다** — 수치뿐 아니라 창업자 이력도 그렇다.\n\n도구 자체는 회사 공식 발화(\"We ship with Lovable + Claude\")로 확인됐으나 스코프 밖이라 반영되지 않는다."
  }
 }
