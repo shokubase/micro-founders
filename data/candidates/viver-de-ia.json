@@ -1,6 +1,6 @@
 {
  "id": "viver-de-ia",
- "status": "pending_verification",
+ "status": "rejected",
  "discovered_at": "2026-08-24",
  "discovery_source": "https://www.infomoney.com.br/colunistas/terapia-de-ideias/o-que-voce-pode-aprender-com-a-startup-viver-de-ia-que-projeta-faturar-r-100-milhoes-em-2026/ (Tier2 벤더/뉴스레터 각도, Lovable 검색 경유)",
  "case": {
@@ -10,12 +10,12 @@
    "Yago Martins"
   ],
   "product": "Viver de IA",
-  "domain": "AI 솔루션·교육 플랫폼(브라질) — 기업 대상 AI 도입 컨설팅/교육으로 보임. **순수 SaaS 제품인지 교육·컨설팅 매출인지 Stage 3 최우선 확인 대상**",
-  "one_liner": "Lovable로 3개월 만에 구축, 가동 6개월 만에 R$21M 매출을 낸 브라질 AI 플랫폼 — 단 창업자 본인이 Lovable 공식 앰버서더라 서사 편향 위험이 높고, 매출원이 제품 SaaS인지 교육/컨설팅인지도 불명확",
-  "team_size": "공동창업 2인(Rafael Milagre, Yago Martins) — 전체 팀 규모 미확인",
-  "region": "브라질",
-  "revenue": "InfoMoney 칼럼(2026): 가동 6개월 만에 R$21,000,000 매출, 외부 투자 없이 흑자 운영, 2026년 R$100M 매출 전망, 1,000개+ 기업 고객. **원 화자가 창업자 1인칭 발화인지 칼럼니스트의 3인칭 요약인지 미확인 — 반드시 본인 유튜브/인터뷰 원문에서 재확인할 것**",
-  "revenue_date": "≈2026 (가동 6개월 시점, 정확한 날짜 미확정)",
+  "domain": "AI 솔루션·교육 플랫폼(브라질) — 158개 큐레이션 솔루션 + 실무 트레이닝 + 라이브 멘토십 + 커뮤니티를 연간 구독으로 묶은 교육·컨설팅 사업으로 확인됨",
+  "one_liner": "Lovable로 3개월 만에 구축, 가동 6~7개월 만에 R$21M 매출을 냈다는 브라질 플랫폼 — 단 실제 판매 대상이 소프트웨어 제품이 아니라 AI 도입 교육·멘토링 번들로 확인되어 스코프 밖",
+  "team_size": "공동창업 2인(창업 시점) — 현재 40+ 직원, 개발자는 1명뿐이고 나머지는 교육·세일즈·컨설팅 인력(검색 확인)",
+  "region": "브라질 (Florianópolis, SC — CNPJ 법인 등록 소재지로 확인)",
+  "revenue": "InfoMoney 칼럼: 가동 6개월(팟캐스트 제목은 7개월로 표기, 출처 간 시점 불일치) 만에 R$21,000,000 매출. **원 화자가 창업자 1인칭인지 칼럼니스트 요약인지 이 세션에서 확정 못함(infomoney.com.br·youtube.com 전면 차단)** — 단 이 칼럼('terapia de ideias')이 'R$X만으로 Y를 판다'는 동일 포맷을 반복하는 정형화된 인물 프로필 시리즈로 확인돼 독립 취재보다 자기신고 기반 콘텐츠일 가능성이 높음. R$120.7M(고객사 부가매출), R$509M(런칭 밸류) 등 무관한 수치와 혼동 주의",
+  "revenue_date": "≈2026 (가동 6개월 또는 7개월, 출처 간 불일치로 미확정)",
   "exit_status": "운영 중",
   "stack": [
    "Lovable"
@@ -23,25 +23,43 @@
   "ai_tools": [
    "Lovable"
   ],
-  "founder_background": "Rafael Milagre — Nalk AI 디렉터, ESPM 교수, G4 AI Academy 멘토, **Lovable 브라질 공식 앰버서더(이해상충 — shiftnex·lunair류 벤더 재유통 위험군)**. Yago Martins — Nalk 창업자·CEO, 전직 군 장교, Growth Awards 2024 'Founder of the Year'",
-  "business_model": "AI 교육·컨설팅 플랫폼 — G4 Business(Tallis Gomes 등)와 파트너십. **매출이 SaaS 구독인지 교육 상품/컨설팅 용역인지 불명 — JP층 idm 사례(자사 스쿨 유입 기사)와 유사한 상업적 유인 패턴 의심**",
+  "founder_background": "Rafael Milagre — Nalk AI 디렉터, ESPM 교수, G4 AI Academy 멘토, **Lovable 브라질 공식 앰버서더로 독립 확인됨**(강연 에이전시 프로필·ZoomInfo에 @lovable.dev 이메일 도메인까지 등재 — 이해상충 확정). Yago Martins — Nalk 창업자·CEO 겸 Viver de IA 공동창업자(ZoomInfo·본인 LinkedIn으로 겸직 구조 확인), 전직 군 장교, Growth Awards 2024 'Founder of the Year'",
+  "business_model": "AI 도입 교육·컨설팅 구독 — 158개 큐레이션 AI 솔루션 + 실무 트레이닝 + 라이브 멘토십 + 커뮤니티, 연간 계약 평균 티켓 월 R$3,500, 1,200+ 기업 고객. G4 Business(Tallis Gomes 등)와 파트너십",
   "sources": [
    "https://www.infomoney.com.br/colunistas/terapia-de-ideias/o-que-voce-pode-aprender-com-a-startup-viver-de-ia-que-projeta-faturar-r-100-milhoes-em-2026/",
    "https://rafaelmilagre.com/",
-   "https://www.youtube.com/c/RafaelMilagre",
-   "https://www.linkedin.com/in/rafaelmilagre/",
-   "https://www.instagram.com/rafaelmilagre/"
+   "https://br.linkedin.com/in/rafaelmilagre",
+   "https://br.linkedin.com/in/yagomartins",
+   "https://www.zoominfo.com/p/Rafael-Milagre/-1630970573",
+   "https://www.zoominfo.com/p/Yago-Martins/6190756236",
+   "https://www.econodata.com.br/consulta-empresa/52246066000160-viver-de-ia-ltda"
   ],
   "confidence": "low",
-  "founded_year": 2025
+  "founded_year": 2023
  },
  "verification": {
-  "verified_at": null,
-  "checklist_passed": [],
-  "primary_sources": [],
-  "corrections": [],
-  "excluded_figures": [],
-  "confidence_recommendation": null,
-  "notes": "포르투갈어권 신규 층(중국어·스페인어와 함께 RESEARCH_PIPELINE.md §4 미개척 층으로 명시된 곳). scope 렌즈 최우선: (1) 이게 '창업자가 AI 코딩 도구로 만든 제품'인지 'AI 활용법을 가르치는 교육·컨설팅 사업'인지 — 후자면 스코프 밖. (2) Lovable 앰버서더 이해상충으로 인한 수치 과장 가능성. figures 렌즈: R$21M 발화의 원 화자 확정 필수."
+  "verified_at": "2026-08-24",
+  "checklist_passed": [
+   "existence:pass (high) — CNPJ 정부연계 등록부 3곳 교차 확인(법인 실체 확정, 설립일 2023-09-20), 두 창업자 모두 독립 출처(LinkedIn 본인·ZoomInfo·강연 에이전시)로 실존 및 지위 확정. Lovable 앰버서더 이해상충도 독립 출처 2곳으로 확정",
+   "scope:fail — 실제 매출원이 'AI 코딩 도구로 만든 소프트웨어 제품'이 아니라 '158개 큐레이션 AI 솔루션+실무 트레이닝+라이브 멘토십+커뮤니티'를 연간 구독으로 묶은 교육·컨설팅 사업. Lovable로 만든 것은 이 번들을 배포하는 포털/웹앱이지 판매되는 상품 자체가 아님. thirstysprout('AI로 만든 사례가 아니라 AI로 운영하는 회사') 선례와 동일 패턴 — 후보 파일이 사전에 제기한 우려가 조사로 확인됨",
+   "figures:borderline — R$21M 발화의 원 화자를 이 세션에서 확정 못함(infomoney.com.br·youtube.com 전면 차단, not_attempted). 6개월/7개월 시점 불일치 발견. 단 scope-judge 판단대로 화자가 누구든 매출원의 성격(교육·컨설팅)은 바뀌지 않아 최종 판정에 영향 없음"
+  ],
+  "primary_sources": [
+   "https://br.linkedin.com/in/rafaelmilagre",
+   "https://br.linkedin.com/in/yagomartins",
+   "https://www.econodata.com.br/consulta-empresa/52246066000160-viver-de-ia-ltda",
+   "https://casadosdados.com.br/solucao/cnpj/viver-de-ia-ltda-52246066000160",
+   "https://cnpja.com/office/52246066000160"
+  ],
+  "corrections": [
+   "founded_year: 후보 파일 초안 2025 → CNPJ 법인 설립일 2023-09-20으로 정정. 단 창업자 본인 발화는 '3개월 만에 구축, 2025년 실적'을 언급해 '법인 설립(2023)'과 '제품/브랜드 실질 론칭(2025)'이 다를 수 있음 — 어느 쪽이든 스코프 판정에는 영향 없음"
+  ],
+  "excluded_figures": [
+   "[figures] R$21,000,000(가동 6개월) — 원 화자 미확정(창업자 1인칭 vs 칼럼니스트 요약), 6개월/7개월 시점도 출처 간 불일치. 'terapia de ideias' 칼럼이 동일 포맷 반복 시리즈로 확인돼 신뢰도 추가 하락",
+   "[figures] R$100,000,000(2026년 전망) — 동일 사유로 미채택",
+   "[figures] R$120.7M(고객사 부가매출), R$509M(G4·Viver de IA 런칭 밸류) — Viver de IA 자체 매출과 무관한 별개 지표, 혼동 금지"
+  ],
+  "confidence_recommendation": "low",
+  "notes": "판정: **rejected.** existence는 강하게 pass했으나 scope가 명확히 fail — §판정 규칙상 1/3 수준(사실상 existence만 확실히 통과, figures는 애초에 미결이며 설사 pass여도 scope fail을 뒤집지 못함)이라 rejected가 맞다.\n\n## 왜 기각인가\n\nViver de IA는 '창업자가 AI 코딩 도구로 만든 제품을 파는' 이 아카이브의 취지와 다르다. Lovable로 만든 것은 158개 큐레이션 AI 솔루션·트레이닝·멘토십·커뮤니티를 배포하는 **포털**이고, 실제 고객이 돈을 내고 사는 것은 **AI 도입 교육·컨설팅 구독**이다. 창업자 본인이 대학교수·멘토·G4 Business 파트너십 보유자라는 배경까지 겹쳐, thirstysprout 선례('AI로 만든 사례가 아니라 AI로 운영하는 회사')와 동일한 축의 스코프 이탈로 확인됐다.\n\n## 포르투갈어권 신규 층 — 재발견 방지용 기록\n\n이번 조사로 브라질 CNPJ 등록부·ZoomInfo·강연 에이전시 프로필 등 이 아카이브가 처음 써본 포르투갈어권 독립 출처 유형이 확인됐다. 법인 자체는 실재하고 창업자도 실존하므로, 향후 재검증한다면 **다른(비-교육·컨설팅) 브라질 AI 코딩 사례**를 찾는 방향이 맞다 — 이 특정 후보를 재상신하려면 스코프 자체가 바뀌어야 하므로 무의미하다."
  }
 }
