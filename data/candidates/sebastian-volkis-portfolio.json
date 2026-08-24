@@ -1,0 +1,48 @@
+{
+ "id": "sebastian-volkis-portfolio",
+ "status": "pending_verification",
+ "discovered_at": "2026-08-24",
+ "discovery_source": "https://www.indiehackers.com/post/tech/building-a-product-with-ai-in-four-days-and-hitting-12k-in-four-weeks-HxoUuTymcPNvhCNe8b6A (Tier1 EN)",
+ "case": {
+  "id": "sebastian-volkis-portfolio",
+  "founders": [
+   "Sebastian Volkis"
+  ],
+  "product": "TrendFeed / ChatIQ.ai / CodeSpring (포트폴리오)",
+  "domain": "AI 콘텐츠 자동화(TrendFeed) / AI 챗봇 빌더(ChatIQ) / AI 코딩 강의(CodeSpring)",
+  "one_liner": "노코드에서 AI 코딩으로 전환한 비개발자 출신 창업자 — Cursor로 4일 만에 만든 TrendFeed로 4주 만에 $12K",
+  "team_size": "1인",
+  "region": "영국 런던",
+  "revenue": "본인 X 1인칭(2026-01 추정): \"It's been an incredible year I've built 3 saas products w/ @cursor_ai, all 100% Ai coded\". TrendFeed IH 본문 1인칭: \"TrendFeed has made $12k\"(4주 시점), 이전 스냅샷 \"£7,500 to date\"(2주 시점). ChatIQ: 11,000 유저, MRR $3,000(출시 30일, Starter Story/IH 경유— 1인칭 원문 재확인 필요). **통화(£/$) 및 시점 표기가 게시물마다 혼재 — Stage 3에서 원문 통화·환산 재확인 필수**",
+  "revenue_date": "TrendFeed ≈2025-03(4주차) / ChatIQ 출시 후 30일(2023)",
+  "exit_status": "운영 중 (추정 — 확인 필요)",
+  "stack": [
+   "Bubble (ChatIQ 초기 노코드)",
+   "Cursor",
+   "GPT-3.5 API (초기)"
+  ],
+  "ai_tools": [
+   "Cursor"
+  ],
+  "founder_background": "비개발자 출신 — 물리학/천체물리학 전공, 프리랜스 미디어 바이어로 시작, 6개월 무직 후 앱 개발 독학. ChatIQ는 2023년 Bubble(노코드)로 출시했고 이후 Cursor로 전환해 TrendFeed 등 후속 제품을 '100% AI coded'로 제작 — **founded_year가 2023(창 안)이라 '유지·확장형' 조건은 불필요하나, ChatIQ 자체는 노코드 제작이라 도구 근거는 TrendFeed 등 후속작 위주로 판단할 것**",
+  "business_model": "SaaS 구독 (AI 챗봇 빌더 / 콘텐츠 자동화) + CodeSpring 강의 판매",
+  "sources": [
+   "https://www.indiehackers.com/post/tech/building-a-product-with-ai-in-four-days-and-hitting-12k-in-four-weeks-HxoUuTymcPNvhCNe8b6A",
+   "https://www.indiehackers.com/post/how-sebastian-volkis-got-11-000-users-for-his-new-ai-software-almost-overnight-3bf33f5fcb",
+   "https://www.starterstory.com/chatiq-breakdown",
+   "https://x.com/sebastianvolkis/status/1876763612317901020",
+   "https://medium.com/@yumaueno/sebastian-earning-around-25k-a-month-solely-from-ai-based-apps-0d2868d892fd"
+  ],
+  "confidence": "low",
+  "founded_year": 2023
+ },
+ "verification": {
+  "verified_at": null,
+  "checklist_passed": [],
+  "primary_sources": [],
+  "corrections": [],
+  "excluded_figures": [],
+  "confidence_recommendation": null,
+  "notes": "figures 렌즈: £/$ 혼재 표기를 원문 통화로 확정할 것 (klar류 사고 재발 방지). scope 렌즈: ChatIQ(2023, 노코드 제작)와 TrendFeed(AI 코딩 도구 제작)를 한 후보로 묶을지, 창업연도·도구 근거를 어느 제품 기준으로 볼지 판단 필요."
+ }
+}

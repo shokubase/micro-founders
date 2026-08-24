@@ -1,0 +1,49 @@
+{
+ "id": "stella-manifest-anything",
+ "status": "pending_verification",
+ "discovered_at": "2026-08-24",
+ "discovery_source": "https://www.starterstory.com/stories/she-built-this-300k-month-app-in-60-days (Tier1 EN, tech42 경유 발견)",
+ "case": {
+  "id": "stella-manifest-anything",
+  "founders": [
+   "Sarah Perl (@hothighpriestess)"
+  ],
+  "product": "Stella - Manifest Anything",
+  "domain": "마인드셋·매니페스테이션 오디오 앱 — 개인화된 확언·시각화 내러티브",
+  "one_liner": "4.5M 팔로워 인플루언서가 코드를 모른 채 Claude·Cursor로 만든 매니페스테이션 앱 — 출시 2개월 만에 MRR $300K 주장",
+  "team_size": "1인 (인플루언서 본인 — 공동창업자 언급 없음)",
+  "region": "미국 (추정 — 원문 대조 필요)",
+  "revenue": "Starter Story 인터뷰 창업자 1인칭 발화: \"Claude, Cursor, vibe coding. A girl with an audience and a laptop can now ship a product in a week... without knowing a line of code.\" 2026-05 출시 2개월 만에 MRR $300K 돌파, 2026-07 기준 $340~360K MRR, 유료고객 12,000명, 다운로드 20만+ (인용문은 1인칭이나 **수치 자체가 본인 발화 그대로인지 Starter Story 편집부 요약인지 원문 재확인 필요** — IH/애그리게이터 헤더 수치 혼입 선례 다수)",
+  "revenue_date": "2026-07",
+  "exit_status": "운영 중",
+  "stack": [
+   "Claude Code",
+   "Claude (디자인)",
+   "Google AI Studio"
+  ],
+  "ai_tools": [
+   "Claude Code",
+   "Cursor"
+  ],
+  "founder_background": "TikTok/Instagram 인플루언서(@hothighpriestess, 4.5M 팔로워), 마인드셋·매니페스테이션 코치. Manifest Magic 워크숍 등 디지털 상품 판매 경력 보유 — 코딩 경험 없음 자기신고",
+  "business_model": "앱 내 구독 (마인드셋 콘텐츠, 가격 미확인)",
+  "sources": [
+   "https://www.starterstory.com/stories/she-built-this-300k-month-app-in-60-days",
+   "https://apps.apple.com/us/app/stella-manifest-anything/id6757347283",
+   "https://www.linkedin.com/in/sarah-perl-758288325/",
+   "https://www.instagram.com/downloadstella/",
+   "https://finance.biggo.com/podcast/435ccd9f4d05042a"
+  ],
+  "confidence": "low",
+  "founded_year": 2026
+ },
+ "verification": {
+  "verified_at": null,
+  "checklist_passed": [],
+  "primary_sources": [],
+  "corrections": [],
+  "excluded_figures": [],
+  "confidence_recommendation": null,
+  "notes": "figures 렌즈 최우선: $300K+ MRR은 코퍼스 상위권 수치라 검증 강도를 높일 것 — Starter Story는 페이월/마케팅 편향 가능성이 있는 매체이므로 App Store 매출 추정치·TrustMRR 등 준독립 지표와 대조 시도. region 미확정 상태로 반영."
+ }
+}

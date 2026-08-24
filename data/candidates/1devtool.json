@@ -1,0 +1,46 @@
+{
+ "id": "1devtool",
+ "status": "pending_verification",
+ "discovered_at": "2026-08-24",
+ "discovery_source": "https://www.indiehackers.com/post/i-rejected-a-15k-acquisition-offer-for-my-multi-agent-ide-heres-the-full-breakdown-c5a7c48c98 (Tier1 EN)",
+ "case": {
+  "id": "1devtool",
+  "founders": [
+   "Khoa Nguyen (StoicSoft)"
+  ],
+  "product": "1DevTool",
+  "domain": "AI 코딩 에이전트 통합 데스크톱 IDE — 여러 AI 코딩 에이전트·프로젝트·터미널을 하나의 영구 워크스페이스에서 관리",
+  "one_liner": "여러 AI 코딩 에이전트를 하나의 데스크톱 워크스페이스에서 관리하는 1인 개발 툴 — $15,000 인수 제안을 거절",
+  "team_size": "1인 (StoicSoft, 1인 소프트웨어 스튜디오)",
+  "region": "베트남 (Peerlist·GitHub 프로필 근거, 원문 대조 필요)",
+  "revenue": "TrustMRR 최근 30일 $1,680 (결제사 연동 3자 집계, 창업자 발화 아님). **가격 정책이 구독이 아니라 $29 일회성 결제(무료 티어 + 평생 잠금해제)라 TrustMRR의 'MRR' 표기 정의 자체가 불명확** — Stage 3 최우선 확인. 창업자 본인 IH 글 1인칭: 코드+고객 리스트 포함 $15,000 인수 제안을 받았으나 거절",
+  "revenue_date": "2026 (TrustMRR 스냅샷 — 정확한 날짜 미확정)",
+  "exit_status": "운영 중",
+  "stack": [
+   "unknown"
+  ],
+  "ai_tools": [
+   "unknown — 제품이 오케스트레이션하는 에이전트 목록(Claude Code/Codex CLI/Gemini CLI/Aider/Cline)과 창업자 본인이 1DevTool 제작에 실제로 쓴 도구가 같은지 구분 안 됨 (meerkats-ai 'Claude Skills SDK는 런타임이지 제작 도구 아님' 선례와 동일 쟁점)"
+  ],
+  "founder_background": "Khoa Nguyen — StoicSoft 브랜드의 1인 소프트웨어 스튜디오 운영자, 베트남 기반. 동일 창업자가 ServerCompass.app도 운영. Udemy에 베트남어 코딩/노코드 강의 개설",
+  "business_model": "$29 일회성 결제(평생 잠금해제) + 무료 티어 — 구독 아님",
+  "sources": [
+   "https://www.indiehackers.com/post/i-rejected-a-15k-acquisition-offer-for-my-multi-agent-ide-heres-the-full-breakdown-c5a7c48c98",
+   "https://www.indiehackers.com/post/i-got-tired-of-setting-up-my-dev-environment-every-day-so-i-built-a-tool-and-got-2-paying-customers-68a95fbf77",
+   "https://github.com/stoicsoft/1devtool-releases",
+   "https://trustmrr.com/startup/1devtool",
+   "https://peerlist.io/servercompass"
+  ],
+  "confidence": "low",
+  "founded_year": 2025
+ },
+ "verification": {
+  "verified_at": null,
+  "checklist_passed": [],
+  "primary_sources": [],
+  "corrections": [],
+  "excluded_figures": [],
+  "confidence_recommendation": null,
+  "notes": "figures 렌즈 최우선 확인: TrustMRR 'MRR'이 일회성 결제 제품에 어떻게 산출되는지. scope 렌즈 최우선 확인: ai_tools가 제품 기능(통합 대상 에이전트)인지 제작 도구인지."
+ }
+}
