@@ -1,0 +1,42 @@
+{
+ "id": "mentions-cameron-whiteside",
+ "status": "pending_verification",
+ "discovered_at": "2026-08-31",
+ "discovery_source": "https://medium.com/@tamimbuilds/8-solo-founders-who-quietly-hit-20k-62k-mrr-in-the-last-6-months-5032e610badc (Tier1 EN 경유, 2차 재유통 요약)",
+ "case": {
+  "id": "mentions-cameron-whiteside",
+  "founders": [
+   "Cameron Whiteside"
+  ],
+  "product": "Mentions",
+  "domain": "AI 검색 응답(ChatGPT/Perplexity 등)에서 브랜드 노출·언급을 추적하는 AEO/GEO 분석 툴",
+  "one_liner": "기존 코퍼스 등재 사례 Kleo(kleo.so)의 창업자 Cameron Whiteside가 만든 신규 제품 — AI 답변 속 브랜드 노출 추적, MRR $20K",
+  "team_size": "1인 (Kleo 사례와 동일 — Stage 3에서 공동창업 여부 재확인 필요)",
+  "region": "unknown (Kleo 사례 등재 시 확정된 region 값을 대조해 재사용 검토)",
+  "revenue": "2차 재유통 요약(Medium tamimbuilds): \"currently at $20k MRR\", 2026년 목표 \"$100k MRR\" — 창업자 1인칭 원문 미확보",
+  "revenue_date": "unknown",
+  "exit_status": "운영 중 (추정)",
+  "stack": [
+   "unknown"
+  ],
+  "ai_tools": [
+   "Claude Code"
+  ],
+  "founder_background": "Cameron Whiteside — 기존 코퍼스 사례 Kleo(kleo.so) 창업자와 동일 인물로 추정(Stage 3에서 신원 일치 확인 필수). Kleo 빌드 경험을 이어 신규 제품 Mentions를 만들었다는 서사",
+  "business_model": "unknown (구독형 SaaS로 추정)",
+  "sources": [
+   "https://medium.com/@tamimbuilds/8-solo-founders-who-quietly-hit-20k-62k-mrr-in-the-last-6-months-5032e610badc"
+  ],
+  "confidence": "low",
+  "founded_year": null
+ },
+ "verification": {
+  "verified_at": null,
+  "checklist_passed": [],
+  "primary_sources": [],
+  "corrections": [],
+  "excluded_figures": [],
+  "confidence_recommendation": null,
+  "notes": "2차 재유통(Medium 요약 글) 경유 발견 — 원문 IH/창업자 본인 채널 URL을 아직 못 찾음. Stage 2/3에서 우선 (1) Cameron Whiteside 신원이 기존 Kleo 사례와 동일인인지, (2) $20K MRR의 1인칭 원문 발화처를 찾을 것. 기존 사례 Kleo와는 별개 제품이라 신규 후보로 채택했으나, Kleo 항목에 '포트폴리오'로 병합해야 할지 Stage 3/4에서 재검토 필요."
+ }
+}

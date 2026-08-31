@@ -1,0 +1,45 @@
+{
+ "id": "gandan-kim-yunhu-portfolio",
+ "status": "pending_verification",
+ "discovered_at": "2026-08-31",
+ "discovery_source": "https://maily.so/josh/posts/1gz2v974r3q (Tier3 KR, 조쉬 뉴스레터 경유)",
+ "case": {
+  "id": "gandan-kim-yunhu-portfolio",
+  "founders": [
+   "김윤후 (Kim Yunhu)"
+  ],
+  "product": "간단(Gandan, 간헐적 단식 앱) 외 앱 15개 포트폴리오",
+  "domain": "헬스·라이프스타일 앱 포트폴리오 (간헐적 단식 트래커 등)",
+  "one_liner": "개발자 1인이 앱 15개를 운영하며 간헐적 단식 앱 '간단'으로 글로벌 200만 다운로드를 달성, 초기 자본 $0.52에서 월 매출 성장을 이뤘다는 사례 — 정확 매출액은 출처 간 불일치",
+  "team_size": "1인",
+  "region": "대한민국",
+  "revenue": "출처 간 수치 불일치 — (1) 조쉬 뉴스레터 스니펫: '단돈 0.52달러에서 월 1천만 원 수익', (2) 다른 스니펫: '월 1K'(단위·통화 미상, $1K 또는 1천원대일 가능성도 배제 못함). **Stage 3에서 원문 대조 없이는 어느 쪽도 채택 불가**",
+  "revenue_date": "unknown",
+  "exit_status": "운영 중 (추정)",
+  "stack": [
+   "Claude Code",
+   "Unity"
+  ],
+  "ai_tools": [
+   "Claude Code"
+  ],
+  "founder_background": "김윤후 — 앱 15개 포트폴리오 운영, '간단' 외 제품 상세 미확인. eopla.net/fastcampus 등에 인디해커 인터뷰로 소개된 것으로 추정(원문 미열람)",
+  "business_model": "unknown (앱 내 구독/광고로 추정)",
+  "sources": [
+   "https://maily.so/josh/posts/1gz2v974r3q",
+   "https://eopla.net/magazines/31129",
+   "https://fastcampus.co.kr/story_article_indiehacker"
+  ],
+  "confidence": "low",
+  "founded_year": null
+ },
+ "verification": {
+  "verified_at": null,
+  "checklist_passed": [],
+  "primary_sources": [],
+  "corrections": [],
+  "excluded_figures": [],
+  "confidence_recommendation": null,
+  "notes": "이 세션에서 maily.so·eopla.net·fastcampus.co.kr 전 도메인이 egress 차단돼 원문 미열람 — 검색 스니펫만으로 구조화됐다. 매출 수치가 두 갈래로 갈리는 전형적인 Stage2 위험 패턴(§역산 스크리닝 대상)이므로, 원문을 열기 전까지는 어느 수치도 '확인됨'으로 취급하지 말 것."
+ }
+}

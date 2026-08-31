@@ -1,0 +1,50 @@
+{
+ "id": "pear-jonathan-chan",
+ "status": "pending_verification",
+ "discovered_at": "2026-08-31",
+ "discovery_source": "https://www.indiehackers.com/post/tech/building-a-30k-mo-portfolio-within-eight-months-of-quitting-his-420k-yr-job-dq0ZB3JnJTpRqCajozQc (Tier1 EN)",
+ "case": {
+  "id": "pear-jonathan-chan",
+  "founders": [
+   "Jonathan Chan (co-founder/CTO/CPO)",
+   "Abhi (공동창업자, 성 미상)",
+   "Alex (공동창업자, 성 미상)"
+  ],
+  "product": "Pear (pear.it.com)",
+  "domain": "AI-native 경영 컨설팅 플랫폼",
+  "one_liner": "前 top-tier 경영컨설턴트 3인이 만든 AI 네이티브 컨설팅 플랫폼 — 런칭 3주 만에 월매출 $100K 주장",
+  "team_size": "3인 공동창업 (前 top-tier management consulting 출신)",
+  "region": "unknown",
+  "revenue": "IH 글 경유 검색 스니펫: \"Pear reached $100k/mo USD three weeks after launch\", 마진 10% 명시 — 창업자 1인칭 원문 전체 미대조",
+  "revenue_date": "unknown (IH 글 게시 시점 기준 추정)",
+  "exit_status": "운영 중 (추정)",
+  "stack": [
+   "Cursor",
+   "Claude Code",
+   "n8n",
+   "Supabase"
+  ],
+  "ai_tools": [
+   "Cursor",
+   "Claude Code"
+  ],
+  "founder_background": "Jonathan Chan — AI Never Sleeps(aineversleeps.substack.com) 운영자, 자신의 인디해커 포트폴리오(월 $30K 별도 사업) 소개 글 중 Pear 언급. 前 $420K/년 직장 퇴사 후 창업. 공동창업자 Abhi·Alex는 성 미상, 前 top-tier management consulting 출신",
+  "business_model": "unknown (컨설팅 플랫폼 구독/과금 방식 미확인)",
+  "sources": [
+   "https://www.indiehackers.com/post/tech/building-a-30k-mo-portfolio-within-eight-months-of-quitting-his-420k-yr-job-dq0ZB3JnJTpRqCajozQc",
+   "https://aineversleeps.substack.com/",
+   "https://www.pear.it.com/our-story"
+  ],
+  "confidence": "low",
+  "founded_year": null
+ },
+ "verification": {
+  "verified_at": null,
+  "checklist_passed": [],
+  "primary_sources": [],
+  "corrections": [],
+  "excluded_figures": [],
+  "confidence_recommendation": null,
+  "notes": "IH 원문이 이 세션에서 egress 차단돼 검색 스니펫으로만 구조화. team_size 3인이라 스코프 렌즈에서 klipy(3인, pass 선례)와 비교 검토 필요. Jonathan Chan 본인은 Pear의 공동창업자 중 하나이고 Pear 자체가 그의 여러 사업 중 하나로 소개됨 — 매출 주체가 Pear 단독인지, Chan의 포트폴리오 전체($30K/mo와 $100K/mo 관계)인지 Stage 3에서 반드시 분리할 것."
+ }
+}
