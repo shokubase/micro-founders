@@ -1,22 +1,22 @@
 {
  "id": "pear-jonathan-chan",
- "status": "pending_verification",
+ "status": "rejected",
  "discovered_at": "2026-08-31",
  "discovery_source": "https://www.indiehackers.com/post/tech/building-a-30k-mo-portfolio-within-eight-months-of-quitting-his-420k-yr-job-dq0ZB3JnJTpRqCajozQc (Tier1 EN)",
  "case": {
   "id": "pear-jonathan-chan",
   "founders": [
    "Jonathan Chan (co-founder/CTO/CPO)",
-   "Abhi (공동창업자, 성 미상)",
+   "Abhi (Abhinay Anand로 추정, 성 확인됨)",
    "Alex (공동창업자, 성 미상)"
   ],
   "product": "Pear (pear.it.com)",
   "domain": "AI-native 경영 컨설팅 플랫폼",
-  "one_liner": "前 top-tier 경영컨설턴트 3인이 만든 AI 네이티브 컨설팅 플랫폼 — 런칭 3주 만에 월매출 $100K 주장",
-  "team_size": "3인 공동창업 (前 top-tier management consulting 출신)",
-  "region": "unknown",
-  "revenue": "IH 글 경유 검색 스니펫: \"Pear reached $100k/mo USD three weeks after launch\", 마진 10% 명시 — 창업자 1인칭 원문 전체 미대조",
-  "revenue_date": "unknown (IH 글 게시 시점 기준 추정)",
+  "one_liner": "前 top-tier 경영컨설턴트 3인이 만든 AI 네이티브 컨설팅 플랫폼 — 런칭 3주 만에 월매출 $100K 주장 (수치 원문 미확보로 기각)",
+  "team_size": "3인 공동창업 (前 McKinsey/BCG/Bain/Kearney 출신, 호주 시드니 소재로 추정)",
+  "region": "호주 시드니 (추정 — Abhinay Anand LinkedIn 소재지, 前직장이 Optus/Westpac/Standard Chartered 등 호주 시장 중심)",
+  "revenue": "IH 글 경유 검색 스니펫: \"Pear reached $100k/mo USD three weeks after launch\", 마진 10% 명시 — 창업자 1인칭 원문 확정 실패(아래 판정 참조)",
+  "revenue_date": "unknown",
   "exit_status": "운영 중 (추정)",
   "stack": [
    "Cursor",
@@ -28,23 +28,34 @@
    "Cursor",
    "Claude Code"
   ],
-  "founder_background": "Jonathan Chan — AI Never Sleeps(aineversleeps.substack.com) 운영자, 자신의 인디해커 포트폴리오(월 $30K 별도 사업) 소개 글 중 Pear 언급. 前 $420K/년 직장 퇴사 후 창업. 공동창업자 Abhi·Alex는 성 미상, 前 top-tier management consulting 출신",
-  "business_model": "unknown (컨설팅 플랫폼 구독/과금 방식 미확인)",
+  "founder_background": "Jonathan Chan — AI Never Sleeps(aineversleeps.substack.com) 운영자, RocketReach 동일 contact ID로 Pear·AI Never Sleeps 이중 직함 확인. 前 $420K/년 직장 퇴사 후 창업",
+  "business_model": "unknown",
   "sources": [
    "https://www.indiehackers.com/post/tech/building-a-30k-mo-portfolio-within-eight-months-of-quitting-his-420k-yr-job-dq0ZB3JnJTpRqCajozQc",
    "https://aineversleeps.substack.com/",
-   "https://www.pear.it.com/our-story"
+   "https://www.pear.it.com/our-story",
+   "https://f4.fund/startups/pear-it"
   ],
   "confidence": "low",
   "founded_year": null
  },
  "verification": {
-  "verified_at": null,
-  "checklist_passed": [],
+  "verified_at": "2026-08-31",
+  "checklist_passed": [
+   "existence:pass (medium) — Jonathan Chan 실명·본인 계정 확인(LinkedIn, RocketReach 교차확인으로 Pear·AI Never Sleeps 동일인 확정). Pear 공식 다중 페이지 라이브, 3자 디렉터리(f4.fund) 등재. 공동창업자 Abhi는 독립 LinkedIn(Abhinay Anand, Sydney)으로 확증, Alex는 성 미상 상태 유지",
+   "figures:fail — '$100K/mo' 수치의 1인칭 원문을 확보하지 못함. IH·pear.it.com 전부 egress 차단. WebSearch 재질의마다 서로 다른 수치($100K/mo ↔ $10K/mo)가 반환되고 한 응답 안에 두 수치가 병치되는 자기모순 확인 — 요약 오염 강한 의심(caret류 10배 오류 패턴). '$30K/mo 포트폴리오'(제목)와 '$100K/mo'(Pear)의 관계(개인귀속 vs 회사귀속)도 확정 불가",
+   "scope:pass — 3인 공동창업이나 klipy(3인, pass 선례)와 동형 구조, VC 대규모 투자 근거 없음. 도구 발화(\"Cursor now Claude Code, mostly\" + \"they built an AI matching engine from scratch\")가 같은 기사 내 4회 독립 검색으로 재현. 기존 코퍼스 중복 없음(research_metrics 'Pear'→ninjapear 매치는 오탐으로 확인)"
+  ],
   "primary_sources": [],
-  "corrections": [],
-  "excluded_figures": [],
-  "confidence_recommendation": null,
-  "notes": "IH 원문이 이 세션에서 egress 차단돼 검색 스니펫으로만 구조화. team_size 3인이라 스코프 렌즈에서 klipy(3인, pass 선례)와 비교 검토 필요. Jonathan Chan 본인은 Pear의 공동창업자 중 하나이고 Pear 자체가 그의 여러 사업 중 하나로 소개됨 — 매출 주체가 Pear 단독인지, Chan의 포트폴리오 전체($30K/mo와 $100K/mo 관계)인지 Stage 3에서 반드시 분리할 것."
+  "corrections": [
+   "founders: 'Abhi (성 미상)' → 'Abhinay Anand로 추정' — 독립 LinkedIn(linkedin.com/in/abhinayanand/, Sydney, \"Abhinay Anand - Pear\")으로 확증",
+   "region: unknown → 호주 시드니(추정) — Abhi LinkedIn 소재지 + Pear가 \"Australian operating system for consulting\"으로 검색 설명, 창업자들의 前직장이 Optus/Westpac/Standard Chartered 등 호주 시장 중심"
+  ],
+  "excluded_figures": [
+   "[figures] '$100K/mo' — 원문 1인칭 미확보, 검색 요약이 동일 소스에 대해 $10K/mo와 $100K/mo를 모두 산출하는 자기모순 발견. 채택 불가",
+   "[figures] '$30K/mo' (Chan 포트폴리오 제목) — Pear($100K/mo로 알려진 수치)와의 관계(개인귀속 vs 회사귀속) 미확정"
+  ],
+  "confidence_recommendation": "low",
+  "notes": "판정: **rejected.** existence·scope는 pass이나 figures가 fail이고 매출($100K/mo)이 one_liner의 핵심 주장이므로, RESEARCH_PIPELINE.md 예외 규정(\"수치 렌즈 fail + 매출이 핵심 주장인 후보는 2/3이어도 rejected\")을 적용한다.\n\n이 fail은 창업자 주장이 반증됐다기보다 **이 세션의 egress 차단(indiehackers.com, pear.it.com 전면 차단)으로 원문 raw text를 확보하지 못했고, 그 대체 수단인 WebSearch 요약 자체가 자기모순($10K↔$100K)을 냈기 때문**이다 — RESEARCH_PIPELINE.md가 경고하는 '요약 fetch가 숫자를 바꾼다' 실패 유형과 일치한다. existence·scope 렌즈는 뚜렷한 pass이고 반박도 전혀 없었다.\n\n## 재개 조건\n브라우저로 다음 두 URL을 직접 열면 재검증 가능: (1) https://www.indiehackers.com/post/tech/building-a-30k-mo-portfolio-within-eight-months-of-quitting-his-420k-yr-job-dq0ZB3JnJTpRqCajozQc — $100K/mo가 1인칭 발화인지, $30K/mo와의 관계(개인 vs Pear 회사) 확정. (2) https://www.pear.it.com/our-story — 팀·매출 서사 공식 확인."
  }
 }

@@ -1,6 +1,6 @@
 {
  "id": "aura-meng-to",
- "status": "pending_verification",
+ "status": "verified",
  "discovered_at": "2026-08-31",
  "discovery_source": "https://x.com/MengTo/status/1943717847236325519 (Tier3 EN, 정기 리서치 검색 각도 경유)",
  "case": {
@@ -8,35 +8,58 @@
   "founders": [
    "Meng To"
   ],
-  "product": "Aura",
-  "domain": "디자인 툴 (원문 미확정 — 카테고리 상세는 Stage 3 재확인 필요)",
-  "one_liner": "DesignCode 창업자 Meng To가 1인 개발로 런칭 1개월 만에 MRR $15K, 사용자 21.7K를 달성했다고 밝힌 디자인 앱",
-  "team_size": "1인 (본인 발화, 118K LOC 단독 작성 주장)",
-  "region": "unknown (Meng To 과거 활동 근거지는 캐나다/미국권으로 알려져 있으나 원문 미확인)",
-  "revenue": "본인 X 발화(2026 시점 추정, 검색 스니펫): \"1 month later, Aura hits 15k MRR and 21.7k users\" — 원문 전체 대조 및 시점(연도) 확정 필요",
-  "revenue_date": "unknown (스니펫상 '1개월 후' — 게시 연도 미확정)",
-  "exit_status": "운영 중 (추정)",
+  "product": "Aura (aura.build)",
+  "domain": "AI 디자인 프로토타이핑 툴 — 'a cursor for design'을 표방하는 UI/제품 디자인 앱",
+  "one_liner": "DesignCode 창업자 Meng To가 1인으로 만든 디자인 툴 — 런칭 후 약 1개월 만에 MRR $15K, 사용자 21.7K를 달성했다고 본인이 X에 발표",
+  "team_size": "1인 (본인 발화 \"I soloed this project from scratch\" 다수 트윗에서 반복 확인, 118K LOC 단독 작성 주장)",
+  "region": "싱가포르 거주 (원 캐나다 몬트리올 출신, 캄보디아계 — LinkedIn·다수 독립 인터뷰로 확인)",
+  "revenue": "본인 X 발화(status 1943717847236325519): \"Vibe coding is real. 1 month later, Aura hits 15k MRR and 21.7k users. I soloed this project from scratch...\" — 3회 독립 WebSearch에서 동일 축자 인용 재현. 통화 기호 명시는 없으나(USD로 추정) 타 통화 문맥 부재. MRR과 '21.7k users'는 서로 다른 모집단(유료 MRR vs 전체 사용자)을 가리키는 것으로 해석해야 정합",
+  "revenue_date": "2025-07 (트윗 Snowflake ID 타임스탬프 역산 + 독립 요약(creatoreconomy.so) 교차확인 — 후보 파일 초안의 '2026 추정'은 오류였음)",
+  "exit_status": "운영 중",
   "stack": [
    "unknown"
   ],
   "ai_tools": [
    "Claude"
   ],
-  "founder_background": "Meng To — DesignCode(디자인 교육 플랫폼) 창업자로 업계에 이미 잘 알려진 인물, 前 Apple 디자이너 출신으로 알려짐(2차 출처, 원문 미확정)",
-  "business_model": "unknown (구독형 SaaS로 추정 — MRR 표기 근거)",
+  "founder_background": "Meng To — DesignCode(디자인 교육 플랫폼) 창업자로 2013~2015년부터 업계에 알려진 인물. Aura는 DesignCode와 무관하게 2025년(창 안)에 새로 만든 별개 제품",
+  "business_model": "구독형 SaaS (MRR 표기 근거)",
   "sources": [
-   "https://x.com/MengTo/status/1943717847236325519"
+   "https://x.com/MengTo/status/1943717847236325519",
+   "https://sg.linkedin.com/in/mengto",
+   "https://mengto.com",
+   "https://aura.build",
+   "https://www.trustpilot.com/review/aura.build"
   ],
-  "confidence": "low",
-  "founded_year": null
+  "confidence": "medium",
+  "founded_year": 2025
  },
  "verification": {
-  "verified_at": null,
-  "checklist_passed": [],
-  "primary_sources": [],
-  "corrections": [],
-  "excluded_figures": [],
-  "confidence_recommendation": null,
-  "notes": "Stage 1 source-hunter가 WebSearch 스니펫으로만 발견 — x.com 원문 미열람(세션 egress 차단). founded_year·정확 발화 시점·팀 규모(공동창업자 유무)·Claude 사용이 '제작 도구'인지 '제품 내 AI 기능'인지 확정 안 됨. Meng To는 이미 유명 인물(DesignCode)이라 §0.5 유지·확장형 가드레일(1인칭 도구 발화 + 도구시대 산출물) 검토 필요할 수 있음."
+  "verified_at": "2026-08-31",
+  "checklist_passed": [
+   "existence:pass (medium) — 창업자 실명·본인 계정(X, LinkedIn, 개인사이트) 확인. 제품은 Trustpilot 독립 리뷰(긍정+불만형 부정 혼재), 3자 디렉터리(designtools.fyi, scamadviser, designmonks) 다수 등재로 실재 확인. 동명이인(Meng Zhang, Chade-Meng Tan) 및 동명 무관 기업(Aura Labs/Aura by Hari Ravichandran/Aura Ventures/Aura Build Technologies) 오염 배제 확인",
+   "figures:pass (medium) — 원문 트윗 축자 인용 3회 독립 재현, 애그리게이터 3자 재인용 없어 오염 스크리닝 결과 정합. 유사 카테고리 IH 글('$10k MRR in six weeks')은 별개 창업자(Mattia Pomelli/Sleek)로 확인돼 오염 아님",
+   "scope:pass — Aura는 2025년 창 안 런칭으로 §0.5 유지·확장형 가드레일 자체가 적용 대상 아님(DesignCode는 과거 별개 사업). 도구 발화(대상 트윗 자체 \"vibe coding your own app\" + 별도 인터뷰 \"Claude 4 Sonnet, ~90% of prompts\")가 3개 독립 출처에서 수렴해 §0.6 반증 테스트 충족. cases.json 58건 + candidates 42건 전체 대조 결과 중복 없음"
+  ],
+  "primary_sources": [
+   "https://x.com/MengTo/status/1943717847236325519",
+   "https://sg.linkedin.com/in/mengto",
+   "https://mengto.com",
+   "https://aura.build/meng",
+   "https://www.trustpilot.com/review/aura.build"
+  ],
+  "corrections": [
+   "region: unknown → 싱가포르 거주(원 몬트리올 출신, 캄보디아계) — LinkedIn 및 독립 인터뷰(Hacking UI, Treehouse Blog) 다수 확인",
+   "revenue_date: '2026 추정' → 2025-07 — 트윗 Snowflake ID 역산 + creatoreconomy.so 독립 교차확인 (\"In July 2025, Aura reached 15k MRR and 21.7k users\")",
+   "founded_year: 2025 (Aura 웹 버전 공개 2025-05 추정 근거)로 확정",
+   "ai_tools 근거 보강: \"Claude 4 Sonnet을 프롬프트의 약 90%에 사용, 막히면 Gemini 2.5 Pro/o3로 전환\" 및 별도 트윗(1924435148315165144) \"I took 7 days to completely recode everything from Swift to React\"로 도구시대 산출물 확인",
+   "제품명 'Aura'가 동명 무관 기업 4곳(Aura Labs 사진앱, Aura ID보호 유니콘, Aura Ventures VC, Aura Build Technologies 건설사)과 혼동 위험 — 카드/상세 표기 시 'aura.build (Meng To)'로 명확히 구분 표기 권고"
+  ],
+  "excluded_figures": [
+   "[existence] 'Apple 디자이너 출신' — 이번 조사에서 독립 확증 없음. 확인된 이력은 2013 Heyzap(모바일 게임사) 웹디자이너 → 2015 Design+Code 창업. 반영 보류",
+   "[scope] 공동창업자 존재 여부 — 완전한 독립 팀 명단(Crunchbase 등)은 확보 못함. 모든 언급이 단수 founder로만 지칭해 반박 근거 없이 pass 처리했으나 강한 독립 확증은 아님"
+  ],
+  "confidence_recommendation": "medium",
+  "notes": "판정: 3/3 pass → verified. 단 이 세션은 x.com·aura.build·trustpilot.com·LinkedIn 등 거의 전 도메인이 egress 프록시에서 차단돼(WebFetch EGRESS_BLOCKED) 3개 렌즈 모두 WebSearch 스니펫 교차 확인(각 3~4회 독립 질의 재현)에 의존했다 — 원문 페이지 직접 열람은 하나도 못했다. 다만 반박 시도가 전부 실패했고 독립 출처 수렴이 강해(existence: 5개 이상 무관 매체, figures: 3회 축자 재현) confidence medium으로 verified 처리. **사람 승인 단계에서 브라우저로 x.com 원문 트윗과 aura.build를 직접 열어 재확인 권장** — 특히 aurachat.io(맥 채팅앱)와 aura.build(디자인 툴)가 동일 제품의 리브랜딩인지 별도 제품인지 정리 필요."
  }
 }

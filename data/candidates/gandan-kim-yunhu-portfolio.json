@@ -1,6 +1,6 @@
 {
  "id": "gandan-kim-yunhu-portfolio",
- "status": "pending_verification",
+ "status": "rejected",
  "discovered_at": "2026-08-31",
  "discovery_source": "https://maily.so/josh/posts/1gz2v974r3q (Tier3 KR, 조쉬 뉴스레터 경유)",
  "case": {
@@ -10,10 +10,10 @@
   ],
   "product": "간단(Gandan, 간헐적 단식 앱) 외 앱 15개 포트폴리오",
   "domain": "헬스·라이프스타일 앱 포트폴리오 (간헐적 단식 트래커 등)",
-  "one_liner": "개발자 1인이 앱 15개를 운영하며 간헐적 단식 앱 '간단'으로 글로벌 200만 다운로드를 달성, 초기 자본 $0.52에서 월 매출 성장을 이뤘다는 사례 — 정확 매출액은 출처 간 불일치",
-  "team_size": "1인",
+  "one_liner": "개발자 1인이 앱 15개를 운영하며 간헐적 단식 앱 '간단'으로 글로벌 200만 다운로드를 달성했다는 사례 — 매출 수치는 헤드라인 표기뿐이라 기각",
+  "team_size": "1인 (다수 독립 출처가 '혼자 개발·운영'으로 일관 서술 — 스코프 렌즈에서 pass)",
   "region": "대한민국",
-  "revenue": "출처 간 수치 불일치 — (1) 조쉬 뉴스레터 스니펫: '단돈 0.52달러에서 월 1천만 원 수익', (2) 다른 스니펫: '월 1K'(단위·통화 미상, $1K 또는 1천원대일 가능성도 배제 못함). **Stage 3에서 원문 대조 없이는 어느 쪽도 채택 불가**",
+  "revenue": "두 매체 헤드라인 표기만 존재 — (1) '단돈 0.52달러에서 월 1천만 원 수익'(fastcampus.co.kr 제목), (2) '월 1K'(eopla.net/maily.so 제목, 단위·통화 불명). **본문 1인칭 발화 원문을 확보하지 못해 어느 쪽도 채택 불가**",
   "revenue_date": "unknown",
   "exit_status": "운영 중 (추정)",
   "stack": [
@@ -21,25 +21,37 @@
    "Unity"
   ],
   "ai_tools": [
-   "Claude Code"
+   "Claude Code (원문 미열람으로 확정 못함 — borderline)"
   ],
-  "founder_background": "김윤후 — 앱 15개 포트폴리오 운영, '간단' 외 제품 상세 미확인. eopla.net/fastcampus 등에 인디해커 인터뷰로 소개된 것으로 추정(원문 미열람)",
+  "founder_background": "김윤후 — 앱 15개 포트폴리오 운영, 본인 도메인(yunhookim.com) 및 브랜드 '리브어트(@liviet.dev)' 확인. 창업 시점이 2016~2017년(pre-2023, 검색 스니펫: '2016년, 17년에 개발을 시작했습니다')으로 §0.5 유지·확장형 케이스에 해당",
   "business_model": "unknown (앱 내 구독/광고로 추정)",
   "sources": [
    "https://maily.so/josh/posts/1gz2v974r3q",
    "https://eopla.net/magazines/31129",
-   "https://fastcampus.co.kr/story_article_indiehacker"
+   "https://eopla.net/magazines/16037",
+   "https://fastcampus.co.kr/story_article_indiehacker",
+   "https://gandan.yunhookim.com"
   ],
   "confidence": "low",
-  "founded_year": null
+  "founded_year": 2016
  },
  "verification": {
-  "verified_at": null,
-  "checklist_passed": [],
+  "verified_at": "2026-08-31",
+  "checklist_passed": [
+   "existence:pass (medium) — 본인 소유 도메인(yunhookim.com)이 '간단' 랜딩페이지(gandan.yunhookim.com) 호스팅, 앱스토어 라이브 등록(id1467464443), 별도 공식사이트·카카오 채널까지 서로 다른 플랫폼에서 정합적으로 수렴. 동명이인(LinkedIn Yunho Kim) 배제 확인",
+   "figures:fail — 매출 수치가 두 매체 제목에서만 확인되고 본문 1인칭 발화 원문을 하나도 확보하지 못함(maily.so·eopla.net·fastcampus.co.kr 전부 egress 차단, WebSearch도 제목/AI요약만 반환). 같은 뉴스레터의 다른 글과 대조한 결과 'K' 표기 자체가 편집자 관용구일 가능성 확인돼 신뢰도 추가 하락",
+   "scope:pass (borderline 세부) — team_size·monetization은 명확히 pass. ai_tools_era는 borderline(창업자 1인칭 도구 발화 미확정, 명시적 부정도 없음). 창업연도 2016/17로 확인돼 §0.5 유지·확장형 가드레일(1인칭 발화+도구시대 산출물) 적용 대상인데 두 조건 다 미충족 상태. 기존 코퍼스와 중복 없음(unique)"
+  ],
   "primary_sources": [],
-  "corrections": [],
-  "excluded_figures": [],
-  "confidence_recommendation": null,
-  "notes": "이 세션에서 maily.so·eopla.net·fastcampus.co.kr 전 도메인이 egress 차단돼 원문 미열람 — 검색 스니펫만으로 구조화됐다. 매출 수치가 두 갈래로 갈리는 전형적인 Stage2 위험 패턴(§역산 스크리닝 대상)이므로, 원문을 열기 전까지는 어느 수치도 '확인됨'으로 취급하지 말 것."
+  "corrections": [
+   "founded_year: null → 2016 (검색 스니펫 '2016년, 17년에 개발을 시작했습니다' 근거, §0.5 유지·확장형 케이스로 재분류)"
+  ],
+  "excluded_figures": [
+   "[figures] '월 1천만 원' — fastcampus.co.kr 기사 제목에만 등장, 본문 1인칭 발화 여부·화자(창업자 본인 vs 강의 판매 카피라이터) 미확정",
+   "[figures] '월 1K' — eopla.net/maily.so 제목에만 등장, 통화·단위 불명. 같은 뉴스레터 다른 글('조쉬 본인 월 2K') 대조 시 'K' 표기가 헤드라인 관용구로 느슨하게 쓰이는 정황 확인돼 신뢰도 추가 하락",
+   "[scope] stack의 'Unity' — 이번 조사 어디서도 뒷받침 못함, 원문 미열람 상태에서 구조화된 값으로 검증 안 된 채 방치됨"
+  ],
+  "confidence_recommendation": "low",
+  "notes": "판정: **rejected.** existence·scope(team/monetization)는 pass이나 figures가 fail이고 매출('월 1천만원' 또는 상당액)이 one_liner의 핵심 주장이므로 예외 규정(\"수치 렌즈 fail + 매출이 핵심 주장인 후보는 2/3이어도 rejected\")을 적용한다.\n\n**이 fail은 이 세션의 도구 한계가 결정적 요인이다.** figures 렌즈 담당자는 \"오케스트레이터가 원문 3건(eopla.net ×2, fastcampus.co.kr)을 브라우저로 재수집해 본문을 확인하기 전까지는 최종 rejected 처리를 보류할 것\"을 명시적으로 권고했으나, 이 세션에는 브라우저 도구(playwright)가 없어 그 요청을 이행할 수 없었다 — 파이프라인 규칙(\"열어보지 않은 것을 확인됨이라고 쓰지 마라\")에 따라 스니펫만으로 pass 처리할 수도 없어 규칙대로 기각을 기본값으로 적용한다.\n\n## 재개 조건\n브라우저로 다음을 직접 열면 재검증 가능: (1) https://eopla.net/magazines/31129 및 (2) https://fastcampus.co.kr/story_article_indiehacker — 매출 수치의 본문 1인칭 발화 여부와 화자, (3) https://www.threads.com/@liviet.dev/post/DQX7g30k27x/ — 도구(Claude Code) 사용 1인칭 발화 확인용."
  }
 }

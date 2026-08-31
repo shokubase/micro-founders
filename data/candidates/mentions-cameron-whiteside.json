@@ -1,6 +1,6 @@
 {
  "id": "mentions-cameron-whiteside",
- "status": "pending_verification",
+ "status": "rejected",
  "discovered_at": "2026-08-31",
  "discovery_source": "https://medium.com/@tamimbuilds/8-solo-founders-who-quietly-hit-20k-62k-mrr-in-the-last-6-months-5032e610badc (Tier1 EN 경유, 2차 재유통 요약)",
  "case": {
@@ -12,7 +12,7 @@
   "domain": "AI 검색 응답(ChatGPT/Perplexity 등)에서 브랜드 노출·언급을 추적하는 AEO/GEO 분석 툴",
   "one_liner": "기존 코퍼스 등재 사례 Kleo(kleo.so)의 창업자 Cameron Whiteside가 만든 신규 제품 — AI 답변 속 브랜드 노출 추적, MRR $20K",
   "team_size": "1인 (Kleo 사례와 동일 — Stage 3에서 공동창업 여부 재확인 필요)",
-  "region": "unknown (Kleo 사례 등재 시 확정된 region 값을 대조해 재사용 검토)",
+  "region": "unknown",
   "revenue": "2차 재유통 요약(Medium tamimbuilds): \"currently at $20k MRR\", 2026년 목표 \"$100k MRR\" — 창업자 1인칭 원문 미확보",
   "revenue_date": "unknown",
   "exit_status": "운영 중 (추정)",
@@ -22,8 +22,8 @@
   "ai_tools": [
    "Claude Code"
   ],
-  "founder_background": "Cameron Whiteside — 기존 코퍼스 사례 Kleo(kleo.so) 창업자와 동일 인물로 추정(Stage 3에서 신원 일치 확인 필수). Kleo 빌드 경험을 이어 신규 제품 Mentions를 만들었다는 서사",
-  "business_model": "unknown (구독형 SaaS로 추정)",
+  "founder_background": "Cameron Whiteside — 존재하지 않는 것으로 확인된 인물명 (아래 판정 참조)",
+  "business_model": "unknown",
   "sources": [
    "https://medium.com/@tamimbuilds/8-solo-founders-who-quietly-hit-20k-62k-mrr-in-the-last-6-months-5032e610badc"
   ],
@@ -31,12 +31,19 @@
   "founded_year": null
  },
  "verification": {
-  "verified_at": null,
-  "checklist_passed": [],
+  "verified_at": "2026-08-31",
+  "checklist_passed": [
+   "existence:fail — 창업자명 'Cameron Whiteside'는 이 서사 어디에도 실재하지 않는다. 실제 인물은 기존 코퍼스에 이미 merged된 kleo 사례의 공동창업자·CTO 'Cameron Trew'(camerontrew.com, x.com/camtrew, uk.linkedin.com/in/camerontrew, Vonage/Elastic Path/Base 경력)다. Medium 재유통글의 인물명 오귀속으로 추정",
+   "figures:fail — $20K MRR/2026년 목표 $100K 수치의 화자를 원문에서 확정하지 못함(indiehackers.com·camerontrew.com·medium.com 전부 egress 차단). 화자 자체가 실재하지 않는 인물로 판명돼 1인칭 발화 요건이 근본적으로 무너짐. 부가로 Kleo 발표에 대한 3자 신뢰성 이의제기(X @hustle_fred)도 확인됨",
+   "scope:fail — 실제로는 kleo(이미 merged)와 동일한 4인 팀(Jake Ward, Lara Acosta, Rob Hoffman, Cameron Trew)이 만든 자매 제품으로, team_size '1인' 서술이 사실과 다름. 매출 수치($20K MRR)도 이미 kleo.json/cases.json normalize_note에 'Mentions.so 합산 $82K'로 부분 반영돼 있어 순수 신규가 아님"
+  ],
   "primary_sources": [],
   "corrections": [],
-  "excluded_figures": [],
-  "confidence_recommendation": null,
-  "notes": "2차 재유통(Medium 요약 글) 경유 발견 — 원문 IH/창업자 본인 채널 URL을 아직 못 찾음. Stage 2/3에서 우선 (1) Cameron Whiteside 신원이 기존 Kleo 사례와 동일인인지, (2) $20K MRR의 1인칭 원문 발화처를 찾을 것. 기존 사례 Kleo와는 별개 제품이라 신규 후보로 채택했으나, Kleo 항목에 '포트폴리오'로 병합해야 할지 Stage 3/4에서 재검토 필요."
+  "excluded_figures": [
+   "[existence] 'Cameron Whiteside' — 3인 렌즈 전원이 존재하지 않는 인물로 결론. LinkedIn 검색 시 동명이인 3명(Cloudflare 직원, 압력세척업자, 시드니 거주자) 모두 Kleo/Vonage 배경과 불일치",
+   "[figures] '$20K MRR', '2026 목표 $100K MRR' — 화자 미확정. camerontrew.com 원문 대조 전까지 채택 보류"
+  ],
+  "confidence_recommendation": "low",
+  "notes": "판정: **rejected (0/3 pass).** 재발견 방지용 기록 — 이 후보는 실질적으로 존재하지 않는 인물 오귀속 사례다. 2차 재유통(Medium 'tamimbuilds' 리스티클)이 kleo 사례의 창업자 'Cameron Trew'를 'Cameron Whiteside'로 잘못 표기한 것으로 강하게 추정됨. Mentions(mentions.so) 제품 자체는 실재하며(3자 렌즈 공통 확인), 그 창업 배경과 매출($20K MRR)은 kleo.json에 이미 Cameron Trew 본인 1인칭 발화로 일부 캡처돼 있다.\n\n## 향후 재조사 방향\n\n이 정체성으로는 재상신 불가. 'Mentions' 자체를 다시 다루려면 창업자를 'Cameron Trew'로, team_size를 'kleo와 동일 4인 팀(공동창업 Jake Ward/Lara Acosta/Rob Hoffman + CTO Cameron Trew)'으로 정정하고, kleo 사례와의 관계(형제/포트폴리오 제품)를 scope-judge가 재심사해야 한다. 원문(camerontrew.com, IH 'From $0 to $62k MRR in three months')을 브라우저로 직접 열람할 수 있는 세션에서 재시도 권장."
  }
 }
