@@ -1,6 +1,6 @@
 {
  "id": "profit-pulse-jack",
- "status": "pending_verification",
+ "status": "rejected",
  "discovered_at": "2026-09-07",
  "discovery_source": "https://www.thefuturist.co/this-guy-built-a-30k-mrr-app-in-one-day-with-claude-code-heres-the-tools-he-uses/ (Tier1/Tier3 EN, 2개 에이전트 독립 발견)",
  "case": {
@@ -27,18 +27,30 @@
   "sources": [
    "https://www.thefuturist.co/this-guy-built-a-30k-mrr-app-in-one-day-with-claude-code-heres-the-tools-he-uses/",
    "https://www.stork.ai/blog/the-30kmo-app-built-in-1-day",
-   "https://apps.shopify.com/profit-pulse"
+   "https://x.com/starter_story/status/2077923002709356958 (2026-09-07 확보 — Jack 1인칭 인용, 실제 앱 URL은 아래 주석 참조)"
   ],
   "confidence": "low",
   "founded_year": 2024
  },
  "verification": {
-  "verified_at": null,
-  "checklist_passed": [],
-  "primary_sources": [],
-  "corrections": [],
-  "excluded_figures": [],
-  "confidence_recommendation": null,
-  "notes": "Stage 2 적재만 완료 — 2개 독립 각도(Tier1 EN, Tier3 EN)에서 같은 리드가 나와 교차 신호는 있으나, 둘 다 2차 재유통(thefuturist.co, stork.ai) 경유였고 Starter Story 원문 정확 URL을 못 찾았다. Stage 3에서 starterstory.com 직접 검색 또는 창업자 본인 X/IH 계정 역추적이 최우선 과제."
+  "verified_at": "2026-09-07",
+  "checklist_passed": [
+   "existence:fail — 창업자 실명이 끝내 확인되지 않았다. 검증 중 제시된 'Jack Friks'라는 이름은 **완전히 다른 인물(Post Bridge/Curiosity Quench 창업자, 이 세션의 별도 후보 post-bridge-jack-friks.json 본인)**로 반박·확정됨 — 동명이인 오염 사례. 게다가 **후보 파일 자체의 sources에 있던 apps.shopify.com/profit-pulse가 이 창업자와 무관한 별개 회사('Profit Pulse: AI Net Profit')의 앱**임이 드러남 — 이번 조사로 삭제",
+   "figures:borderline — $147K 누적매출과 $30K MRR은 Starter Story 본인 X 계정의 1인칭 인용(축자 확보) + 가격×고객수 역산 정합성으로 뒷받침되나, discovery_source 제목의 'in one day' 프레이밍은 반박됨(실제 빌드 3.5~4개월, '하루'는 무관한 별개 프로젝트 발화). $40K MRR(용역 포함)은 2차 재유통에서만 반복되는 미확인 수치",
+   "scope:pass — Cursor/Claude Code 사용 정황은 2개 독립 2차 소스 일치 + Starter Story 본인 계정 인용으로 보강, founded_year 2024-12 확인, Shopify 라이브 확인"
+  ],
+  "primary_sources": [
+   "https://x.com/starter_story/status/2077923002709356958 (Jack 1인칭 인용 확보 — 단 창업자 성(姓)은 여전히 미상)"
+  ],
+  "corrections": [
+   "sources의 'https://apps.shopify.com/profit-pulse'는 오류 — 이 창업자와 무관한 별개 회사 앱. 올바른 후보 URL은 https://apps.shopify.com/profit-ai 및 https://tryprofit.ai/ (2026-09-07 조사 결과, 미확정)",
+   "discovery_source 제목의 'in one day' 프레이밍 근거 없음 — Jack 본인 발화로는 원래 Profit AI 빌드에 3.5~4개월 소요. 'one day'는 최근 별도 개인 재무앱(Profit AI와 무관) 관련 발화로 추정",
+   "'$40,000 MRR including services'는 1인칭 원문 미확인 — 2차 재유통에서만 반복"
+  ],
+  "excluded_figures": [
+   "[figures] $40K MRR(용역 포함) — 미확인, 반영 금지"
+  ],
+  "confidence_recommendation": "low",
+  "notes": "**2026-09-07 정기 리서치 3렌즈 검증 — rejected.** 3렌즈 중 유효한 pass는 스코프 하나뿐이고, 이 아카이브의 가장 기본적인 요건인 '창업자 실명 확인'조차 이번 조사로 해소되지 못했다 — 오히려 동명이인 오염(가짜 'Jack Friks' 리드)과 후보 파일 자체의 출처 오류(무관한 앱 URL)가 새로 발견됐다. 매출 수치는 부분적으로 뒷받침되지만(borderline), 창업자를 특정할 수 없는 상태에서 사례로 등재할 수 없다.\n\n**사례 결함이 아니라 조사 미완일 가능성이 있다** — 이번 세션은 x.com·tryprofit.ai·apps.shopify.com·youtube.com·biggo.com이 전부 egress 프록시로 차단돼 원문 직접 열람을 하나도 못 했다. 브라우저 가능한 세션에서 아래를 확인하면 재심 가능:\n1. https://tryprofit.ai/ 또는 https://apps.shopify.com/profit-ai — About/Team 페이지에서 창업자 실명·성(姓) 확인\n2. https://x.com/jackdoesecom — 본인 계정 여부 확인\n3. https://finance.biggo.com/podcast/fdf143335be01ce6 — Starter Story 팟캐스트 원문 전사"
  }
 }

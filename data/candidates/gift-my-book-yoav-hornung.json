@@ -1,6 +1,6 @@
 {
  "id": "gift-my-book-yoav-hornung",
- "status": "pending_verification",
+ "status": "rejected",
  "discovered_at": "2026-09-07",
  "discovery_source": "https://base44.com/blog/base44-case-study-gift-my-book (Tier2 벤더 쇼케이스)",
  "case": {
@@ -32,12 +32,25 @@
   "founded_year": 2026
  },
  "verification": {
-  "verified_at": null,
-  "checklist_passed": [],
-  "primary_sources": [],
-  "corrections": [],
-  "excluded_figures": [],
-  "confidence_recommendation": null,
-  "notes": "Stage 2 적재만 완료 — 벤더(Base44) 자사 케이스스터디가 유일한 수치 출처. 창업자 본인 LinkedIn 포스트 링크는 확보했으나 내용 미대조. RESEARCH_PIPELINE.md '벤더 재유통은 단위를 떨어뜨린다'(lunair·shiftnex 선례) 원칙에 따라 Stage 3에서 창업자 본인 1인칭 발화를 반드시 확보해야 confidence가 low를 넘을 수 있다."
+  "verified_at": "2026-09-07",
+  "checklist_passed": [
+   "existence:pass (medium) — Yoav Hornung 실존(Crunchbase/RocketReach/LinkedIn 교차 확인), Gift My Book 제품 실재(Trustpilot 리뷰 32건, Instagram, 제3자 비교 블로그). 공동창업자 2인 실명·지역은 미확인",
+   "figures:fail — 핵심 주장 '$1M ARR in 3 months'가 벤더(Base44) 케이스스터디 유일 출처. 창업자 본인 LinkedIn 포스트가 벤더 글과 동일 제목이라 정황은 있으나 egress 차단으로 본문 대조 불가해 '독자 확인'과 '단순 홍보 공유'를 구분 못함(unverifiable). 게다가 founded_year 2026 표기가 독립 검색 결과(2025년 이미 운영 중, 후속 인물 등장)와 모순돼 시점 자체가 불명확",
+   "scope:pass — Base44(AI 앱빌더) 사용 창업자 인용 확인(벤더 채널), 3인 팀 다출처 일관, 수익화 구조 라이브(Trustpilot 확인). lunair 선례와 같은 구조이나 lunair는 Product Hunt 창업자 직접 게시물 등 벤더 무관 채널이 있었던 반면 이 후보는 아직 없음"
+  ],
+  "primary_sources": [
+   "https://www.trustpilot.com/review/giftmybook.com",
+   "https://www.crunchbase.com/person/yoav-hornung",
+   "https://rocketreach.co/yoav-hornung-email_758356"
+  ],
+  "corrections": [
+   "founded_year: 2026 → 2025 가능성 높음(독립 검색 결과가 2025년 이미 운영 중이었음을 시사) — 1차 출처 미확보로 확정은 아님",
+   "founder_background: 'Fiverr 8년 근무'는 부정확한 압축 표현 — 정확히는 'VeedMe 창업 후 Fiverr에 인수, 이후 Fiverr 임원으로 재직'"
+  ],
+  "excluded_figures": [
+   "[figures] '$1M ARR in 3 months / 90일 내 $1M 연환산매출' — Base44 벤더 케이스스터디 유일 출처, 창업자 독립 확인 미완료. lunair·shiftnex 선례의 '벤더 재유통' 위험 패턴과 동일하나, lunair와 달리 벤더 무관 독립 채널(Product Hunt 등)에서의 본인 발화가 아직 없어 수치 신뢰도가 더 낮음"
+  ],
+  "confidence_recommendation": "low",
+  "notes": "**2026-09-07 정기 리서치 3렌즈 검증 결과 rejected.** existence·scope는 pass(2/3)이지만, **핵심 주장인 매출($1M ARR)이 벤더 단일 출처에서만 나오고 창업자 1인칭 독립 확인을 하지 못했으며(figures fail), 게다가 founded_year 자체가 후보 파일 기재(2026)와 독립 검색 결과(2025 이전부터 운영)가 모순된다.** RESEARCH_PIPELINE.md 판정 규칙 '수치 렌즈 fail + 매출이 핵심 주장인 후보는 2/3 통과여도 rejected'를 적용한다.\n\n이 세션은 base44.com, linkedin.com이 egress 프록시로 전면 차단되어 원문 직접 대조를 하지 못했다 — 이는 반증이 아니라 도구 한계다. 향후 브라우저 가능한 세션에서 아래를 확인하면 재심 가능:\n1. https://www.linkedin.com/posts/yoavho_base44-case-study-how-gift-my-book-reached-activity-7417620169784594432-UYA7 — 창업자 본인의 독자 서술인지 벤더 링크 단순 공유인지\n2. https://base44.com/blog/base44-case-study-gift-my-book — 정확한 타임라인·founded_year 단서\n3. https://giftmybook.com 런타임에 Base44 지문(lunair 선례처럼)이 있는지"
  }
 }

@@ -1,41 +1,63 @@
 {
  "id": "liu-xiaopai-portfolio",
- "status": "pending_verification",
+ "status": "rejected",
  "discovered_at": "2026-09-07",
  "discovery_source": "https://www.pado.kr/article/2025120510468813925 (한국 매체, afraw Substack 리포트 재번역 경유 — Tier2 뉴스레터)",
  "case": {
   "id": "liu-xiaopai-portfolio",
   "founders": [
-   "劉小排 / Liu Xiaopai (추정 로마자 표기, 원문 대조 필요)"
+   "刘小排 / Liu Xiaopai (간체자 확정 — GitHub·X 프로필 표시명 일치)"
   ],
-  "product": "AI 제품 12개+ 포트폴리오 (개별 제품명 미상)",
-  "domain": "미상 (개별 제품 파악 필요)",
-  "one_liner": "베이징 거주 20년차 프로그래머가 Claude Code로 12개+ AI 제품을 운영, Anthropic 기록상 최대 수준(월 $50,000어치)의 모델 사용량",
-  "team_size": "1인 (미확정)",
-  "region": "중국 베이징 (미확정 — 원문 대조 필요)",
-  "revenue": "월 $200 Claude 요금제로 시작해 월 $50,000어치 모델 사용(Anthropic 측 최대 기록 언급), 한국 매체 재보도 기준 '연 15억원 이상' 순이익 — **전부 2차 재유통(PADO/머니투데이가 afraw Substack을 재번역)이라 창업자 본인 1인칭 발화 미확보. 통화 단위(CNY 추정)도 원문 미대조**",
+  "product": "AI 제품 12개+ 포트폴리오 — 확인된 것: Raphael AI(raphael.app, 이미지 생성), AnyVoice(음성 복제), Fast3D(텍스트/이미지→3D)",
+  "domain": "AI 생성 도구 포트폴리오",
+  "one_liner": "베이징 소재 창업자가 Claude Code로 12개+ AI 제품을 운영, 월 $50,000어치 모델 사용(비용) — 매출/이익 수치는 원어 출처 간 불일치로 미확정",
+  "team_size": "6~7명 (창업자 본인 인터뷰 발화 '公司只有六七个人') — 후보 파일의 '1인' 프레이밍은 오류로 확인됨. Raphael AI는 2023년 설립 시 본인 포함 3인으로 시작",
+  "region": "중국 베이징 (텅쉰뉴스 독립 인터뷰로 확정 — 'SCAI 인큐베이터 운영')",
+  "revenue": "**2026-09-07 재검증 결과 revenue 필드 자체가 오염돼 있었다.** 월 $50,000는 매출이 아니라 Claude API 사용 비용(지출)이다 — 창업자 본인 X 계정 1인칭 발화로 비용 자체는 확인되나(\"一个月内使用了五万美金的Token\"), 매출/이익과 혼동해서는 안 된다. '연 15억원 순이익' 주장은 afraw Substack(영문, '$1M pure margin/year' 저자 서술 — 창업자 1인칭 아님)과 중국 텅쉰뉴스(위안화 '年入千万', ≈$1.4M — 다른 통화·다른 크기)가 **서로 다른 수치를 독립적으로 보도**해 원어 출처 간 불일치가 있고, 창업자 본인의 1인칭 매출/이익 발화는 끝내 확보하지 못했다(본인 발화로 확인된 것은 \"시장가 기준 30~50명 고용 가능한 수준\"이라는 모호한 비교뿐)",
   "revenue_date": "미확정",
   "exit_status": "운영 중 (추정)",
   "stack": [],
   "ai_tools": [
    "Claude Code"
   ],
-  "founder_background": "베이징 거주 20년차 프로그래머, 1인 기업가로 소개됨 (원문 미대조)",
+  "founder_background": "AI 창업자, 비프로그래밍 배경 출신으로 소개됨. 2023년 Raphael AI로 창업(본인 포함 3인) — 텅쉰뉴스 인터뷰(2025-09-08)",
   "business_model": "미상",
   "sources": [
    "https://www.pado.kr/article/2025120510468813925",
-   "https://afraw.substack.com/p/story-of-a-chinese-vibe-coder"
+   "https://afraw.substack.com/p/story-of-a-chinese-vibe-coder",
+   "https://x.com/bourneliu66 (창업자 본인, 2026-09-07 확보)",
+   "https://github.com/liuxiaopai-ai (창업자 본인, 2026-09-07 확보)",
+   "https://view.inews.qq.com/a/20250908A04GHZ00 (텅쉰뉴스 독립 인터뷰)"
   ],
   "confidence": "low",
-  "founded_year": null
+  "founded_year": 2023
  },
  "verification": {
-  "verified_at": null,
-  "checklist_passed": [],
-  "primary_sources": [],
-  "corrections": [],
-  "excluded_figures": [],
-  "confidence_recommendation": null,
-  "notes": "Stage 2 적재만 완료 — **중국어권은 RESEARCH_PIPELINE.md에서 미개척 층(0건)으로 명시된 곳**이라 신규 표집 프레임으로서 가치가 크다. 단 현재 근거는 전부 2차 재유통(한국 매체 ← afraw Substack)이고 창업자 실명 로마자 표기·개별 제품명·정확 수치·통화 단위가 전부 미확정이다. Stage 3에서 afraw Substack 원문을 먼저 확인하고, 가능하면 창업자 본인 채널(웨이보/샤오홍슈/즈후 등)까지 역추적 필요. **founded_year 미상 — 스코프 창 판정 불가 상태이니 반드시 확정할 것.** CNY 환산 레이트가 CLAUDE.md에 없으니 임의 변환 금지, 필요시 레이트 추가부터 논의."
+  "verified_at": "2026-09-07",
+  "checklist_passed": [
+   "existence:pass (high) — 창업자 실존 확정. 본인 X(@bourneliu66)·GitHub(liuxiaopai-ai)에서 원문 핵심 주장과 일치하는 1인칭 발화 확인(\"一个月内使用了五万美金的Token\"), 독립 언론(텅쉰뉴스, 2025-09-08)이 afraw Substack과 무관하게 같은 인물·베이징 소재를 재확인. 개별 제품 5개(Raphael AI 등) 실재 확인",
+   "figures:fail — 핵심 주장인 매출/이익 수치가 afraw Substack(영문, 저자 서술)과 텅쉰뉴스(중국어, 창업자 발화 근접)가 서로 다른 통화·다른 크기를 독립 보도해 불일치. $50K/월은 매출이 아니라 API 비용으로 밝혀져 원 후보 파일의 revenue 프레이밍 자체가 오류였다. 창업자 1인칭의 명확한 매출/이익 발화는 미확보",
+   "scope:pass — Claude Code 극단적 사용이 본인 1인칭으로 확정, founded_year 2023 확정(스코프 창 안), 팀 규모 6~7명(소규모 성장 조항 부합), 기존 코퍼스와 중복 없음"
+  ],
+  "primary_sources": [
+   "https://x.com/bourneliu66/status/1956958540658270411",
+   "https://x.com/bourneliu66/status/2072979566369611958",
+   "https://github.com/liuxiaopai-ai",
+   "https://view.inews.qq.com/a/20250908A04GHZ00"
+  ],
+  "corrections": [
+   "창업자명: '劉小排(전통자, 추정)' → '刘小排(간체자, 확정)'",
+   "region: '중국 베이징(미확정)' → '중국 베이징(확정)'",
+   "team_size: '1인' → '6~7명' — 후보 파일의 '1인' 프레이밍이 창업자 본인 인터뷰 발화와 정면 배치되는 오류였음",
+   "founded_year: null → 2023 (Raphael AI 창업 시점, 본인 포함 3인)",
+   "revenue: '$50K/월'을 매출로 서술한 원 프레이밍이 오류 — 이것은 API 비용(지출)이다. '연 15억원 순이익'도 afraw(영문 $1M)와 텅쉰뉴스(위안 '千万', ≈$1.4M)가 서로 다른 수치를 독립 보도해 어느 쪽도 확정 채택 불가",
+   "product: 개별 제품명 확인 — Raphael AI(raphael.app), AnyVoice, Fast3D, BuilderPulse, raphael-publish. '개별 제품명 미상' 문구는 부정확했음"
+  ],
+  "excluded_figures": [
+   "[figures] '연 15억원 순이익' — afraw Substack(영문 $1M, 저자 서술)과 텅쉰뉴스(중국어 '年入千万', ≈$1.4M)가 서로 다른 통화·크기로 독립 보도. 창업자 1인칭 발화 미확보로 둘 다 배제",
+   "[figures] '월 $50,000' — 매출이 아니라 Claude API 사용 비용(지출)이다. 매출 지표로 반영 금지"
+  ],
+  "confidence_recommendation": "low",
+  "notes": "**2026-09-07 정기 리서치 3렌즈 검증 — rejected.** 창업자 실존(existence: pass, confidence high)과 스코프(scope: pass)는 강하게 확인됐으나, **이 후보의 핵심 주장이었던 매출/이익 수치가 수치 렌즈에서 fail 판정을 받았다** — 원 후보 파일이 '비용'과 '매출'을 혼동했고(월 $50K는 API 청구액), '연 15억원 순이익' 주장은 두 원어 출처(afraw 영문 vs 텅쉰뉴스 중국어)가 서로 다른 통화·크기를 독립 보도해 어느 쪽도 창업자 1인칭으로 확정하지 못했다. RESEARCH_PIPELINE.md 판정 규칙 '수치 렌즈 fail + 매출이 핵심 주장인 후보는 2/3 통과여도 rejected'를 적용한다.\n\n**사례 결함이 아니라 프레이밍·조사 미완 쪽에 가깝다 — 실존 확정도(high)가 매우 높아 아쉬운 기각이다.** 창업자가 가짜이거나 스코프 밖이라서가 아니라, 정확한 매출 수치를 아직 특정하지 못했을 뿐이다. **중국어권은 이 아카이브의 미개척 층(0건)이었고, 이번 조사로 창업자 실존·도구 사용·창업 연도까지는 확정했다** — 다음에 브라우저 가능한 세션에서 아래를 열면 재심 가능성이 높다:\n1. https://afraw.substack.com/p/story-of-a-chinese-vibe-coder — '$1M pure margin/year' 서술의 맥락(저자 추정인지 인용인지)과 '12개+' 제품 전체 목록\n2. https://view.inews.qq.com/a/20250908A04GHZ00 — 텅쉰뉴스 인터뷰 전문에서 매출/이익의 창업자 1인칭 발화 최종 확인\n3. https://m.okjike.com/users/065922A7-2523-4C26-AB2B-DDFF60443E2C — 즉刻(Jike) 본인 계정 매출 관련 발화\n\n**CNY 환산 레이트가 CLAUDE.md에 없다 — 재심 시 텅쉰뉴스의 '千万위안' 수치를 채택하게 되면 레이트 추가 논의부터 필요.**"
  }
 }
