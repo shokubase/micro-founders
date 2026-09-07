@@ -1,0 +1,43 @@
+{
+ "id": "gift-my-book-yoav-hornung",
+ "status": "pending_verification",
+ "discovered_at": "2026-09-07",
+ "discovery_source": "https://base44.com/blog/base44-case-study-gift-my-book (Tier2 벤더 쇼케이스)",
+ "case": {
+  "id": "gift-my-book-yoav-hornung",
+  "founders": [
+   "Yoav Hornung (전 Fiverr 8년 근무)",
+   "친구 2명 (실명 미상)"
+  ],
+  "product": "Gift My Book",
+  "domain": "개인화 맞춤 도서 선물 서비스",
+  "one_liner": "전 Fiverr 직원이 친구 2명과 Base44로 1주일 만에 만들어 90일 내 연환산매출 $1M을 달성한 서비스",
+  "team_size": "3인 (미확정 — Stage 3 재확인 필요)",
+  "region": "미확정",
+  "revenue": "\"$1M ARR in 3 months\" / \"hit $1M annualized revenue in under 90 days\" — Base44 자사 케이스스터디(3인칭 벤더 블로그) 서술. 창업자 본인 LinkedIn 발화 대조 필요 (벤더 재유통 시 단위 탈락 선례 다수: lunair·shiftnex)",
+  "revenue_date": "미확정",
+  "exit_status": "운영 중",
+  "stack": [],
+  "ai_tools": [
+   "Base44"
+  ],
+  "founder_background": "전 Fiverr 8년 근무. $100 메타 광고로 수요 검증 후 1주일 만에 end-to-end 구축했다는 서술",
+  "business_model": "이커머스 (맞춤 도서 판매)",
+  "sources": [
+   "https://base44.com/blog/base44-case-study-gift-my-book",
+   "https://www.linkedin.com/in/yoavho/",
+   "https://www.linkedin.com/posts/yoavho_base44-case-study-how-gift-my-book-reached-activity-7417620169784594432-UYA7"
+  ],
+  "confidence": "low",
+  "founded_year": 2026
+ },
+ "verification": {
+  "verified_at": null,
+  "checklist_passed": [],
+  "primary_sources": [],
+  "corrections": [],
+  "excluded_figures": [],
+  "confidence_recommendation": null,
+  "notes": "Stage 2 적재만 완료 — 벤더(Base44) 자사 케이스스터디가 유일한 수치 출처. 창업자 본인 LinkedIn 포스트 링크는 확보했으나 내용 미대조. RESEARCH_PIPELINE.md '벤더 재유통은 단위를 떨어뜨린다'(lunair·shiftnex 선례) 원칙에 따라 Stage 3에서 창업자 본인 1인칭 발화를 반드시 확보해야 confidence가 low를 넘을 수 있다."
+ }
+}

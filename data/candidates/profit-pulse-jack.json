@@ -1,0 +1,44 @@
+{
+ "id": "profit-pulse-jack",
+ "status": "pending_verification",
+ "discovered_at": "2026-09-07",
+ "discovery_source": "https://www.thefuturist.co/this-guy-built-a-30k-mrr-app-in-one-day-with-claude-code-heres-the-tools-he-uses/ (Tier1/Tier3 EN, 2개 에이전트 독립 발견)",
+ "case": {
+  "id": "profit-pulse-jack",
+  "founders": [
+   "Jack (성 미상, 비기술 창업자 — 이전 에이전시/이커머스 브랜드 컨설팅 경력)"
+  ],
+  "product": "Profit AI / Profit Pulse (tryprofit.ai)",
+  "domain": "Shopify 수익분석 앱",
+  "one_liner": "비기술 창업자가 스프레드시트를 Cursor에 넣고 반복 개선해 만든 Shopify 수익분석 앱, 5개월 만에 누적매출 $147K",
+  "team_size": "1인 (미확정)",
+  "region": "미확정",
+  "revenue": "\"$147,000 in total revenue within five months\" / \"$30,000 MRR from the app\" / \"nearly $40,000 MRR including services\" (2차 출처 반복 서술 — 창업자 본인 1인칭 원문 미대조, Starter Story 정확 URL도 미확인)",
+  "revenue_date": "런칭 2024-12, 5개월 후 시점(2025-05 추정)",
+  "exit_status": "운영 중",
+  "stack": [],
+  "ai_tools": [
+   "Cursor",
+   "Claude Code",
+   "Claude"
+  ],
+  "founder_background": "비기술 창업자, 이전에 에이전시/이커머스 브랜드 컨설팅. 스프레드시트를 CSV로 Cursor에 넣어 반복 개선하며 시작했다는 서술",
+  "business_model": "Shopify 앱스토어 구독 + 부가 서비스(컨설팅 추정)",
+  "sources": [
+   "https://www.thefuturist.co/this-guy-built-a-30k-mrr-app-in-one-day-with-claude-code-heres-the-tools-he-uses/",
+   "https://www.stork.ai/blog/the-30kmo-app-built-in-1-day",
+   "https://apps.shopify.com/profit-pulse"
+  ],
+  "confidence": "low",
+  "founded_year": 2024
+ },
+ "verification": {
+  "verified_at": null,
+  "checklist_passed": [],
+  "primary_sources": [],
+  "corrections": [],
+  "excluded_figures": [],
+  "confidence_recommendation": null,
+  "notes": "Stage 2 적재만 완료 — 2개 독립 각도(Tier1 EN, Tier3 EN)에서 같은 리드가 나와 교차 신호는 있으나, 둘 다 2차 재유통(thefuturist.co, stork.ai) 경유였고 Starter Story 원문 정확 URL을 못 찾았다. Stage 3에서 starterstory.com 직접 검색 또는 창업자 본인 X/IH 계정 역추적이 최우선 과제."
+ }
+}

@@ -1,6 +1,6 @@
 {
  "id": "stella-manifest-anything",
- "status": "pending_verification",
+ "status": "verified",
  "discovered_at": "2026-08-24",
  "discovery_source": "https://www.starterstory.com/stories/she-built-this-300k-month-app-in-60-days (Tier1 EN, tech42 경유 발견)",
  "case": {
@@ -11,10 +11,10 @@
   "product": "Stella - Manifest Anything",
   "domain": "마인드셋·매니페스테이션 오디오 앱 — 개인화된 확언·시각화 내러티브",
   "one_liner": "4.5M 팔로워 인플루언서가 만든 매니페스테이션 앱 — 출시 2개월 만에 MRR $300K+ 주장(수치의 창업자 1인칭 발화는 아직 미확정)",
-  "team_size": "1인 주장 — 단 일부 검색 스니펫에 'co-founder' 표현이 섞여 나와 완전히 확정되지 않음(§Stage3 재검증 필요)",
-  "region": "미국 (추정 — 미확정)",
-  "revenue": "Starter Story 계열(본문 및 자사 X 계정)에서 MRR $300K 돌파(출시 2개월)/$340~360K(2026-07)/유료고객 12,000명/다운로드 20만+ 주장. **Stage 3 조사 결과 이 수치가 창업자 1인칭 발화라는 확증을 찾지 못함** — Starter Story 자사 X 계정의 다른 사례들에서도 '헤드라인 금액 + 무관한 동기·전략 인용문'이라는 동일 포맷이 반복 확인되어 애그리게이터 헤더 수치일 가능성이 높음. 가격($7/week)×유료고객(12,000)×4.345주 ≈ $364,800로 헤드라인과 수학적으로는 정합하나, 세 숫자가 모두 같은 미검증 소스 계열일 가능성이 있어 독립 증거로 보기 어려움. LinkedIn 3자 게시물에는 '$275K MRR(출시 1개월+)'이라는 후보 파일 미반영 중간 수치도 발견됨",
-  "revenue_date": "2026-07 (미확정)",
+  "team_size": "1인 창업자로 판단 — 본인 LinkedIn 헤드라인 및 독립 매체 제목 모두 단수 'founder'. 'co-founder' 표현은 WebSearch AI 요약 아티팩트로 확인됨(원본 스니펫에는 근거 없음, 2026-09-07 재검증)",
+  "region": "미국 — 뉴욕/브루클린 성장 배경(Medium·creatorinpublic.com 독립 인터뷰 2건 교차확인). 단 현재 사업체(Perl Productions LLC) 등록 주소는 미확인",
+  "revenue": "**창업자 본인 X 계정 1인칭 확인(2026-09-07 재검증): \"about to cross $300K MRR and it hasn't even been 2 months since i launched my app... no paid ads, no vc\"** (x.com/hhpriestess/status/2036612592722989071). 즉 '$300K MRR 돌파'가 아니라 '돌파 직전' 뉘앙스이며, 출시 2개월 미만 시점 스냅샷. **$340~360K(2026-07)/유료고객 12,000명/다운로드 20만+는 여전히 Starter Story 계열에서만 나오는 애그리게이터 헤더 수치로, 1인칭 발화 미확보 — 반영 금지**",
+  "revenue_date": "2026-05 (출시 후 2개월 미만 시점, 본인 트윗 기준)",
   "exit_status": "운영 중",
   "stack": [
    "Claude Code",
@@ -35,29 +35,35 @@
    "https://www.instagram.com/downloadstella/",
    "https://www.instagram.com/hothighpriestess/",
    "https://www.linkedin.com/posts/jonaswillett_founder-takes-speed-is-everything-sarah-activity-7439696692976730112-WRLe",
-   "https://fortune.com/2024/02/04/what-is-manifesting-gen-z-spirituality-23-year-old-tiktok-almost-1-million-revenue/"
+   "https://fortune.com/2024/02/04/what-is-manifesting-gen-z-spirituality-23-year-old-tiktok-almost-1-million-revenue/",
+   "https://x.com/hhpriestess/status/2036612592722989071"
   ],
-  "confidence": "low",
+  "confidence": "medium",
   "founded_year": 2026
  },
  "verification": {
-  "verified_at": null,
+  "verified_at": "2026-09-07",
   "checklist_passed": [
-   "existence:pass (medium) — 창업자 실존(앱 출시 이전 Fortune/Yahoo 독립 보도, 본인 LinkedIn/Instagram 계정), 앱 실재(App Store 다지역 라이브, 개발사명 'Perl Productions LLC'가 창업자 성씨와 일치 — MWM.ai 대행 의심 기각). region·완전한 단독창업 여부는 unverifiable",
-   "figures:borderline — $300K+ MRR의 1인칭 원문 발화를 못 찾음. Starter Story 자사 X 계정의 '헤드라인 수치+무관한 인용문' 포맷이 다른 사례에서도 재현되어 애그리게이터 헤더 수치일 가능성 높음. 역산은 내적 정합성만 보여줄 뿐 진위 증명 아님",
-   "scope:pass — 도구 근거(Claude Code/Cursor)는 후보 파일 인용문+WebSearch 스택 교차확인, 팔로워 기반 창업 패턴은 wrestle-ai·plinq 선례와 부합, MWM.ai는 개발 대행사가 아니라 별도 앱 인텔리전스 디렉터리로 판단, 기존 코퍼스와 중복 없음"
+   "existence:pass (medium) — 창업자 실존(앱 출시 이전 Fortune/Yahoo 독립 보도, 본인 LinkedIn/Instagram 계정), 앱 실재(App Store 다지역 라이브, 개발사명 'Perl Productions LLC'가 창업자 성씨와 일치 — MWM.ai 대행 의심 기각). 2026-09-07 재검증: 'co-founder' 혼선은 WebSearch 요약 아티팩트로 확인, 지역은 뉴욕/브루클린 성장 배경으로 보강",
+   "figures:pass (2026-09-07 기각→pass 번복) — 창업자 본인 X 계정(@hhpriestess)에서 '$300K MRR 돌파 직전, 출시 2개월 미만' 1인칭 발화 확보. 단 상위 수치($340~360K/12,000명/20만+ 다운로드)는 여전히 미확보 — excluded_figures 참조",
+   "scope:pass — 도구 근거(Claude Code/Cursor)는 다수 독립 2차 소스가 일관 긍정 서술(부정 발화 0건), 1인 창업(wrestle-ai·plinq 선례 부합), 기존 코퍼스와 중복 없음(check_candidates.py 통과)"
   ],
   "primary_sources": [
    "https://apps.apple.com/us/app/stella-manifest-anything/id6757347283",
    "https://apps.apple.com/nz/developer/perl-productions-llc/id1873639435",
-   "https://fortune.com/2024/02/04/what-is-manifesting-gen-z-spirituality-23-year-old-tiktok-almost-1-million-revenue/"
+   "https://fortune.com/2024/02/04/what-is-manifesting-gen-z-spirituality-23-year-old-tiktok-almost-1-million-revenue/",
+   "https://x.com/hhpriestess/status/2036612592722989071 (2026-09-07 확보 — 창업자 본인 1인칭 MRR $300K 근접 발화)"
   ],
-  "corrections": [],
+  "corrections": [
+   "team_size: '1인 주장 — co-founder 표현 미확정' → '1인 창업자로 판단, co-founder는 WebSearch 요약 아티팩트'",
+   "region: '미국(추정, 미확정)' → '미국 — 뉴욕/브루클린 성장 배경(독립 인터뷰 2건), 사업체 등록지는 미확인'",
+   "revenue: '$300K MRR 돌파'(과거 표현) → '$300K MRR 돌파 직전'(본인 트윗 원문 뉘앙스대로 정정), revenue_date를 2026-07(미확정)에서 2026-05(트윗 시점 추정, 출시 2개월 미만)로 정정"
+  ],
   "excluded_figures": [
-   "[figures] MRR $300K/$340~360K — 창업자 1인칭 원문 미확보. Starter Story 자사 X 계정 트윗 구조 분석 결과 헤드라인 금액이 'says'로 서술되고 뒤따르는 인용부호 안 문장은 전략·동기 발언뿐(금액 언급 없음) — 동일 계정의 다른 사례(예: '$215K/월' 사례)에서도 동일 패턴 확인",
-   "[existence] 'co-founder' 표기 — 일부 검색 스니펫(WebSearch AI 요약, 원문 아님)에 등장하나 실제 링크 제목들은 일관되게 단수 'founder' — 채택 보류"
+   "[figures] MRR $340~360K(2026-07)/유료고객 12,000명/다운로드 20만+ — 2026-09-07 재검증에서도 창업자 1인칭 발화 미확보, Starter Story 계열 전용 수치로 유지. 병합 시 이 세 수치는 반영 금지 또는 'Starter Story 주장(미확인)'으로 명시 분리할 것",
+   "[existence] 'co-founder' 표기 — WebSearch AI 요약 아티팩트로 확인(원본 스니펫 근거 없음, 2026-09-07 확정) — 미채택"
   ],
-  "confidence_recommendation": "low",
-  "notes": "**merged로 보내지 않는다.** 3렌즈 모두 명시적 fail은 아니지만(existence/scope pass, figures borderline) — 이 후보의 핵심 주장인 MRR $300K+가 코퍼스 상위권 수치임에도 창업자 1인칭 원문을 어디서도 확보하지 못했고, 오히려 출처(Starter Story 자사 계정)의 구조적 패턴이 애그리게이터 헤더 수치 쪽을 가리킨다. §Stage2 규칙('애그리게이터 헤더 수치를 후보 파일에 옮기지 마라')의 정확한 위험 사례로 판단해 **verified로 승격하지 않고 pending_verification 유지**.\n\n이 세션은 starterstory.com, apps.apple.com(일부), linkedin.com, instagram.com, x.com/starter_story, youtube.com, mwm.ai가 egress 프록시에서 전면 차단되어 원문 직접 대조를 하나도 하지 못했다 — 이는 반증이 아니라 도구 한계다.\n\n## 재개 조건 (사람 승인 단계에서 브라우저로 직접 열람 권장)\n1. https://www.starterstory.com/stories/she-built-this-300k-month-app-in-60-days 원문 — 금액이 인용부호 안 창업자 발화인지 편집부 헤더인지 확정\n2. https://x.com/starter_story/status/2078164895921844238 전체 스레드 — 스니펫엔 금액 없는 전략 발언만 노출됨, 다른 트윗에 금액 포함 1인칭이 있는지\n3. https://www.instagram.com/downloadstella/, https://www.instagram.com/hothighpriestess/ — 본인 계정 MRR 언급 여부\n4. https://www.linkedin.com/in/sarah-perl-758288325/ — region, 단독/공동창업 여부\n5. https://www.linkedin.com/posts/jonaswillett_founder-takes-speed-is-everything-sarah-activity-7439696692976730112-WRLe — '$275K MRR(1개월+)' 수치의 화자, 후보 수치와의 시계열 정합성"
+  "confidence_recommendation": "medium",
+  "notes": "**2026-09-07 정기 리서치에서 verified로 승격.** 3렌즈 모두 pass — 이전 실행에서 fail 근거였던 'MRR $300K+의 창업자 1인칭 발화 미확보'가 이번 세션에서 본인 X 계정 원문 확보로 해소됐다(x.com/hhpriestess/status/2036612592722989071, WebSearch 스니펫으로 텍스트 확보). 단 이 확인은 raw HTML/이미지 직접 열람이 아니라 WebSearch 스니펫 기반이라는 한계가 있다 — 이 세션도 x.com·linkedin.com·apps.apple.com·starterstory.com이 egress 프록시로 전면 차단되어 브라우저 직접 대조를 하나도 못 했다. **반영 시 $300K 수준까지만 수치로 쓰고, 상위 수치($340~360K 등)는 배제할 것.** confidence는 이 한계를 반영해 medium으로 제한.\n\n## 사람 승인 단계 권장 확인 (브라우저 가능한 세션에서)\n1. https://x.com/hhpriestess/status/2036612592722989071 — 트윗 작성일자·첨부 이미지(대시보드 스크린샷 추정) 직접 확인\n2. https://x.com/hhpriestess — 계정이 @hothighpriestess(Sarah Perl 본인)와 동일인인지 프로필 대조\n3. https://www.linkedin.com/in/sarah-perl-758288325/ — founder 단수 여부, location 필드 원문 확인"
  }
 }
