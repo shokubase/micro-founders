@@ -3,6 +3,36 @@
 Stage 1에서 잡혔지만 Stage 2 추출까지 못 간 리드. 다음 실행은 여기부터 시작한다.
 읽고 나면 후보 파일로 승격하거나 기각 사유를 적고 이 목록에서 제거할 것.
 
+## 2026-09-14 정기 리서치 — 세션 전체 네트워크 정책으로 Stage 2/3 진행 불가
+
+**이번 실행은 후보 큐를 건드리지 않았다.** 이유: 이 세션의 네트워크 egress 정책이
+`WebFetch`·직접 `curl` 양쪽에서 **연구 소스 도메인 전부를 게이트웨이 403으로 차단**했다
+(`indiehackers.com`, `x.com`, `disquiet.io`, `starterstory.com`, `lovable.dev`,
+`trustmrr.com`, `note.com`, `producthunt.com`, `dev.to`, `medium.com`, `web.archive.org`,
+`r.jina.ai` 전부 `EGRESS_BLOCKED`/`403`). 허용된 건 `github.com`류 개발 인프라 도메인과
+`WebSearch`뿐이었다 — 2026-09-07 실행이 기록한 것과 같은 유형이지만 이번엔 **한 도메인도
+안 열렸다**(그때는 WebSearch로 우회해 잠정 판정이라도 냈다).
+
+이 파이프라인은 "검색 요약을 출처로 쓰지 마라"가 핵심 원칙이다(§RESEARCH_PIPELINE.md
+"요약 fetch가 숫자를 바꾼다" — caret 10배 오류, artmvstd 화자 오귀속 등 실증 다수).
+WebFetch/브라우저 없이 WebSearch 요약만으로 Stage 3 검증을 강행하면 정확히 그 실패
+패턴을 재현하는 것이므로, **이번 실행은 신규 후보를 verified/rejected로 올리지 않았다.**
+대신 아래는 WebSearch만으로 훑은 결과이며 전부 "발견 신호"일 뿐 출처 확인 안 됨:
+
+- David Attias 앱 포트폴리오, Jason Zook(Solo Content Studio) — 둘 다 기존 백로그(아래)에
+  이미 있던 리드. 이번 검색도 같은 정보 이상은 못 얻음(원문 미열람 그대로)
+- JP 개인 블로그 수익보고 시계열 직접 순회 — 여전히 미실행(브라우저/WebFetch 필요, 이번도 차단)
+- ES/PT/KR 신규 쿼리 — 마케팅 리스티클(`aibusiness.vc` "Marcus $18K MRR" 류 익명 합성
+  사례 등)만 걸림. 1차 출처 아님, 후보화 안 함
+- 이월 과제(carryover) 확인: `wrestle-ai`·`lunair`는 **이미 merged**(2026-08-10),
+  `shiftnex`는 기각 사유가 원문 발화 미확보가 아니라 **스코프 fail(팀 약 11명, 회사 공식
+  About 명단으로 확정)**이라 원문을 추가로 찾아도 뒤집히지 않음 — 재작업 불필요로 판단하고
+  건드리지 않았다
+
+**다음 실행 권장:** 이 저장소 세션의 네트워크 정책을 연구 소스 도메인이 열리는 환경으로
+바꾸거나(예: 대화형 세션·다른 egress 정책의 환경), 최소한 WebFetch가 `indiehackers.com`
+하나라도 뚫리는 세션에서 재시도할 것. 그 전까지는 정기 스케줄 실행이 매번 빈손이 된다.
+
 ## 현재 백로그 (2026-09-07 정기 리서치 — weak 신호, 다음 실행 우선 판독)
 
 이번 실행에서 Stage 2로 승격한 5건(payout-connor-burd, profit-pulse-jack, post-bridge-jack-friks,
