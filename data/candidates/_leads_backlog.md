@@ -3,6 +3,31 @@
 Stage 1에서 잡혔지만 Stage 2 추출까지 못 간 리드. 다음 실행은 여기부터 시작한다.
 읽고 나면 후보 파일로 승격하거나 기각 사유를 적고 이 목록에서 제거할 것.
 
+## 2026-10-05 정기 리서치 — 세션 전체 네트워크 정책으로 Stage 2/3 진행 불가 (4주 연속)
+
+**이번 실행도 후보 큐를 건드리지 않았다.** 09-14·09-21·09-28과 완전히 동일한 증상
+4회차 재현: `WebFetch`로 `www.indiehackers.com`을 열면 `EGRESS_BLOCKED`. 직접 `curl`로
+`www.indiehackers.com`·`www.starterstory.com`·`x.com`·`disquiet.io`·`trustmrr.com`
+5개 도메인을 각각 테스트 — 전부 `CONNECT tunnel failed, response 403`, 에이전트 프록시
+`recentRelayFailures`에도 5개 전부 `connect_rejected — organization policy`로 동일
+타임스탬프 기록. `WebSearch`는 이번에도 정상 동작(테스트 쿼리 1건 확인, 결과는 리드
+발견 신호로만 쓸 수 있고 출처로 쓸 수 없음 — SKILL.md 원칙). `ToolSearch`로 브라우저/
+playwright 계열 툴을 다시 찾아봤으나 이번 세션 종류에도 없음 — Stage 3.0이 전제하는
+오케스트레이터 브라우저 수집 경로가 여전히 구조적으로 불가능하다.
+
+이월 과제(wrestle-ai/shiftnex/lunair 1차 출처 역추적)는 손대지 않았다 — wrestle-ai·
+lunair는 이미 `merged`(09-28 확인 그대로), shiftnex는 스코프 fail 확정으로 재작업
+대상이 아니다. 신규 후보 0건.
+
+**4주 연속 100% 차단, 3주 연속 완전 동일 재현(도메인·에러 코드 불변).** 09-07(부분
+우회) → 09-14 → 09-21 → 09-28 → 10-05(전부 전면 차단, 매번 같은 5개 도메인 같은
+에러). 이 스케줄(정기 리서치 트리거로 자동 실행되는 세션 종류)의 네트워크 egress
+정책이 연구 소스 도메인을 구조적으로 막고 있다 — 매 실행 재확인은 더 이상 새로운
+정보를 주지 않는다. 환경 설정의 Network access(클라우드 환경 메뉴 → Edit, Custom
+allowed domains에 위 도메인 추가 또는 더 넓은 접근 레벨로 변경,
+https://code.claude.com/docs/en/cloud-environments#network-access)를 사용자가 직접
+바꿔야 풀리는 문제라 알림으로 보고함 — 다음 실행도 같은 정책이면 또 빈손일 것이다.
+
 ## 2026-09-28 정기 리서치 — 세션 전체 네트워크 정책으로 Stage 2/3 진행 불가 (3주 연속)
 
 **이번 실행도 후보 큐를 건드리지 않았다.** 09-14·09-21과 동일한 증상 재현: `WebFetch`로
