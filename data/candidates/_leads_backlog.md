@@ -3,6 +3,36 @@
 Stage 1에서 잡혔지만 Stage 2 추출까지 못 간 리드. 다음 실행은 여기부터 시작한다.
 읽고 나면 후보 파일로 승격하거나 기각 사유를 적고 이 목록에서 제거할 것.
 
+## 2026-10-12 정기 리서치 — 세션 전체 네트워크 정책으로 Stage 2/3 진행 불가 (5주 연속)
+
+**이번 실행도 후보 큐를 건드리지 않았다.** 09-14부터 5회 연속 완전 동일 재현:
+`WebFetch`로 `www.indiehackers.com`을 열면 `ENOTFOUND`(이번엔 EGRESS_BLOCKED 대신
+DNS 실패 메시지로 바뀌었으나 결과는 동일한 전면 차단). `curl`로
+`www.indiehackers.com`·`www.starterstory.com`·`x.com`·`disquiet.io`·`trustmrr.com`
+5개 도메인 각각 테스트 — 전부 `CONNECT tunnel failed, response 403`. 에이전트 프록시
+`recentRelayFailures`에도 5개 전부 `connect_rejected`(gateway 403, organization
+policy 추정)로 동일 타임스탬프(`2026-10-12T00:14:1x`) 기록. `WebSearch`는 이번에도
+정상 동작(`"vibe coded" site:indiehackers.com MRR 2026` 테스트 쿼리 — `site:` 필터가
+먹지 않고 다른 도메인 결과가 섞여 반환됨, indiehackers.com 결과는 1건뿐이고 매출
+수치 없음). `ToolSearch`로 브라우저/playwright 계열 툴을 다시 찾아봤으나 이번
+세션 종류에도 없음 — Stage 3.0이 전제하는 오케스트레이터 브라우저 수집 경로가
+여전히 구조적으로 불가능하다.
+
+이월 과제(wrestle-ai/shiftnex/lunair 1차 출처 역추적)는 손대지 않았다 — wrestle-ai·
+lunair는 이미 `merged`, shiftnex는 스코프 fail 확정으로 재작업 대상이 아니고, 어느
+쪽이든 1차 출처 접근 자체가 이번에도 불가능해 재검증을 시도할 수단이 없었다.
+신규 후보 0건.
+
+**5주 연속 100% 차단, 4주 연속 완전 동일 재현(도메인·에러 코드 거의 불변 — 이번에
+`EGRESS_BLOCKED` 문구가 `ENOTFOUND`로 바뀐 것만 차이).** 09-07(부분 우회) → 09-14 →
+09-21 → 09-28 → 10-05 → 10-12(전부 전면 차단). 이 스케줄의 네트워크 egress 정책이
+연구 소스 도메인을 구조적으로 막고 있고, **매주 재확인은 더 이상 새로운 정보를 주지
+않는다** — 이번 주에도 다시 확인한 것은 직전 실행과 환경이 바뀌었을 가능성을
+배제하기 위함이었다(바뀌지 않았음을 확인). 환경 설정의 Network access(클라우드 환경
+메뉴 → Edit, Custom allowed domains에 위 도메인 추가 또는 더 넓은 접근 레벨로 변경,
+https://code.claude.com/docs/en/cloud-environments#network-access)를 사용자가 직접
+바꿔야 풀리는 문제라 알림으로 다시 보고함.
+
 ## 2026-10-05 정기 리서치 — 세션 전체 네트워크 정책으로 Stage 2/3 진행 불가 (4주 연속)
 
 **이번 실행도 후보 큐를 건드리지 않았다.** 09-14·09-21·09-28과 완전히 동일한 증상
