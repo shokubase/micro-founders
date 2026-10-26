@@ -3,6 +3,30 @@
 Stage 1에서 잡혔지만 Stage 2 추출까지 못 간 리드. 다음 실행은 여기부터 시작한다.
 읽고 나면 후보 파일로 승격하거나 기각 사유를 적고 이 목록에서 제거할 것.
 
+## 2026-10-26 정기 리서치 — 세션 전체 네트워크 정책으로 Stage 2/3 진행 불가 (7주 연속)
+
+**이번 실행도 후보 큐를 건드리지 않았다.** 09-14부터 7회 연속 완전 동일 재현:
+`curl`로 `www.indiehackers.com`·`www.starterstory.com`·`x.com`·`disquiet.io`·
+`trustmrr.com` 5개 도메인 각각 테스트 — 전부 `CONNECT tunnel failed, response 403`.
+에이전트 프록시 `recentRelayFailures`에도 5개 전부 `connect_rejected`(gateway 403,
+"policy denial or upstream failure")로 동일 타임스탬프(`2026-10-26T00:09:04.0xx`) 기록.
+`WebFetch`로 `www.indiehackers.com/tech`를 열면 `ENOTFOUND` (지난 3주와 동일 증상).
+`WebSearch`는 이번에도 정상 동작하나 `site:indiehackers.com` 필터가 먹지 않고
+서드파티 요약·통계 사이트(bigideasdb.com 등)·블로그만 반환됨 — 창업자 1차 발화는
+하나도 없음. `ToolSearch`로 브라우저/playwright 계열 툴을 다시 찾아봤으나 이번
+세션 종류에도 없음 — Stage 3.0이 전제하는 오케스트레이터 브라우저 수집 경로가
+여전히 구조적으로 불가능하다.
+
+이월 과제(wrestle-ai/shiftnex/lunair)는 이번에도 손대지 않았다 — wrestle-ai·lunair는
+이미 `merged`, shiftnex는 스코프 fail 확정이고, 어느 쪽이든 1차 출처 접근이 이번에도
+불가능해 재검증 수단이 없었다. 신규 후보 0건.
+
+**7주 연속 100% 차단, 6주 연속 완전 동일 재현.** 09-07(부분 우회) → 09-14 → 09-21 →
+09-28 → 10-05 → 10-12 → 10-19 → 10-26(전부 전면 차단, 도메인·에러 코드 거의 불변). 이
+스케줄의 네트워크 egress 정책이 연구 소스 도메인을 구조적으로 막고 있고, 지난 6주
+동일 알림을 보냈는데도 설정이 바뀌지 않았다. 이번엔 알림에 "설정을 바꾸거나, 바꾸지
+않을 거면 이 스케줄을 일시정지해 매주 반복 알림을 끄라"는 제안을 덧붙여 보고한다.
+
 ## 2026-10-19 정기 리서치 — 세션 전체 네트워크 정책으로 Stage 2/3 진행 불가 (6주 연속)
 
 **이번 실행도 후보 큐를 건드리지 않았다.** 09-14부터 6회 연속 완전 동일 재현:
