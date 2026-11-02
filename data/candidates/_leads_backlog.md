@@ -3,6 +3,28 @@
 Stage 1에서 잡혔지만 Stage 2 추출까지 못 간 리드. 다음 실행은 여기부터 시작한다.
 읽고 나면 후보 파일로 승격하거나 기각 사유를 적고 이 목록에서 제거할 것.
 
+## 2026-11-02 정기 리서치 — 세션 전체 네트워크 정책으로 Stage 2/3 진행 불가 (8주 연속)
+
+**이번 실행도 후보 큐를 건드리지 않았다.** 09-14부터 8회 연속 완전 동일 재현:
+`curl`로 `www.indiehackers.com`·`www.starterstory.com`·`x.com`·`disquiet.io`·
+`trustmrr.com` 5개 도메인 각각 테스트 — 전부 `curl: (56) CONNECT tunnel failed,
+response 403`. 에이전트 프록시도 5개 전부 `connect_rejected`(gateway 403,
+"policy denial or upstream failure")로 응답. `ToolSearch`로 브라우저/playwright
+계열 툴을 다시 찾아봤으나 이번 세션 종류에도 없음 — Stage 3.0이 전제하는
+오케스트레이터 브라우저 수집 경로가 여전히 구조적으로 불가능하다. `WebSearch`는
+정상 동작하나 `site:indiehackers.com` 필터가 안 먹고 서드랑 요약·통계 사이트
+(bigideasdb.com 등)만 반환 — 창업자 1차 발화 없음.
+
+이월 과제(wrestle-ai/shiftnex/lunair)도 이번에도 손대지 않았다 — wrestle-ai·lunair는
+이미 `merged`, shiftnex는 스코프 fail 확정(팀 11명)이고, 재검증하려면 바로 이 차단된
+1차 출처 경로가 필요해서 이번에도 수단이 없었다. 신규 후보 0건.
+
+**8주 연속 100% 차단, 7주 연속 완전 동일 재현** (09-14~11-02, 도메인·에러 코드 불변).
+7주째 같은 알림을 보냈는데도 네트워크 설정이 바뀌지 않았다. 이 스케줄은 지금 상태로는
+매주 아무 결과 없이 자원만 쓰고 있다 — 사용자에게 다시 한번 명확히 알린다
+(환경 네트워크 정책을 Indie Hackers/Starter Story/x.com/disquiet.io/TrustMRR 허용으로
+바꾸거나, 고치지 않을 거면 이 스케줄을 비활성화할 것).
+
 ## 2026-10-26 정기 리서치 — 세션 전체 네트워크 정책으로 Stage 2/3 진행 불가 (7주 연속)
 
 **이번 실행도 후보 큐를 건드리지 않았다.** 09-14부터 7회 연속 완전 동일 재현:
