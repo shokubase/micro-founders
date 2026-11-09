@@ -3,6 +3,31 @@
 Stage 1에서 잡혔지만 Stage 2 추출까지 못 간 리드. 다음 실행은 여기부터 시작한다.
 읽고 나면 후보 파일로 승격하거나 기각 사유를 적고 이 목록에서 제거할 것.
 
+## 2026-11-09 정기 리서치 — 세션 전체 네트워크 정책으로 Stage 2/3 진행 불가 (9주 연속)
+
+**이번 실행도 후보 큐를 건드리지 않았다.** 09-14부터 9회 연속 완전 동일 재현:
+`curl`로 `www.indiehackers.com`·`www.starterstory.com`·`x.com`·`disquiet.io`·
+`trustmrr.com` 5개 도메인 각각 테스트 — 전부 `curl: (56) CONNECT tunnel failed,
+response 403`. 에이전트 프록시도 5개 전부 `connect_rejected`(gateway 403,
+"policy denial or upstream failure")로 응답.
+
+**이번엔 문서 기록에 더해 `update_environment` 툴로 직접 네트워크 허용을 요청해봤다**
+(이전 8주는 이 백로그 문서에만 적었을 뿐 실제로 환경 변경을 요청한 적이 없었다).
+결과: "nobody is present on this routine run" — 스케줄 실행에는 승인자가 없어 자동
+거부됨. 즉 **이 요청은 "Run now"로 사람이 직접 띄운 세션에서만 승인받을 수 있다.**
+스케줄 자동 실행으로는 영구히 뚫을 수 없는 구조적 한계다.
+
+이월 과제(wrestle-ai/shiftnex/lunair)도 이번에도 손대지 않았다 — wrestle-ai·lunair는
+이미 `merged`, shiftnex는 스코프 fail 확정(팀 11명)이고, 재검증하려면 바로 이 차단된
+1차 출처 경로가 필요해서 이번에도 수단이 없었다. 신규 후보 0건.
+
+**9주 연속 100% 차단, 8주 연속 완전 동일 재현** (09-14~11-09, 도메인·에러 코드 불변).
+**다음 조치 제안: 사람이 "Run now"로 이 스케줄을 한 번 직접 띄워서 환경 허용 승인
+프롬프트에 응답하거나, claude.ai 환경 설정에서 `indiehackers.com`·`www.indiehackers.com`·
+`starterstory.com`·`www.starterstory.com`·`x.com`·`disquiet.io`·`trustmrr.com`를
+허용 호스트로 직접 추가할 것. 그 전까지 이 스케줄은 매주 아무 결과 없이 자원만 쓴다 —
+계속 돌릴지, 환경을 고칠지, 비활성화할지 결정이 필요하다.**
+
 ## 2026-11-02 정기 리서치 — 세션 전체 네트워크 정책으로 Stage 2/3 진행 불가 (8주 연속)
 
 **이번 실행도 후보 큐를 건드리지 않았다.** 09-14부터 8회 연속 완전 동일 재현:
